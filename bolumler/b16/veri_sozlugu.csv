@@ -1,0 +1,13 @@
+dosya,alan,tanim,kural,kontrol
+bfi-ilk100-AC.csv,kaynak_satir,Alıntı sıra konumu,1–100,Model göstergesi değil
+bfi-ilk100-AC.csv,kaynak_kayit,Yayımlanan satır etiketi,İlk 61617 son 61831,Gerçek kişi kimliği değil
+bfi-ilk100-AC.csv,A1–A5 ve C1–C5,Ham yanıt,1–6 tamsayı; boş eksik,Yeni yanıt üretilmez
+sonuclar/puanlanmis.csv,A1–A5 ve C1–C5,Anahtarlanmış yanıt,Ortak 97; A1 C4 C5 terslenmiş,Tekrar terslenmez; kaynak etiketleri korunur
+sonuclar/standartlastirilmis.csv,A1–A5 ve C1–C5,Örneklem z-puanları,ddof=1; ortak 97,Kaynak etiketleri gösterge seçilmez
+sonuclar/*_kovaryans.csv,A1–C5,İma edilen gözlenen kovaryans,Sigma=Lambda Phi Lambda.T+Theta,İlk sütun satır etiketi
+sonuclar/*_artik.csv,A1–C5,Standartlaştırılmış kovaryans artığı,S−Sigma örneklem s'lerine bölünür,SRMR 55 benzersiz hücre
+sonuclar/*_yukler.csv,loading / loading_std,Ham ve standart yük,Marker A1 C1 ham yükü 1,Sabit yük hatasız gösterge demek değil
+sonuclar/*_yukler.csv,R2_item,Gösterge açıklanan varyans payı,1−theta/model varyansı,İçsel gizil R² ile karıştırılmaz
+sonuclar/yapisal_parametreler.csv,estimate / se_delta / wald_lower / wald_upper,Yapısal nicelikler ve simetrik Wald aralığı,Yön ve nicelik adı açık,Negatif aralık ucu negatif nokta varyansı değildir
+sonuclar/ozet.json,transformed_ci95,Standart yol ve R² dönüşümlü aralıkları,Beta atanh delta; R² kare görüntü,Wald aralığı veya bootstrap diye adlandırılmaz
+sonuclar/ozet.json,hypothetical_mediation,Kurgu cebir örneği,ab=.1968 toplam=.3868,Gerçek BFI tahmini değil

@@ -1,0 +1,38 @@
+{
+  "bolum": "b17",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; yayın yapılmadı",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.6"
+  },
+  "basarili_kontroller": [
+    "Kitap JSON referansındaki 421 sayısal yaprak rtol=1e-7, atol=1e-8 toleransında eşleşti; metin, liste ve boolean alanlar da denetlendi.",
+    "NumPy katsayıları, elle OLS/HC3 kovaryansları, kaldıraç, iç içe F, F=t², saf hata ve doğrudan hücre ortalamaları eşleşti.",
+    "Satır sırası değişmezliği; merkezleme sonrası tahminler, grup katsayısı ve üç dozun kontrast standart hataları denetlendi.",
+    "Çalışma alanı kökü ve bölüm klasöründen çalıştırma aynı 13 JSON/CSV dosyasını üretti.",
+    "Defter kod hücreleri öğrenci deposu kökü ve bölüm klasöründe çalıştırıldı; kaydedilmiş çıktı/sayaçlar ve öğrenci yanıtları boş bırakıldı.",
+    "Defterde SSE→F, 1 mg/gün kontrast SH/Bonferroni aralığı, merkezleme ve 60 dışlama kaydı ayrıca denetlendi.",
+    "Bilinmeyen model/grup, eksik doz ve hücre modelinde destek dışı doz reddedildi.",
+    "Değiştirilmiş kaynak CSV izole kopyada sonuç klasörü oluşmadan reddedildi."
+  ],
+  "karekod": "Başarılı: iki LaTeX geçişi, bir PDF sayfası ve üç doğru B17 URL bağlantısı; karekod ve iki panelli analiz grafiği görsel olarak incelendi.",
+  "http": "Başarılı: index.html dahil 15 yerel hedef HTTP 200 ve beklenen dosya baytlarıyla eşit; ortak gezinme/canlı yayın kapsam dışı.",
+  "zip": "Başarılı: 16 dosyalı ZIP izole klasörde B10 olmadan çalıştı; 13 JSON/CSV eşleşti, kaynak değişmedi ve bir PDF üretildi.",
+  "yapilmayanlar": [
+    "R/emmeans ve SPSS çalıştırılmadı; SPSS rehberi uygulama planıdır.",
+    "Tam kitap derlemesi, telefon karekod taraması, Jupyter arayüzü ve canlı site kontrolü yapılmadı.",
+    "Uzak kaynakla otomatik hücre karşılaştırması ve yeni veri toplama yapılmadı."
+  ],
+  "kaynak": {
+    "normalize_lf_sha256": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3",
+    "ham_sha256": "b8408f230b3842d651b7e283d827375c0602426bb81ccc11d35df4b1bd5b0b61",
+    "kontrol": "Kitap CSV kopyasıyla birebir bayt eşitliği; analiz/defter/ZIP çalışmaları sonunda değişmedi.",
+    "uzak_otomatik_karsilastirma": false
+  },
+  "belge_erisim_notu": "6 Eylül 2026: resmi statsmodels anova_lm ve emmeans güven aralığı/aile belgeleri incelendi; R çalıştırması değildir."
+}

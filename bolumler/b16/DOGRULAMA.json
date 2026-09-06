@@ -1,0 +1,40 @@
+{
+  "bolum": "b16",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub yayını yapılmadı",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "kaynak": {
+    "normalize_lf_sha256": "8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557",
+    "kontrol": "Kitap kaynak CSV dosyasıyla birebir bayt eşitliği; çalışma sonunda değişmedi.",
+    "uzak_veri_karsilastirmasi": false
+  },
+  "basarili_kontroller": [
+    "Beklenen JSON alanları kitap sonuçlarıyla rtol=1e-7, atol=1e-8 toleransında eşleşti; yol/varyans aralıkları, uyum, LR/Wald ve kurgu ayrımı dahil.",
+    "DFA yardımcısı B15 kaynak fonksiyonlarıyla birebir aynı; main/dosya üretimi yok ve dış bölüm klasörü gerekmiyor.",
+    "Ortak 97 kayıt, 63/66/90 dışlama ve örneklem kovaryansının Pearson matrisine eşitliği denetlendi.",
+    "Üç başlangıç ve iki optimizer; gradyan, sınırdan uzaklık, Jacobian rankı ve pozitif bilgi matrisi kontrol edildi.",
+    "Amaç/kovaryans türevleri sayısal türevlerle; bilgi beklenen Hessian ile; F genelleştirilmiş özdeğerlerle karşılaştırıldı.",
+    "CFA→marker dönüşümü, ileri/ters/CFA gözlenen kovaryansları ve standart yolun CFA ilişkisine eşitliği doğrulandı.",
+    "Çalışma alanı kökü ve bölüm klasörü çalıştırmaları aynı JSON ve on dört CSV dosyasını üretti.",
+    "Defter kod hücreleri öğrenci deposu kökünde ve bölüm klasöründe sırasıyla çalıştırıldı; öğrenci yanıtları boş bırakıldı.",
+    "Defterde toplam varyans, standart yol, R², ters yol/artık, LR/Wald ve dönüşümlü R² aralığı ayrıca hesaplandı.",
+    "Değiştirilmiş kaynak izole kopyada sonuç üretmeden reddedildi; bilinmeyen model adı ValueError verdi."
+  ],
+  "karekod": "Başarılı: iki LaTeX geçişi, tek PDF sayfası, üç eşleşen B16 URL bağlantısı; karekod ve yük/artık grafiğinin sayfa görüntüleri görsel olarak incelendi.",
+  "http": "Başarılı: index.html ve 14 bölüm dosyası; 15 yerel hedef HTTP 200 ve dosya baytlarıyla eşit. Ortak gezinme/canlı site kapsam dışı.",
+  "zip": "Başarılı: 16 dosyalı ZIP izole dizine açılıp B15 klasörü olmadan Python çalıştırıldı; JSON ve on dört CSV eşleşti, kaynak değişmedi, bir PDF üretildi.",
+  "yapilmayanlar": [
+    "R/lavaan, SPSS ve AMOS çalıştırılmadı; AMOS rehberi yapılacak uygulamadır, AMW/SAV oluşturulmadı.",
+    "Jupyter arayüzü, telefon karekod taraması ve kitabın tamamının derlenmesi yapılmadı.",
+    "Uzak CSV/psych hücre karşılaştırması ve canlı site kontrolü yapılmadı.",
+    "WLSMV/MLR/FIML, polikorik analiz, bootstrap, profil olabilirlik ve ölçüm değişmezliği yapılmadı.",
+    "Yeni katılımcı, uzman görüşmesi, Türkçe uyarlama veya bağımsız doğrulama yapılmadı; gerçek modelde aracılık yoktur."
+  ],
+  "belge_erisim_notu": "6 Eylül 2026: lavaan SEM ve tahminci resmi belgeleri incelendi; bu erişim R çalıştırması veya uzak veri teyidi değildir."
+}

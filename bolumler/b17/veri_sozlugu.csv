@@ -1,0 +1,7 @@
+degisken,tanim,kural
+kaynak_satir,Arşive eklenen kaynak satırı dizini,1--60; açıklayıcı değişken veya yeni hayvan kimliği değildir
+len,Odontoblast uzunluğu,Yanıt; fiziksel birim kısa R sözlüğünde belirtilmemiştir
+supp,Uygulama biçimi,VC askorbik asit; OJ portakal suyu
+dose,Günlük uygulama dozu,0.5 veya 1 veya 2 mg/gün; ön-test değildir
+oj,Üretilen grup göstergesi,1 OJ; 0 VC
+dose_c,Üretilen merkezlenmiş doz,dose eksi 1; referans 1 mg/gün
