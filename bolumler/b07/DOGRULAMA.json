@@ -1,0 +1,91 @@
+{
+  "bolum": "b07",
+  "tarih": "2026-09-06",
+  "yayin": "Yerelde hazır; GitHub aktarımı ve canlı site kontrolü yapılmadı.",
+  "ortam": {
+    "python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "python": {
+    "calistirildi": true,
+    "calisma_dizinleri": [
+      "çalışma alanı kökü",
+      "bolumler/b07"
+    ],
+    "kitap_beklenen_sonuclar_eslesmesi": {
+      "rtol": 1e-10,
+      "atol": 0
+    },
+    "kaynak_baytlari_degismedi": true,
+    "kitap_kaynagi_bayt_esitligi": true,
+    "tekrar_sonuclar_json_csv_esitligi": true,
+    "ana_n": 60,
+    "LOOCV_egitim_n": 59,
+    "ayri_model_etkinlik_n": 20,
+    "ayri_etkinlik_dis_test_degil": true,
+    "LOOCV_model_sayisi": 60,
+    "OLS_scipy_linregress_kontrolu": true,
+    "araliklar_elle_formul_kontrolu": true,
+    "HC3_dogrudan_matris_kontrolu": true,
+    "LOOCV_artik_kaldirac_ozdesligi": true,
+    "duyarlilik_egim_uclari_kontrolu": true
+  },
+  "notebook": {
+    "nbformat": 4,
+    "kod_hucreleri_python_ile_calistirildi": true,
+    "calisma_dizinleri": [
+      "öğrenci deposu kökü",
+      "bolumler/b07"
+    ],
+    "bos_gorevler": "None alanları öğrenci içindir; çözülmüş defter değildir.",
+    "jupyter_arayuzu_test_edildi": false,
+    "kaydedilmis_cikti_yok": true,
+    "Pearson_kare_OLS_Rkare_ozdesligi": true
+  },
+  "karekod": {
+    "izole_latex_derlendi": true,
+    "pdf_uri_sayisi": 3,
+    "hedef": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/bolumler/b07/",
+    "hedefler_dogrulandi": true,
+    "gorsel_kontrol": true,
+    "telefonla_okuma_testi": false,
+    "tum_kitap_derlendi": false
+  },
+  "grafik_gorsel_kontrol": true,
+  "R_calistirildi": false,
+  "SPSS_calistirildi": false,
+  "cevrimici_kaynak_karsilastirmasi": false,
+  "baglanti_kontrolu": {
+    "yerel_http_200_ve_bayt_esitligi": [
+      "COZUMLER.md",
+      "DOGRULAMA.json",
+      "GOREVLER.md",
+      "README.md",
+      "VERI.md",
+      "analiz.R",
+      "analiz.py",
+      "beklenen.json",
+      "calisma.ipynb",
+      "index.html",
+      "requirements.txt",
+      "veri.csv",
+      "veri_sozlugu.csv"
+    ],
+    "ortak_site_gezintisi_test_edildi": false,
+    "tarayici_gorsel_testi": false
+  },
+  "zip_izole_calistirma": {
+    "basarili": true,
+    "beklenen_sonuc_eslesmesi": {
+      "rtol": 1e-10,
+      "atol": 0
+    },
+    "kaynak_degismedi": true,
+    "dagitilan_dosya_sayisi": 14,
+    "kitap_ve_diger_bolumler_olmadan": true
+  }
+}

@@ -1,0 +1,5 @@
+degisken,aciklama,gecerli_deger,kural
+kaynak_satir,Kaynak alıntısındaki sıra,1–80,Ana 1–60; ayrı etkinlik 61–80
+school,Okul kodu,GP,Bu alıntıda tek okul; öğrenci kimliği değil
+G1,Birinci dönem notu,0–20,Yordayıcı; sıfır korunur
+G3,Yıl sonu üçüncü dönem notu,0–20,Yanıt; sıfır korunur
