@@ -1,0 +1,45 @@
+{
+  "bolum": "b10",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub aktarımı yapılmadı",
+  "python": "3.13.15",
+  "surumler": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "dogrulananlar": [
+    "Kitaptaki bütün sayısal referans alanları rtol=1e-10, atol=0 ile eşleşti.",
+    "İki CSV ve GPL-2.txt kaynak kopyalarıyla bayt düzeyinde aynı.",
+    "Python çalışma alanı ve bölüm kökünden çalıştı; JSON/CSV çıktıları aynı.",
+    "Tek örneklem, eşli, Welch ve Student t/df/p/aralık sonuçları SciPy ile eşleşti.",
+    "ID ile eşleme satır karıştırılınca değişmedi; fark varyansı kovaryans özdeşliğiyle eşleşti.",
+    "Farkın işaret ve saat/dakika dönüşümleri denetlendi.",
+    "On çift için ayrı dışarıda bırakma duyarlılığı üretildi; ana veri silinmedi.",
+    "Notebook kod hücreleri öğrenci deposu ve bölüm kökünden sırasıyla çalıştırıldı.",
+    "Ham CSV içinde tek değer değiştirilen kopya çıktı üretmeden reddedildi.",
+    "Requirements sürümleri kurulu ortamla eşleşti.",
+    "Karekod kutusu iki pdflatex geçişiyle tek sayfa derlendi; üç PDF bağlantısı B10 hedefini gösterdi.",
+    "Karekod kutusu ve iki analiz grafiğinin raster ön izlemesi görsel olarak incelendi."
+  ],
+  "yerel_http": "Bölümün index.html ve 14 yerel bağlantısı HTTP 200 ve bayt eşitliğiyle doğrulandı; ortak gezinme kapsam dışı.",
+  "izole_zip": "16 dosyalı ZIP ayrı geçici klasörde açıldı; yalnız bölüm dosyalarıyla Python çalıştı, sonuç JSON/CSV ve kaynak baytları aynı kaldı.",
+  "calistirilmayanlar": [
+    "R",
+    "SPSS",
+    "Jupyter tarayıcı arayüzü",
+    "Tam kitap derlemesi",
+    "Canlı GitHub Pages",
+    "Telefonla QR taraması",
+    "Uzak veri karşılaştırması",
+    "Özgün makalelerin bireysel kayıt doğrulaması"
+  ],
+  "notlar": [
+    "R betiğinde kurulu datasets ile karşılaştırma hazırlanmıştır; çalıştırılmış doğrulama değildir.",
+    "Notebook boş öğrenci alanları None olarak bırakılmıştır; referans hücrelerinin çalışması öğrenci yanıtlarının tamamlandığını göstermez.",
+    "Farkların Shapiro p=.0333416 sonucu korunur; küçük örneklem normallik sorunu gizlenmez.",
+    "Yerel hash eşleşmesi bilimsel kaynak veya tasarım doğrulaması değildir.",
+    "Ortak site ana sayfası ve önceki bölüm gezintisi toplu aktarımda kontrol edilecektir."
+  ]
+}

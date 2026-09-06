@@ -1,0 +1,11 @@
+dosya,alan,tanim,birim_veya_kod,kontrol
+sleep.csv,kaynak_satir,Yerel aktarım sıra numarası,1–20,Boş ve yinelenmiş olamaz; kişi sayısı değildir
+sleep.csv,extra,Kontrole göre uyku artışı,saat,Negatif ve sıfır değerler korunur
+sleep.csv,group,Aynı kişinin ölçüm koşulu,1 veya 2,İki bağımsız grup değildir
+sleep.csv,ID,Kaynağın eşleştirme kodu,1–10,ID–group birleşimi benzersiz; her ID için iki koşul
+ToothGrowth.csv,kaynak_satir,Yerel aktarım sıra numarası,1–60,Boş ve yinelenmiş olamaz
+ToothGrowth.csv,len,Odontoblast uzunluğu,kaynak ölçüm birimi,Birim mikrometre olarak varsayılmaz
+ToothGrowth.csv,supp,Uygulama türü,OJ portakal suyu; VC askorbik asit,İzin verilen kodlar OJ ve VC
+ToothGrowth.csv,dose,Günlük doz,0.5 veya 1 veya 2 mg/gün,Her doz–supp hücresinde 10 kayıt
+sonuclar/uyku_esli.csv,fark,Koşul 2 eksi koşul 1,saat,ID üzerinden eşleme; 10 tam çift
+sonuclar/dis_veri.csv,supp_kod,SPSS için türetilen sayısal kod,OJ=1; VC=2,Kaynak supp korunur
