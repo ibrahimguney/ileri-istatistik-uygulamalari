@@ -1,0 +1,39 @@
+{
+  "bolum": "b14",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub yayını yapılmadı",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "kaynak": {
+    "normalize_lf_sha256": "8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557",
+    "kontrol": "Kitap kaynak CSV dosyasıyla birebir bayt eşitliği; çalışma sonrasında değişmedi.",
+    "uzak_veri_karsilastirmasi": false
+  },
+  "basarili_kontroller": [
+    "Beklenen JSON alanları kitap sonuçlarıyla rtol=1e-8, atol=1e-10 toleransında eşleşti; PCA ve SMC için 2000 permütasyon referansları dahil.",
+    "Ortak 97 kayıt, dışlanan kaynak sıraları 63/66/90 ve bir/iki/üç faktör adaylarında Heywood yokluğu doğrulandı.",
+    "Korelasyon z-puan çarpımlarıyla, SMC ayrı regresyonlarla ve A1/A2 kısmi korelasyonu artıklarla karşılaştırıldı.",
+    "PAF ortak matrisi statsmodels ile; quartimin matris özdeşlikleri ve ikinci algoritmanın amaç değeriyle; Varimax ortak matris korunumu ayrıca denetlendi.",
+    "Çalışma alanı kökünden ve bölüm klasöründen çalıştırmalar aynı JSON ve sekiz CSV üretti.",
+    "Çalışma defteri kod hücreleri öğrenci deposu kökünde ve bölüm klasöründe sırasıyla çalıştırıldı; yanıt alanları boş bırakıldı.",
+    "Değiştirilmiş kaynak izole kopyada hash kontrolüyle sonuçlar oluşturulmadan reddedildi.",
+    "Tekil matris SMC hesabında ve yetersiz pozitif çıkarım özdeğeri PAF hesabında hata verdi."
+  ],
+  "karekod": "Başarılı: iki LaTeX geçişi, tek PDF sayfası, üç eşleşen B14 URL bağlantısı; karekod ve iki analiz grafiğinin sayfa görüntüleri görsel olarak incelendi.",
+  "http": "Başarılı: index.html ve 12 yerel bölüm dosyası; 13 hedef HTTP 200 ve dosya baytlarıyla eşit. Ortak gezinme/canlı site kapsam dışı.",
+  "zip": "Başarılı: 14 dosyalı ZIP izole dizine açılıp Python çalıştırıldı; JSON ve sekiz CSV eşleşti, kaynak değişmedi ve iki PDF üretildi.",
+  "yapilmayanlar": [
+    "R, GPArotation ve SPSS çalıştırılmadı; öğrenci paketinde SPSS dosyası yoktur.",
+    "Jupyter arayüzü, telefonla karekod taraması ve kitabın tamamının derlenmesi yapılmadı.",
+    "Uzak CSV/psych verisiyle otomatik hücre karşılaştırması ve canlı site kontrolü yapılmadı.",
+    "Polikorik/ordinal model, yük güven aralığı, bootstrap yük kararlılığı, yeni örneklem ve DFA yapılmadı.",
+    "Türkçe uyarlama, uzman onayı, bilişsel görüşme veya kültürler arası değişmezlik çalışması yapılmadı."
+  ],
+  "belge_erisim_notu": "6 Eylül 2026: statsmodels Factor ve rotate_factors resmi belgeleri incelendi. Bu, uzak veri veya farklı yazılımda sayısal doğrulama değildir."
+}

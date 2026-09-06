@@ -1,0 +1,39 @@
+{
+  "bolum": "b15",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub yayını yapılmadı",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "kaynak": {
+    "normalize_lf_sha256": "8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557",
+    "kontrol": "Kitap kaynak CSV dosyasıyla birebir bayt eşitliği; çalışma sonunda değişmedi.",
+    "uzak_veri_karsilastirmasi": false
+  },
+  "basarili_kontroller": [
+    "Beklenen JSON alanları kitap sonuçlarıyla rtol=1e-7, atol=1e-8 toleransında eşleşti; uyum indeksleri, yük/Phi/RMSEA aralıkları, CR/AVE ve nominal fark testleri dahil.",
+    "Ortak 97 kayıt ve dışlanan 63/66/90 kaynak sıraları; S kovaryansının Pearson matrisine eşitliği doğrulandı.",
+    "M0/M1/M2 için dört başlangıç ve ek optimizer karşılaştırması; küçük gradyan, model kovaryansı ve sınırdan uzaklık denetlendi.",
+    "Analitik amaç/kovaryans türevleri sayısal türevlerle; F genelleştirilmiş özdeğerlerle; beklenen bilgi sayısal Hessian ile karşılaştırıldı.",
+    "Kovaryans Jacobian rankları 20/21/22; minimum artık varyansları ve bilgi matrisi özdeğerleri pozitif.",
+    "Çalışma alanı kökü ve bölüm klasörü çalıştırmaları aynı JSON ve on iki CSV dosyasını üretti.",
+    "Defter kod hücreleri öğrenci deposu kökünde ve bölüm klasöründe sırasıyla çalıştırıldı; yanıt alanları boş bırakıldı.",
+    "Defterde indeksler, tekil Wald aralıkları, M1 CR/AVE, nominal farklar ve M2 A2 çapraz terimli R² ayrıca hesaplandı.",
+    "Değiştirilmiş kaynak izole kopyada hash kontrolüyle sonuçlar oluşturulmadan reddedildi."
+  ],
+  "karekod": "Başarılı: iki LaTeX geçişi, tek PDF sayfası, üç eşleşen B15 URL bağlantısı; karekod ve yük aralığı grafiğinin sayfa görüntüleri görsel olarak incelendi.",
+  "http": "Başarılı: index.html ve 13 bölüm dosyası; 14 yerel hedef HTTP 200 ve dosya baytlarıyla eşit. Ortak gezinme/canlı site kapsam dışı.",
+  "zip": "Başarılı: 15 dosyalı ZIP izole dizine açılıp Python çalıştırıldı; JSON ve on iki CSV eşleşti, kaynak değişmedi, bir PDF üretildi.",
+  "yapilmayanlar": [
+    "R/lavaan, SPSS ve AMOS çalıştırılmadı; AMOS kontrol listesi yalnız yapılacak uygulamadır.",
+    "Jupyter arayüzü, telefonla karekod taraması ve kitabın tamamının derlenmesi yapılmadı.",
+    "Uzak CSV/psych verisiyle otomatik hücre karşılaştırması ve canlı site kontrolü yapılmadı.",
+    "WLSMV, MLR, FIML, otomatik MI taraması, bootstrap ve CR/AVE aralıkları yapılmadı.",
+    "Yeni örneklemde bağımsız DFA, Türkçe uyarlama, uzman görüşmesi ve ölçüm değişmezliği yapılmadı."
+  ],
+  "belge_erisim_notu": "6 Eylül 2026: lavaan est/cfa/cat resmi belgeleri incelendi; bu erişim R çalıştırılması veya kaynak hücresi doğrulaması değildir."
+}

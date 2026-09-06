@@ -1,0 +1,12 @@
+dosya,alan,tanim,kural,kontrol
+bfi-ilk100-AC.csv,kaynak_satir,Alıntı sıra konumu,1–100,Model göstergesi değil
+bfi-ilk100-AC.csv,kaynak_kayit,Yayımlanan satır etiketi,İlk 61617 son 61831,Gerçek kişi kimliği değil
+bfi-ilk100-AC.csv,A1–A5 ve C1–C5,Ham yanıt,1–6 tamsayı; boş eksik,Yanıt üretilmez
+sonuclar/puanlanmis.csv,A1–A5 ve C1–C5,Anahtarlanmış yanıt,97 ortak kayıt; A1 C4 C5 terslenmiş,İkinci kez terslenmez
+sonuclar/standartlastirilmis.csv,A1–A5 ve C1–C5,Örneklem z-puanları,ddof=1; 97×10,Satır sırası puanlanmis ile aynı; etiket sütunu yok
+sonuclar/orneklem_kovaryans.csv,A1–C5,Örneklem S matrisi,ddof=1 kovaryans Pearson'a eşit,İlk sütun matris satır etiketi
+sonuclar/*_model.csv,A1–C5,Model kovaryansı Sigma,Lambda Phi Lambda.T + Theta,Köşegen her modelde kontrol edilir
+sonuclar/*_artik.csv,A1–C5,Standartlaştırılmış kovaryans artığı,Örneklem varyansına bölünmüş S−Sigma,SRMR 55 hücre; RMSR_off 45 çift
+sonuclar/*_yukler.csv,loading_std,Birincil standart yük,Model varyansıyla ölçeklenir,M2 için A2 çapraz yükü JSON'dadır
+sonuclar/*_yukler.csv,loading_std_ci95,Tekil %95 Wald aralığı,Delta yöntemi; beklenen bilgi,Sağlam veya eşzamanlı değil
+sonuclar/*_yukler.csv,R_squared,Modelin madde varyansını temsil payı,1−theta_std,M2 A2 için yalnız birincil yük karesi değildir

@@ -1,0 +1,12 @@
+dosya,alan,tanim,kural,kontrol
+bfi-ilk100-AC.csv,kaynak_satir,Kaynak sıra konumu,1–100,Kişi kimliği değildir
+bfi-ilk100-AC.csv,kaynak_kayit,Yayımlanan satır etiketi,İlk 61617 son 61831,Model yordayıcısı değildir
+bfi-ilk100-AC.csv,A1–A5 ve C1–C5,Ham ordinal yanıt,1–6 tamsayı; boş eksik,Sıfır geçersizdir
+bfi-ilk100-AC.csv,A1 C4 C5,Ters anahtarlı maddeler,7−yanıt,Yalnız bir kez terslenir
+sonuclar/puanlanmis.csv,A1–A5 ve C1–C5,Anahtarlanmış ortak tam kayıtlar,97 kayıt; 63/66/90 dışarıda,Yeniden terslenmez
+sonuclar/korelasyon.csv,A1–C5,Pearson korelasyon matrisi,10×10 aynı kişiler,İlk sütun satır etiketidir
+sonuclar/oruntu.csv,A ve C,Örüntü katsayıları L,İki faktör quartimin,Sıfır çapraz yük kısıtı yok
+sonuclar/yapi.csv,A ve C,Madde–faktör korelasyonları,L @ Phi,Örüntü ile karıştırılmaz
+sonuclar/faktor_korelasyon.csv,A ve C,Faktör korelasyon matrisi Phi,Köşegen 1,İki faktör ilişkili olabilir
+sonuclar/yeniden_uretilen.csv,A1–C5,Yeniden üretilen korelasyon,L @ Phi @ L.T + Psi,Psi köşegen özgüllük
+sonuclar/artik.csv,A1–C5,Korelasyon artıkları,R eksi yeniden üretilen,RMSR için 45 benzersiz çift
