@@ -1,0 +1,56 @@
+{
+  "bolum": "03",
+  "tarih": "2026-09-06",
+  "Python_calistirildi": true,
+  "Python_calisma_dizinleri": [
+    "çalışma alanı kökü",
+    "bölüm klasörü"
+  ],
+  "beklenen_json_kitapla_eslesti": true,
+  "ham_veri_baytlari_kitapla_esit": true,
+  "dagitilan_veri_sozlugu_degismedi": true,
+  "notebook": "Kod hücreleri depo kökü ve bölüm klasöründen sırayla Python ile denendi; Jupyter arayüzü kullanılmadı. None alanları öğrenciye bırakıldı.",
+  "hata_denetimleri": [
+    "99",
+    "kesir",
+    "metin",
+    "boş anahtar",
+    "yinelenen anahtar",
+    "çoklayan birleşim",
+    "yinelenen pivot",
+    "eksik madde eşiği"
+  ],
+  "R_calistirildi": false,
+  "SPSS_dosyasi_var": false,
+  "SPSS_calistirildi": false,
+  "karekod": "İki LaTeX geçişi ve PDF URI denetimi başarılı; izole kutu görsel olarak incelendi. Telefon taraması ve tam kitap derlemesi yapılmadı.",
+  "grafik_gorsel_kontrol": true,
+  "tarayici_gorsel_site_kontrolu": false,
+  "harici_ana_sayfa_ve_b02_baglantilari_dogrulandi": false,
+  "GitHuba_b03_yuklendi": false,
+  "Pages_b03_dogrulandi": false,
+  "b02_yayin_bildirimi": "Kullanıcı yayına açtığını bildirdi; bu ortamda canlı doğrulama erişim engeli nedeniyle tamamlanamadı.",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8"
+  },
+  "dosya_sha256": {
+    ".gitignore": "a0ac791b19059b181ace85c04e36f3cafeb9399df200857bb031c56755a081be",
+    "README.md": "6f5e37ae846a14081e6cc54a035336ad9f99eda0f87d7ff12b8f46bd81ef0b62",
+    "VERI.md": "a8f2fcc310935dcfc69ff9ea3f7478aa3f00e3a737477ee49a87f45d7a81040e",
+    "GOREVLER.md": "b12bc976f7fef4d0dc091530982e28760b4a26668cfb3514ad6a545d925d1cf9",
+    "COZUMLER.md": "7930556623cb819d72fc25fb919a98944868548d3ebf523c27a8b865607f77d4",
+    "analiz.py": "b369ead177bd212c0e9c3a8e4f625010809df0dfc56125369684e8ab37c1afb0",
+    "analiz.R": "dc89131e36590dfe9bc9eaf031a9220b133b3f5daf7853ead505551205ff1258",
+    "veri.csv": "8b4bf055dff3f28bf40eb944e173576463d2e7561725730644cfcff38ffd04a5",
+    "veri_sozlugu.csv": "5b23f580db52e8f084986c87a50f0d2b4c7d3959ba02802f88b662a9ea781673",
+    "beklenen.json": "e7cbef1c66b4bc146c95e6dd9952a91d1b992db258a2ad0b01eed1600b7d3bb9",
+    "calisma.ipynb": "564edfdfaa6ea50d38cf707569c16d0e8846e4cd745a5797c72873f64c39f8bd",
+    "index.html": "be45da6114f6a7da368c18df45bc3ffeb02e87d12b2e4a3812c29119743f5119",
+    "requirements.txt": "c8e430294ea3af887e7cfc77fe6e9e1ab44672e893036606ab2ccfbe79ecc4fc"
+  },
+  "yerel_bolum_baglantilari": 12,
+  "yerel_HTTP_kontrolu": "13 yerel uç nokta HTTP 200; yanıt baytları dağıtılan dosyalarla eşit"
+}

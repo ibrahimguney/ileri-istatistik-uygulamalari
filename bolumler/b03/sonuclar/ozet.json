@@ -1,0 +1,76 @@
+{
+  "kaynak_hash_normalize": "8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557",
+  "kayit": 100,
+  "madde_hucresi": 1000,
+  "eksik_hucre": 3,
+  "eksik_hucre_yuzde": 0.3,
+  "eksikli_kayit": 3,
+  "ortak_tam": 97,
+  "puanlar": [
+    {
+      "puan": "A_ort5",
+      "gecerli": 99,
+      "ortalama": 4.5636363636363635
+    },
+    {
+      "puan": "A_ort4",
+      "gecerli": 100,
+      "ortalama": 4.5655
+    },
+    {
+      "puan": "C_ort5",
+      "gecerli": 98,
+      "ortalama": 4.187755102040816
+    },
+    {
+      "puan": "C_ort4",
+      "gecerli": 100,
+      "ortalama": 4.1915
+    }
+  ],
+  "eksikli_kayit_puanlari": [
+    {
+      "kaynak_satir": 63,
+      "A_n": 5,
+      "A_ort4": 5.6,
+      "C_n": 4,
+      "C_ort4": 5.25
+    },
+    {
+      "kaynak_satir": 66,
+      "A_n": 4,
+      "A_ort4": 4.75,
+      "C_n": 5,
+      "C_ort4": 5.0
+    },
+    {
+      "kaynak_satir": 90,
+      "A_n": 5,
+      "A_ort4": 4.4,
+      "C_n": 4,
+      "C_ort4": 3.5
+    }
+  ],
+  "ortalama_atama_karsi_ornegi_C1": {
+    "gozlenen_n": 99,
+    "ortalama": 4.454545454545454,
+    "gozlenen_varyans": 1.5157699443413728,
+    "doldurulmus_varyans": 1.500459136822773
+  },
+  "kurgu_denetimleri": {
+    "99_reddedildi": true,
+    "kesir_reddedildi": true,
+    "metin_reddedildi": true,
+    "anahtar_tekrari_reddedildi": true,
+    "bos_ve_tek_maddeli_puan_engellendi": true,
+    "coklayan_birlestirme_reddedildi": true,
+    "sessiz_pivot_ozetlemesi_engellendi": true
+  },
+  "kurgu_kontrolsuz_join_satir": 3,
+  "surum": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8"
+  },
+  "R_SPSS_calistirildi": false
+}
