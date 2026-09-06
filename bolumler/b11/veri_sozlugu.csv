@@ -1,0 +1,8 @@
+dosya,alan,tanim,birim_veya_kod,kontrol
+ToothGrowth.csv,kaynak_satir,Yerel aktarım sıra numarası,1–60,Boş ve yinelenmiş olamaz; hayvan kimliği çıkarılmaz
+ToothGrowth.csv,len,Odontoblast uzunluğu,kaynak ölçüm birimi,Mikrometre varsayılmaz; kaynak değerleri korunur
+ToothGrowth.csv,supp,Uygulama türü,OJ portakal suyu; VC askorbik asit,İki sabit düzey
+ToothGrowth.csv,dose,Günlük doz,0.5 veya 1 veya 2 mg/gün,Analizde üç düzeyli faktör; her supp–dose hücresinde 10 kayıt
+Bellek,dose_f,ANOVA için kategorik doz,0.5; 1; 2,Sayısal doğrusal eğimle aynı model değildir
+sonuclar/analiz_veri.csv,supp_kod,Türetilmiş uygulama kodu,OJ=1; VC=2,Kaynak supp korunur
+sonuclar/analiz_veri.csv,dose_kod,Türetilmiş kategori kodu,0.5=1; 1=2; 2=3,Dozun fiziksel değeri yerine kullanılmaz

@@ -1,0 +1,48 @@
+{
+  "bolum": "b11",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub aktarımı yapılmadı",
+  "python": "3.13.15",
+  "surumler": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "dogrulananlar": [
+    "Kitaptaki bütün sayısal referans alanları rtol=1e-10, atol=0 ile eşleşti.",
+    "ToothGrowth.csv ve GPL-2.txt yerel Bölüm 10 kaynaklarıyla bayt düzeyinde aynı.",
+    "Python çalışma alanı ve bölüm kökünden çalıştı; JSON ve altı CSV tablosu aynı.",
+    "Klasik KT ayrıştırması ve F; Welch F/df/p sonuçları açık formül, SciPy ve statsmodels ile denetlendi.",
+    "Tukey/Games–Howell q, p ve aralıkları SciPy; Tukey ayrıca statsmodels ile eşleşti.",
+    "Tam dengeli modelin hücre KT ayrıştırması, Sum kodlamalı Tip II/III ve NumPy OLS sonuçları karşılaştırıldı.",
+    "Satır sırası değiştiğinde faktöriyel katsayılar korundu.",
+    "HC3 matrisi ve iki ortak etkileşim karşıtlığının Wald F sonucu bağımsız matris hesabıyla doğrulandı.",
+    "Üç basit etkinin Bonferroni aralıkları ortak model karşıtlıklarıyla eşleşti.",
+    "Notebook kod hücreleri öğrenci deposu ve bölüm kökünden sırasıyla çalıştırıldı.",
+    "Tek kaynak hücresi değiştirilmiş kopya çıktı üretmeden reddedildi.",
+    "Kurulu Python paket sürümleri requirements.txt ile eşleşti.",
+    "Karekod kutusu iki pdflatex geçişiyle tek sayfa derlendi; üç PDF bağlantısı B11 hedefine gidiyor.",
+    "Karekod kutusu ve üç analiz grafiğinin raster ön izlemesi görsel olarak incelendi."
+  ],
+  "yerel_http": "index.html ve bölümün 13 yerel bağlantısı HTTP 200 ve bayt eşitliğiyle doğrulandı; ortak gezinme kapsam dışı.",
+  "izole_zip": "15 dosyalı ZIP ayrı geçici klasörde açıldı; yalnız bölüm dosyalarıyla Python çalıştı. JSON/CSV ve kaynak baytları eşleşti, üç grafik üretildi.",
+  "calistirilmayanlar": [
+    "R",
+    "SPSS",
+    "Jupyter tarayıcı arayüzü",
+    "Tam kitap derlemesi",
+    "Canlı GitHub Pages",
+    "Telefonla QR taraması",
+    "Uzak veri karşılaştırması",
+    "Özgün makalenin bireysel ham kayıt doğrulaması"
+  ],
+  "notlar": [
+    "R betiğinde kurulu datasets ile karşılaştırma hazırlanmıştır; çalıştırılmış doğrulama değildir.",
+    "Notebook öğrenci alanları None olarak bırakılmıştır; referans hücrelerinin çalışması öğrenci yanıtlarının tamamlandığını göstermez.",
+    "Yerel kaynak hash eşleşmesi bilimsel kaynak, tasarım veya varsayım doğrulaması değildir.",
+    "OJ, VC ve üç basit etki ayrı ailelerdir; bölümün tüm testleri için tek .05 aile kontrolü iddia edilmez.",
+    "Ortak site ana sayfası ve önceki bölüm gezintisi son toplu aktarımda kontrol edilecektir."
+  ]
+}
