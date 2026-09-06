@@ -1,0 +1,98 @@
+{
+  "bolum": "b09",
+  "tarih": "2026-09-06",
+  "veri_turu": "SIMULASYON; gerçek katılımcı yok",
+  "yayin": "Yerelde hazır; GitHub aktarımı ve canlı site kontrolü yapılmadı.",
+  "ortam": {
+    "python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "veri": {
+    "n": 160,
+    "uretim_seed": 202609,
+    "uretim_tekrari_bayt_esitligi": true,
+    "ureticinin_varolan_dosyayi_reddetmesi": true,
+    "hash_guard_testi": true,
+    "rank_kaybi_reddetme_testi": true,
+    "ham_dosya_degismedi": true
+  },
+  "python": {
+    "calistirildi": true,
+    "calisma_dizinleri": [
+      "çalışma alanı kökü",
+      "bolumler/b09"
+    ],
+    "beklenen_sonuclar": "Bu yeni simülasyonun doğrulanmış çıktısı; önceki gerçek veri sonucu değil.",
+    "statsmodels_numpy_OLS_kontrolu": true,
+    "c_cprime_ab_ozdesligi": true,
+    "merkezleme_tahmin_degismezligi": true,
+    "basit_egim_kovaryansi_t_test_kontrolu": true,
+    "tekrar_json_csv_esitligi": true
+  },
+  "bootstrap": {
+    "birim": "Aynı indislerle X/M/Y satırı",
+    "B": 5000,
+    "seed": 202610,
+    "tamamlanan": 5000,
+    "basarisiz": 0,
+    "yontem": "Persentil, lineer kantiller; BCa değil",
+    "scipy_paired_percentile_5000_dagilim_eslesmesi": true,
+    "scipy_aralik_eslesmesi": true,
+    "rank_kaybinda": "Analiz durur; tekrar atlanmaz."
+  },
+  "notebook": {
+    "kod_hucreleri_python_ile_calistirildi": true,
+    "calisma_dizinleri": [
+      "öğrenci deposu kökü",
+      "bolumler/b09"
+    ],
+    "bootstrap_araligi_eslesmesi": true,
+    "sabit_W_tahmin_farki_kontrolu": true,
+    "bos_gorevler": "None alanları öğrencinindir; çözülmüş teslim değildir.",
+    "jupyter_arayuzu_test_edildi": false,
+    "kaydedilmis_cikti_yok": true
+  },
+  "latex": {
+    "yeni_uygulama_aciklamasi_ve_karekod_derlendi": true,
+    "pdf_uri_sayisi": 3,
+    "hedef": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/bolumler/b09/",
+    "hedefler_dogrulandi": true,
+    "gorsel_kontrol": true,
+    "telefonla_okuma_testi": false,
+    "tum_kitap_derlendi": false
+  },
+  "grafik_gorsel_kontrol": true,
+  "R_calistirildi": false,
+  "SPSS_PROCESS_calistirildi": false,
+  "baglanti_kontrolu": {
+    "yerel_http_200_ve_bayt_esitligi": [
+      "COZUMLER.md",
+      "DOGRULAMA.json",
+      "GOREVLER.md",
+      "README.md",
+      "VERI.md",
+      "analiz.R",
+      "analiz.py",
+      "beklenen.json",
+      "calisma.ipynb",
+      "index.html",
+      "requirements.txt",
+      "veri.csv",
+      "veri_sozlugu.csv",
+      "veri_uret.py"
+    ],
+    "ortak_site_gezintisi_test_edildi": false,
+    "tarayici_gorsel_testi": false
+  },
+  "zip_izole_calistirma": {
+    "basarili": true,
+    "beklenen_sonuc_tam_eslesmesi": true,
+    "kaynak_degismedi": true,
+    "dagitilan_dosya_sayisi": 15,
+    "kitap_ve_diger_bolumler_olmadan": true
+  }
+}

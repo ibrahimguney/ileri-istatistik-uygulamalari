@@ -1,0 +1,7 @@
+degisken,tanim,rol,birim
+kayit,1–160 simülasyon satırı,Kimlik değil sıra,Adet
+x,Standart normal üretilen X,İki modelde yordayıcı,Keyfî sürekli birim
+araci,0.6 X + bağımsız normal hata,Aracılık örneğinde M,Keyfî sürekli birim
+w,Standart normal üretilen W,Yalnız düzenleyicilik örneğinde düzenleyici,Keyfî sürekli birim
+y_aracilik,0.2 X + 0.7 M + bağımsız normal hata,Aracılık örneğinin yanıtı,Keyfî sürekli birim
+y_duzenleyicilik,0.3 X + 0.2 W + 0.5 XW + bağımsız normal hata,Düzenleyicilik örneğinin ayrı yanıtı,Keyfî sürekli birim
