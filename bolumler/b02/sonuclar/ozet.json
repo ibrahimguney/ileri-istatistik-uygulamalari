@@ -1,0 +1,596 @@
+{
+  "source_normalized_sha256": "51dcab9aeaa121123dd28a00156d4dfa398c38eecad69bd5699ae4cea03e5ee9",
+  "source_raw_sha256": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
+  "remote_cells_verified": false,
+  "n": 80,
+  "quantile_method": "NumPy linear / R type 7; boxes explicitly use same quartiles",
+  "summaries": {
+    "G1": {
+      "n": 80,
+      "sum": 974.0,
+      "mean": 12.175,
+      "median": 12.0,
+      "modes": [
+        13.0
+      ],
+      "SS": 465.55,
+      "sample_variance": 5.893037974683544,
+      "sample_sd": 2.4275580270476635,
+      "finite_frame_variance": 5.819375,
+      "min": 0.0,
+      "max": 17.0,
+      "range": 17.0,
+      "Q1": 11.0,
+      "Q3": 13.25,
+      "IQR": 2.25,
+      "MAD_raw": 1.0,
+      "fences": [
+        7.625,
+        16.625
+      ],
+      "whiskers": [
+        8.0,
+        16.0
+      ]
+    },
+    "G3": {
+      "n": 80,
+      "sum": 1011.0,
+      "mean": 12.6375,
+      "median": 12.0,
+      "modes": [
+        12.0
+      ],
+      "SS": 324.48749999999995,
+      "sample_variance": 4.107436708860759,
+      "sample_sd": 2.026681205533016,
+      "finite_frame_variance": 4.05609375,
+      "min": 7.0,
+      "max": 17.0,
+      "range": 10.0,
+      "Q1": 11.0,
+      "Q3": 14.0,
+      "IQR": 3.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        6.5,
+        18.5
+      ],
+      "whiskers": [
+        7.0,
+        17.0
+      ]
+    },
+    "fark_G3_G1": {
+      "n": 80,
+      "sum": 37.0,
+      "mean": 0.4625,
+      "median": 0.0,
+      "modes": [
+        0.0
+      ],
+      "SS": 243.88749999999996,
+      "sample_variance": 3.087183544303797,
+      "sample_sd": 1.7570382876601742,
+      "finite_frame_variance": 3.0485937499999993,
+      "min": -3.0,
+      "max": 11.0,
+      "range": 14.0,
+      "Q1": 0.0,
+      "Q3": 1.0,
+      "IQR": 1.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        -1.5,
+        2.5
+      ],
+      "whiskers": [
+        -1.0,
+        2.0
+      ]
+    }
+  },
+  "quartile_methods": [
+    {
+      "variable": "G1",
+      "method": "type7",
+      "Q1": 11.0,
+      "Q3": 13.25,
+      "lower_fence": 7.625,
+      "upper_fence": 16.625,
+      "flagged_rows": [
+        1,
+        16,
+        48,
+        61
+      ]
+    },
+    {
+      "variable": "G1",
+      "method": "halves_n80",
+      "Q1": 11.0,
+      "Q3": 13.5,
+      "lower_fence": 7.25,
+      "upper_fence": 17.25,
+      "flagged_rows": [
+        1
+      ]
+    },
+    {
+      "variable": "G3",
+      "method": "type7",
+      "Q1": 11.0,
+      "Q3": 14.0,
+      "lower_fence": 6.5,
+      "upper_fence": 18.5,
+      "flagged_rows": []
+    },
+    {
+      "variable": "G3",
+      "method": "halves_n80",
+      "Q1": 11.0,
+      "Q3": 14.0,
+      "lower_fence": 6.5,
+      "upper_fence": 18.5,
+      "flagged_rows": []
+    }
+  ],
+  "pairs": {
+    "n": 80,
+    "cross_sum": 273.075,
+    "sample_covariance": 3.456645569620253,
+    "correlation": 0.7025864845034534,
+    "difference": {
+      "n": 80,
+      "sum": 37.0,
+      "mean": 0.4625,
+      "median": 0.0,
+      "modes": [
+        0.0
+      ],
+      "SS": 243.88749999999996,
+      "sample_variance": 3.087183544303797,
+      "sample_sd": 1.7570382876601742,
+      "finite_frame_variance": 3.0485937499999993,
+      "min": -3.0,
+      "max": 11.0,
+      "range": 14.0,
+      "Q1": 0.0,
+      "Q3": 1.0,
+      "IQR": 1.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        -1.5,
+        2.5
+      ],
+      "whiskers": [
+        -1.0,
+        2.0
+      ]
+    },
+    "positive": 32,
+    "zero": 31,
+    "negative": 17
+  },
+  "sensitivity": {
+    "excluded_row_only_in_sensitivity": 1,
+    "summaries": {
+      "G1": {
+        "n": 79,
+        "sum": 974.0,
+        "mean": 12.329113924050633,
+        "median": 12.0,
+        "modes": [
+          13.0
+        ],
+        "SS": 315.44303797468365,
+        "sample_variance": 4.044141512495944,
+        "sample_sd": 2.011005100067114,
+        "finite_frame_variance": 3.992949847780806,
+        "min": 8.0,
+        "max": 17.0,
+        "range": 9.0,
+        "Q1": 11.0,
+        "Q3": 13.5,
+        "IQR": 2.5,
+        "MAD_raw": 1.0,
+        "fences": [
+          7.25,
+          17.25
+        ],
+        "whiskers": [
+          8.0,
+          17.0
+        ]
+      },
+      "G3": {
+        "n": 79,
+        "sum": 1000.0,
+        "mean": 12.658227848101266,
+        "median": 12.0,
+        "modes": [
+          12.0
+        ],
+        "SS": 321.7721518987341,
+        "sample_variance": 4.125283998701719,
+        "sample_sd": 2.0310795156029022,
+        "finite_frame_variance": 4.073065213908026,
+        "min": 7.0,
+        "max": 17.0,
+        "range": 10.0,
+        "Q1": 11.0,
+        "Q3": 14.0,
+        "IQR": 3.0,
+        "MAD_raw": 1.0,
+        "fences": [
+          6.5,
+          18.5
+        ],
+        "whiskers": [
+          7.0,
+          17.0
+        ]
+      }
+    },
+    "pairs": {
+      "n": 79,
+      "cross_sum": 252.8860759493671,
+      "sample_covariance": 3.2421291788380397,
+      "correlation": 0.7937618404927124,
+      "difference": {
+        "n": 79,
+        "sum": 26.0,
+        "mean": 0.3291139240506329,
+        "median": 0.0,
+        "modes": [
+          0.0
+        ],
+        "SS": 131.44303797468356,
+        "sample_variance": 1.6851671535215842,
+        "sample_sd": 1.2981398821088521,
+        "finite_frame_variance": 1.6638359237301716,
+        "min": -3.0,
+        "max": 6.0,
+        "range": 9.0,
+        "Q1": 0.0,
+        "Q3": 1.0,
+        "IQR": 1.0,
+        "MAD_raw": 1.0,
+        "fences": [
+          -1.5,
+          2.5
+        ],
+        "whiskers": [
+          -1.0,
+          2.0
+        ]
+      },
+      "positive": 31,
+      "zero": 31,
+      "negative": 17
+    }
+  },
+  "subsets": {
+    "first60_G3_mean": 12.783333333333333,
+    "last20_G3_mean": 12.2,
+    "weighted_mean": 12.6375,
+    "unweighted_mean_of_two_means": 12.491666666666667
+  },
+  "transformations": {
+    "five_times_G3": {
+      "n": 80,
+      "sum": 5055.0,
+      "mean": 63.1875,
+      "median": 60.0,
+      "modes": [
+        60.0
+      ],
+      "SS": 8112.1875,
+      "sample_variance": 102.68591772151899,
+      "sample_sd": 10.13340602766508,
+      "finite_frame_variance": 101.40234375,
+      "min": 35.0,
+      "max": 85.0,
+      "range": 50.0,
+      "Q1": 55.0,
+      "Q3": 70.0,
+      "IQR": 15.0,
+      "MAD_raw": 5.0,
+      "fences": [
+        32.5,
+        92.5
+      ],
+      "whiskers": [
+        35.0,
+        85.0
+      ]
+    },
+    "G3_plus_10": {
+      "n": 80,
+      "sum": 1811.0,
+      "mean": 22.6375,
+      "median": 22.0,
+      "modes": [
+        22.0
+      ],
+      "SS": 324.48749999999995,
+      "sample_variance": 4.107436708860759,
+      "sample_sd": 2.026681205533016,
+      "finite_frame_variance": 4.05609375,
+      "min": 17.0,
+      "max": 27.0,
+      "range": 10.0,
+      "Q1": 21.0,
+      "Q3": 24.0,
+      "IQR": 3.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        16.5,
+        28.5
+      ],
+      "whiskers": [
+        17.0,
+        27.0
+      ]
+    }
+  },
+  "CV_counterexample": {
+    "original_arithmetic_percent": 16.037042180281034,
+    "shifted_arithmetic_percent": 8.952760709146398,
+    "meaningful_relative_ability_claim": false
+  },
+  "iid_SE_formula_not_a_validity_claim": 0.2265898472146523,
+  "synthetic_examples": {
+    "easy1": {
+      "n": 5,
+      "sum": 40.0,
+      "mean": 8.0,
+      "median": 8.0,
+      "modes": [
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "SS": 40.0,
+      "sample_variance": 10.0,
+      "sample_sd": 3.1622776601683795,
+      "finite_frame_variance": 8.0,
+      "min": 4.0,
+      "max": 12.0,
+      "range": 8.0,
+      "Q1": 6.0,
+      "Q3": 10.0,
+      "IQR": 4.0,
+      "MAD_raw": 2.0,
+      "fences": [
+        0.0,
+        16.0
+      ],
+      "whiskers": [
+        4.0,
+        12.0
+      ]
+    },
+    "middle1": {
+      "n": 5,
+      "sum": 70.0,
+      "mean": 14.0,
+      "median": 14.0,
+      "modes": [
+        14.0
+      ],
+      "SS": 56.0,
+      "sample_variance": 14.0,
+      "sample_sd": 3.7416573867739413,
+      "finite_frame_variance": 11.2,
+      "min": 10.0,
+      "max": 20.0,
+      "range": 10.0,
+      "Q1": 12.0,
+      "Q3": 14.0,
+      "IQR": 2.0,
+      "MAD_raw": 2.0,
+      "fences": [
+        9.0,
+        17.0
+      ],
+      "whiskers": [
+        10.0,
+        14.0
+      ]
+    },
+    "middle2": {
+      "n": 5,
+      "sum": 69.0,
+      "mean": 13.8,
+      "median": 8.0,
+      "modes": [
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        40.0
+      ],
+      "SS": 866.8,
+      "sample_variance": 216.7,
+      "sample_sd": 14.720733677368122,
+      "finite_frame_variance": 173.35999999999999,
+      "min": 5.0,
+      "max": 40.0,
+      "range": 35.0,
+      "Q1": 7.0,
+      "Q3": 9.0,
+      "IQR": 2.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        4.0,
+        12.0
+      ],
+      "whiskers": [
+        5.0,
+        9.0
+      ]
+    },
+    "advanced1": {
+      "n": 5,
+      "sum": 25.0,
+      "mean": 5.0,
+      "median": 4.0,
+      "modes": [
+        4.0
+      ],
+      "SS": 28.0,
+      "sample_variance": 7.0,
+      "sample_sd": 2.6457513110645907,
+      "finite_frame_variance": 5.6,
+      "min": 2.0,
+      "max": 9.0,
+      "range": 7.0,
+      "Q1": 4.0,
+      "Q3": 6.0,
+      "IQR": 2.0,
+      "MAD_raw": 2.0,
+      "fences": [
+        1.0,
+        9.0
+      ],
+      "whiskers": [
+        2.0,
+        9.0
+      ]
+    },
+    "advanced3": {
+      "n": 4,
+      "cross_sum": 11.0,
+      "sample_covariance": 3.6666666666666665,
+      "correlation": 0.9647638212377322,
+      "difference": {
+        "n": 4,
+        "sum": 10.0,
+        "mean": 2.5,
+        "median": 2.0,
+        "modes": [
+          2.0
+        ],
+        "SS": 9.0,
+        "sample_variance": 3.0,
+        "sample_sd": 1.7320508075688772,
+        "finite_frame_variance": 2.25,
+        "min": 1.0,
+        "max": 5.0,
+        "range": 4.0,
+        "Q1": 1.75,
+        "Q3": 2.75,
+        "IQR": 1.0,
+        "MAD_raw": 0.5,
+        "fences": [
+          0.25,
+          4.25
+        ],
+        "whiskers": [
+          1.0,
+          2.0
+        ]
+      },
+      "positive": 4,
+      "zero": 0,
+      "negative": 0
+    },
+    "skew_example": {
+      "n": 5,
+      "sum": 3000.0,
+      "mean": 600.0,
+      "median": 300.0,
+      "modes": [
+        100.0
+      ],
+      "SS": 2560000.0,
+      "sample_variance": 640000.0,
+      "sample_sd": 800.0,
+      "finite_frame_variance": 512000.0,
+      "min": 100.0,
+      "max": 2000.0,
+      "range": 1900.0,
+      "Q1": 100.0,
+      "Q3": 500.0,
+      "IQR": 400.0,
+      "MAD_raw": 200.0,
+      "fences": [
+        -500.0,
+        1100.0
+      ],
+      "whiskers": [
+        100.0,
+        500.0
+      ]
+    },
+    "same_mean_a": {
+      "n": 3,
+      "sum": 30.0,
+      "mean": 10.0,
+      "median": 10.0,
+      "modes": [
+        8.0,
+        10.0,
+        12.0
+      ],
+      "SS": 8.0,
+      "sample_variance": 4.0,
+      "sample_sd": 2.0,
+      "finite_frame_variance": 2.6666666666666665,
+      "min": 8.0,
+      "max": 12.0,
+      "range": 4.0,
+      "Q1": 9.0,
+      "Q3": 11.0,
+      "IQR": 2.0,
+      "MAD_raw": 2.0,
+      "fences": [
+        6.0,
+        14.0
+      ],
+      "whiskers": [
+        8.0,
+        12.0
+      ]
+    },
+    "same_mean_b": {
+      "n": 3,
+      "sum": 30.0,
+      "mean": 10.0,
+      "median": 10.0,
+      "modes": [
+        0.0,
+        10.0,
+        20.0
+      ],
+      "SS": 200.0,
+      "sample_variance": 100.0,
+      "sample_sd": 10.0,
+      "finite_frame_variance": 66.66666666666667,
+      "min": 0.0,
+      "max": 20.0,
+      "range": 20.0,
+      "Q1": 5.0,
+      "Q3": 15.0,
+      "IQR": 10.0,
+      "MAD_raw": 10.0,
+      "fences": [
+        -10.0,
+        30.0
+      ],
+      "whiskers": [
+        0.0,
+        20.0
+      ]
+    }
+  },
+  "synthetic_growth_per_period": -0.005012562893380035,
+  "versions": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8"
+  }
+}

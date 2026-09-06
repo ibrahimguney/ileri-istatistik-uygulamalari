@@ -1,0 +1,127 @@
+{
+  "n": 80,
+  "source_normalized_sha256": "51dcab9aeaa121123dd28a00156d4dfa398c38eecad69bd5699ae4cea03e5ee9",
+  "summaries": {
+    "G1": {
+      "n": 80,
+      "sum": 974.0,
+      "mean": 12.175,
+      "median": 12.0,
+      "modes": [
+        13.0
+      ],
+      "SS": 465.55,
+      "sample_variance": 5.893037974683544,
+      "sample_sd": 2.4275580270476635,
+      "finite_frame_variance": 5.819375,
+      "min": 0.0,
+      "max": 17.0,
+      "range": 17.0,
+      "Q1": 11.0,
+      "Q3": 13.25,
+      "IQR": 2.25,
+      "MAD_raw": 1.0,
+      "fences": [
+        7.625,
+        16.625
+      ],
+      "whiskers": [
+        8.0,
+        16.0
+      ]
+    },
+    "G3": {
+      "n": 80,
+      "sum": 1011.0,
+      "mean": 12.6375,
+      "median": 12.0,
+      "modes": [
+        12.0
+      ],
+      "SS": 324.48749999999995,
+      "sample_variance": 4.107436708860759,
+      "sample_sd": 2.026681205533016,
+      "finite_frame_variance": 4.05609375,
+      "min": 7.0,
+      "max": 17.0,
+      "range": 10.0,
+      "Q1": 11.0,
+      "Q3": 14.0,
+      "IQR": 3.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        6.5,
+        18.5
+      ],
+      "whiskers": [
+        7.0,
+        17.0
+      ]
+    },
+    "fark_G3_G1": {
+      "n": 80,
+      "sum": 37.0,
+      "mean": 0.4625,
+      "median": 0.0,
+      "modes": [
+        0.0
+      ],
+      "SS": 243.88749999999996,
+      "sample_variance": 3.087183544303797,
+      "sample_sd": 1.7570382876601742,
+      "finite_frame_variance": 3.0485937499999993,
+      "min": -3.0,
+      "max": 11.0,
+      "range": 14.0,
+      "Q1": 0.0,
+      "Q3": 1.0,
+      "IQR": 1.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        -1.5,
+        2.5
+      ],
+      "whiskers": [
+        -1.0,
+        2.0
+      ]
+    }
+  },
+  "pairs": {
+    "n": 80,
+    "cross_sum": 273.075,
+    "sample_covariance": 3.456645569620253,
+    "correlation": 0.7025864845034534,
+    "difference": {
+      "n": 80,
+      "sum": 37.0,
+      "mean": 0.4625,
+      "median": 0.0,
+      "modes": [
+        0.0
+      ],
+      "SS": 243.88749999999996,
+      "sample_variance": 3.087183544303797,
+      "sample_sd": 1.7570382876601742,
+      "finite_frame_variance": 3.0485937499999993,
+      "min": -3.0,
+      "max": 11.0,
+      "range": 14.0,
+      "Q1": 0.0,
+      "Q3": 1.0,
+      "IQR": 1.0,
+      "MAD_raw": 1.0,
+      "fences": [
+        -1.5,
+        2.5
+      ],
+      "whiskers": [
+        -1.0,
+        2.0
+      ]
+    },
+    "positive": 32,
+    "zero": 31,
+    "negative": 17
+  }
+}
