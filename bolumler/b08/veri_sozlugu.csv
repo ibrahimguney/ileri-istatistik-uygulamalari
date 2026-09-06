@@ -1,0 +1,8 @@
+degisken,aciklama,aralik_veya_kod,rol
+kaynak_satir,Kaynak alıntısındaki sıra,1–80,Ana 1–60; sabit-model uygulaması 61–80
+school,Okul kodu,GP,Modele alınmaz; öğrenci kimliği değil
+age,Kaynakta kayıtlı yaş,Seçili kayıtlarda 15–18 yıl,Yordayıcı; kullanım anında erişilebilirliği ayrıca doğrulanmalı
+G1,Birinci dönem notu,0–20,Yordayıcı; sıfır korunur
+G3,Yıl sonu üçüncü dönem notu,0–20,Sürekli yanıt; olay tanımının kaynağı
+age_c,Merkezlenmiş yaş,age - 16,Türetilmiş yordayıcı; sonuclar/hazirlanmis.csv içinde
+hedef14,Öğretim amaçlı not hedefi,G3 >= 14 ise 1 aksi halde 0,İkili yanıt; yordayıcı değildir
