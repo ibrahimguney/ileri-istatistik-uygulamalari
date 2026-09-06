@@ -1,0 +1,5 @@
+alan,tanim,tur,gecerli
+kaynak_satir,Aktarım sırası; kişi kimliği değil,tamsayı,1-80
+school,Okul kodu,kategorik,GP
+G1,Birinci dönem notu,sayısal,0-20
+G3,Yıl sonu notu,sayısal,0-20

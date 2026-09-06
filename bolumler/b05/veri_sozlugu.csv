@@ -1,0 +1,5 @@
+alan,tanim,tur,birim,rol
+kaynak_satir,Arşive aktarım sırası,tamsayı,sıra,Kaynak izleme
+extra,Kontrole göre uyku artışı,sayısal,saat,Yanıt; sıfır ve negatif değer geçerli
+group,İlaç koşulu,kategorik,1 veya 2,ID içinde iki koşul
+ID,Kaynak kişi kodu,kategorik,1 ile 10,Eşleştirme anahtarı

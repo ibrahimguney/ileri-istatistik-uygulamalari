@@ -1,0 +1,75 @@
+{
+  "main": {
+    "n": 60,
+    "pearson_r": 0.7466127922386875,
+    "pearson_t": 8.547099549963308,
+    "pearson_p_classical": 7.466943359746865e-12,
+    "pearson_fisher_ci": [
+      0.6079442458707304,
+      0.8410822381203014
+    ],
+    "spearman_r": 0.8310856623595314,
+    "spearman_p_asymptotic": 2.0720655141514152e-16,
+    "Sxx": 385.40000000000003,
+    "Syy": 234.1833333333333,
+    "Sxy": 224.2999999999999,
+    "x_mean": 12.1,
+    "y_mean": 12.783333333333333,
+    "x_sd": 2.5558175580096694,
+    "y_sd": 1.9922873887941024,
+    "pearson_r_squared": 0.5574306615344495,
+    "regression_intercept": 5.74122124199965,
+    "regression_slope": 0.5819927348209654
+  },
+  "without_source_row_1": {
+    "n": 59,
+    "pearson_r": 0.8658335308350087,
+    "pearson_t": 13.065119499097918,
+    "pearson_p_classical": 8.709020468975334e-19,
+    "pearson_fisher_ci": [
+      0.7834646597418763,
+      0.9183049824486355
+    ],
+    "spearman_r": 0.8266999983114512,
+    "spearman_p_asymptotic": 7.322808093283072e-16,
+    "Sxx": 236.5084745762712,
+    "Syy": 230.9491525423729,
+    "Sxy": 202.35593220338987,
+    "x_mean": 12.305084745762711,
+    "y_mean": 12.813559322033898,
+    "x_sd": 2.0193395752771592,
+    "y_sd": 1.9954653443209027,
+    "pearson_r_squared": 0.749667703118218,
+    "regression_intercept": 2.285366203239215,
+    "regression_slope": 0.8555969614447467
+  },
+  "transfer": {
+    "n": 20,
+    "pearson_r": 0.6273071142440002,
+    "pearson_t": 3.417481344731599,
+    "pearson_p_classical": 0.003070279180531441,
+    "pearson_fisher_ci": [
+      0.2557937709688813,
+      0.8373754553610265
+    ],
+    "spearman_r": 0.5705355036984738,
+    "spearman_p_asymptotic": 0.008616028319799152,
+    "Sxx": 78.8,
+    "Syy": 85.2,
+    "Sxy": 51.39999999999999,
+    "x_mean": 12.4,
+    "y_mean": 12.2,
+    "x_sd": 2.036508880671192,
+    "y_sd": 2.117595458607661,
+    "pearson_r_squared": 0.39351421558113514,
+    "regression_intercept": 4.111675126903556,
+    "regression_slope": 0.6522842639593904
+  },
+  "spearman_permutation": {
+    "B": 19999,
+    "seed": 202606,
+    "extreme": 0,
+    "p_absolute_two_sided": 5e-05,
+    "minimum_reportable_p": 5e-05
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "bolum": "b06",
+  "tarih": "2026-09-06",
+  "yayin": "Yerelde hazır; GitHub aktarımı ve canlı site kontrolü yapılmadı.",
+  "ortam": {
+    "python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "python": {
+    "calistirildi": true,
+    "calisma_dizinleri": [
+      "çalışma alanı kökü",
+      "bolumler/b06"
+    ],
+    "beklenen_json_tam_eslesme": true,
+    "kaynak_baytlari_degismedi": true,
+    "kitap_kaynagi_bayt_esitligi": true,
+    "tekrar_sonuclar_json_csv_esitligi": true,
+    "ana_n": 60,
+    "duyarlilik_n": 59,
+    "etkinlik_n": 20,
+    "birini_disarida_birakma_sayisi": 60,
+    "negatif_olcekleme_isaret_kontrolu": true
+  },
+  "notebook": {
+    "nbformat": 4,
+    "kod_hucreleri_python_ile_calistirildi": true,
+    "calisma_dizinleri": [
+      "öğrenci deposu kökü",
+      "bolumler/b06"
+    ],
+    "bos_gorevler": "None alanları öğrenci içindir; çözülmüş defter değildir.",
+    "jupyter_arayuzu_test_edildi": false,
+    "kaydedilmis_cikti_yok": true
+  },
+  "permutasyon": {
+    "B": 19999,
+    "seed": 202606,
+    "uc_sayisi": 0,
+    "p": 5e-05,
+    "yontem": "Mutlak iki yönlü Monte Carlo; (uç+1)/(B+1), tam sayım değil."
+  },
+  "karekod": {
+    "izole_latex_derlendi": true,
+    "pdf_uri_sayisi": 3,
+    "hedef": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/bolumler/b06/",
+    "hedefler_dogrulandi": true,
+    "gorsel_kontrol": true,
+    "telefonla_okuma_testi": false,
+    "tum_kitap_derlendi": false
+  },
+  "grafik_gorsel_kontrol": true,
+  "R_calistirildi": false,
+  "SPSS_calistirildi": false,
+  "baglanti_kontrolu": {
+    "yerel_http_200_ve_bayt_esitligi": [
+      "COZUMLER.md",
+      "DOGRULAMA.json",
+      "GOREVLER.md",
+      "README.md",
+      "VERI.md",
+      "analiz.R",
+      "analiz.py",
+      "beklenen.json",
+      "calisma.ipynb",
+      "index.html",
+      "requirements.txt",
+      "veri.csv",
+      "veri_sozlugu.csv"
+    ],
+    "ortak_site_gezintisi_test_edildi": false,
+    "tarayici_gorsel_testi": false
+  },
+  "zip_izole_calistirma": {
+    "basarili": true,
+    "beklenen_json_tam_eslesme": true,
+    "kaynak_degismedi": true,
+    "dagitilan_dosya_sayisi": 14,
+    "kitap_ve_diger_bolumler_olmadan": true
+  }
+}

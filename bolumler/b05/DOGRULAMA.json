@@ -1,0 +1,43 @@
+{
+  "bolum": "05",
+  "tarih": "2026-09-06",
+  "Python_calistirildi": true,
+  "kitap_hesaplari": "Bütün beklenen hesaplar eşleşti; dosya yolu ve sürüm alanları sayısal karşılaştırmadan ayrı tutuldu.",
+  "simulasyon_yapildi": false,
+  "R_calistirildi": false,
+  "SPSS_calistirildi": false,
+  "GPower_calistirildi": false,
+  "GitHuba_yuklendi": false,
+  "toplu_aktarim_bekleniyor": true,
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.6"
+  },
+  "dosya_sha256": {
+    "COZUMLER.md": "0427a177f5e6f845e38bcfcadd91a2a4578b5fa368046b97b928b8288232e3e8",
+    "GOREVLER.md": "ec271769a9e1dcfb40ee6340045379b618136d4c1a75afddc92c3a4aa8345d39",
+    "calisma.ipynb": "eb9ecb5cd41e73583d086c5fcaccf1f8ecd3c00a1407d10f2597249a197831a0",
+    "analiz.R": "ecdfcfcef7eb6c69b986967e2c898a95d38a50d9583896b6dc12d5cdaf87f6ec",
+    ".gitignore": "67c3ca8a2c942e0abc9eb956ae62fe1babe68c63fe834a34de9b888029ff2350",
+    "index.html": "44251ac11c8334de997e1db685c338a020a71bd2a76267d19d99c49f1252bd8e",
+    "VERI.md": "f9535fdc6383fd4621f85c7bff7ec3c82d2e656111f8380276da72bc2fa958a0",
+    "veri.csv": "0965d9b2eeaa6f7f89225a9ff12e1792767bb549ec86595c2258f41e9095c8bc",
+    "beklenen.json": "e30d4219f53df24a103862f0209f3c81a2e68c2cb77d933da9fd47c6d976674b",
+    "README.md": "7550801ea8a81b70b95f1ff4ae3983ff646951e9cdba1094a83b0ca8c711c77e",
+    "requirements.txt": "263b77f35a3edf4a33f4e9df8d7027407acf68598e089c47bf1c6bcb2eec38e1",
+    "veri_sozlugu.csv": "0646f4073c17202d5b7c5d4aae5fbf83c6b5931a26b18ff528385511ea848400",
+    "GPL-2.txt": "de124e5a899ae4074ebf5c0f790494178ab66d310606b86203d67a6f3ef45168",
+    "analiz.py": "953dcd3b96a2851abf417e32f216d4ca633c87c09493ab9c9b16794b65b15194"
+  },
+  "ham_CSV_ve_GPL_baytlari_esit": true,
+  "tekrar_calistirma_ozeti_ayni": true,
+  "notebook": "Kod hücreleri depo kökü ve bölüm klasöründen sırayla Python ile çalıştırıldı. Jupyter arayüzü kullanılmadı; None alanları öğrenciye bırakıldı.",
+  "yerel_HTTP": "14 uç nokta HTTP 200; indirilen baytlar dağıtılan dosyalarla aynı. Uzak ana sayfa ve önceki bölüm bağlantıları doğrulanmadı.",
+  "karekod": "İzole kutu iki LaTeX geçişiyle derlendi; üç PDF URI doğru hedefe gidiyor. Kutu görsel olarak incelendi. Telefon taraması ve tam kitap derlemesi yapılmadı.",
+  "grafik_gorsel_kontrol": true,
+  "web_tarayıci_gorsel_kontrol": false
+}

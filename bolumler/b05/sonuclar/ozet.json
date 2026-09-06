@@ -1,0 +1,248 @@
+{
+  "kaynak": "veri.csv",
+  "normalize_LF_sha256": "adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e",
+  "surumler": {
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "pandas": "2.3.3",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "yontem": "Iki yonlu merkezsiz F ile tam t gucu; tek yonlu merkezsiz t. Simulasyon degil.",
+  "senaryolar": [
+    {
+      "n": 64,
+      "hedef": 0.8,
+      "onceki_guc": 0.795168338123338,
+      "guc": 0.8014595579222544,
+      "senaryo": "ana",
+      "effect": 0.5,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 64,
+      "toplam_kisi": 128
+    },
+    {
+      "n": 394,
+      "hedef": 0.8,
+      "onceki_guc": 0.7995942411619146,
+      "guc": 0.8005931284024352,
+      "senaryo": "d_02",
+      "effect": 0.2,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 394,
+      "toplam_kisi": 788
+    },
+    {
+      "n": 176,
+      "hedef": 0.8,
+      "onceki_guc": 0.7991334901863524,
+      "guc": 0.8013794435496232,
+      "senaryo": "d_03",
+      "effect": 0.3,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 176,
+      "toplam_kisi": 352
+    },
+    {
+      "n": 26,
+      "hedef": 0.8,
+      "onceki_guc": 0.7914512899851558,
+      "guc": 0.8074866151465276,
+      "senaryo": "d_08",
+      "effect": 0.8,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 26,
+      "toplam_kisi": 52
+    },
+    {
+      "n": 86,
+      "hedef": 0.9,
+      "onceki_guc": 0.8998940794178064,
+      "guc": 0.9032299799904956,
+      "senaryo": "guc_09",
+      "effect": 0.5,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 86,
+      "toplam_kisi": 172
+    },
+    {
+      "n": 96,
+      "hedef": 0.8,
+      "onceki_guc": 0.7994688512745156,
+      "guc": 0.804547325512831,
+      "senaryo": "alfa_01",
+      "effect": 0.5,
+      "alpha": 0.01,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 96,
+      "toplam_kisi": 192
+    },
+    {
+      "n": 86,
+      "hedef": 0.8,
+      "onceki_guc": 0.7989188044242611,
+      "guc": 0.8042911718158907,
+      "senaryo": "uc_bonferroni",
+      "effect": 0.5,
+      "alpha": 0.016666666666666666,
+      "ratio": 1,
+      "paired": false,
+      "sided": 2,
+      "n2": 86,
+      "toplam_kisi": 172
+    },
+    {
+      "n": 51,
+      "hedef": 0.8,
+      "onceki_guc": 0.7989361641501764,
+      "guc": 0.8058985990939889,
+      "senaryo": "tek_yon",
+      "effect": 0.5,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": false,
+      "sided": 1,
+      "n2": 51,
+      "toplam_kisi": 102
+    },
+    {
+      "n": 48,
+      "hedef": 0.8,
+      "onceki_guc": 0.7937386745856175,
+      "guc": 0.8021395496677514,
+      "senaryo": "ikiye_bir",
+      "effect": 0.5,
+      "alpha": 0.05,
+      "ratio": 2,
+      "paired": false,
+      "sided": 2,
+      "n2": 96,
+      "toplam_kisi": 144
+    },
+    {
+      "n": 34,
+      "hedef": 0.8,
+      "onceki_guc": 0.795365841487504,
+      "guc": 0.8077775012792736,
+      "senaryo": "esli_dz_05",
+      "effect": 0.5,
+      "alpha": 0.05,
+      "ratio": 1,
+      "paired": true,
+      "sided": 2,
+      "n2": 0,
+      "toplam_kisi": 34
+    }
+  ],
+  "surekli_n": 63.76561058891169,
+  "sabit_40": {
+    "guc_d05": 0.5981469011411004,
+    "guc08_icin_d": 0.6342985291375242
+  },
+  "tarihsel_yayilim": {
+    "cift": 10,
+    "ortalama": 1.58,
+    "s_D": 1.2299954832798732,
+    "plan_senaryolari": [
+      {
+        "sigma_D": 1.0,
+        "delta": 0.5,
+        "dz": 0.5,
+        "n": 34,
+        "hedef": 0.8,
+        "onceki_guc": 0.795365841487504,
+        "guc": 0.8077775012792736
+      },
+      {
+        "sigma_D": 1.2299954832798732,
+        "delta": 0.5,
+        "dz": 0.4065055577819793,
+        "n": 50,
+        "hedef": 0.8,
+        "onceki_guc": 0.7962291316585477,
+        "guc": 0.8044747114136448
+      },
+      {
+        "sigma_D": 1.5,
+        "delta": 0.5,
+        "dz": 0.3333333333333333,
+        "n": 73,
+        "hedef": 0.8,
+        "onceki_guc": 0.796735358065158,
+        "guc": 0.802298943383034
+      }
+    ]
+  },
+  "esli_rho": [
+    {
+      "rho": 0.3,
+      "sigma_D": 1.1832159566199232,
+      "n": 46,
+      "hedef": 0.8,
+      "onceki_guc": 0.7917226502869158,
+      "guc": 0.8007895363915942
+    },
+    {
+      "rho": 0.5,
+      "sigma_D": 1.0,
+      "n": 34,
+      "hedef": 0.8,
+      "onceki_guc": 0.795365841487504,
+      "guc": 0.8077775012792736
+    },
+    {
+      "rho": 0.7,
+      "sigma_D": 0.7745966692414834,
+      "n": 21,
+      "hedef": 0.8,
+      "onceki_guc": 0.7818293696520293,
+      "guc": 0.8033234917930757
+    }
+  ],
+  "kayip": {
+    "tutulma": 0.85,
+    "gereken_grup": 64,
+    "beklenti_davet": 76,
+    "beklenti_iki_grup_olasilik": 0.42277743964009534,
+    "olasilik_hedef": 0.9,
+    "olasilik_davet": 82,
+    "onceki": 0.8962077360550552,
+    "ulasilan": 0.935472554172456
+  },
+  "hassasiyet": {
+    "hedef_yari_genislik_sigma": 0.2,
+    "n_grup": 194,
+    "onceki": 0.20014991592208298,
+    "yari_genislik": 0.19963012894091844,
+    "n64": 0.34983588310909935
+  },
+  "korelasyon_yaklasik": {
+    "rho": 0.3,
+    "n": 85,
+    "onceki": 0.7955174261087984,
+    "guc": 0.8003462498997717
+  },
+  "kume_kurgu": {
+    "m": 20,
+    "ICC": 0.05,
+    "DE": 1.9500000000000002
+  },
+  "R_SPSS_calistirildi": false
+}
