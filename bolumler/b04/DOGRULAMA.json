@@ -1,0 +1,46 @@
+{
+  "bolum": "04",
+  "tarih": "2026-09-06",
+  "Python_calistirildi": true,
+  "calisma_dizinleri": [
+    "çalışma alanı kökü",
+    "bölüm klasörü"
+  ],
+  "kitap_beklenen_sonuclari_eslesti": true,
+  "simulasyon_tekrar_calistirmada_ayni": true,
+  "ham_CSV_ve_GPL_baytlari_korundu": true,
+  "notebook": "Kod hücreleri depo kökü ve bölüm klasöründen sırayla çalıştırıldı; Jupyter arayüzü kullanılmadı. Öğrenci None alanları doldurulmadı.",
+  "R_calistirildi": false,
+  "SPSS_dosyasi_var": false,
+  "R_ve_Python_simulasyonlari_birebir_dogrulandi": false,
+  "GitHuba_b04_yuklendi": false,
+  "Pages_b04_dogrulandi": false,
+  "b03_yayin_durumu": "Kullanıcı yüklediğini bildirdi; bu çalışmada canlı yayın kontrolü yapılmadı.",
+  "yerel_HTTP_kontrolu": "14 yerel uç nokta HTTP 200; indirilen baytlar dosyalarla eşit. Ana sayfa ve önceki bölümün uzak bağlantıları test edilmedi.",
+  "karekod_kontrolu": "İzole kutu iki LaTeX geçişiyle derlendi; 3 PDF URI hedef bölüm adresiyle eşleşti. Kutu görsel olarak incelendi; telefonla tarama ve tam kitap derlemesi yapılmadı.",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "dosya_sha256": {
+    "COZUMLER.md": "7ed9c6b641c339dc8e0843fdd0c30075c4a31f852b58fc0acf44a564864a808e",
+    "GOREVLER.md": "59ee7e01eb933c04d4b00c58bf627d4c1556ed1f5233070104a5762ca50a0d0f",
+    "calisma.ipynb": "164cc9e34601380e7b12a75ee8f5021e1aad277a90a69fb894b49d87f66fd70c",
+    "analiz.R": "4a184608d5fc7863d5f882f9bc77b78623a28ef7c08952a1b96ea877b3964f97",
+    ".gitignore": "4b38c261133c7c2e83c599c64274682d7bd7cc7ca9b04b6ac6d81429d66ae70e",
+    "index.html": "52d04df4994c64549320179f1a1c3999f3ac53c04416096f78f078931163d4d9",
+    "VERI.md": "6145cd84e6e19a4f7129ba8651bb5bb5d94dc2c328adae64cde793af7c5df29e",
+    "veri.csv": "0965d9b2eeaa6f7f89225a9ff12e1792767bb549ec86595c2258f41e9095c8bc",
+    "beklenen.json": "f66224e5661885a3350856c11b9f8080ba41bdff6a475f7a9553cac6c3b59aa6",
+    "README.md": "ca47847532b0e23e377d9a6aa850f82304448a4ac2d73541a642ffbbb7eaccda",
+    "requirements.txt": "25e758c76a31a0c684d7070e360c0a105bfd5cd24a0b134148278d4c847f23e0",
+    "veri_sozlugu.csv": "f7b93b0d229f347102e1207659f0a3cae007e1d600bb04b1478bed8e742004bd",
+    "GPL-2.txt": "de124e5a899ae4074ebf5c0f790494178ab66d310606b86203d67a6f3ef45168",
+    "analiz.py": "a65d16ef8b7684a70e876b60c9b6670eb461b8800cc93e1ec3839d3788131fd0"
+  },
+  "grafik_gorsel_kontrolu": true,
+  "web_tarayıci_gorsel_kontrolu": false
+}
