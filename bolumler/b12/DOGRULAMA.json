@@ -1,0 +1,50 @@
+{
+  "bolum": "b12",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; GitHub aktarımı yapılmadı",
+  "python": "3.13.15",
+  "surumler": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "dogrulananlar": [
+    "Kitaptaki bütün sayısal referans alanları rtol=1e-10, atol=0 ile eşleşti.",
+    "Üç CSV ve GPL-2.txt yerel kaynaklarıyla bayt düzeyinde aynı.",
+    "Python çalışma alanı ve bölüm kökünden çalıştı; JSON ve altı CSV tablosu aynı.",
+    "U sıra toplamı, çapraz çift kazanımları ve 184756 etiket atamasının tam p sayımı SciPy ile eşleşti.",
+    "Uyku: 10 çift, bir sıfır, dokuz sıfır olmayan fark ve 512 işaret örüntüsü; SciPy ile eşleşti.",
+    "Kruskal/Friedman bağ düzeltmeleri elle ve SciPy ile karşılaştırıldı.",
+    "Dunn ortak sıra varyansı özdeşliği ve Holm düzeltmesi statsmodels ile denetlendi.",
+    "Friedman tohum 202612, 99999 blok içi rastgele atama: 311 aşım ve p_MC=.00312 yeniden üretildi.",
+    "Kategorik beklenen frekanslar marjinallerden hesaplanıp SciPy ile eşleştirildi.",
+    "Satır sırası değişince ID eşleme korundu; notebookta fark yönünü tersleme denetlendi.",
+    "Notebook kod hücreleri öğrenci deposu ve bölüm kökünden sırasıyla çalıştırıldı.",
+    "RoundingTimes içinde tek değer değiştirilmiş kopya çıktı üretmeden reddedildi.",
+    "Kurulu paket sürümleri requirements.txt ile eşleşti.",
+    "Karekod kutusu iki pdflatex geçişiyle tek sayfa derlendi; üç PDF bağlantısı B12 hedefine gidiyor.",
+    "Karekod kutusu ve iki analiz grafiğinin raster ön izlemesi görsel olarak incelendi."
+  ],
+  "yerel_http": "index.html ve bölümün 15 yerel bağlantısı HTTP 200 ve bayt eşitliğiyle doğrulandı; ortak gezinme kapsam dışı.",
+  "izole_zip": "17 dosyalı ZIP ayrı geçici klasörde açıldı; yalnız bölüm dosyalarıyla Python çalıştı. JSON/CSV ve kaynak baytları eşleşti, iki grafik üretildi.",
+  "calistirilmayanlar": [
+    "R",
+    "SPSS",
+    "Jupyter tarayıcı arayüzü",
+    "Tam kitap derlemesi",
+    "Canlı GitHub Pages",
+    "Telefonla QR taraması",
+    "Uzak veri karşılaştırması",
+    "Özgün deney ham kayıt/katılımcı sayısı doğrulaması"
+  ],
+  "notlar": [
+    "Friedman Monte Carlo hesabı tam sayım değildir; p yöntemi ve tohum korunur.",
+    "RoundingTimes kaynak notundaki 18/22 uyuşmazlığı giderilmiş gibi sunulmaz.",
+    "Notebook öğrenci alanları None olarak bırakılmıştır; referansların çalışması öğrenci yanıtlarının tamamlandığını göstermez.",
+    "Yerel hash eşleşmesi bilimsel kaynak, tasarım veya varsayım doğrulaması değildir.",
+    "OJ Dunn, VC Dunn ve Friedman sonrası çiftler ayrı ailelerdir; bütün bölüm için tek .05 kontrolü iddia edilmez.",
+    "Ortak ana sayfa ve önceki bölüm gezintisi son toplu aktarımda kontrol edilecektir."
+  ]
+}

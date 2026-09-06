@@ -1,0 +1,17 @@
+dosya,alan,tanim,birim_veya_kod,kontrol
+sleep.csv,kaynak_satir,Yerel aktarım sıra numarası,1–20,Kişi sayısı değildir
+sleep.csv,extra,Kontrole göre ek uyku,saat,Negatif ve sıfır korunur
+sleep.csv,group,Aynı kişinin ölçüm koşulu,1 veya 2,ID ile birlikte benzersiz
+sleep.csv,ID,Kaynak eşleştirme kodu,1–10,Her ID için iki koşul
+ToothGrowth.csv,kaynak_satir,Yerel aktarım sıra numarası,1–60,Hayvan kimliği çıkarılmaz
+ToothGrowth.csv,len,Odontoblast uzunluğu,kaynak ölçüm birimi,Mikrometre varsayılmaz
+ToothGrowth.csv,supp,Uygulama türü,OJ portakal suyu; VC askorbik asit,İki uygulama
+ToothGrowth.csv,dose,Günlük doz,0.5; 1; 2 mg/gün,Her supp–dose hücresinde 10 kayıt
+rounding-times.csv,blok,Kod matrisinin satır sırası,1–22,Özgün deney katılımcı sayısının doğrulanması değildir
+rounding-times.csv,round_out,Round Out koşulunda iki koşunun ortalaması,kaynak süre birimi,İki ayrı gözlem diye çoğaltılmaz
+rounding-times.csv,narrow_angle,Narrow Angle koşulunda iki koşunun ortalaması,kaynak süre birimi,Aynı bloktaki diğer koşullarla eşli
+rounding-times.csv,wide_angle,Wide Angle koşulunda iki koşunun ortalaması,kaynak süre birimi,22 tam blok; 66 bağımsız kişi değil
+sonuclar/uyku_farklar.csv,fark_2_eksi_1,Koşul 2 eksi koşul 1,saat,Bir ondalık; sıfır ham veride korunur
+sonuclar/dis_analiz.csv,supp_kod,Türetilmiş uygulama kodu,OJ=1; VC=2,Kaynak supp korunur
+sonuclar/dis_analiz.csv,dose_kod,Türetilmiş doz kategorisi,0.5=1; 1=2; 2=3,Fiziksel doz değildir
+sonuclar/dis_analiz.csv,esik20,Uzunluk en az 20 ise 1 değilse 0,0 veya 1,Yalnız öğretim eşiği; klinik başarı tanımı değildir

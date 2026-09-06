@@ -1,0 +1,11 @@
+dosya,alan,tanim,kod_ve_kural,kontrol
+bfi-ilk100-AC.csv,kaynak_satir,Alıntıdaki sıra konumu,1–100,Boş ve yinelenmiş olamaz; rastgele örneklem değildir
+bfi-ilk100-AC.csv,kaynak_kayit,Yayımlanan CSV satır etiketi,İlk 61617; son 61831,Kişi kimliği olarak kullanılmaz
+bfi-ilk100-AC.csv,A1,A kümesi ters anahtarlı yanıt,1–6; puan 7−yanıt,Ham yanıt korunur; otomatik anahtar seçilmez
+bfi-ilk100-AC.csv,A2–A5,A kümesi düz anahtarlı yanıtlar,1–6; boş eksik,A2 kaynak sırası 66 eksik
+bfi-ilk100-AC.csv,C1–C3,C kümesi düz anahtarlı yanıtlar,1–6; boş eksik,C1 sıra63 ve C3 sıra90 eksik
+bfi-ilk100-AC.csv,C4–C5,C kümesi ters anahtarlı yanıtlar,1–6; puan 7−yanıt,İki kez terslenmez
+sonuclar/puanlanmis_A.csv,A1–A5,Anahtarlanmış beş A maddesi,99 ortak tam kayıt,A1 artık terslenmiştir; tekrar 7−x uygulanmaz
+sonuclar/puanlanmis_C.csv,C1–C5,Anahtarlanmış beş C maddesi,98 ortak tam kayıt,C4/C5 artık terslenmiştir
+sonuclar/madde_A.csv ve madde_C.csv,item_rest_r,Düzeltilmiş madde–kalan korelasyonu,Madde ile diğer dört maddenin toplamı,Ölçeğin aynı tam kayıtları kullanılır
+sonuclar/madde_A.csv ve madde_C.csv,alpha_if_deleted_same_cases,Madde silinirse alfa,Dört maddede aynı kişiler,Yeni eksik seçimiyle örneklem büyütülmez

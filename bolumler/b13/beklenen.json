@@ -1,0 +1,169 @@
+{
+  "missing_per_item": {
+    "A1": 0,
+    "A2": 1,
+    "A3": 0,
+    "A4": 0,
+    "A5": 0,
+    "C1": 1,
+    "C2": 0,
+    "C3": 1,
+    "C4": 0,
+    "C5": 0
+  },
+  "scales": {
+    "A": {
+      "n": 99,
+      "k": 5,
+      "alpha_raw": 0.6295876057600719,
+      "alpha_standardized": 0.6513989973790908,
+      "average_r": 0.2720505789862576,
+      "item_variance_sum": 9.130076272933415,
+      "total_variance": 18.395176252319107,
+      "total_mean": 22.818181818181817,
+      "total_sd": 4.288959810061073,
+      "items": [
+        {
+          "item": "A1",
+          "mean": 4.585858585858586,
+          "sd": 1.4569334654180757,
+          "item_rest_r": 0.19870086738172282,
+          "item_total_r_uncorrected": 0.5136480482233274,
+          "alpha_if_deleted_same_cases": 0.6706242445510198
+        },
+        {
+          "item": "A2",
+          "mean": 4.7272727272727275,
+          "sd": 1.1048887820858806,
+          "item_rest_r": 0.4651896382900375,
+          "item_total_r_uncorrected": 0.6547972101309705,
+          "alpha_if_deleted_same_cases": 0.5469265613150505
+        },
+        {
+          "item": "A3",
+          "mean": 4.646464646464646,
+          "sd": 1.342500950580223,
+          "item_rest_r": 0.5496716004164932,
+          "item_total_r_uncorrected": 0.7489868740370239,
+          "alpha_if_deleted_same_cases": 0.48904168967585254
+        },
+        {
+          "item": "A4",
+          "mean": 4.414141414141414,
+          "sd": 1.518660130523903,
+          "item_rest_r": 0.19949249492322055,
+          "item_total_r_uncorrected": 0.5270936157915626,
+          "alpha_if_deleted_same_cases": 0.6757060126550846
+        },
+        {
+          "item": "A5",
+          "mean": 4.444444444444445,
+          "sd": 1.2953781436890899,
+          "item_rest_r": 0.6078980754480346,
+          "item_total_r_uncorrected": 0.7805744155449739,
+          "alpha_if_deleted_same_cases": 0.4617239300783605
+        }
+      ],
+      "alpha_without_reversing": 0.43755411414231826,
+      "excluded_source_rows": [
+        66
+      ],
+      "reversed_items": [
+        "A1"
+      ],
+      "bootstrap": {
+        "method": "participant-row percentile, linear quantiles",
+        "resamples": 20000,
+        "seed": 202613,
+        "ci95": [
+          0.46442267025491113,
+          0.7366370129526959
+        ],
+        "sd": 0.06979852523029524,
+        "invalid_draws": 0
+      },
+      "first_item_times10_raw_alpha": 0.14525649909601063,
+      "duplicated_items_alpha": 0.8353722692266986
+    },
+    "C": {
+      "n": 98,
+      "k": 5,
+      "alpha_raw": 0.722610163638805,
+      "alpha_standardized": 0.7317825549706537,
+      "average_r": 0.3530287150643942,
+      "item_variance_sum": 9.254365663791292,
+      "total_variance": 21.934357248053868,
+      "total_mean": 20.93877551020408,
+      "total_sd": 4.683412991404224,
+      "items": [
+        {
+          "item": "C1",
+          "mean": 4.469387755102041,
+          "sd": 1.2285611535002048,
+          "item_rest_r": 0.545417529100214,
+          "item_total_r_uncorrected": 0.7163570758321534,
+          "alpha_if_deleted_same_cases": 0.6539508531037472
+        },
+        {
+          "item": "C2",
+          "mean": 4.285714285714286,
+          "sd": 1.3002775278703143,
+          "item_rest_r": 0.5024392532504706,
+          "item_total_r_uncorrected": 0.6952957288420636,
+          "alpha_if_deleted_same_cases": 0.6679622431982228
+        },
+        {
+          "item": "C3",
+          "mean": 4.285714285714286,
+          "sd": 1.284322598135871,
+          "item_rest_r": 0.5128046182370883,
+          "item_total_r_uncorrected": 0.700505425059727,
+          "alpha_if_deleted_same_cases": 0.6643346289098646
+        },
+        {
+          "item": "C4",
+          "mean": 4.285714285714286,
+          "sd": 1.3546407444011686,
+          "item_rest_r": 0.49380353665043325,
+          "item_total_r_uncorrected": 0.6966419625181189,
+          "alpha_if_deleted_same_cases": 0.6707439662542392
+        },
+        {
+          "item": "C5",
+          "mean": 3.6122448979591835,
+          "sd": 1.603042552131032,
+          "item_rest_r": 0.3876123398566382,
+          "item_total_r_uncorrected": 0.658667836953569,
+          "alpha_if_deleted_same_cases": 0.7234475477493039
+        }
+      ],
+      "alpha_without_reversing": -0.08265063745213103,
+      "excluded_source_rows": [
+        63,
+        90
+      ],
+      "reversed_items": [
+        "C4",
+        "C5"
+      ],
+      "bootstrap": {
+        "method": "participant-row percentile, linear quantiles",
+        "resamples": 20000,
+        "seed": 202614,
+        "ci95": [
+          0.57960790960681,
+          0.8114654019588461
+        ],
+        "sd": 0.059473988372923704,
+        "invalid_draws": 0
+      },
+      "first_item_times10_raw_alpha": 0.3417363047285803,
+      "duplicated_items_alpha": 0.8767156282839134
+    }
+  },
+  "mixed_ten_items": {
+    "n": 97,
+    "alpha": 0.7273687242864418,
+    "interpretation": "Counterexample only; not a validated single total score"
+  }
+}

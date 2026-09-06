@@ -1,0 +1,39 @@
+{
+  "bolum": "b13",
+  "tarih": "2026-09-06",
+  "durum": "Yerel hazırlık; yayımlanmadı",
+  "surumler": {
+    "Python": "3.13.15",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "kaynak": {
+    "dosya": "bfi-ilk100-AC.csv",
+    "normalize_lf_sha256": "8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557",
+    "kontrol": "Kitap kaynağıyla birebir bayt eşitliği; çalışma sonrasında değişmedi.",
+    "sinir": "Yerel bütünlük; uzak kaynakla yeni otomatik karşılaştırma yapılmadı."
+  },
+  "basarili_kontroller": [
+    "Beklenen sayısal alanlar, madde istatistikleri ve bootstrap aralıkları kitap sonuçlarıyla rtol=1e-10, atol=0 toleransında eşleşti.",
+    "A için 99, C için 98, ortak on madde için 97 tam kayıt doğrulandı.",
+    "A ve C için ayrı ayrı 20000 tam katılımcı satırı bootstrap; tohumlar 202613/202614; geçersiz tekrar sıfır.",
+    "Çalışma alanı kökü ve bölüm klasöründen çalıştırmalar aynı JSON ve sekiz CSV dosyasını üretti.",
+    "Çalışma defterinin kod hücreleri öğrenci deposu kökü ve bölüm klasöründe sırasıyla çalıştırıldı; öğrenci yanıt alanları boş bırakıldı.",
+    "Eksik girdi ve sıfır toplam varyanslı alfa hesabı reddedildi; sıfır varyanslı bootstrap sessizce atlanmadı.",
+    "Değiştirilmiş kaynak izole kopyada hash kontrolüyle, sonuç dosyaları oluşmadan reddedildi.",
+    "Karekod kutusu iki LaTeX geçişiyle tek sayfada derlendi; üç PDF bağlantısı B13 hedefiyle eşleşti.",
+    "Karekod, madde analizi ve bootstrap grafiklerinin sayfa görüntüleri görsel olarak incelendi."
+  ],
+  "http": "Başarılı: index.html ve 12 bölüm dosyası; 13 yerel hedef HTTP 200 ve dosya baytlarıyla eşit. Ortak gezinme/canlı site kapsam dışı.",
+  "zip": "Başarılı: 14 dosyalı ZIP izole dizine açılıp Python çalıştırıldı; JSON ve sekiz CSV eşleşti, kaynak değişmedi, iki PDF üretildi.",
+  "yapilmayanlar": [
+    "R betiği ve isteğe bağlı psych::alpha karşılaştırması çalıştırılmadı.",
+    "SPSS çalıştırılmadı; bu öğrenci paketinde SPSS betiği yoktur.",
+    "Jupyter arayüzü ve telefonla karekod taraması denenmedi.",
+    "Kitabın tamamı yeniden derlenmedi; yalnız karekod kutusu derlendi.",
+    "Uzak veri doğrulaması, GitHub yükleme ve canlı site kontrolü yapılmadı.",
+    "Yeni Türkçe uyarlama, uzman değerlendirmesi, bilişsel görüşme, pilot, faktör veya değişmezlik çalışması yapılmadı."
+  ]
+}
