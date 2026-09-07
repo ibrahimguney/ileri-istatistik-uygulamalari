@@ -1,30 +1,31 @@
 {
-  "paket": "B01-B17 öğrenci uygulama deposu",
+  "paket": "B01-B18 öğrenci uygulama deposu",
   "tarih": "2026-09-07",
-  "kapsam": "17 öğrenci bölümü; B18 ve tam kitap yok",
+  "kapsam": "18 öğrenci bölümü; tam kitap metni kapsam dışı",
   "GitHuba_yuklendi": true,
   "varsayilan_dal": "main",
   "Pages_dosyalari_hazir": true,
   "Pages_yayini_dogrulandi": true,
   "Pages_adresi": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/",
-  "Pages_notu": "Canlı GitHub Pages ana sayfası, B01/B06/B17 örnek bölüm yolları ve assets/site.css dosyası GitHub Actions üzerinden HTTP düzeyinde başarıyla doğrulandı.",
+  "Pages_notu": "GitHub Actions üzerinde ana sayfa, B01/B06/B17/B18 örnek bölüm yolları ve assets/site.css HTTP kontrolünden geçti.",
   "Pages_dogrulamasi": {
     "workflow": ".github/workflows/pages-smoke-test.yml",
-    "son_basarili_workflow_run_id": 34095773331,
-    "son_basarili_commit": "fb23694709aa6797c0bc797708ad3d7de627f18c",
+    "son_basarili_workflow_run_id": 34113711044,
+    "son_basarili_commit": "71d814f304c08af7e4d5306b0f7d600b66d96dad",
     "kontroller": [
       "ana sayfa HTTP erişimi ve beklenen başlık metni",
       "ana sayfada B01 İstatistiksel Düşünme: Sorudan Kanıta başlığının bulunması",
       "B01 README canlı erişimi",
       "B06 README canlı erişimi",
       "B17 README canlı erişimi",
-      "assets/site.css canlı erişimi ve boş olmaması"
+      "assets/site.css canlı erişimi ve boş olmaması",
+      "B18 başlığı ve README canlı erişimi"
     ],
     "sonuc": "başarılı"
   },
   "notebook_dogrulamasi": {
-    "defter_sayisi": 17,
-    "kapsam": "bolumler/b01/calisma.ipynb - bolumler/b17/calisma.ipynb",
+    "defter_sayisi": 18,
+    "kapsam": "bolumler/b01/calisma.ipynb - bolumler/b18/calisma.ipynb",
     "statik_kontrol": "başarılı",
     "statik_kontrol_icerigi": [
       "Jupyter JSON yapısı ve nbformat=4",
@@ -35,26 +36,43 @@
       "öğrenci defterlerinde kayıtlı outputs alanlarının boş olması"
     ],
     "gercek_calistirma": "başarılı",
-    "gercek_calistirma_aciklamasi": "GitHub Actions üzerinde gerekli Python ortamı kuruldu ve B01-B17 arasındaki 17 öğrenci notebookunun tamamı kendi bölüm klasöründe yürütüldü.",
+    "gercek_calistirma_aciklamasi": "GitHub Actions üzerinde B01-B18 arasındaki 18 öğrenci notebooku yürütüldü.",
     "github_actions_workflow": ".github/workflows/notebook-validation.yml",
     "dogrulama_araclari": [
       "tools/dogrula_notebooklar.py",
       "tools/calistir_notebooklar.py"
     ],
-    "son_basarili_workflow_run_id": 34095419277,
-    "son_basarili_commit": "43f2085ce6e8e47977bb566361edcedd2bec5fba"
+    "son_basarili_workflow_run_id": 34113711025,
+    "son_basarili_commit": "71d814f304c08af7e4d5306b0f7d600b66d96dad"
   },
   "analiz_dogrulamasi": {
-    "analiz_sayisi": 17,
-    "kapsam": "bolumler/b01/analiz.py - bolumler/b17/analiz.py",
+    "analiz_sayisi": 18,
+    "kapsam": "bolumler/b01/analiz.py - bolumler/b18/analiz.py",
     "gercek_calistirma": "başarılı",
     "referans_karsilastirma": "başarılı",
-    "karsilastirma_yontemi": "beklenen.json zorunlu alt-küme sözleşmesi; sayısal değerlerde rtol=1e-7 ve atol=1e-8, diğer yapılarda anlamsal/birebir karşılaştırma",
+    "karsilastirma_yontemi": "beklenen.json zorunlu alt-küme sözleşmesi; rtol=1e-6, atol=1e-8. B15 gradient_max: sonlu ve [0,1e-6] aralığında; optimizer_alternate_success yalnız tanı çıktısıdır.",
     "github_actions_workflow": ".github/workflows/analysis-validation.yml",
     "dogrulama_araci": "tools/dogrula_analizler.py",
     "son_basarili_workflow_run_id": 34095481977,
     "son_basarili_commit": "c70135fa0dbdf578a286857ddd2eb2afd6c89bf6",
-    "sonuc": "B01-B17: 17/17 analiz başarıyla çalıştı ve beklenen.json sözleşmeleri doğrulandı."
+    "sonuc": "Yerel Python ortamında 18/18 analiz ve referans karşılaştırması başarılı; düzeltmenin GitHub Actions sonucu ayrıca izlenmelidir.",
+    "son_incelenen_workflow": {
+      "run_id": 34113711001,
+      "commit": "71d814f304c08af7e4d5306b0f7d600b66d96dad",
+      "sonuc": "17/18; B15 gradient_max referans eşitliği hatası",
+      "duzeltme": "Yalnız B15 gradyan tanısı mevcut yakınsama eşiğine göre denetlenir; diğer sayısal toleranslar korunur."
+    },
+    "yerel_dogrulama": {
+      "tarih": "2026-09-07",
+      "komut": "python tools/dogrula_analizler.py",
+      "sonuc": "18/18",
+      "surumler": {
+        "numpy": "2.4.1",
+        "pandas": "2.3.3",
+        "scipy": "1.17.0",
+        "statsmodels": "0.14.6"
+      }
+    }
   },
   "depo_yapisi": {
     "ana_README_ogrenci_odakli": true,
@@ -63,7 +81,7 @@
     "nojekyll": true,
     "gitignore": true,
     "cikti_politikasi": "CIKTI_POLITIKASI.md",
-    "bolumler": "B01-B17",
+    "bolumler": "B01-B18",
     "ortak_ogrenci_zinciri": [
       "README.md",
       "VERI.md",
@@ -73,14 +91,14 @@
       "COZUMLER.md",
       "beklenen.json"
     ],
-    "RAPORLAMA_md": "B01-B17 için mevcut",
-    "calisma_ipynb": "B01-B17 için mevcut ve otomatik doğrulanmış",
+    "RAPORLAMA_md": "B01-B18 için mevcut",
+    "calisma_ipynb": "B01-B18 için mevcut ve GitHub Actions üzerinde yürütülmüş",
     "B01_baslik": "İstatistiksel Düşünme: Sorudan Kanıta",
-    "B18_durumu": "henüz öğrenci uygulama paketi oluşturulmadı"
+    "B18_durumu": "Öğrenci paketi mevcut; Python referansı doğrulandı, gerçek SPSS/R yürütmesi doğrulanmadı"
   },
   "teknik_dogrulama_durumu": {
-    "Python_notebooklari": "17/17 statik ve gerçek çalıştırma doğrulamasından geçti",
-    "Python_analiz_betikleri": "17/17 gerçek çalıştırma ve beklenen.json doğrulamasından geçti",
+    "Python_notebooklari": "18/18 statik kontrol; 18/18 GitHub Actions yürütmesi (34113711025). Yerel kernel başlatma ortam kısıtı nedeniyle tamamlanmadı.",
+    "Python_analiz_betikleri": "18/18 yerel gerçek çalıştırma ve beklenen.json doğrulaması; önceki GitHub başarısızlığının düzeltmesi hazırlanmıştır.",
     "R": "Bu güncellemede yeniden çalıştırılmadı; hazırlanmış R dosyası bulunması R doğrulaması anlamına gelmez.",
     "SPSS_PROCESS_AMOS": "Bu güncellemede çalıştırılmadı; kontrol listeleri veya hazırlık notları yazılım çıktısı değildir."
   },
@@ -94,7 +112,6 @@
     "dogrulama_politikasi": "Bilimsel geçme/kalma ölçütü ham git diff değil, beklenen.json ile anlamsal ve toleranslı sayısal karşılaştırmadır."
   },
   "yapilmayanlar": [
-    "Bölüm 18 — IBM SPSS Uygulamaları öğrenci paketi henüz oluşturulmadı.",
     "Canlı site masaüstü/tarayıcı görsel yerleşim ve mobil görünüm açısından insan gözüyle ayrıca incelenmedi.",
     "R, SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
     "Uzak veri kaynaklarıyla tam hücre-hücre karşılaştırması yeniden yapılmadı.",

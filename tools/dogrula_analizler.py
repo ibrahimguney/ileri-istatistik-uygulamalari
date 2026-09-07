@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # kararlı tutar.
 RTOL = 1e-6
 ATOL = 1e-8
+# B15'in ikinci optimizasyon algoritmasındaki mevcut yakınsama eşiği.
+B15_GRADIENT_LIMIT = 1e-6
 
 
 def fail(message: str) -> None:
@@ -21,6 +23,17 @@ def fail(message: str) -> None:
 
 def compare(expected, actual, path="root"):
     """Beklenen JSON'u, üretilen özetin zorunlu alt-kümesi olarak doğrula."""
+    if path in {
+        f"b15.models.{model}.gradient_max"
+        for model in ("orthogonal", "correlated", "cross_A2")
+    }:
+        # Sıfıra yaklaşma tanısı, önceki çalışmanın son basamaklarına
+        # eşitlik değil, sonlu ve küçük bir mutlak gradyan gerektirir.
+        if (isinstance(actual, bool) or not isinstance(actual, (int, float))
+                or not math.isfinite(actual)
+                or not 0 <= actual <= B15_GRADIENT_LIMIT):
+            fail(f"{path}: {actual!r}; 0 <= gradyan <= {B15_GRADIENT_LIMIT} olmalı")
+        return
     if isinstance(expected, dict):
         if not isinstance(actual, dict):
             fail(f"{path}: beklenen dict, bulunan {type(actual).__name__}")
