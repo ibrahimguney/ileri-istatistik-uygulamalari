@@ -4,7 +4,7 @@
 
 Bu depo, **Prof. Dr. İbrahim Güney** tarafından hazırlanan *İleri İstatistik Uygulamaları* kitabına eşlik eden öğrenci çalışma ortamıdır.
 
-Burada kitabın tam metni değil; **Bölüm 2–17 için veri setleri, uygulama kodları, çalışma defterleri, görevler, çözümler ve akademik raporlama rehberleri** yer alır.
+Burada kitabın tam metni değil; **Bölüm 1–17 için veri setleri, uygulama kodları, çalışma defterleri, görevler, çözümler ve akademik raporlama rehberleri** yer alır.
 
 > **Önerilen kullanım:** Kitapta ilgili bölümü çalışın → aşağıdan bölümü seçin → veri açıklamasını okuyun → görevleri çözün → analizi çalıştırın → sonuçları yorumlayın → akademik raporlamayı tamamlayın.
 
@@ -12,6 +12,7 @@ Burada kitabın tam metni değil; **Bölüm 2–17 için veri setleri, uygulama 
 
 | Bölüm | Konu | Uygulamaya git |
 |---|---|---|
+| **B01** | İstatistiksel Düşünme: Sorudan Kanıta | [Bölümü aç](bolumler/b01/README.md) |
 | **B02** | Betimsel İstatistik | [Bölümü aç](bolumler/b02/README.md) |
 | **B03** | Veri Hazırlama | [Bölümü aç](bolumler/b03/README.md) |
 | **B04** | Hipotez Testleri | [Bölümü aç](bolumler/b04/README.md) |
@@ -29,7 +30,7 @@ Burada kitabın tam metni değil; **Bölüm 2–17 için veri setleri, uygulama 
 | **B16** | Yapısal Eşitlik Modeli | [Bölümü aç](bolumler/b16/README.md) |
 | **B17** | Kovaryans Analizi | [Bölümü aç](bolumler/b17/README.md) |
 
-**Not:** Bu dağıtım Bölüm 2–17'yi kapsar. Bölüm 1 ve Bölüm 18 bu öğrenci materyali dağıtımında yer almamaktadır.
+**Not:** Bu dağıtım şu anda Bölüm 1–17'yi kapsar. **Bölüm 18 — IBM SPSS Uygulamaları** öğrenci uygulama paketi bir sonraki aşamada eklenecektir.
 
 ## Her bölümde nasıl çalışacağım?
 
@@ -57,9 +58,9 @@ Yalnız tek bir Python veya R dosyasını indirmek yerine depoyu bütün olarak 
 
 ### 2. İlgili bölümü açın
 
-Örneğin korelasyon çalışıyorsanız:
+Örneğin istatistiksel düşünme bölümünü çalışıyorsanız:
 
-`bolumler/b06/`
+`bolumler/b01/`
 
 klasörüne gidin ve önce bölüm `README.md` dosyasını okuyun.
 
@@ -74,7 +75,7 @@ python -m pip install -r requirements.txt
 Bir bölümü depo kökünden çalıştırma örneği:
 
 ```sh
-python bolumler/b06/analiz.py
+python bolumler/b01/analiz.py
 ```
 
 Bölüm klasörünün içindeyseniz:
