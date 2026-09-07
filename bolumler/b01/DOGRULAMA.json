@@ -1,0 +1,53 @@
+{
+  "bolum": "B01",
+  "baslik": "İstatistiksel Düşünme: Sorudan Kanıta",
+  "tarih": "2026-09-07",
+  "durum": "başarılı",
+  "veri": {
+    "dosya": "veri.csv",
+    "satir_sayisi": 80,
+    "eksik_hucre": 0,
+    "kaynak": "UCI Student Performance — Portekizce dersi kaynağından sınırlı alıntı",
+    "lisans": "CC BY 4.0",
+    "not": "B01 ve B02 aynı 80 kayıtlık öğretim alıntısını farklı öğrenme amaçlarıyla kullanır."
+  },
+  "python_analizi": {
+    "dosya": "analiz.py",
+    "durum": "başarılı",
+    "dogrulama": "beklenen.json ile anlamsal ve toleranslı sayısal karşılaştırma",
+    "github_actions_workflow": ".github/workflows/analysis-validation.yml",
+    "workflow_run_id": 34095481977,
+    "commit": "c70135fa0dbdf578a286857ddd2eb2afd6c89bf6",
+    "toplu_sonuc": "B01-B17 17/17 başarılı"
+  },
+  "notebook": {
+    "dosya": "calisma.ipynb",
+    "statik_kontrol": "başarılı",
+    "gercek_calistirma": "başarılı",
+    "github_actions_workflow": ".github/workflows/notebook-validation.yml",
+    "workflow_run_id": 34095419277,
+    "commit": "43f2085ce6e8e47977bb566361edcedd2bec5fba",
+    "toplu_sonuc": "B01-B17 17/17 başarılı"
+  },
+  "pages": {
+    "canli_bolum_yolu": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/bolumler/b01/README.md",
+    "durum": "başarılı",
+    "github_actions_workflow": ".github/workflows/pages-smoke-test.yml",
+    "workflow_run_id": 34095773331,
+    "commit": "fb23694709aa6797c0bc797708ad3d7de627f18c",
+    "kontrol": "Ana sayfada B01 başlığı ve canlı B01 README yolu HTTP düzeyinde doğrulandı."
+  },
+  "referans_ciktilari": [
+    "sonuclar/ozet.json",
+    "sonuclar/g3_frekans_yuzde.csv",
+    "sonuclar/sistematik_ornek.csv"
+  ],
+  "grafikler": "grafikler/ analiz çalıştırıldığında yeniden üretilir ve varsayılan olarak Git tarafından izlenmez.",
+  "bilimsel_sinirlar": [
+    "80 kayıt temsili bir olasılık örneklemi değildir.",
+    "Sistematik seçim örneği öğretim amaçlıdır ve ilk 80 kaydı temsili hale getirmez.",
+    "Bulgular daha geniş öğrenci anakütlelerine doğrudan genellenmemelidir.",
+    "Bu teknik doğrulama bilimsel geçerlik, temsil edilebilirlik veya nedensellik garantisi değildir.",
+    "Uzak UCI kaynağıyla tam hücre-hücre eşleme bu güncellemede yeniden yapılmamıştır."
+  ]
+}
