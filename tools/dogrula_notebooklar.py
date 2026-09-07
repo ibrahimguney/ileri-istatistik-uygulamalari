@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = [ROOT / "bolumler" / f"b{i:02d}" / "calisma.ipynb" for i in range(1, 18)]
+EXPECTED = [ROOT / "bolumler" / f"b{i:02d}" / "calisma.ipynb" for i in range(1, 19)]
 
 HERE_REF = re.compile(r"HERE\s*/\s*[\"']([^\"']+)[\"']")
 
