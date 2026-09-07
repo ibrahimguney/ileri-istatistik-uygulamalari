@@ -74,7 +74,7 @@ def run_chapter(chapter: str) -> None:
 
 
 def main() -> None:
-    chapters = [f"b{i:02d}" for i in range(1, 18)]
+    chapters = [f"b{i:02d}" for i in range(1, 19)]
     failures = []
 
     for chapter in chapters:
@@ -91,7 +91,7 @@ def main() -> None:
             print(f"- {chapter.upper()}: {message}")
         raise SystemExit(1)
 
-    print("B01-B17: 17/17 analiz başarıyla çalıştı ve beklenen.json sözleşmeleri doğrulandı.")
+    print("B01-B18: 18/18 analiz başarıyla çalıştı ve beklenen.json sözleşmeleri doğrulandı.")
 
 
 if __name__ == "__main__":
