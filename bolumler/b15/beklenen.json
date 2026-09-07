@@ -334,7 +334,7 @@
       "minimum_theta": 0.41076783176341564,
       "jacobian_rank": 21,
       "information_min_eigenvalue": 10.911211178409923,
-      "gradient_max": 6.133733040578071e-09,
+      "gradient_max": 9.35685012803944e-09,
       "start_objectives": [
         0.47018864622429746,
         0.4701886462242939,
