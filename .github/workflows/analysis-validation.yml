@@ -6,6 +6,8 @@ on:
       - "bolumler/b*/analiz.py"
       - "bolumler/b*/beklenen.json"
       - "bolumler/b*/veri*.csv"
+      - "bolumler/b*/sleep*.csv"
+      - "bolumler/b*/ToothGrowth.csv"
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"
@@ -15,6 +17,8 @@ on:
       - "bolumler/b*/analiz.py"
       - "bolumler/b*/beklenen.json"
       - "bolumler/b*/veri*.csv"
+      - "bolumler/b*/sleep*.csv"
+      - "bolumler/b*/ToothGrowth.csv"
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"
@@ -41,7 +45,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: B01-B17 analizlerini çalıştır ve referans değerlerle anlamsal karşılaştır
+      - name: B01-B18 analizlerini çalıştır ve referans değerlerle anlamsal karşılaştır
         run: python tools/dogrula_analizler.py
 
       - name: Doğrulama sonrası çalışma ağacını raporla
