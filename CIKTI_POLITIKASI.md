@@ -1,6 +1,6 @@
 # Çıktı Dağıtım Politikası
 
-Bu belge, Bölüm 2–17 analizlerinin ürettiği `sonuclar/` ve `grafikler/` klasörlerinin depoda nasıl ele alınacağını açıklar.
+Bu belge, Bölüm 1–17 analizlerinin ürettiği `sonuclar/` ve `grafikler/` klasörlerinin depoda nasıl ele alınacağını açıklar. Bölüm 18 öğrenci uygulama paketi eklendiğinde aynı ilke uygulanacaktır.
 
 ## Temel ilke
 
