@@ -5,8 +5,21 @@
   "GitHuba_yuklendi": true,
   "varsayilan_dal": "main",
   "Pages_dosyalari_hazir": true,
-  "Pages_yayini_dogrulandi": false,
-  "Pages_notu": "index.html, assets/site.css ve .nojekyll depoda bulunmaktadır; canlı GitHub Pages adresi bu doğrulama kaydında tarayıcı üzerinden henüz doğrulanmamıştır.",
+  "Pages_yayini_dogrulandi": true,
+  "Pages_adresi": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/",
+  "Pages_notu": "Canlı GitHub Pages ana sayfası, B06 ve B17 örnek bölüm yolları ile assets/site.css dosyası GitHub Actions üzerinden HTTP düzeyinde başarıyla doğrulandı.",
+  "Pages_dogrulamasi": {
+    "workflow": ".github/workflows/pages-smoke-test.yml",
+    "son_basarili_workflow_run_id": 34086394931,
+    "son_basarili_commit": "2277fdfb5d00f9047da8a3dce048bb2157c4a2f7",
+    "kontroller": [
+      "ana sayfa HTTP erişimi ve beklenen başlık metni",
+      "B06 README canlı erişimi",
+      "B17 README canlı erişimi",
+      "assets/site.css canlı erişimi ve boş olmaması"
+    ],
+    "sonuc": "başarılı"
+  },
   "notebook_dogrulamasi": {
     "defter_sayisi": 16,
     "kapsam": "bolumler/b02/calisma.ipynb - bolumler/b17/calisma.ipynb",
@@ -59,12 +72,12 @@
     "politika": "Dağıtım politikası ayrıca netleştirilecektir; otomatik üretilen çıktılar öğrenci ödevi yerine referans/teknik kontrol amacıyla değerlendirilmelidir."
   },
   "yapilmayanlar": [
-    "Canlı GitHub Pages sitesi tarayıcı ve mobil görünüm üzerinden doğrulanmadı.",
+    "Canlı site masaüstü/tarayıcı görsel yerleşim ve mobil görünüm açısından insan gözüyle ayrıca incelenmedi.",
     "Tüm B02-B17 analiz.py betikleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
     "R, SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
     "Uzak veri kaynaklarıyla tam hücre-hücre karşılaştırması yeniden yapılmadı.",
     "Tam kitap derlemesi ve B01/B18 kapsamı bu deponun doğrulama alanında değildir."
   ],
-  "otomatik_kontrol": "Notebook Validation iş akışı, notebook veya doğrulama araçları değiştiğinde push/pull request üzerinde otomatik olarak çalışır.",
+  "otomatik_kontrol": "Notebook Validation ve Pages Smoke Test iş akışları ilgili dosyalar değiştiğinde otomatik olarak çalışır.",
   "dogrulama_yorumu": "Bu dosya canlı deponun güncel teknik durumunu özetler; bilimsel geçerlik, temsil edilebilirlik, nedensellik veya bağımsız yazılım doğrulaması garantisi değildir."
 }
