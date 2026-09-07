@@ -8,7 +8,7 @@ Bu kayıt bölüm sırası, başlıklar ve öğrenci paketinin dosya kapsamı i�
 
 | Bölüm | Kitaptaki başlık | Başlangıç sayfası | Depodaki başlık | Öğrenci paketi |
 |---|---|---:|---|---|
-| [B01](bolumler/b01/README.md) | İstatistiksel Mekanizma | 1 | İstatistiksel Düşünme: Sorudan Kanıta | 8/8 dosya mevcut |
+| [B01](bolumler/b01/README.md) | İstatistiksel Düşünme: Sorudan Kanıta | 1 | İstatistiksel Düşünme: Sorudan Kanıta | 8/8 dosya mevcut |
 | [B02](bolumler/b02/README.md) | Betimsel İstatistik | 15 | Betimsel İstatistik | 8/8 dosya mevcut |
 | [B03](bolumler/b03/README.md) | Veri Hazırlama | 29 | Veri Hazırlama | 8/8 dosya mevcut |
 | [B04](bolumler/b04/README.md) | Hipotez Testi | 43 | Hipotez Testi | 8/8 dosya mevcut |
@@ -29,9 +29,11 @@ Bu kayıt bölüm sırası, başlıklar ve öğrenci paketinin dosya kapsamı i�
 
 Kontrol edilen sekiz dosya: `README.md`, `VERI.md`, `GOREVLER.md`, `calisma.ipynb`, `RAPORLAMA.md`, `COZUMLER.md`, `analiz.py`, `beklenen.json`. Dosyanın bulunması, içeriğinin bütünüyle bilimsel doğrulandığı anlamına gelmez.
 
-## B01 başlık farkı
+## B01 başlık güncellemesi
 
-Referans PDF’nin içindekilerinde bölüm adı “İstatistiksel Mekanizma”, 1.2 başlığı ise “İstatistiksel Mekanizma: Sorudan Kanıta” olarak yer alıyor. Depodaki bölüm başlığı “İstatistiksel Düşünme: Sorudan Kanıta”dır. Önceki yazar kararında 1.2 için “İstatistiksel Düşünme Süreci” benimsenmiştir. Depo eski PDF başlığına geri çevrilmedi; sonraki kitap derlemesinde başlık ve içindekiler birlikte kontrol edilmelidir.
+7 Eylül 2026'da PDF bölüm başlığı “İstatistiksel Düşünme: Sorudan Kanıta”, 1.2 başlığı “İstatistiksel Düşünme Süreci” olarak güncellendi. İçindekiler, bölüm üstbilgileri, cevap anahtarı başlığı ve PDF yer imleri de eşitlendi. 401 sayfa, bağlantı sayıları ve diğer sayfaların metni korundu. Değişen başlıkların sayfa düzeni görsel olarak kontrol edildi.
+
+Bu işlem PDF üzerinde yapıldı. Prism/LaTeX kaynakları bu depoda bulunmadığından yeniden derleme öncesinde aynı başlıklar kaynak dosyada da uygulanmalıdır.
 
 B05, B06, B07, B11, B15, B16 ve B17 depo başlıklarında açıklayıcı ek, kısaltma veya sadeleştirme vardır; tabloda iki biçim ayrı gösterilmiştir.
 
@@ -39,13 +41,29 @@ B05, B06, B07, B11, B15, B16 ve B17 depo başlıklarında açıklayıcı ek, kı
 
 Sekiz bölüm README dosyasındaki 68 sohbet içi dosya atfı GitHub üzerinde çözümlenmiyordu. Bunların yerine bu eşleştirme kaydına giden kitap bölümü bağlantıları kondu. Bu bağlantılar okura bölümün kitap içindeki yerini gösterir; her paragraf için ayrı sayfa doğrulaması veya yeni bir dış kaynak doğrulaması değildir. Veri kaynakları ve lisanslar ilgili bölümün `VERI.md` dosyasında korunur. Tam kitap dosyası depoya eklenmemiştir.
 
+## Seçili sayısal kontroller
+
+`tools/dogrula_kitap_ornekleri.py`, B01 s.5–6'dan 6 sayıyı ve B18 s.271–273'ten 41 sayıyı yeniden üretilmiş Python çıktılarıyla karşılaştırır. Yuvarlanmış kitap değerleri için son basamağın yarısı kadar mutlak tolerans, tam sayılar için birebir eşitlik kullanılır. Ayrıca B01'in iki seçim dizisi, rastgele/ilk-10 ortalamaları ve sekiz başlangıç ortalaması ham veriden kontrol edilir. Bu kontroller başarılıdır; bütün kitaptaki sayıların kontrol edildiği iddia edilmez.
+
+| Kitap örneği | Basılı sayfa | Doğrulanan temel değer |
+|---|---:|---|
+| B01 sistematik seçim | 5–6 | N=80, n=10, r=3, j=8; G3 ortalaması 12.2 |
+| B01 çerçeve ortalaması | 6 | 12.6375 |
+| B01 tohum 20260906 ile seçim | 6 | 21,23,26,34,40,44,56,59,60,62; ortalama 13.2 |
+| B18 eşli test | 271 | t=4.062128; p=.002832890; GA [.700114,2.459886] |
+| B18 Welch | 272 | fark=5.93; sd=15.357672; GA [2.802148,9.057852] |
+| B18 ilk beş ID | 273 | n=5; ortalama=1.24; t=3.260900 |
+
+B18 ayrıca GitHub Actions üzerinde R 4.5.2 ile gerçekten yürütüldü. 71 sayısal sonuç hem `beklenen.json` hem yeniden üretilmiş Python sonuçlarıyla eşleşti. En büyük mutlak R–Python farkı yaklaşık 4.80e-14'tür. [Yürütme kaydı](https://github.com/ibrahimguney/ileri-istatistik-uygulamalari/actions/runs/34123341464) ve [sürümlenmiş R doğrulama raporu](bolumler/b18/R_DOGRULAMA.json) ayrıca incelenebilir. Bu R kontrolü SPSS yürütmesi değildir.
+
 ## Kalan kontroller
 
-- Kitabın güncel derlemesinde B01 ve 1.2 başlıklarının kontrolü.
+- PDF başlık güncellemesinin Prism/LaTeX kaynaklarına aktarılması.
 - B01–B18 için alt başlık, görev, tablo, formül ve sayısal sonuçların ayrıntılı karşılaştırması.
-- R, SPSS, PROCESS ve AMOS yürütmelerinin sürüm ve çıktı kayıtlarıyla doğrulanması. Bu ortamda Rscript bulunmadığından R çalıştırılmış olarak işaretlenmedi.
+- B18 dışındaki R bölümleri ile SPSS, PROCESS ve AMOS yürütmelerinin sürüm ve çıktı kayıtlarıyla doğrulanması.
 
 ## Referans dosyanın kimliği
 
-- SHA-256: `47c0c233bfce35aea59a1402b18cf292c4eb5743fa920d31624dbc010f8fdf89`
+- Güncellenmiş PDF SHA-256: `ac1b9bd7bd0604ee319fbb0b37cb2789c2e5c98bb2530bbc87fdba661f623a08`
+- Başlık güncellemesi öncesi PDF SHA-256: `47c0c233bfce35aea59a1402b18cf292c4eb5743fa920d31624dbc010f8fdf89`
 - Denetlenen depo başlangıcı: `52a206de7dca5b5a8b536ea0f4240b195bc536b4`.

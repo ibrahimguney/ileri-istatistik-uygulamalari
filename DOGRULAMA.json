@@ -99,7 +99,7 @@
   "teknik_dogrulama_durumu": {
     "Python_notebooklari": "18/18 statik kontrol ve GitHub Actions gerçek yürütmesi (34121980145). Yerel kernel başlatma ortam kısıtı nedeniyle tamamlanmadı.",
     "Python_analiz_betikleri": "18/18 yerel ve GitHub Actions gerçek çalıştırma ve beklenen.json doğrulaması (34121980172).",
-    "R": "Bu güncellemede yeniden çalıştırılmadı; hazırlanmış R dosyası bulunması R doğrulaması anlamına gelmez.",
+    "R": "B18: R 4.5.2 ile gerçek yürütme ve 71 sayısal karşılaştırma başarılı (run 34123341464). Diğer R bölümleri bu çalışmada doğrulanmadı.",
     "SPSS_PROCESS_AMOS": "Bu güncellemede çalıştırılmadı; kontrol listeleri veya hazırlık notları yazılım çıktısı değildir."
   },
   "veri_ve_lisans_notu": "Her bölümün VERI.md dosyası kaynak, seçim/aktarım, lisans ve yorum sınırlarını ayrıca açıklar. B01 ve B02 aynı UCI öğretim alıntısını kullanır ve ilgili veri için CC BY 4.0 bildirimi korunur; bu lisans bütün depoya otomatik uygulanmaz. Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak lisansı seçilmemiştir.",
@@ -113,10 +113,19 @@
   },
   "yapilmayanlar": [
     "Canlı site masaüstü/tarayıcı görsel yerleşim ve mobil görünüm açısından insan gözüyle ayrıca incelenmedi.",
-    "R, SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
+    "B18 dışındaki R analizleri ile SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında çalıştırılmadı.",
     "Uzak veri kaynaklarıyla tam hücre-hücre karşılaştırması yeniden yapılmadı.",
     "Tam kitap metni bu deponun dağıtım ve doğrulama alanında değildir."
   ],
   "otomatik_kontrol": "Notebook Validation, Full Analysis Validation ve Pages Smoke Test iş akışları ilgili dosyalar değiştiğinde otomatik olarak çalışır.",
-  "dogrulama_yorumu": "Bu dosya canlı deponun güncel teknik durumunu özetler; bilimsel geçerlik, temsil edilebilirlik, nedensellik veya bağımsız yazılım doğrulaması garantisi değildir."
+  "dogrulama_yorumu": "Bu dosya canlı deponun güncel teknik durumunu özetler; bilimsel geçerlik, temsil edilebilirlik, nedensellik veya bağımsız yazılım doğrulaması garantisi değildir.",
+  "kitap_sayisal_kontrolu": {
+    "kapsam": "B01 basılı s.5–6 ve B18 basılı s.271–273 seçili değerleri",
+    "B01_sayisal_deger": 6,
+    "B18_sayisal_deger": 41,
+    "ek_kontrol": "B01 iki seçim dizisi, rastgele/ilk-10 ortalamaları ve sekiz sistematik başlangıç",
+    "sonuc": "başarılı",
+    "arac": "tools/dogrula_kitap_ornekleri.py",
+    "sinir": "Bütün bölüm ve kitabın eksiksiz doğrulaması değildir."
+  }
 }

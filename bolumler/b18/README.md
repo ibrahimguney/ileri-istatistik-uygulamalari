@@ -36,7 +36,7 @@ Bu bölüm sonunda öğrenci:
 - `analiz.py`: **çalıştırılan Python referans hesabı** ve teknik doğrulama
 - `analiz.sps`: ana SPSS oturumu için hazırlanmış syntax
 - `durum-deneyi.sps`: filtre, ağırlık ve eksik-kopya karşı örnekleri
-- `analiz.R`: bağımsız R kontrolü için hazırlanmış betik
+- `analiz.R`: gerçek R ortamında yürütülmüş, 71 sayısal sonuç üreten bağımsız kontrol betiği
 - `calisma.ipynb`: öğrenci çalışma defteri
 - `GOREVLER.md`, `COZUMLER.md`, `RAPORLAMA.md`: etkinlik ve raporlama zinciri
 - `SPSS-KONTROL-LISTESI.md`: gerçek SPSS oturumu için teslim kontrolü
@@ -59,3 +59,11 @@ Uyku eşli analizi: `n=10`, ortalama fark `1.58` saat, `t(9)=4.062128`, iki yön
 ToothGrowth 1 mg/gün: OJ−VC farkı `5.93`; ana Welch modeli `t=4.032770`, `sd=15.357672`, `p=0.001038376`, %95 GA `[2.802148, 9.057852]`.
 
 > **Yürütme ayrımı:** Depodaki Python doğrulaması SPSS'in çalıştırıldığı anlamına gelmez. `.sps` dosyasının bulunması da tek başına yürütme kanıtı değildir.
+
+## Gerçek R doğrulaması
+
+Depo kökünden `Rscript bolumler/b18/analiz.R` çalıştırılır. Python ile otomatik karşılaştırma için `python tools/dogrula_b18_r.py` kullanılır; iki yorumlayıcı da kurulu olmalıdır.
+
+7 Eylül 2026 tarihli [GitHub Actions çalıştırması](https://github.com/ibrahimguney/ileri-istatistik-uygulamalari/actions/runs/34123341464) R 4.5.2 üzerinde başarılıdır. Eşli test, korelasyon, Welch/Student, ortalama merkezli Levene ve üç durum deneyi dahil 71 sayısal sonuç doğrulandı. `sonuclar/R/` altında CSV, `sessionInfo.txt`, yürütme günlüğü ve kaynak hash'lerini içeren JSON oluşur; Actions bunları çıktı paketi olarak saklar. Kalıcı özet [R_DOGRULAMA.json](R_DOGRULAMA.json) dosyasındadır.
+
+`analiz.py` çıktısındaki `R_calistirildi=false`, yalnız o Python çağrısının R çalıştırmadığını belirtir. Ayrı R yürütmesinin kanıtı yukarıdaki kayıttır; bu durum SPSS'in çalıştırıldığı anlamına gelmez.

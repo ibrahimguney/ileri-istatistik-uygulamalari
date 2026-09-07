@@ -1,0 +1,25 @@
+{
+  "bolum": "B18",
+  "tarih_UTC": "2026-09-07T12:43:42.811764+00:00",
+  "komut": [
+    "Rscript",
+    "bolumler/b18/analiz.R"
+  ],
+  "R_gercek_yurutme": true,
+  "SPSS_gercek_yurutme": false,
+  "sayisal_kontrol_sayisi": 71,
+  "sonuc": "başarılı",
+  "rtol": 1e-7,
+  "atol": 1e-8,
+  "Python_ile_en_buyuk_mutlak_fark": 4.796163466380676e-14,
+  "sha256": {
+    "analiz.R": "154a797d53d4db2043559ba51c93b11798acbb50b8af1eba87eed0c77516782a",
+    "analiz.py": "e00a4eaa77b2a97626c927245c42131d6b0e925a605455e71586bf2a8a141ceb",
+    "beklenen.json": "c37e7949021ea0156d424f39cded255dd7b3d300603c078705543a004f06c3d6",
+    "sleep.csv": "0965d9b2eeaa6f7f89225a9ff12e1792767bb549ec86595c2258f41e9095c8bc",
+    "ToothGrowth.csv": "b8408f230b3842d651b7e283d827375c0602426bb81ccc11d35df4b1bd5b0b61"
+  },
+  "R_surumu": "Rscript (R) version 4.5.2 (2025-10-31)",
+  "workflow_run_id": 34123341464,
+  "commit": "eeb0a8a3013d6a27889b0edf90375a6b7be701d6"
+}

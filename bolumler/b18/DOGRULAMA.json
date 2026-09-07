@@ -21,7 +21,12 @@
   },
   "R": {
     "dosya": "analiz.R",
-    "gercek_yurutme_bu_depoda_dogrulanmadi": true
+    "gercek_yurutme_bu_depoda_dogrulanmadi": false,
+    "gercek_yurutme_dogrulandi": true,
+    "workflow_run_id": 34123341464,
+    "sayisal_kontrol_sayisi": 71,
+    "kayit": "R_DOGRULAMA.json",
+    "workflow": ".github/workflows/b18-r-validation.yml"
   },
   "karsiornekler": [
     "ID<=5 filtresi",

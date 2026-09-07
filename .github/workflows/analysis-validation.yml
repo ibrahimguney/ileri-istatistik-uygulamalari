@@ -9,6 +9,7 @@ on:
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"
+      - "tools/dogrula_kitap_ornekleri.py"
       - ".github/workflows/analysis-validation.yml"
   pull_request:
     paths:
@@ -18,6 +19,7 @@ on:
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"
+      - "tools/dogrula_kitap_ornekleri.py"
       - ".github/workflows/analysis-validation.yml"
   workflow_dispatch:
 
@@ -43,6 +45,9 @@ jobs:
 
       - name: B01-B18 analizlerini çalıştır ve referans değerlerle anlamsal karşılaştır
         run: python tools/dogrula_analizler.py
+
+      - name: B01 ve B18 seçili kitap sayılarını karşılaştır
+        run: python tools/dogrula_kitap_ornekleri.py
 
       - name: Doğrulama sonrası çalışma ağacını raporla
         if: always()
