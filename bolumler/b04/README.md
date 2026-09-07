@@ -8,7 +8,7 @@ Uygulamada üç bilgi türü kesin biçimde ayrılır:
 2. **Kurgusal örnekler:** yalnız verilen özet istatistikler ve 2×2 tablo.
 3. **İdeal model simülasyonu:** açık tohum ve normal modelle oluşturulan yapay tekrarlar.
 
-Bu üç kaynak birbirine karıştırılmamalıdır. fileciteturn62file0
+Bu üç kaynak birbirine karıştırılmamalıdır. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Öğrenme hedefleri
 
@@ -47,7 +47,7 @@ Bu bölümü tamamladığınızda:
 
 ## Veri ve araştırma sorusu
 
-Yerel `veri.csv`, R `datasets` paketindeki `sleep` verisinin kitap arşivindeki aktarımından gelir. Dosyada 20 ölçüm satırı vardır; bunlar **20 bağımsız kişi değildir**. Aynı 10 kişi iki koşulda ölçülmüştür ve eşleştirme anahtarı `ID`'dir. fileciteturn62file0
+Yerel `veri.csv`, R `datasets` paketindeki `sleep` verisinin kitap arşivindeki aktarımından gelir. Dosyada 20 ölçüm satırı vardır; bunlar **20 bağımsız kişi değildir**. Aynı 10 kişi iki koşulda ölçülmüştür ve eşleştirme anahtarı `ID`'dir. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 Temel değişkenler:
 
@@ -66,7 +66,7 @@ Ana öğretim sözleşmesi:
 - `H₁: μ_D ≠ 0`,
 - `α = .05`.
 
-Bu seçim tarihsel araştırmanın önkayıtlı analiz planı olarak sunulmaz; bölümün öğretim sözleşmesidir. fileciteturn62file0
+Bu seçim tarihsel araştırmanın önkayıtlı analiz planı olarak sunulmaz; bölümün öğretim sözleşmesidir. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Gerçek eşleşmiş veri analizi
 
@@ -91,7 +91,7 @@ Bu değerler için:
 
 `t = d_z × √10`
 
-ilişkisi sağlanır. fileciteturn60file0
+ilişkisi sağlanır. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Eşleşmiş test neden farklar üzerinden çalışır?
 
@@ -120,7 +120,7 @@ Buna karşılık:
 
 analiz sessizce devam etmemelidir.
 
-Önce veri yapısı düzeltilmeli veya durum açıkça ele alınmalıdır. fileciteturn61file0
+Önce veri yapısı düzeltilmeli veya durum açıkça ele alınmalıdır. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Fark yönü ve test yönü
 
@@ -140,7 +140,7 @@ olan aralık ters fark için:
 
 `[−2.459886, −.700114]`
 
-olur. fileciteturn60file0
+olur. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 Fark yönü sonuç görüldükten sonra daha küçük p elde etmek için seçilmemelidir.
 
@@ -209,11 +209,11 @@ Bu gözlem:
 
 olarak değerlendirilmez.
 
-Klasik t hesabı bağımsız kişiler ve normal fark modeli altında öğretilmektedir; bu koşulların veri tarafından kanıtlandığı iddia edilmez. fileciteturn62file0
+Klasik t hesabı bağımsız kişiler ve normal fark modeli altında öğretilmektedir; bu koşulların veri tarafından kanıtlandığı iddia edilmez. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Kurgusal özet örnekleri
 
-Bu bölümde bazı örnekler yalnız özet istatistiklerden oluşur. Arkalarında yeni üretilmiş ham veri yoktur. fileciteturn60file0
+Bu bölümde bazı örnekler yalnız özet istatistiklerden oluşur. Arkalarında yeni üretilmiş ham veri yoktur. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ### Dolum örneği
 
@@ -270,7 +270,7 @@ Düzeltmesiz Pearson testi:
 - `p=.045500`,
 - Cramer `V=.2`.
 
-Bu sonuç **Yates düzeltmeli ki-kare veya Fisher kesin testi sonucu değildir**. Kullanılan test doğru adıyla raporlanmalıdır. fileciteturn60file0
+Bu sonuç **Yates düzeltmeli ki-kare veya Fisher kesin testi sonucu değildir**. Kullanılan test doğru adıyla raporlanmalıdır. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## İdeal model simülasyonu
 
@@ -293,7 +293,7 @@ Sonuçlar:
 
 `d=0` koşulunda red oranı yaklaşık `.05` olup Tip I hata davranışını gösterir.
 
-`d=.5` koşulunda red oranı yaklaşık `.667` olup bu **ideal simülasyon modelindeki güçtür**; gerçek `sleep` verisinin gücü değildir. fileciteturn60file0
+`d=.5` koşulunda red oranı yaklaşık `.667` olup bu **ideal simülasyon modelindeki güçtür**; gerçek `sleep` verisinin gücü değildir. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Monte Carlo hatası
 
@@ -311,7 +311,7 @@ Aynı tohumun R ve Python'da aynı rastgele sayı dizisini üretmesi gerekmez.
 
 olmuştur.
 
-Bu, nominal `.05` düzeyinin yaklaşık iki katıdır ve yönün sonuç görüldükten sonra seçilmesinin hata oranını bozabileceğini öğretir. fileciteturn60file0
+Bu, nominal `.05` düzeyinin yaklaşık iki katıdır ve yönün sonuç görüldükten sonra seçilmesinin hata oranını bozabileceğini öğretir. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Test ile güven aralığının ilişkisi
 
@@ -332,7 +332,7 @@ Birincisi kapsama, ikincisi test kararıyla ilgilidir.
 
 `1 − .95^20 = .641514`.
 
-Bu formül bağımsızlık varsayımına dayanır; bağımlı testlere doğrudan uygulanamaz. fileciteturn60file0
+Bu formül bağımsızlık varsayımına dayanır; bağımlı testlere doğrudan uygulanamaz. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Python ile çalıştırma
 
@@ -423,7 +423,7 @@ Bu pakette:
 
 yapılmamıştır.
 
-Bunları yapılmış gibi raporlamayın. fileciteturn61file0
+Bunları yapılmış gibi raporlamayın. [Kitap, Bölüm 4](../../KITAP_ESLESMESI.md)
 
 ## Akademik raporlama
 

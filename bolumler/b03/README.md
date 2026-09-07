@@ -2,7 +2,7 @@
 
 Bu bölümde veri hazırlama, analize geçmeden önce yapılan mekanik bir “temizlik” işlemi olarak değil, **ham veriyi koruyan, her dönüşümü açıkça tanımlayan, eksikliği görünür tutan ve analiz kararlarını yeniden üretilebilir hale getiren bilimsel bir süreç** olarak ele alınır.
 
-Uygulama, `psych::bfi` gösterim verisinin ilk 100 kaydındaki A1–A5 ve C1–C5 maddelerini kullanır. Bu veri **John ve arkadaşlarının Big Five Inventory testi değildir ve Türkçe ölçek uyarlaması değildir**. fileciteturn58file0
+Uygulama, `psych::bfi` gösterim verisinin ilk 100 kaydındaki A1–A5 ve C1–C5 maddelerini kullanır. Bu veri **John ve arkadaşlarının Big Five Inventory testi değildir ve Türkçe ölçek uyarlaması değildir**. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Öğrenme hedefleri
 
@@ -39,7 +39,7 @@ Bu bölümü tamamladığınızda:
 
 ## Veri kaynağı ve kapsam
 
-Yerel `veri.csv`, kitap arşivindeki `bfi-ilk100-AC.csv` dosyasının aynı baytlarla paketlenmiş kopyasıdır. Kaynak William Revelle'nin `psych` paketindeki `bfi` gösterim verisidir; tam gösterim verisi 2800 kayıt içerirken bu bölüm yalnız ilk 100 kaydın A1–A5 ve C1–C5 alanlarını kullanır. Demografik değişkenler aktarılmamıştır. fileciteturn58file0
+Yerel `veri.csv`, kitap arşivindeki `bfi-ilk100-AC.csv` dosyasının aynı baytlarla paketlenmiş kopyasıdır. Kaynak William Revelle'nin `psych` paketindeki `bfi` gösterim verisidir; tam gösterim verisi 2800 kayıt içerirken bu bölüm yalnız ilk 100 kaydın A1–A5 ve C1–C5 alanlarını kullanır. Demografik değişkenler aktarılmamıştır. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 Alanlar:
 
@@ -80,7 +80,7 @@ Analizden önce şu sorular yanıtlanmalıdır:
 - Madde sütunları yalnız izin verilen değerleri içeriyor mu?
 - Eksikler gerçekten boş olarak mı tutulmuş?
 
-Kurgusal kopyalarda `99`, `2.5`, metin, boş anahtar ve yinelenen anahtar eklenerek doğrulama sisteminin hata verdiği gösterilir. Bu denemeler gerçek kaynak verinin hatalı olduğunu göstermez. fileciteturn56file0
+Kurgusal kopyalarda `99`, `2.5`, metin, boş anahtar ve yinelenen anahtar eklenerek doğrulama sisteminin hata verdiği gösterilir. Bu denemeler gerçek kaynak verinin hatalı olduğunu göstermez. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Eksik veri: iki farklı payda
 
@@ -98,7 +98,7 @@ Dolayısıyla:
 - en az bir eksiği olan kayıt oranı = `3/100 = %3`,
 - on maddede ortak tam kayıt sayısı = `97`.
 
-Bu iki yüzde aynı şeyi ölçmez. Ayrıca düşük eksik oranı **MCAR kanıtı değildir**; bu bölümde MCAR testi yapılmaz. fileciteturn57file0
+Bu iki yüzde aynı şeyi ölçmez. Ayrıca düşük eksik oranı **MCAR kanıtı değildir**; bu bölümde MCAR testi yapılmaz. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Ters puanlama
 
@@ -130,7 +130,7 @@ Bir yapı için beş maddenin beşi de gözlenmişse puan hesaplanır.
 
 En az dört madde gözlenmişse mevcut yanıtların ortalaması hesaplanır.
 
-Bu 4/5 kuralı onaylanmış bir test kılavuzu değildir; yalnız öğretim amaçlı duyarlılık karşılaştırmasıdır ve eksik veri mekanizmasını çözmez. fileciteturn58file0
+Bu 4/5 kuralı onaylanmış bir test kılavuzu değildir; yalnız öğretim amaçlı duyarlılık karşılaştırmasıdır ve eksik veri mekanizmasını çözmez. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 Sonuçlar:
 
@@ -141,7 +141,7 @@ Sonuçlar:
 | C 5/5 | 98 | 4.187755 |
 | C 4/5 | 100 | 4.191500 |
 
-Ana ve duyarlılık puanları birbirinin yerine raporlanmamalıdır. fileciteturn57file0
+Ana ve duyarlılık puanları birbirinin yerine raporlanmamalıdır. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Toplam ile ortalamayı ayırın
 
@@ -164,7 +164,7 @@ Puan üretilemeyen hücre boş kalır; kayıt silinmez.
 - Satır 66: `A_n=4`, `A_ort4=4.75`; `C_n=5`, `C_ort4=5.0`.
 - Satır 90: `A_n=5`, `A_ort4=4.4`; `C_n=4`, `C_ort4=3.5`.
 
-Bu örnekler puanın hangi maddeler ve hangi payda üzerinden üretildiğinin açıkça belgelenmesi gerektiğini gösterir. fileciteturn57file0
+Bu örnekler puanın hangi maddeler ve hangi payda üzerinden üretildiğinin açıkça belgelenmesi gerektiğini gösterir. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Geniş ve uzun veri biçimi
 
@@ -189,7 +189,7 @@ Bire bir olması gereken birleştirmede yinelenen anahtar varsa işlem durmalıd
 
 Benzer biçimde yinelenen kişi–madde kayıtlarını `pivot_table` ile sessizce ortalamak veri problemini çözmez; sorunu gizleyebilir.
 
-Önce anahtar problemi araştırılmalıdır. fileciteturn57file0
+Önce anahtar problemi araştırılmalıdır. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Standardizasyon
 
@@ -219,7 +219,7 @@ Tek eksik değer yalnız geçici kopyada gözlenen ortalamayla doldurulduğunda:
 - ortalama değişmez,
 - örneklem varyansı `1.500459`'a düşer.
 
-Bu örnek, “ortalama değişmediğine göre atama zararsızdır” düşüncesinin yanlış olduğunu gösterir. Basit ortalama ataması dağılımı ve belirsizliği değiştirebilir. Ana veride bu atama yapılmaz. fileciteturn57file0
+Bu örnek, “ortalama değişmediğine göre atama zararsızdır” düşüncesinin yanlış olduğunu gösterir. Basit ortalama ataması dağılımı ve belirsizliği değiştirebilir. Ana veride bu atama yapılmaz. [Kitap, Bölüm 3](../../KITAP_ESLESMESI.md)
 
 ## Python ile çalıştırma
 

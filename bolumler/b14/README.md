@@ -53,7 +53,7 @@ olarak belirlenmiştir.
 
 A1, C4 ve C5 belgelenmiş anahtara göre bir kez `7−x` ile ters puanlanır. Bölüm 13'te A için 99 ve C için 98 kayıttan elde edilen ayrı matrisler burada tek bir korelasyon matrisi oluşturmak üzere birleştirilmez. İkili silme veya eksik değer ataması yapılmaz.
 
-İlk 100 kayıt rastgele veya temsili değildir. Sonuçlar hedef anakütleye genellenebilirlik onayı olarak yorumlanmamalıdır. fileciteturn38file0
+İlk 100 kayıt rastgele veya temsili değildir. Sonuçlar hedef anakütleye genellenebilirlik onayı olarak yorumlanmamalıdır. [Kitap, Bölüm 14](../../KITAP_ESLESMESI.md)
 
 ## Faktör analizine uygunluk
 

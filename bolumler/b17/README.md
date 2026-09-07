@@ -2,7 +2,7 @@
 
 Bu bölümde **kovaryans analizi (ANCOVA)**, grup karşılaştırmasını sayısal bir değişkenle birlikte modellemenin ötesinde, model varsayımlarının ve koşullu karşılaştırmaların nasıl incelenmesi gerektiğini göstermek için kullanılır. `ToothGrowth` arşivindeki 60 kayıt üzerinden ortak eğim, ayrı eğimler ve hücre ortalamaları modelleri karşılaştırılır.
 
-**Önemli:** Bu veri setinde `dose` bir işlem öncesi ön-test değildir; uygulanan doz düzeyidir. Dolayısıyla bu örnek, klasik “başlangıç puanına göre düzeltilmiş grup karşılaştırması” biçimindeki ANCOVA ile aynı araştırma tasarımı değildir. Hücre ortalamaları modeli de sayısal kovaryatlı ANCOVA değildir. fileciteturn50file0
+**Önemli:** Bu veri setinde `dose` bir işlem öncesi ön-test değildir; uygulanan doz düzeyidir. Dolayısıyla bu örnek, klasik “başlangıç puanına göre düzeltilmiş grup karşılaştırması” biçimindeki ANCOVA ile aynı araştırma tasarımı değildir. Hücre ortalamaları modeli de sayısal kovaryatlı ANCOVA değildir. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 ## Öğrenme hedefleri
 
@@ -38,7 +38,7 @@ Bu bölümü tamamladığınızda:
 
 ## Veri ve araştırma sorusu
 
-Kaynak R `datasets::ToothGrowth` arşividir. Veri setinde 60 ayrı kobay kaydı bulunur; her `supp × dose` hücresinde 10 kayıt vardır ve tekrarlı ölçüm varsayılmaz. fileciteturn50file0
+Kaynak R `datasets::ToothGrowth` arşividir. Veri setinde 60 ayrı kobay kaydı bulunur; her `supp × dose` hücresinde 10 kayıt vardır ve tekrarlı ölçüm varsayılmaz. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 Değişkenler:
 
@@ -83,7 +83,7 @@ ile tahmin edilir.
 - OJ = `19.036071`,
 - OJ−VC = `3.700000`.
 
-Grupların doz ortalamaları bu veri setinde eşit olduğundan ortak eğim düzeltmesi iki grup ortalamasını aynı miktarda taşır ve fark değişmez. Bu durum “düzeltme yapılmadığı” anlamına gelmez. fileciteturn49file0
+Grupların doz ortalamaları bu veri setinde eşit olduğundan ortak eğim düzeltmesi iki grup ortalamasını aynı miktarda taşır ve fark değişmez. Bu durum “düzeltme yapılmadığı” anlamına gelmez. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 ## Model 2 — Ayrı eğimler
 
@@ -102,7 +102,7 @@ Ortak ve ayrı eğim modelleri karşılaştırıldığında:
 
 `F(1,56)=5.333483, p=.024631`
 
-elde edilir. fileciteturn49file0
+elde edilir. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 Bu sonuç ortak eğim kısıtının sorgulanması gerektiğini gösterir. Ancak etkileşimin eklenmesi doğrusal biçimin otomatik olarak yeterli olduğu anlamına gelmez.
 
@@ -121,7 +121,7 @@ Ayrı eğimler modeli hücre modeliyle karşılaştırıldığında:
 
 `F(2,54)=8.399425, p=.000667`
 
-elde edilir. fileciteturn49file0
+elde edilir. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 Bu sonuç, yalnız grup×doz doğrusal etkileşimi eklemenin doz ilişkisini yeterince temsil etmediğini gösterir. Dolayısıyla bu örnekte koşullu yorumlar hücre ortalamaları modeline dayandırılır.
 
@@ -145,7 +145,7 @@ Hücre modelinde üç OJ−VC farkı tek bir karşılaştırma ailesi olarak ele
 | 1 | 5.93 | [1.917, 9.943] | .001769 |
 | 2 | −.08 | [−4.093, 3.933] | 1.000 |
 
-Bu sonuçlar **doza koşullu** grup karşılaştırmalarıdır. fileciteturn49file0
+Bu sonuçlar **doza koşullu** grup karşılaştırmalarıdır. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 2 mg/gündeki `−.08` farkının istatistiksel olarak anlamlı olmaması, OJ ve VC'nin eşdeğer olduğunu kanıtlamaz. Eşdeğerlik için önceden gerekçelendirilmiş eşdeğerlik sınırları ve uygun bir eşdeğerlik testi gerekir.
 
@@ -231,7 +231,7 @@ iken HC3 yaklaşımı:
 
 `[-4.596207, 4.436207]`
 
-verir. fileciteturn49file0
+verir. [Kitap, Bölüm 17](../../KITAP_ESLESMESI.md)
 
 HC3 katsayı kovaryans tahminini değiştirir; modeli yeniden seçmez, bağımlılığı düzeltmez ve tasarım sorunlarını çözmez.
 

@@ -2,7 +2,7 @@
 
 Bu bölümde **yapısal eşitlik modeli (YEM/SEM)**, ölçüm modeli ile gizil değişkenler arasındaki yapısal ilişkinin aynı model içinde nasıl birleştirildiğini göstermek için kullanılır. Amaç yalnız bir yol katsayısı veya uyum indeksi üretmek değil; **ölçüm ve yapısal bileşenleri ayırmayı, ölçeklemeyi, gizil varyansları, yapısal artığı, standartlaştırılmış yolu, R²'yi, eşdeğer modelleri ve nedensel yön sınırlarını** birlikte değerlendirmeyi öğrenmektir.
 
-**Önemli:** Bölüm 14–15 ile aynı 97 kayıt kullanılmaktadır. Bu nedenle burada elde edilen sonuçlar bağımsız SEM doğrulaması değildir. İleri ve ters modeller aynı gözlenen kovaryansı üretir; iyi uyum veya daha büyük bir ham yol katsayısı nedensel yönü belirlemez. fileciteturn46file0
+**Önemli:** Bölüm 14–15 ile aynı 97 kayıt kullanılmaktadır. Bu nedenle burada elde edilen sonuçlar bağımsız SEM doğrulaması değildir. İleri ve ters modeller aynı gözlenen kovaryansı üretir; iyi uyum veya daha büyük bir ham yol katsayısı nedensel yönü belirlemez. [Kitap, Bölüm 16](../../KITAP_ESLESMESI.md)
 
 ## Öğrenme hedefleri
 
@@ -159,7 +159,7 @@ ve içsel C faktörü için:
 
 `R² = gamma²u / Var(C) = .115556`
 
-olarak bulunur. fileciteturn45file0
+olarak bulunur. [Kitap, Bölüm 16](../../KITAP_ESLESMESI.md)
 
 Dolayısıyla model içinde A, C'nin gizil varyansının yaklaşık `%11.6`'sıyla ilişkilidir/açıklanan payını temsil eder. Bu R², herhangi bir tek maddenin gösterge R²'si değildir.
 

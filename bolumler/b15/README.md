@@ -49,7 +49,7 @@ olarak belirlenir.
 
 Maddeler örneklem standart sapmasıyla (`ddof=1`) standartlaştırılır. Bu z-puanların `ddof=1` kovaryans matrisi aynı kişilerin Pearson korelasyon matrisidir.
 
-Gözlenen madde varyanslarının 1 olması ile gizil faktör varyanslarının 1'e sabitlenmesi aynı işlem değildir. İkincisi model ölçekleme/tanımlama kararıdır. fileciteturn42file0
+Gözlenen madde varyanslarının 1 olması ile gizil faktör varyanslarının 1'e sabitlenmesi aynı işlem değildir. İkincisi model ölçekleme/tanımlama kararıdır. [Kitap, Bölüm 15](../../KITAP_ESLESMESI.md)
 
 ## Sınanan üç model
 

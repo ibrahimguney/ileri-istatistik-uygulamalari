@@ -6,7 +6,7 @@ Temel soru şudur:
 
 > Hangi etkiyi, hangi testle, hangi alfa düzeyinde, hangi güç hedefiyle ve hangi analiz birimiyle saptamak istiyoruz?
 
-Ana eğitim puanı senaryosu varsayımsaldır. `sleep` arşivi yalnız tarihsel fark standart sapmasını örneklemek için kullanılır; ana eğitim puanı senaryosunun verisi değildir. Yeni pilot veri veya rastgele örneklem simülasyonu üretilmez. fileciteturn66file0
+Ana eğitim puanı senaryosu varsayımsaldır. `sleep` arşivi yalnız tarihsel fark standart sapmasını örneklemek için kullanılır; ana eğitim puanı senaryosunun verisi değildir. Yeni pilot veri veya rastgele örneklem simülasyonu üretilmez. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Öğrenme hedefleri
 
@@ -59,7 +59,7 @@ Ana öğretim senaryosu:
 | Tasarım | İki bağımsız grup |
 | n birimi | Analiz edilebilir kişi, grup başına |
 
-Bu değerler gözlenmiş bir eğitim çalışmasının sonuçları değildir. `Δ=5` öğretim girdisidir; klinik/eğitsel önem standardı olarak sunulmaz. fileciteturn66file0
+Bu değerler gözlenmiş bir eğitim çalışmasının sonuçları değildir. `Δ=5` öğretim girdisidir; klinik/eğitsel önem standardı olarak sunulmaz. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Ana örneklem büyüklüğü sonucu
 
@@ -79,7 +79,7 @@ Minimalite kontrolü:
 - `n=63` için güç = `.795168`,
 - `n=64` için güç = `.801460`.
 
-Dolayısıyla 63 hedef `.80` güce ulaşmazken 64 ulaşır. Sürekli çözümü `63`e aşağı yuvarlamak doğru değildir. fileciteturn65file0
+Dolayısıyla 63 hedef `.80` güce ulaşmazken 64 ulaşır. Sürekli çözümü `63`e aşağı yuvarlamak doğru değildir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## “64 kişi yeterlidir” neden yanlış?
 
@@ -106,7 +106,7 @@ Ana planın diğer girdileri sabit tutulduğunda:
 | .50 | 64 |
 | .80 | 26 |
 
-Daha küçük etkileri aynı güçle saptamak daha büyük örneklem gerektirir. fileciteturn65file0
+Daha küçük etkileri aynı güçle saptamak daha büyük örneklem gerektirir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu tablo “gerçek etki şu kadardır” demez; farklı planlama varsayımlarının örneklem sonucuna etkisini gösterir.
 
@@ -126,7 +126,7 @@ Daha yüksek saptama olasılığı hedeflemek daha fazla örneklem gerektirir.
 - α=.05 → `64` kişi/grup,
 - α=.01 → `96` kişi/grup.
 
-Daha katı Tip I hata eşiği, diğer koşullar sabitken örneklem gereksinimini artırır. fileciteturn65file0
+Daha katı Tip I hata eşiği, diğer koşullar sabitken örneklem gereksinimini artırır. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Çoklu karşılaştırma planı
 
@@ -148,7 +148,7 @@ Bu sayı, belirli Bonferroni planının sonucudur; bütün çoklu test stratejil
 
 `51 kişi/grup`
 
-yeterlidir. fileciteturn65file0
+yeterlidir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Ancak bu avantaj sonuç görüldükten sonra tek yönlü teste geçmek için kullanılamaz. Test yönü araştırma sorusuna göre **analizden önce** belirlenmelidir.
 
@@ -172,7 +172,7 @@ Eşli tasarımda `d_z=.5` için:
 
 `34 tam çift/kişi`
 
-gerekir. fileciteturn65file0
+gerekir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Buradaki n:
 
@@ -188,7 +188,7 @@ Bağımsız grup Cohen d'si ile eşli tasarım `d_z` aynı standartlaştırıcı
 
 `s_D=1.229995`
 
-olarak hesaplanır. Bu değer **yeni pilot veri değildir**. fileciteturn66file0
+olarak hesaplanır. Bu değer **yeni pilot veri değildir**. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Varsayımsal `Δ=.5` saat için:
 
@@ -196,7 +196,7 @@ Varsayımsal `Δ=.5` saat için:
 - tarihsel `s_D=1.229995` → `d_z≈.406506` → `50` tam çift,
 - `σ_D=1.5` → `d_z≈.3333` → `73` tam çift.
 
-Bu karşılaştırma yayılım varsayımının planı ne kadar değiştirebildiğini gösterir. fileciteturn65file0
+Bu karşılaştırma yayılım varsayımının planı ne kadar değiştirebildiğini gösterir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Tarihsel gözlenen ortalama fark `1.58` saat yeni planın beklenen etkisi olarak alınmaz.
 
@@ -212,7 +212,7 @@ Sonuçlar:
 | .50 | 34 |
 | .70 | 21 |
 
-Daha yüksek eşleşme korelasyonu bu özel modelde fark puanlarının varyansını azaltır ve gereken tam çift sayısını düşürür. fileciteturn65file0
+Daha yüksek eşleşme korelasyonu bu özel modelde fark puanlarının varyansını azaltır ve gereken tam çift sayısını düşürür. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu değerler planlama varsayımlarıdır; gelecekteki korelasyonun garantisi değildir.
 
@@ -230,7 +230,7 @@ Bağımsız `%85` tutulma modeli altında 76 kişi/grup ile iki grupta da en az 
 
 `.422777`
 
-olur. fileciteturn65file0
+olur. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu, “beklenen sayı” ile “hedefe ulaşma olasılığı” arasındaki önemli farktır.
 
@@ -241,7 +241,7 @@ Aynı bağımsız Bernoulli tutulma modelinde, iki grupta da en az 64 kişinin k
 - 81 kişi/grup → `.896208`,
 - 82 kişi/grup → `.935473`.
 
-Dolayısıyla minimum `82 kişi/grup` gerekir. fileciteturn65file0
+Dolayısıyla minimum `82 kişi/grup` gerekir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu da garanti değildir; belirli kayıp modelindeki olasılık hesabıdır.
 
@@ -267,7 +267,7 @@ Dolayısıyla örneklem büyüklüğü sabit olduğunda soru tersine çevrilebil
 
 `d=.634299`.
 
-Bu değer “gerçek etki en az .634 olacaktır” anlamına gelmez. Belirli plan koşullarında `.80` güce karşılık gelen etki büyüklüğüdür. fileciteturn65file0
+Bu değer “gerçek etki en az .634 olacaktır” anlamına gelmez. Belirli plan koşullarında `.80` güce karşılık gelen etki büyüklüğüdür. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Korelasyon için Fisher-z yaklaşımı
 
@@ -276,7 +276,7 @@ Varsayımsal `ρ=.30` için Fisher-z normal yaklaşımı:
 - `n=84` → güç `.795517`,
 - `n=85` → güç `.800346`.
 
-Dolayısıyla minimum yaklaşık `n=85`'tir. fileciteturn65file0
+Dolayısıyla minimum yaklaşık `n=85`'tir. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu:
 
@@ -291,7 +291,7 @@ Yerine konmuş `σ` kullanılarak iki bağımsız grup ortalama farkı için %95
 - `n=193/grup` → yarı genişlik `.200150σ`,
 - `n=194/grup` → `.199630σ`.
 
-Dolayısıyla minimum `194 kişi/grup` olur. fileciteturn65file0
+Dolayısıyla minimum `194 kişi/grup` olur. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Ana güç planındaki `n=64/grup` için aynı planlanan yarı genişlik yaklaşık `.349836σ`'dır.
 
@@ -318,7 +318,7 @@ için basit tasarım etkisi:
 
 `DE = 1 + (20−1)×.05 = 1.95`.
 
-Bu yalnız öğretici bir tasarım etkisi hesabıdır. **Tam çok düzeyli/küme güç analizi yapılmamıştır.** fileciteturn65file0
+Bu yalnız öğretici bir tasarım etkisi hesabıdır. **Tam çok düzeyli/küme güç analizi yapılmamıştır.** [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Örneklem sayısını yalnız DE ile çarpmak; küme sayısı, dengesizlik, ICC belirsizliği, analiz modeli ve küçük küme düzeltmeleri gibi konuları çözmez.
 
@@ -336,7 +336,7 @@ Ana model:
 
 üzerine kuruludur.
 
-Güç iki yönlü merkezsiz F kuyruğundan (`T²` özdeşliği) hesaplanır; merkezsiz t ve `statsmodels` aynı Python ortamında ek denetim olarak kullanılır. fileciteturn66file0
+Güç iki yönlü merkezsiz F kuyruğundan (`T²` özdeşliği) hesaplanır; merkezsiz t ve `statsmodels` aynı Python ortamında ek denetim olarak kullanılır. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 Bu denetimler bağımsız yazılım doğrulaması değildir.
 
@@ -391,7 +391,7 @@ Bu pakette:
 
 yoktur.
 
-Yazılım adının geçmesi bağımsız doğrulama anlamına gelmez. fileciteturn63file0
+Yazılım adının geçmesi bağımsız doğrulama anlamına gelmez. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Üretilen dosyalar
 
@@ -441,7 +441,7 @@ Bu pakette:
 
 yapılmamıştır.
 
-Bunları yapılmış gibi raporlamayın. fileciteturn64file0
+Bunları yapılmış gibi raporlamayın. [Kitap, Bölüm 5](../../KITAP_ESLESMESI.md)
 
 ## Akademik raporlama
 

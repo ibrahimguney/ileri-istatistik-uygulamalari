@@ -58,7 +58,7 @@ Ana analiz:
 
 `kaynak_satir = 1–60`, `n=60`.
 
-`kaynak_satir` kişi kimliği değil, aktarım sırasıdır. Kaynak 61–80 yalnız ayrı bir etkinliktir. fileciteturn70file0
+`kaynak_satir` kişi kimliği değil, aktarım sırasıdır. Kaynak 61–80 yalnız ayrı bir etkinliktir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Araştırma sorusu:
 
@@ -78,7 +78,7 @@ Bunlardan Pearson korelasyonu:
 
 `r = .746612792`
 
-elde edilir. fileciteturn69file0
+elde edilir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bu değer, ana örneklemde G1 ile G3 arasında güçlü pozitif doğrusal birliktelik bulunduğunu gösterir.
 
@@ -107,7 +107,7 @@ Yaklaşık Fisher %95 güven aralığı:
 
 `[.607944246, .841082238]`.
 
-Bu test ve aralık klasik model koşullarına dayanır. Küçük p değeri örnekleme, temsil veya nedensellik sorunlarını ortadan kaldırmaz. fileciteturn69file0
+Bu test ve aralık klasik model koşullarına dayanır. Küçük p değeri örnekleme, temsil veya nedensellik sorunlarını ortadan kaldırmaz. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Pearson r² neyi gösterir?
 
@@ -119,7 +119,7 @@ Aynı 60 kayıtla, sabit terimli ve tek yordayıcılı OLS regresyonda:
 
 `R² = r²`.
 
-Bu matematiksel özdeşlik aynı gözlemler ve aynı iki değişken için geçerlidir. fileciteturn69file0
+Bu matematiksel özdeşlik aynı gözlemler ve aynı iki değişken için geçerlidir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bunu “G1, G3'ün %55.7'sine neden olur” diye yorumlamayın.
 
@@ -131,7 +131,7 @@ Ana sonuç:
 
 `r_s = .831085662`.
 
-Bu değer SciPy Spearman hesabıyla aynıdır. fileciteturn69file0
+Bu değer SciPy Spearman hesabıyla aynıdır. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bağlı değerler bulunduğu için bağ düzeltmesi içermeyen kısa `1−6Σd²/[n(n²−1)]` formülü doğrudan kullanılmamalıdır.
 
@@ -146,7 +146,7 @@ Pearson ham değerlerdeki doğrusal birlikteliğe, Spearman ise sıralardaki mon
 
 Spearman'ın daha yüksek olması tek başına Pearson'ın “yanlış” olduğu anlamına gelmez. İki katsayı ilişkinin farklı yönlerini özetler.
 
-Spearman `r_s²`, ham G3 notlarındaki açıklanan varyans oranı olarak raporlanmamalıdır. fileciteturn70file0
+Spearman `r_s²`, ham G3 notlarındaki açıklanan varyans oranı olarak raporlanmamalıdır. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Grafiklerin rolü
 
@@ -177,7 +177,7 @@ Yalnız bir duyarlılık kopyasında kaynak 1 dışlandığında:
 - Pearson = `.865833531`,
 - Spearman = `.826699998`.
 
-Pearson'ın artması ilk kaydın hatalı olduğunu kanıtlamaz. fileciteturn69file0
+Pearson'ın artması ilk kaydın hatalı olduğunu kanıtlamaz. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bu kayıt:
 
@@ -203,7 +203,7 @@ Spearman aralığı:
 
 - en düşük: kaynak 16 çıkarıldığında,
 - en yüksek: kaynak 40 çıkarıldığında,
-- ana katsayıdan mutlak değişim ölçütüyle en etkili: kaynak 40. fileciteturn69file0
+- ana katsayıdan mutlak değişim ölçütüyle en etkili: kaynak 40. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bu aralıklar **güven aralığı değildir**. Bunlar 60 farklı duyarlılık hesabının sonuç aralığıdır.
 
@@ -217,14 +217,14 @@ Kaynak 61–80 için:
 - Pearson = `.627307114`,
 - Spearman = `.570535504`.
 
-Bu katsayıların ana 60 kayıttan farklı olması tek başına anakütle korelasyonlarının farklı olduğunu göstermez. fileciteturn69file0
+Bu katsayıların ana 60 kayıttan farklı olması tek başına anakütle korelasyonlarının farklı olduğunu göstermez. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bu son 20 kayıt:
 
 - aynı yerel alıntının devamıdır,
 - bağımsız örnekleme sürecinden gelmez,
 - dış doğrulama örneklemi değildir,
-- doğrudan korelasyon farkı testi değildir. fileciteturn70file0
+- doğrudan korelasyon farkı testi değildir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Monte Carlo permütasyon hesabı
 
@@ -241,7 +241,7 @@ Monte Carlo p değeri:
 
 `p_MC = (0+1)/(19999+1) = .00005`.
 
-Bu değer **p=0 değildir**. fileciteturn69file0
+Bu değer **p=0 değildir**. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Aynı zamanda:
 
@@ -249,7 +249,7 @@ Aynı zamanda:
 - Monte Carlo çözünürlük sınırını yansıtır,
 - Spearman'ın asimptotik p değerinden farklı bir çıkarım yöntemidir.
 
-Permütasyon yaklaşımı da bağımsızlık altında eşleşmelerin değiştirilebilirliği varsayımına dayanır; kümelenme ve örneklem seçimi sorunlarını çözmez. fileciteturn70file0
+Permütasyon yaklaşımı da bağımsızlık altında eşleşmelerin değiştirilebilirliği varsayımına dayanır; kümelenme ve örneklem seçimi sorunlarını çözmez. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Aynı seed neden R ve Python'da aynı sonucu garanti etmez?
 
@@ -265,7 +265,7 @@ Pozitif doğrusal ölçekleme Pearson ve Spearman katsayılarını korur.
 
 Örneğin bir değişkeni pozitif bir sabitle çarpmak ilişkinin yönünü değiştirmez.
 
-Negatif sabitle çarpma ise sıralama/yön tersine döndüğü için korelasyon işaretini değiştirir. fileciteturn69file0
+Negatif sabitle çarpma ise sıralama/yön tersine döndüğü için korelasyon işaretini değiştirir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 Bu özellik korelasyonun ölçü biriminden bağımsızlığını anlamak için yararlıdır.
 
@@ -281,7 +281,7 @@ gösterir.
 
 > Her öğrencinin notu G1'den G3'e yükselmiştir.
 
-Bireysel gelişme için `G3−G1` gibi kişi-içi değişim ayrı bir araştırma sorusudur. fileciteturn70file0
+Bireysel gelişme için `G3−G1` gibi kişi-içi değişim ayrı bir araştırma sorusudur. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Korelasyon nedensellik değildir
 
@@ -340,7 +340,7 @@ kullanılabilir.
 
 Temel R yeterlidir; sonuçlar ekrana, grafik `grafikler/grafikler-R.pdf` dosyasına yazılır.
 
-**R bu paket hazırlanırken çalıştırılmamıştır.** Bu pakette SPSS syntax veya SPSS çıktısı yoktur. fileciteturn67file0
+**R bu paket hazırlanırken çalıştırılmamıştır.** Bu pakette SPSS syntax veya SPSS çıktısı yoktur. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Üretilen dosyalar
 
@@ -349,7 +349,7 @@ Temel R yeterlidir; sonuçlar ekrana, grafik `grafikler/grafikler-R.pdf` dosyas�
 - `sonuclar/duyarlilik.csv`: 60 ayrı birini-dışarıda-bırakma hesabı,
 - `grafikler/b06-uci-korelasyon.pdf`: ham not ve sıra grafikleri.
 
-Grafikte nokta büyüklüğü aynı koordinattaki kayıt sayısıyla orantılıdır; ilk kayıt ayrıca işaretlenir. fileciteturn67file0
+Grafikte nokta büyüklüğü aynı koordinattaki kayıt sayısıyla orantılıdır; ilk kayıt ayrıca işaretlenir. [Kitap, Bölüm 6](../../KITAP_ESLESMESI.md)
 
 ## Sonuçları yorumlarken dikkat
 
