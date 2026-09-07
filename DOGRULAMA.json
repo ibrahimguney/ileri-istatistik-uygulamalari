@@ -1,41 +1,35 @@
 {
-  "paket": "0.1.0",
+  "paket": "B02-B17 toplu yayın adayı",
   "tarih": "2026-09-06",
-  "kapsam": "Yalnız Bölüm 2 pilotu; tam kitap veya 18 paket değil",
-  "durum": "Yükleme paketi yerelde doğrulandı; GitHub aktarımı yapılmadı",
-  "Python_calistirildi": true,
-  "Python_calisma_dizinleri": [
-    "depo kökü",
-    "bolumler/b02"
-  ],
-  "R_calistirildi": false,
-  "SPSS_calistirildi": false,
-  "notebook": "Kod hücreleri sırayla Python ile çalıştırıldı; Jupyter arayüzünde çalıştırılmadı. Öğrenciye ayrılan None alanları doldurulmadı.",
-  "veri_baytlari_kitap_arsiviyle_esit": true,
-  "yerel_HTML_baglantilari": 20,
-  "beklenen_json_eslesti": true,
-  "karekod": "Yayın öncesi/sonrası iki durum iki LaTeX geçişiyle derlendi; PDF bağlantı adresleri kontrol edildi. Telefonla tarama yapılmadı.",
-  "bolum02_derlemesi": "13 sayfa; karekod 11. sayfada görsel olarak kontrol edildi. Cevap anahtarı bu izole derlemeye alınmadığı için sec:b02-yanitlar referansı çözülmedi.",
-  "tarayicida_gorsel_site_kontrolu": false,
+  "kapsam": "16 öğrenci bölümü; B01/B18 ve tam kitap yok",
   "GitHuba_yuklendi": false,
   "Pages_yayini_dogrulandi": false,
-  "surumler": {
-    "Python": "3.13.15",
-    "numpy": "2.4.1",
-    "pandas": "2.3.3",
-    "matplotlib": "3.10.8"
+  "aktarim_engeli": "Bu oturumda GitHub CLI, token veya kayıtlı HTTPS yazma kimliği bulunmadı.",
+  "yerel_toplu_kontroller": {
+    "dosyalar": 245,
+    "html_sayfalari": 17,
+    "yerel_html_baglantilari": 259,
+    "http_hedefleri": 227,
+    "defterler": "16 defterin kod hücreleri sözdizimi kontrolünden geçti; kayıtlı çıktı ve yürütme sayaçları boş. Bu oturumda yalnız yeniden oluşturulan B02 defteri iki konumda yürütüldü.",
+    "izole_analizler": [
+      "b02",
+      "b17"
+    ],
+    "b02_defter_yurutmeleri": 2,
+    "butun_bolum_arsiv_hashleri": "B03–B17 dosyaları arşiv SHA-256 değerleriyle doğrulandı; yerel farklar yalnız son satır sonlarıydı.",
+    "kapsam_denetime_alindi": "Yalnız 9 ortak kök dosyası ve B02–B17 izinli paket dosyaları; tam kitap, sonuç/önbellek dizinleri yok.",
+    "HTTP": "Tam ZIP izole dizine açıldı; 17 HTML sayfasının 259 yerel bağlantısı çözüldü, 227 benzersiz hedef HTTP 200 ve beklenen baytlarla eşleşti.",
+    "hesaplar": "İzole tam ZIP içinde B02 ve B17 analizleri çalıştı; beklenen JSON alanları rtol=1e-7, atol=1e-8 ile eşleşti, kaynak CSV değişmedi.",
+    "parcalar": "9 + 84 + 77 + 75 = 245 dosya; dört web ZIP parçasının birleşimi tam ZIP ile bayt düzeyinde eşit.",
+    "paketleyici": "Değiştirilmiş hash ve üst dizine çıkan yol reddedildi.",
+    "hassas_veri_tarama": "Dağıtım kapsamında özel anahtar ve yaygın GitHub token desenleri bulunmadı; bu sınırlı tarama genel güvenlik garantisi değildir."
   },
-  "dosya_sha256": {
-    "bolumler/b02/veri.csv": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
-    "bolumler/b02/analiz.py": "ff8166600421ab79e1c6399761d0e909215363d91ad65f23ecfd2878dc987da2",
-    "bolumler/b02/analiz.R": "4444c08f643a6149e7a81e9ea39cfedca12919f13daab693fdf993b96dbad318",
-    "bolumler/b02/beklenen.json": "e00df10cdd863da5791df938f917b8c614638463c631855efa75c8d1aa9e8498",
-    "index.html": "2793290e65b22d6e20c91c26fc842c6d7477c23b0f8087ae339e4ab4d6a05b24",
-    "assets/site.css": "596fc1b5ca9266f916274f1107daf3e713cdae7932714e62c6cb71bf2dba605c",
-    "bolumler/b02/index.html": "254f5e36f4247fda424d0c0aad0f4e0528f5e25bff22f3b4b0b4091e88f4b9b3",
-    "bolumler/b02/calisma.ipynb": "39f49adddcdd928a9b73f156f285c32b12df2a7d86c7a0d0932207b8fae83ea6"
-  },
-  "aktarim_engeli": "GitHub CLI, token veya kayıtlı HTTPS yazma kimliği bulunmadı.",
-  "yerel_HTTP_200_kontrolleri_onceki_oturum": 7,
-  "bu_oturumda_HTTP_testi": false
+  "bolum_kayitlari": "Bölümlerin DOGRULAMA.json dosyaları önceki yerel hazırlıkları belgeler; canlı site durumu değildir.",
+  "yapilmayanlar": [
+    "Bu oturumda tüm 16 bölümün analizleri yeniden çalıştırılmadı.",
+    "R/SPSS, telefon taraması ve tam kitap derlemesi yapılmadı.",
+    "Uzak kaynak CSV hücre karşılaştırması ve canlı Pages kontrolü yapılmadı.",
+    "Tarayıcıda görsel site kontrolü yapılmadı; yerel HTTP ve HTML hedefleri denetlendi."
+  ],
+  "yeniden_olusturulan_dosyalar": "Saklanmamış B03–B17 HTML/defter/gizli dosyaları özgün arşivlerinden geri getirildi. B02 ana sayfası/defteri ve ortak site toplu yayın için yeniden oluşturuldu; tarihsel B02 doğrulama kaydı kendi klasöründe korundu."
 }

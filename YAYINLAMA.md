@@ -1,74 +1,72 @@
-# Yayınlama — yazar için kontrol listesi
+# GitHub'a toplu yükleme — Bölüm 2–17
 
-Bu klasör bağımsız öğrenci deposunun kökü olacak şekilde hazırlanmıştır.
-Henüz otomatik GitHub yüklemesi, commit, push veya Pages ayarı yapılmamıştır.
+6 Eylül 2026. Hedef depo:
+https://github.com/ibrahimguney/ileri-istatistik-uygulamalari
 
-## 1. Yüklenecek kapsam
+Bu çalışma ortamında GitHub yazma kimliği bağlı değildir; yükleme/push yapılmadı.
+Parola veya erişim anahtarını sohbet içine göndermeyin. Yetkili GitHub oturumunuzdan
+veya kendi bilgisayarınızdaki GitHub Desktop/Git üzerinden yükleyin.
 
-`ogrenci-deposu` klasörünün **içindekileri** hedef GitHub deposunun köküne aktarın.
-Klasörün kendisini bir alt klasör olarak yüklemeyin; `index.html`, `README.md`,
-`requirements.txt`, `bolumler/` ve `assets/` GitHub deposunun kökünde olmalıdır.
-`.nojekyll` dosyasını da dahil edin.
+## 1. Doğru paketi seçin
 
-Kitap klasörünü, cevap anahtarının tam metnini, özel öğrenci kayıtlarını,
-kimlik bilgilerini, erişim anahtarlarını veya yerel derleme dosyalarını yüklemeyin.
-Mevcut izinlerle başka verilerin de paylaşılabileceğini varsaymayın.
-Bu pilotun veri kaynağı ve alıntı tanımı `bolumler/b02/VERI.md` içindedir.
-Kod/içerik lisansının yazar tarafından seçilmesi yayın öncesi ayrı bir karardır.
+`ileri-istatistik-uygulamalari-tam-yukleme.zip` dosyasını indirip açın.
+İçindeki `index.html`, `assets/`, `bolumler/`, README ve diğer kök dosyaları hedef
+GitHub deposunun **kökünde** olmalıdır; `ogrenci-deposu/` diye ek seviye oluşturmayın.
+ZIP dosyasını tek dosya olarak yüklemek siteyi kurmaz. Gizli `.nojekyll` ve
+`.gitignore` dosyalarını da koruyun. Tam kitap klasörünü yüklemeyin.
 
-## 2. GitHub Pages
+Kaynak bildirimleri ve GPL metinleri dağıtıma dahildir. Veri lisansını bütün
+kod/metne uygulanmış saymayın; yazar adına yeni lisans seçilmedi. Ayrıntı KULLANIM.md.
+Mevcut uzak dosyalar varsa yedekleyip farkları inceleyin; geçmişi zorla değiştirmeyin.
 
-Hedef: https://github.com/ibrahimguney/ileri-istatistik-uygulamalari
+## 2A. GitHub Desktop ile tek aktarım
 
-Dosyaları yükleyip `main` dalı oluştuktan sonra:
+Yetkili hesabınızla hedef depoyu klonlayın. Açılmış tam ZIP'in içindekileri
+klonun köküne kopyalayın. Changes listesinde yalnız öğrenci dosyaları olduğunu
+kontrol edin. Açıklama olarak “Bölüm 2–17 öğrenci materyalleri” yazıp değişiklikleri
+commit edin; ardından Push origin / Publish branch işlemini yapın. main dalını
+hedefleyin; mevcut çalışma varsa önce eşitleyin. Kitabın çalışma deposunu push etmeyin.
 
-1. Depoda **Settings → Pages** sayfasını açın.
-2. **Build and deployment → Source → Deploy from a branch** seçin.
-3. Dal **main**, klasör **/(root)** seçip **Save** ile kaydedin.
-4. Pages dağıtımının başarıyla tamamlandığını kontrol edin.
+## 2B. Tarayıcıyla, 100 dosya sınırını aşmadan
 
-Resmî rehber:
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+GitHub bir yüklemede en fazla 100 dosya kabul ettiğinden tam paketi tek seferde
+sürüklemeyin. Ayrı `web-00-kok.zip`, `web-01-...zip` vb. parçalar da hazırlanır;
+her biri en fazla 90 dosyadır. ZIP'leri ayrı ayrı açın ve şu sırada yükleyin:
 
-Hedef bölüm adresi:
-https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/bolumler/b02/
+1. Önce `web-00-kok.zip` içindekiler. Boş depoda “uploading an existing file”;
+   dosyalar varsa “Add file → Upload files” yolunu kullanın.
+2. Yükleme listesinde `index.html` ve `assets/site.css` gibi kök yolları kontrol edin.
+   “Commit changes” ile kaydedin; ana dalın main olduğunu doğrulayın.
+3. Sonra numara sırasıyla her bölüm parçasını açın. Her parça içindeki `bolumler`
+   klasörünü depo kökünden yükleyin; klasör yapısını düzleştirmeyin.
+4. Her yüklemeyi ayrı commit edin. Önceki parçanın klasörüne girerek yüklemeyin.
+5. Gizli `.nojekyll` yüklenmediyse depoda “Add file → Create new file” ile
+   kökte `.nojekyll` adlı boş dosyayı ekleyin.
 
-Bu adresin şimdiden çalıştığı iddia edilmez. Alt klasör/Pages kaynak seçimi
-farklı yapılırsa kitaptaki karekod yanlış yere gidebilir.
+Bu parçalar tam ZIP ile aynı dosyaları içerir; iki yöntemi üst üste uygulamanız gerekmez.
 
-## 3. Yayın sonrası doğrulama
+## 3. GitHub Pages
 
-- Oturum açılmamış bir tarayıcıda ana sayfayı ve Bölüm 2 sayfasını açın.
-- CSV, Python, R ve notebook bağlantılarını indirin.
-- Yeni indirdiğiniz depo kopyasında `python bolumler/b02/analiz.py` çalıştırın.
-- Notların 80 kayıt olduğunu, ilk G1=0'ın korunduğunu ve kontrol değerlerini doğrulayın.
-- Kitabın Bölüm 2 karekodunu hem telefondan hem PDF bağlantısından deneyin.
-- Yalnız bu kontrollerden sonra kitap `main.tex` dosyasında
-  `\ogrenciYayinHazirfalse` satırını `\ogrenciYayinHazirtrue` yapın.
-  Bu anahtar yayın uyarısını kaldırır; GitHub'a bir şey yüklemez.
-- Son baskıdan önce bağlantıyı bir kez daha sınayın. Bölüm URL'sini sabit tutun.
+Tüm parçalar tamamlandıktan sonra **Settings → Pages** altında:
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
+- **Save**
 
-## 4. Sonraki bölümler
+Dağıtımın başarıyla bitmesini bekleyin. Ayar için depo yönetim yetkisi gerekir.
+Hedef site: https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/
 
-Bölüm 2'nin düzeni onaylandıktan sonra her bölümün kaynağı, kodu, görevleri,
-çözümleri ve çalışma durumu ayrı doğrulanarak eklenir. Henüz olmayan sayfalara
-kitapta karekod eklemeyin. Diğer bölümlerin verisi/sonuçları bu pilotta yoktur.
+## 4. Yayın sonrası denetim
 
-Yerel sayfa önizlemesi için depo kökünde `python -m http.server 8000` çalıştırıp
-`http://localhost:8000/` adresini açabilirsiniz. Bu komut GitHub yayını yapmaz.
+Oturum açılmamış tarayıcıyla ana sayfa ve 16 bölümün tamamını açın.
+CSV, kod, defter ve çözüm indirmelerini kontrol edin. Depoyu yeniden indirip
+B02 ve B17 analizlerini çalıştırın; bölüm gereksinimlerine göre diğerlerini de sınayın.
+Telefon ve PDF üzerinden karekodları deneyin. Yalnız gerçekten doğrulanan
+bölümlerde yerel `ogrenciYayinHazirfalse` anahtarını değiştirmeyi değerlendirin;
+bu yükleme hazırlığında kitabın yayın anahtarları değiştirilmemiştir.
 
-## Hazır ZIP ile aktarım
+## Resmî yönergeler
 
-Çalışma alanında `ileri-istatistik-uygulamalari-yukleme.zip` hazırlanmıştır.
-ZIP'i bilgisayarınızda açın; ZIP dosyasını tek dosya olarak depoya yüklemeyin.
-Paketin içindeki dosya ve klasörleri depo köküne yükleyin.
-Boş depoda “uploading an existing file”, dolu depoda “Add file → Upload files”
-yolunu kullanın. `bolumler/` ve `assets/` dizinlerini düzleştirmeyin.
-Gizli `.nojekyll` ve `.gitignore` dosyalarını da dahil edin.
-“Commit changes” ile kaydedin; sonra yukarıdaki Pages ayarını yapın.
-
-Bu ortamda GitHub yazma kimliği bulunmadığı için doğrudan aktarım yapılmadı.
-Parola veya erişim anahtarını sohbet içine göndermeyin.
-
-Resmî dosya yükleme rehberi:
-https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+6 Eylül 2026'da kontrol edilen belgeler:
+- https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

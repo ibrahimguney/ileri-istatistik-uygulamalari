@@ -1,60 +1,66 @@
 # İleri İstatistik Uygulamaları — Öğrenci Materyalleri
 
-Prof. Dr. İbrahim Güney'in kitabına eşlik eden veri, kod ve uygulama paketi.
-**Pilot sürüm: 0.1.0 — 6 Eylül 2026.** Şu anda yalnız Bölüm 2 hazırlanmıştır.
-Diğer 17 bölüm için uygulama paketi bu depoya henüz eklenmemiştir.
-Kitabın tam metni bu pakette yer almaz.
+Prof. Dr. İbrahim Güney'in kitabına eşlik eden veri, kod ve çalışma dosyaları.
+**6 Eylül 2026 toplu yayın adayı: Bölüm 2–17, toplam 16 bölüm.**
+Bölüm 1 ve 18 bu dağıtımda yoktur; kitabın tam metni yüklenmez.
+Yerel hazırlık tamamlanması GitHub veya Pages yayını yapıldığı anlamına gelmez.
 
 - Hedef depo: https://github.com/ibrahimguney/ileri-istatistik-uygulamalari
-- Yayın sonrası site: https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/
-- [Bölüm 2 rehberi](bolumler/b02/README.md)
-- [Yayınlama ve kontrol listesi](YAYINLAMA.md)
-- [Kaynak ve kullanım ayrımı](KULLANIM.md)
+- Hedef site: https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/
+- [Ana sayfa](index.html) · [Yayınlama](YAYINLAMA.md) · [Kullanım](KULLANIM.md)
 
-Bu dosyaların yerelde hazırlanması GitHub'a yüklenmiş oldukları anlamına gelmez.
-Site adresi, Pages yayını etkinleştirilip kontrol edildikten sonra kullanılmalıdır.
+## Bölümler
+
+- [02 — Betimsel İstatistik](bolumler/b02/README.md)
+- [03 — Veri Hazırlama](bolumler/b03/README.md)
+- [04 — Hipotez Testleri](bolumler/b04/README.md)
+- [05 — Güç Analizi](bolumler/b05/README.md)
+- [06 — Korelasyon](bolumler/b06/README.md)
+- [07 — Regresyon](bolumler/b07/README.md)
+- [08 — Çoklu ve Lojistik Regresyon](bolumler/b08/README.md)
+- [09 — Aracılık ve Düzenleyicilik](bolumler/b09/README.md)
+- [10 — Parametrik Testler](bolumler/b10/README.md)
+- [11 — Varyans Analizi](bolumler/b11/README.md)
+- [12 — Parametrik Olmayan Testler](bolumler/b12/README.md)
+- [13 — Ölçek Uyarlama ve Güvenirlik](bolumler/b13/README.md)
+- [14 — Faktör Analizi](bolumler/b14/README.md)
+- [15 — Doğrulayıcı Faktör Analizi](bolumler/b15/README.md)
+- [16 — Yapısal Eşitlik Modeli](bolumler/b16/README.md)
+- [17 — Kovaryans Analizi](bolumler/b17/README.md)
 
 ## Öğrenci için başlangıç
 
-Depoyu bir bütün olarak indirin ve ZIP'i açın. Yalnız `analiz.py` dosyasını
-indirmek yeterli değildir: yanındaki `veri.csv` de gereklidir.
-Komutları bu README'nin bulunduğu **depo kökünde** çalıştırın:
+Depoyu bütün olarak indirin; yalnız Python dosyası yeterli değildir.
+Önce ilgili `VERI.md`, sonra `GOREVLER.md` dosyasını okuyun. `calisma.ipynb`
+öğrenci yanıtları boş olan defterdir; çözümler ayrı dosyadadır.
 
+Gerekli paketler kuruluysa depo kökünde:
+```sh
+python bolumler/b02/analiz.py
+python bolumler/b17/analiz.py
+```
+Bölüm klasörüne geçildiğinde `python analiz.py` kullanılabilir.
+`requirements.txt` tüm paketlerin birleşimini listeler; sürümler bölümün
+`requirements.txt` ve doğrulama kaydıyla birlikte değerlendirilir.
+Kurulum gerekiyorsa kendi bilgisayarınızda:
 ```sh
 python -m pip install -r requirements.txt
-python bolumler/b02/analiz.py
 ```
+Bu hazırlama ortamında paket kurulmaz. Jupyter arayüzü isteğe bağlıdır;
+Python analiz betiklerinin çalışması için Jupyter zorunlu değildir.
 
-Kurulum komutu öğrencinin kendi bilgisayarı içindir; hazırlama ortamında paket
-kurulmamıştır. Python 3.11 veya üstünü kullanın. Sabitlenmiş paket sürümleri
-pilotun Python çalıştırmasında kullanılan sürümlerdir; farklı ortamlarda
-sonuçları `beklenen.json` ile karşılaştırın.
+R/SPSS yönergeleri her bölümde farklıdır; hazırlanmış dosya çalıştırılmış
+çıktı sayılmaz. R için gereken ek paketler bölüm rehberlerinde belirtilir.
 
-Python betiği tabloları `bolumler/b02/sonuclar/`, grafiği
-`bolumler/b02/grafikler/` altında üretir. Grafik kitabın TikZ dosyalarına
-bağımlı değildir. Kaynak CSV değiştirilmez. Betik her çalıştırmada kendi
-ürettiği çıktıları yeniler; öğrenci raporunuzu bu çıktı klasörlerinde tutmayın.
+## Sonuçlar ve sınırlar
 
-İsteğe bağlı çalışma defteri: `bolumler/b02/calisma.ipynb`.
-Jupyter ortamınızda açın; hücreleri sırayla çalıştırıp boş cevapları tamamlayın.
-Jupyter, analiz betiğinin zorunlu bağımlılığı değildir.
-R için depo kökünde `Rscript bolumler/b02/analiz.R` kullanılabilir; yalnız temel R gerekir.
-Bu pilotta SPSS syntax dosyası yoktur; Python çıktıları SPSS çıktısı diye sunulmaz.
+Kodlar kendi `sonuclar/` ve `grafikler/` dosyalarını yeniden üretir; kişisel
+raporlarınızı bu çıktı klasörlerinde saklamayın. Kaynak CSV'ler korunur.
+Dağıtıma üretilmiş sonuç klasörleri, önbellekler ve tam kitap alınmamıştır.
+Referans sayılar `beklenen.json`; hesapların ve yazılımların gerçek yürütme
+durumu bölüm `DOGRULAMA.json` dosyalarındadır. Toplu paket kontrolü kökteki
+[DOGRULAMA.json](DOGRULAMA.json) içinde ayrıca tutulur.
 
-## Öğrenme sırası
-
-1. [Veri kaynağını ve sözlüğünü](bolumler/b02/VERI.md) okuyun.
-2. [Görevleri](bolumler/b02/GOREVLER.md) önce kendiniz çözün.
-3. Python betiği veya çalışma defteriyle hesapları yeniden üretin.
-4. [Ayrı çözüm rehberi](bolumler/b02/COZUMLER.md) ve [kontrol değerleri](bolumler/b02/beklenen.json) ile karşılaştırın.
-5. Kaynak, kapsam, hesap tanımı ve sınırlılıkları içeren kendi raporunuzu yazın.
-
-## Yürütme durumu
-
-Python pilot paketi yerelde doğrulanır; ayrıntılar `DOGRULAMA.json` dosyasındadır.
-R ve SPSS çalıştırılmış sayılmaz. GitHub Pages statik indirme sayfasıdır;
-Python/R kodunu kendiliğinden çalıştıran bir sunucu değildir.
-
-Bölüm sayfa yollarını (`bolumler/b02/` gibi) baskıdan sonra değiştirmeyin.
-Baskıyla eşleşen sürümü ayrıca arşivleyin. Pilot 0.1.0, kitabın nihai baskı
-sürümü olarak etiketlenmemelidir.
+Pages yalnız statik dosya sunar. Önceki bölüm hazırlık kayıtları tarihseldir;
+canlı site/yükleme durumunu otomatik değiştirmez. Uzak veri doğrulaması,
+yeni araştırma veya R/SPSS çalıştırması yapılmış varsayılmaz.
