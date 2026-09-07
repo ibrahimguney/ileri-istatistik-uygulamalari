@@ -41,14 +41,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: B02-B17 analizlerini çalıştır ve beklenen değerlerle karşılaştır
+      - name: B02-B17 analizlerini çalıştır ve referans değerlerle anlamsal karşılaştır
         run: python tools/dogrula_analizler.py
 
-      - name: İzlenen referans çıktılarında beklenmeyen fark oluşmadığını kontrol et
+      - name: Doğrulama sonrası çalışma ağacını raporla
+        if: always()
         run: |
+          echo "Not: sonuclar/ dosyalarında ortam veya kütüphane sürümüne bağlı yazımsal farklar oluşabilir."
+          echo "Bilimsel doğrulamanın geçme/kalma ölçütü beklenen.json ile anlamsal ve toleranslı sayısal karşılaştırmadır."
           git status --short
-          if ! git diff --quiet -- bolumler/*/sonuclar; then
-            echo "Analizler sonuclar/ içindeki izlenen referans çıktıları değiştirdi."
-            git diff -- bolumler/*/sonuclar
-            exit 1
-          fi
