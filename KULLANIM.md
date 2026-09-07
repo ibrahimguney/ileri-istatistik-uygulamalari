@@ -1,9 +1,9 @@
 # Kaynak ve kullanım ayrımı
 
-Bu dağıtım Bölüm 2–17 öğrenci materyalleridir; kitabın tam metni değildir.
+Bu dağıtım şu anda Bölüm 1–17 öğrenci materyalleridir; kitabın tam metni değildir. Bölüm 18 öğrenci uygulama paketi ayrıca hazırlanacaktır.
 Her bölümün `VERI.md` dosyası veri kaynağını, seçimini, aktarım geçmişini,
 lisans bildirimini ve yorum sınırlarını ayrı açıklar. Bu kayıtlar korunmalıdır.
-Bölüm 2'nin UCI veri lisansını diğer bütün verilere veya tüm depoya uygulamayın.
+B01 ve B02'de kullanılan UCI veri alıntısının CC BY 4.0 lisansını diğer bütün verilere veya tüm depoya otomatik olarak uygulamayın.
 R kaynaklarından gelen veri kopyalarının beraberindeki GPL bildirimlerini silmeyin.
 Simülasyon verileri gerçek katılımcı yanıtı gibi sunulmaz.
 
