@@ -42,8 +42,8 @@
       "tools/dogrula_notebooklar.py",
       "tools/calistir_notebooklar.py"
     ],
-    "son_basarili_workflow_run_id": 34113711025,
-    "son_basarili_commit": "71d814f304c08af7e4d5306b0f7d600b66d96dad"
+    "son_basarili_workflow_run_id": 34121980145,
+    "son_basarili_commit": "cf295c1cb32f5ae2b81b442608126bd7253737e7"
   },
   "analiz_dogrulamasi": {
     "analiz_sayisi": 18,
@@ -53,9 +53,9 @@
     "karsilastirma_yontemi": "beklenen.json zorunlu alt-küme sözleşmesi; rtol=1e-6, atol=1e-8. B15 gradient_max: sonlu ve [0,1e-6] aralığında; optimizer_alternate_success yalnız tanı çıktısıdır.",
     "github_actions_workflow": ".github/workflows/analysis-validation.yml",
     "dogrulama_araci": "tools/dogrula_analizler.py",
-    "son_basarili_workflow_run_id": 34095481977,
-    "son_basarili_commit": "c70135fa0dbdf578a286857ddd2eb2afd6c89bf6",
-    "sonuc": "Yerel Python ortamında 18/18 analiz ve referans karşılaştırması başarılı; düzeltmenin GitHub Actions sonucu ayrıca izlenmelidir.",
+    "son_basarili_workflow_run_id": 34121980172,
+    "son_basarili_commit": "cf295c1cb32f5ae2b81b442608126bd7253737e7",
+    "sonuc": "B01-B18: yerelde ve GitHub Actions üzerinde 18/18 analiz çalıştı ve beklenen.json sözleşmeleri doğrulandı.",
     "son_incelenen_workflow": {
       "run_id": 34113711001,
       "commit": "71d814f304c08af7e4d5306b0f7d600b66d96dad",
@@ -97,8 +97,8 @@
     "B18_durumu": "Öğrenci paketi mevcut; Python referansı doğrulandı, gerçek SPSS/R yürütmesi doğrulanmadı"
   },
   "teknik_dogrulama_durumu": {
-    "Python_notebooklari": "18/18 statik kontrol; 18/18 GitHub Actions yürütmesi (34113711025). Yerel kernel başlatma ortam kısıtı nedeniyle tamamlanmadı.",
-    "Python_analiz_betikleri": "18/18 yerel gerçek çalıştırma ve beklenen.json doğrulaması; önceki GitHub başarısızlığının düzeltmesi hazırlanmıştır.",
+    "Python_notebooklari": "18/18 statik kontrol ve GitHub Actions gerçek yürütmesi (34121980145). Yerel kernel başlatma ortam kısıtı nedeniyle tamamlanmadı.",
+    "Python_analiz_betikleri": "18/18 yerel ve GitHub Actions gerçek çalıştırma ve beklenen.json doğrulaması (34121980172).",
     "R": "Bu güncellemede yeniden çalıştırılmadı; hazırlanmış R dosyası bulunması R doğrulaması anlamına gelmez.",
     "SPSS_PROCESS_AMOS": "Bu güncellemede çalıştırılmadı; kontrol listeleri veya hazırlık notları yazılım çıktısı değildir."
   },
