@@ -31,8 +31,9 @@ def main() -> None:
         for score in freq.index
     ]
 
-    # Öğretim amaçlı sistematik seçim: başlangıç=3, aralık=5
-    systematic_rows = list(range(3, n + 1, 5))
+    # Kitaptaki öğretim örneği: N=80, n=10, başlangıç=3, aralık=8.
+    # Başlangıç 3 gösterim için sabittir; rastgele çekildiği iddia edilmez.
+    systematic_rows = list(range(3, n + 1, 8))
     systematic = df[df["kaynak_satir"].isin(systematic_rows)].copy()
 
     summary = {
@@ -52,18 +53,21 @@ def main() -> None:
         "G3": {
             "min": int(df["G3"].min()),
             "max": int(df["G3"].max()),
+            "toplam": int(df["G3"].sum()),
             "ortalama": float(df["G3"].mean()),
             "medyan": float(df["G3"].median()),
             "frekans_yuzde": freq_table,
         },
         "sistematik_secim": {
+            "N": 80,
+            "hedef_n": 10,
             "baslangic": 3,
-            "aralik": 5,
+            "aralik": 8,
             "kaynak_satirlar": [int(x) for x in systematic["kaynak_satir"].tolist()],
             "n": int(len(systematic)),
             "G1_ortalama": float(systematic["G1"].mean()),
             "G3_ortalama": float(systematic["G3"].mean()),
-            "not": "Öğretim amaçlı seçimdir; ilk 80 kaydı temsili örnekleme dönüştürmez.",
+            "not": "Kitaptaki öğretim örneğidir; başlangıç 3 gösterim için sabitlenmiştir ve ilk 80 kaydı temsili örnekleme dönüştürmez.",
         },
     }
 
