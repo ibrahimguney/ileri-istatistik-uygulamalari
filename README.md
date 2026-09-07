@@ -4,7 +4,7 @@
 
 Bu depo, **Prof. Dr. İbrahim Güney** tarafından hazırlanan *İleri İstatistik Uygulamaları* kitabına eşlik eden öğrenci çalışma ortamıdır.
 
-Burada kitabın tam metni değil; **Bölüm 1–17 için veri setleri, uygulama kodları, çalışma defterleri, görevler, çözümler ve akademik raporlama rehberleri** yer alır.
+Burada kitabın tam metni değil; **Bölüm 1–18 için veri setleri, uygulama kodları, çalışma defterleri, görevler, çözümler ve akademik raporlama rehberleri** yer alır.
 
 > **Önerilen kullanım:** Kitapta ilgili bölümü çalışın → aşağıdan bölümü seçin → veri açıklamasını okuyun → görevleri çözün → analizi çalıştırın → sonuçları yorumlayın → akademik raporlamayı tamamlayın.
 
@@ -29,8 +29,9 @@ Burada kitabın tam metni değil; **Bölüm 1–17 için veri setleri, uygulama 
 | **B15** | Doğrulayıcı Faktör Analizi | [Bölümü aç](bolumler/b15/README.md) |
 | **B16** | Yapısal Eşitlik Modeli | [Bölümü aç](bolumler/b16/README.md) |
 | **B17** | Kovaryans Analizi | [Bölümü aç](bolumler/b17/README.md) |
+| **B18** | IBM SPSS Uygulamaları | [Bölümü aç](bolumler/b18/README.md) |
 
-**Not:** Bu dağıtım şu anda Bölüm 1–17'yi kapsar. **Bölüm 18 — IBM SPSS Uygulamaları** öğrenci uygulama paketi bir sonraki aşamada eklenecektir.
+**Kapsam:** Öğrenci uygulama deposu artık kitabın **Bölüm 1–18** yapısının tamamına karşılık verir. Kitabın tam metni bu depoda yayımlanmaz.
 
 ## Her bölümde nasıl çalışacağım?
 
@@ -43,10 +44,12 @@ Dosyaları şu sırayla kullanmanız önerilir:
 1. **`README.md`** — Bölümün amacı, öğrenme hedefleri, çalışma akışı ve önemli yorum sınırları.
 2. **`VERI.md`** — Verinin kaynağı, değişkenleri, seçim/aktarım bilgileri ve kullanım sınırları.
 3. **`GOREVLER.md`** — Analize başlamadan önce çözmeniz gereken öğrenci görevleri.
-4. **`calisma.ipynb`** — Kod ve yorum alanlarını sizin tamamlayacağınız çalışma defteri.
-5. **`analiz.py` / `analiz.R`** — Bölümün yeniden üretilebilir analizleri. Yazılım desteği bölüme göre değişebilir.
+4. **`calisma.ipynb`** — Kod ve yorum alanlarını sizin tamamlayacağınız çalışma/kontrol defteri.
+5. **`analiz.py` / `analiz.R` / `analiz.sps`** — Bölümün yeniden üretilebilir analizleri. Yazılım desteği bölüme göre değişir.
 6. **`RAPORLAMA.md`** — Bulguları bilimsel/akademik bir metne dönüştürme rehberi.
 7. **`COZUMLER.md` ve `beklenen.json`** — Çalışmanızı tamamladıktan sonra kontrol amacıyla kullanacağınız referanslar.
+
+B18 ayrıca SPSS oturum durumları için **`SPSS-KONTROL-LISTESI.md`** içerir.
 
 > **Önce görevi çözün, sonra çözüme bakın.** Bu depo yalnız sonuç üretmek için değil, analiz kararlarını ve bilimsel yorumlamayı öğrenmek için hazırlanmıştır.
 
@@ -54,13 +57,17 @@ Dosyaları şu sırayla kullanmanız önerilir:
 
 ### 1. Depoyu indirin
 
-Yalnız tek bir Python veya R dosyasını indirmek yerine depoyu bütün olarak kullanmanız önerilir. Bölüm analizleri veri ve yardımcı dosyalara ihtiyaç duyabilir.
+Yalnız tek bir Python, R veya SPSS Syntax dosyasını indirmek yerine depoyu bütün olarak kullanmanız önerilir. Bölüm analizleri veri ve yardımcı dosyalara ihtiyaç duyabilir.
 
 ### 2. İlgili bölümü açın
 
 Örneğin istatistiksel düşünme bölümünü çalışıyorsanız:
 
 `bolumler/b01/`
+
+SPSS uygulamalarını çalışıyorsanız:
+
+`bolumler/b18/`
 
 klasörüne gidin ve önce bölüm `README.md` dosyasını okuyun.
 
@@ -86,9 +93,11 @@ python analiz.py
 
 Her bölümün kendi `requirements.txt` dosyası varsa, bölümün doğrulanmış ortamı açısından öncelikle o dosyayı dikkate alın.
 
-### 4. R ve diğer yazılımlar
+### 4. R, SPSS ve diğer yazılımlar
 
 R, SPSS, PROCESS, AMOS veya diğer yazılım yolları her bölümde aynı değildir. İlgili bölümün `README.md`, `DOGRULAMA.json` ve varsa yazılım notlarını kontrol edin.
+
+B18'de `analiz.sps`, SPSS menü adımlarını denetlenebilir Syntax kaydına dönüştürür; `analiz.py` ise aynı sabit veriler için bağımsız sayısal kontrol üretir.
 
 **Hazırlanmış bir R/SPSS/AMOS dosyasının bulunması, o yazılımda analizin çalıştırılmış ve doğrulanmış olduğu anlamına gelmez.**
 
@@ -106,8 +115,9 @@ Bu materyallerde amaç yalnız “hangi düğmeye basılacağını” göstermek
 - Sonuç tek tek gözlemlere veya model kararlarına duyarlı mı?
 - İstatistiksel ilişkiyi nedensellik olarak yorumluyor muyum?
 - Bulguyu akademik bir metinde nasıl raporlamalıyım?
+- Yazılım oturumunda filtre, ağırlık veya bölünmüş analiz sonucu değiştirmiş olabilir mi?
 
-Bu nedenle her bölümde hesaplama kadar **yorumlama, duyarlılık, sınırlılık ve akademik raporlama** da önemlidir.
+Bu nedenle her bölümde hesaplama kadar **yorumlama, duyarlılık, sınırlılık, yeniden üretilebilirlik ve akademik raporlama** da önemlidir.
 
 ## Çıktılar ve teknik doğrulama
 
@@ -116,7 +126,7 @@ Analizler bölüme göre `sonuclar/` ve `grafikler/` klasörlerinde dosya ürete
 - **`sonuclar/`**: depoda sürümlenmiş **referans/doğrulama çıktılarıdır**. Kendi çalışmanızı tamamladıktan sonra kontrol amacıyla kullanılabilir. Analizi yerelde yeniden çalıştırdığınızda bu dosyalar değişebilir; öğrenci ödevi veya kişisel raporlarınızı buraya kaydetmeyin.
 - **`grafikler/`**: yeniden üretilebilir çalışma çıktılarıdır ve **varsayılan olarak Git tarafından izlenmez**. Analiz çalıştırıldığında yerelde yeniden oluşabilir.
 
-Kendi tablo, grafik ve raporlarınızı depo dışındaki kişisel klasörünüzde tutmanız önerilir. Ayrıntılı bakım kuralları için [CIKTI_POLITIKASI.md](CIKTI_POLITIKASI.md) dosyasına bakın.
+Kendi tablo, grafik, `.spv` ve raporlarınızı depo dışındaki kişisel klasörünüzde tutmanız önerilir. Ayrıntılı bakım kuralları için [CIKTI_POLITIKASI.md](CIKTI_POLITIKASI.md) dosyasına bakın.
 
 Referans sayılar bölüm `beklenen.json` dosyalarında, gerçek çalıştırma ve yazılım doğrulama durumu ise bölüm `DOGRULAMA.json` dosyalarında tutulur. Toplu teknik kontrol bilgileri kökteki [DOGRULAMA.json](DOGRULAMA.json) dosyasında yer alır.
 
