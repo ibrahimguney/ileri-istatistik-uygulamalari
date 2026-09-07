@@ -38,15 +38,15 @@ Toplam yüzde 100'dür. Bu dosyada eksik G3 olmadığı için payda 80'dir. G3=1
 
 ## G4 — Sistematik seçim
 
-Başlangıç 3 ve aralık 5 kullanıldığında seçilen kaynak satırları:
+Kitaptaki örnekte `N=80`, `n=10`, başlangıç `r=3` ve aralık `j=8` kullanılır. Seçilen kaynak satırları:
 
-`3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68, 73, 78`
+`3, 11, 19, 27, 35, 43, 51, 59, 67, 75`
 
-- Seçilen kayıt sayısı: **16**
-- Seçilen kayıtlarda G1 ortalaması: **12.5625**
-- Seçilen kayıtlarda G3 ortalaması: **12.8125**
+- Seçilen kayıt sayısı: **10**
+- Seçilen kayıtlarda G1 ortalaması: **12.1**
+- Seçilen kayıtlarda G3 ortalaması: **12.2**
 
-Bu seçim, sistematik örnekleme algoritmasını gösterir. İlk 80 kaydın sıralı ve temsili olmayan bir alıntı olması gerçeğini değiştirmez.
+Başlangıç 3 burada hesabı görünür kılmak için sabitlenmiştir; rastgele çekildiği iddia edilmez. Gerçek uygulamada rastgele başlangıç yöntemi kaydedilmelidir. Bu seçim, sistematik örnekleme algoritmasını gösterir; ilk 80 kaydın sıralı ve temsili olmayan bir alıntı olması gerçeğini değiştirmez.
 
 ## B1 — Anakütle, çerçeve ve örnek
 
@@ -54,7 +54,9 @@ Bu seçim, sistematik örnekleme algoritmasını gösterir. İlk 80 kaydın sır
 - **Örnekleme çerçevesi:** seçim yapılabilen erişilebilir birim listesi.
 - **Örnek:** gerçekte analize alınan birimler.
 
-Bu depodaki 80 kayıt bir analiz örneğidir; ancak hedef anakütleyi temsil eden olasılıklı bir örnekleme çerçevesinden seçildiği iddia edilemez.
+Bu depodaki 80 kayıt hedef anakütleyi temsil eden olasılıklı bir örnekleme çerçevesinden seçilmiş gibi sunulamaz.
+
+Yalnız Bölüm 1'deki örnekleme öğretimi için bu 80 kayıt kapalı bir öğretim anakütlesi olarak tanımlandığında `G3` toplamı **1011** ve bu çerçevenin ortalaması **12.6375**'tir. Bu durumda 12.6375, yalnız tanımlanan 80 kayıtlık çerçevenin parametresi rolündedir. İçinden seçilen 10 kaydın ortalaması ise bu 80 kayda yönelik örneklem istatistiğidir. Bu durum 12.6375'i bütün Portekiz öğrencilerinin veya kaynak dosyadaki 649 kaydın parametresi yapmaz.
 
 ## B2 — Grafik seçimi
 
