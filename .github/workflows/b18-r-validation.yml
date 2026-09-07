@@ -1,0 +1,42 @@
+name: B18 R Validation
+on:
+  push:
+    paths:
+      - 'bolumler/b18/analiz.R'
+      - 'bolumler/b18/analiz.py'
+      - 'bolumler/b18/beklenen.json'
+      - 'bolumler/b18/*.csv'
+      - 'tools/dogrula_b18_r.py'
+      - 'requirements.txt'
+      - '.github/workflows/b18-r-validation.yml'
+  pull_request:
+    paths:
+      - 'bolumler/b18/**'
+      - 'tools/dogrula_b18_r.py'
+      - 'requirements.txt'
+      - '.github/workflows/b18-r-validation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.2'
+          use-public-rspm: true
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/dogrula_b18_r.py
+      - name: R çıktısı ve yürütme kaydı
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: b18-r-validation
+          path: bolumler/b18/sonuclar/R/
+          if-no-files-found: warn
