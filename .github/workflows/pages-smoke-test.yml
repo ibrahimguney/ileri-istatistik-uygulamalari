@@ -22,7 +22,7 @@ jobs:
           URL="https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/"
           curl --fail --location --retry 6 --retry-delay 10 --retry-all-errors --max-time 30 "$URL" -o /tmp/index.html
           grep -F "İleri İstatistik Uygulamaları" /tmp/index.html
-          grep -F "Bölümünüzü seçin" /tmp/index.html
+          grep -F "Çalışmak istediğiniz bölümü seçin" /tmp/index.html
 
       - name: Örnek bölüm bağlantılarını doğrula
         run: |
