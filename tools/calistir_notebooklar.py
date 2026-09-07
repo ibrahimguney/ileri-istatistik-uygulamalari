@@ -7,7 +7,7 @@ import nbformat
 from nbclient import NotebookClient
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOKS = [ROOT / "bolumler" / f"b{i:02d}" / "calisma.ipynb" for i in range(1, 18)]
+NOTEBOOKS = [ROOT / "bolumler" / f"b{i:02d}" / "calisma.ipynb" for i in range(1, 19)]
 
 
 def main() -> int:
