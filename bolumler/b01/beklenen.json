@@ -15,6 +15,7 @@
   "G3": {
     "min": 7,
     "max": 17,
+    "toplam": 1011,
     "ortalama": 12.6375,
     "medyan": 12.0,
     "frekans_yuzde": [
@@ -31,12 +32,14 @@
     ]
   },
   "sistematik_secim": {
+    "N": 80,
+    "hedef_n": 10,
     "baslangic": 3,
-    "aralik": 5,
-    "kaynak_satirlar": [3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68, 73, 78],
-    "n": 16,
-    "G1_ortalama": 12.5625,
-    "G3_ortalama": 12.8125,
-    "not": "Öğretim amaçlı seçimdir; ilk 80 kaydı temsili örnekleme dönüştürmez."
+    "aralik": 8,
+    "kaynak_satirlar": [3, 11, 19, 27, 35, 43, 51, 59, 67, 75],
+    "n": 10,
+    "G1_ortalama": 12.1,
+    "G3_ortalama": 12.2,
+    "not": "Kitaptaki öğretim örneğidir; başlangıç 3 gösterim için sabitlenmiştir ve ilk 80 kaydı temsili örnekleme dönüştürmez."
   }
 }
