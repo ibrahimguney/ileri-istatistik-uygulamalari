@@ -31,12 +31,18 @@ Her biri için veri saklama türü ile ölçüm düzeyinin aynı kavram olup olm
 
 ## G4 — Sistematik seçim örneği
 
-80 kayıttan başlangıç satırı **3**, seçim aralığı **5** olacak biçimde sistematik bir seçim oluşturun.
+Kitaptaki öğretim örneğini yeniden üretin. Elde 80 kayıt vardır ve 10 kayıt seçilecektir:
+
+- `N = 80`
+- `n = 10`
+- sistematik aralık `j = N/n = 8`
+- gösterim için sabit başlangıç `r = 3`
 
 1. Seçilen kaynak satır numaralarını yazın.
-2. Kaç kayıt seçildiğini bulun.
+2. Kaç kayıt seçildiğini doğrulayın.
 3. Seçilen kayıtlarda `G1` ve `G3` ortalamalarını hesaplayın.
-4. Bu seçimin ilk 80 kaydı temsili hale getirip getirmediğini tartışın.
+4. Başlangıç 3'ün burada rastgele çekilmiş değil, öğretim amacıyla sabitlenmiş olduğunu açıklayın.
+5. Bu seçimin ilk 80 kaydı temsili hale getirip getirmediğini tartışın.
 
 ## B1 — Anakütle, çerçeve ve örnek
 
@@ -47,6 +53,8 @@ Aşağıdaki üç ifadeyi birbirinden ayırın:
 - Gerçekte analiz edilen 80 satır.
 
 Bunları sırasıyla **anakütle**, **örnekleme çerçevesi** ve **örnek** kavramlarıyla eşleştirin. UCI alıntısının hangi kavramı tek başına garanti etmediğini açıklayın.
+
+Ek olarak, yalnız bu örnekleme alıştırması için 80 kaydı kapalı bir öğretim anakütlesi kabul ettiğinizde `G3` ortalamasının rolünün nasıl değiştiğini açıklayın.
 
 ## B2 — Grafik seçimi
 
