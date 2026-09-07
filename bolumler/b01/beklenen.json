@@ -1,0 +1,42 @@
+{
+  "bolum": "B01",
+  "baslik": "İstatistiksel Düşünme: Sorudan Kanıta",
+  "veri": {
+    "n": 80,
+    "eksik_hucre": 0,
+    "school_duzeyleri": ["GP"],
+    "kaynak_satir_benzersiz": true
+  },
+  "G1": {
+    "min": 0,
+    "max": 17,
+    "ortalama": 12.175
+  },
+  "G3": {
+    "min": 7,
+    "max": 17,
+    "ortalama": 12.6375,
+    "medyan": 12.0,
+    "frekans_yuzde": [
+      {"G3": 7, "frekans": 1, "yuzde": 1.25},
+      {"G3": 9, "frekans": 1, "yuzde": 1.25},
+      {"G3": 10, "frekans": 8, "yuzde": 10.0},
+      {"G3": 11, "frekans": 15, "yuzde": 18.75},
+      {"G3": 12, "frekans": 16, "yuzde": 20.0},
+      {"G3": 13, "frekans": 15, "yuzde": 18.75},
+      {"G3": 14, "frekans": 9, "yuzde": 11.25},
+      {"G3": 15, "frekans": 6, "yuzde": 7.5},
+      {"G3": 16, "frekans": 6, "yuzde": 7.5},
+      {"G3": 17, "frekans": 3, "yuzde": 3.75}
+    ]
+  },
+  "sistematik_secim": {
+    "baslangic": 3,
+    "aralik": 5,
+    "kaynak_satirlar": [3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68, 73, 78],
+    "n": 16,
+    "G1_ortalama": 12.5625,
+    "G3_ortalama": 12.8125,
+    "not": "Öğretim amaçlı seçimdir; ilk 80 kaydı temsili örnekleme dönüştürmez."
+  }
+}
