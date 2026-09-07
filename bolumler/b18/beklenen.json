@@ -1,65 +1,93 @@
 {
   "bolum": "B18",
   "baslik": "IBM SPSS Uygulamaları",
-  "sleep_esli_test": {
-    "satir_sayisi": 20,
-    "benzersiz_id": 10,
-    "gecerli_cift": 10,
-    "group1_ortalama": 0.75,
-    "group1_ss": 1.7890097762190923,
-    "group2_ortalama": 2.33,
-    "group2_ss": 2.002248735796829,
-    "esler_arasi_korelasyon": 0.7951702058335777,
-    "esler_arasi_korelasyon_p": 0.0059649957969184494,
-    "fark_yonu": "group2-group1",
-    "ortalama_fark": 1.58,
-    "fark_ss": 1.2299954832798732,
-    "t": 4.062127683382037,
-    "df": 9,
-    "p_iki_yonlu": 0.00283289019738427,
-    "ga95_alt": 0.7001142367230186,
-    "ga95_ust": 2.4598857632769813
+  "kaynak": {
+    "sleep_satir": 20,
+    "sleep_ID": 10,
+    "ToothGrowth_satir": 60,
+    "doz_supp_hucre_n": 10,
+    "normalize_sha256": {
+      "sleep.csv": "adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e",
+      "ToothGrowth.csv": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3"
+    }
   },
-  "toothgrowth_dose1_bagimsiz_test": {
-    "tam_veri_n": 60,
-    "dose1_n": 20,
-    "oj_n": 10,
-    "vc_n": 10,
-    "oj_ortalama": 22.7,
-    "oj_ss": 3.910953406449709,
-    "vc_ortalama": 16.77,
-    "vc_ss": 2.5153092536759202,
-    "fark_yonu": "OJ-VC",
-    "ortalama_fark": 5.93,
-    "levene_f": 2.148654199387583,
-    "levene_p": 0.159934140422232,
-    "esit_varyans_t": 4.032769633719344,
-    "esit_varyans_df": 18.0,
-    "esit_varyans_p": 0.0007807261651781905,
-    "welch_t": 4.032769633719344,
-    "welch_df": 15.357665075029744,
-    "welch_p": 0.0010383758722991037,
-    "welch_ga95_alt": 2.8021482491653686,
-    "welch_ga95_ust": 9.057851750834626
+  "uyku_esli": {
+    "kosul1": {"n": 10, "ortalama": 0.75, "s": 1.7890096577591623},
+    "kosul2": {"n": 10, "ortalama": 2.3299999999999996, "s": 2.002248735796829},
+    "korelasyon": {"r": 0.7951702058335778, "p": 0.005964995796918454},
+    "fark_kosul2_eksi_kosul1": {
+      "n": 10,
+      "ortalama": 1.58,
+      "s": 1.2299954832798732,
+      "SH": 0.3889587238883952,
+      "t": 4.062127683382037,
+      "sd": 9,
+      "p_iki_yonlu": 0.002832890197384273,
+      "GA95": [0.7001142367230175, 2.459885763276983],
+      "dz": 1.2845575625910546
+    }
   },
-  "sleep_eksik_esli_test": {
-    "satir_sayisi": 20,
-    "benzersiz_id": 10,
-    "gecerli_cift": 9,
-    "fark_yonu": "group2-group1",
-    "ortalama_fark": 1.6,
-    "fark_ss": 1.3028814220795382,
-    "t": 3.6841418709760143,
-    "df": 8,
-    "p_iki_yonlu": 0.006182145173983767,
-    "ga95_alt": 0.5985166843346337,
-    "ga95_ust": 2.6014833156653665
+  "ToothGrowth_doz1": {
+    "OJ": {"n": 10, "ortalama": 22.7, "s": 3.9109532796436675},
+    "VC": {"n": 10, "ortalama": 16.770000000000003, "s": 2.5153086843919934},
+    "Levene_ortalama_merkezli": {"F": 2.2714507307194816, "p": 0.14912625893090994},
+    "Welch": {
+      "fark": 5.929999999999996,
+      "SH": 1.4704534448031106,
+      "t": 4.03276963371935,
+      "sd": 15.357671628182151,
+      "p_iki_yonlu": 0.0010383758722998823,
+      "GA95": [2.8021482491653615, 9.057851750834631]
+    },
+    "Student": {
+      "fark": 5.929999999999996,
+      "SH": 1.4704534448031106,
+      "t": 4.03276963371935,
+      "sd": 18.0,
+      "p_iki_yonlu": 0.0007807261651774479,
+      "GA95": [2.8406919486647824, 9.01930805133521]
+    },
+    "d_pooled": 1.803509407718679,
+    "filtre_kapatilinca_doz_frekanslari": {"0.5": 20, "1.0": 20, "2.0": 20}
   },
   "durum_deneyi": {
-    "sleep_uzun_satir": 20,
-    "sleep_gecerli_cift": 10,
-    "toothgrowth_tam_n": 60,
-    "toothgrowth_dose1_n": 20,
-    "sleep_eksik_gecerli_cift": 9
+    "ID_1_5_filtresi": {
+      "n": 5,
+      "ortalama": 1.24,
+      "s": 0.8502940667792528,
+      "SH": 0.38026306683663097,
+      "t": 3.2609004348369446,
+      "sd": 4,
+      "p_iki_yonlu": 0.031054421487028173,
+      "GA95": [0.18422046939393466, 2.2957795306060653]
+    },
+    "agirlik_2_mekanik_tekrar": {
+      "n": 20,
+      "ortalama": 1.58,
+      "s": 1.1971896916924805,
+      "SH": 0.26769975325864015,
+      "t": 5.902134689207095,
+      "sd": 19,
+      "p_iki_yonlu": 0.000011059117321388117,
+      "GA95": [1.0196979770704973, 2.140302022929503]
+    },
+    "iki_hucre_gizleme": {
+      "kosul1_gecerli": 9,
+      "kosul2_gecerli": 9,
+      "tam_cift": 8,
+      "n": 8,
+      "ortalama": 1.525,
+      "s": 1.3509256086106294,
+      "SH": 0.4776243293635699,
+      "t": 3.1928859278003037,
+      "sd": 7,
+      "p_iki_yonlu": 0.015215482703232752,
+      "GA95": [0.39559792763616297, 2.654402072363837]
+    }
+  },
+  "yurutme": {
+    "Python_referans": true,
+    "SPSS_calistirildi": false,
+    "R_calistirildi": false
   }
 }

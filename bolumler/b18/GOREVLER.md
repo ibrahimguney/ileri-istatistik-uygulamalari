@@ -1,118 +1,41 @@
-# Bölüm 18 — Öğrenci görevleri
+# B18 — Görevler
 
-Görevleri önce SPSS'te ve kendi yorumunuzla tamamlayın. Daha sonra `COZUMLER.md` ve `beklenen.json` ile kontrol edin.
+Önce `VERI.md` dosyasını okuyun. Ana analiz ile öğretim amaçlı karşı örnekleri birbirine karıştırmayın.
 
-## G1 — Oturum sözleşmesi
+## D1–D3 — Çalıştırmadan önce
 
-SPSS'i açtıktan sonra analizden önce aşağıdakileri kontrol edin ve kısa bir kontrol kaydı yazın:
+**D1.** Uyku kaynağında neden 20 satır varken analiz birimi 10 kişidir? `group` değişkenini neden bağımsız grup değişkeni olarak kullanmıyoruz?
 
-- aktif veri seti,
-- aktif filtre,
-- aktif ağırlık,
-- aktif Split File,
-- eksik değer tanımları,
-- analizde kullanılacak bağımsız birim.
+**D2.** `FILTER OFF` ile ham kaynağı yeniden okumak arasındaki farkı açıklayın. Gerçek bir araştırmada gerekli tasarım ağırlığının neden gelişigüzel kapatılamayacağını yazın.
 
-**Soru:** Filtre veya ağırlığın açık olduğunu fark etmeden yapılan bir analiz neden teknik olarak doğru komutla çalışsa bile bilimsel olarak yanlış olabilir?
+**D3.** Hazırlanmış bir `.sps` dosyasının tek başına SPSS'in çalıştırıldığını veya bütün yeni veri hatalarının yakalandığını neden kanıtlamadığını açıklayın.
 
-## G2 — `sleep.csv` içe aktarımı
+## G1–G4 — Rehberli çalışma
 
-1. `sleep.csv` dosyasını SPSS'e aktarın.
-2. 20 satır ve 4 değişken bulunduğunu doğrulayın.
-3. Her ID'nin iki kez geçtiğini kontrol edin.
-4. Eşli test için veriyi ID temelinde geniş biçime dönüştürün.
-5. `group2 − group1` fark yönünü açıkça belirleyin.
+**G1.** Uyku farkları için `n`, ortalama ve standart sapmadan SH, t, sd ve %95 güven aralığını yeniden kurun. Paired Samples Correlations tablosundaki p değerinin neden fark testinin p değeri olmadığını açıklayın.
 
-**Beklenen:** 10 geçerli çift.
+**G2.** ToothGrowth 1 mg/gün verisinde Welch ve Student modellerinin neden burada aynı t'yi fakat farklı sd, p ve güven aralığını verdiğini açıklayın. Levene `p=0.149126` hangi sonucu kanıtlamaz?
 
-## G3 — Eşli t-testi: üç tabloyu ayırın
+**G3.** `ID<=5` filtresi için kullanılan farkları, n'yi, ortalamayı ve t sonucunu bulun. Filtre kapatıldığında hangi n ve ortalamanın geri gelmesi gerekir? Data View'da 10 satır görmek neden yeterli kontrol değildir?
 
-SPSS eşli t-test çıktısında şu üç bölümü ayrı ayrı tanımlayın:
+**G4.** Kurgusal çalışma kopyasında ID1'in `kosul2`, ID2'nin `kosul1` hücresini eksik yapın. Her koşuldaki geçerli sayı, tam çift sayısı ve yeni fark ortalamasını bulun. `fark` sütununun neden yeniden hesaplanması gerektiğini açıklayın.
 
-1. Paired Samples Statistics,
-2. Paired Samples Correlations,
-3. Paired Samples Test.
+## B1–B3 — Bağımsız çalışma
 
-Aşağıdaki değerleri bulun:
+**B1.** Fark yönünü `kosul1-kosul2` yaparsanız ortalama fark, t, iki yönlü p ve güven aralığı nasıl değişir?
 
-- group1 ortalaması ve SS,
-- group2 ortalaması ve SS,
-- eşler arası korelasyon,
-- ortalama fark,
-- farkın %95 güven aralığı,
-- t, df ve iki yönlü p.
+**B2.** Her çifte frekans ağırlığı 2 verildiğinde ortalama değişmeden SH'nin neden küçüldüğünü gösterin. Mekanik `n=20` neden 20 bağımsız kişi değildir?
 
-Ardından tek paragraf akademik rapor yazın.
+**B3.** İki yazılım aynı ham ortalamaları fakat farklı güven aralıklarını veriyor. Kayıt/eksik kümesi, etkin durum, fark yönü, eşli-bağımsız tasarım, Student-Welch seçimi, güven düzeyi, yön ve çoklu düzeltme bakımından bir denetim sırası yazın.
 
-## G4 — `ToothGrowth.csv`: filtreli bağımsız t-testi
+## H1 — Hatalı raporu onarma
 
-1. Dosyayı açın ve N=60 olduğunu doğrulayın.
-2. Yalnız `dose=1` kayıtlarını filtreleyin.
-3. Aktif analiz N'sinin 20 olduğunu doğrulayın.
-4. OJ ve VC için grup ortalamalarını/SS'leri bulun.
-5. Bağımsız t-testini çalıştırın.
-6. Levene testini ve iki t-testi satırını ayrı ayrı okuyun.
+Aşağıdaki iddiaların her birini birim, hipotez, yöntem ve yürütme kanıtı bakımından düzeltin:
 
-**Ana raporlama satırı:** Welch / “Equal variances not assumed”.
+> “Uyku dosyasında 20 satır olduğu için bağımsız t kullandık. Korelasyon tablosundaki .005965 artışın p'sidir. Levene .149 olduğundan varyanslar kanıtla eşittir; daha küçük p verdiği için Student satırını seçtik. Ağırlık 2 ile 20 kişiye ulaştık. İki hücreyi gizledik ama eski fark sütununu kullandık. Syntax dosyası bulunduğu için SPSS çalıştırılmıştır.”
 
-## G5 — Levene otomatik anahtar değildir
+## P1 — Denetlenebilir analiz teslimi
 
-Şu iki cümleden hangisinin daha doğru olduğunu gerekçelendirin:
+Bir ana analiz seçin ve tek teslim paketinde şunları bağlayın: veri kaynağı/sözlüğü, bağımsız birim, oturum ayarları, eksik/dışlama kuralları, tam syntax, kullanılan n, tahmin ve güven aralığı, etki tanımı, kısa akademik rapor, sınırlılıklar ve yeniden üretim kaydı. Karşı örnekleri ana sonuçtan ayrı tutun.
 
-A. “Levene p>.05 olduğu için eşit varyans satırı zorunlu olarak kullanılmalıdır.”
-
-B. “Levene tanısal bilgi sağlar; Welch testi varyans eşitliğini zorunlu kılmadığı için önceden belirlenmiş ana yöntem olarak raporlanabilir.”
-
-## G6 — Aynı dosyada farklı n
-
-Aşağıdaki dört durumu karşılaştırın:
-
-| Durum | Dosya/süzme | Beklenen analiz n |
-|---|---|---:|
-| Sleep uzun veri | `sleep.csv` satırları | 20 satır |
-| Sleep eşli analiz | 10 ID | 10 çift |
-| ToothGrowth tam veri | filtre yok | 60 kayıt |
-| ToothGrowth dose=1 | filtre açık | 20 kayıt |
-| Sleep eksik kopya | `sleep_eksik.csv` | 9 geçerli çift |
-
-**Soru:** Neden “dosyada 20 satır var” ifadesi tek başına testin örneklem büyüklüğünü söylemez?
-
-## G7 — Eksik kopyada eski farkı kullanmayın
-
-`sleep_eksik.csv` dosyasını analiz edin.
-
-- geçerli çift sayısını,
-- ortalama farkı,
-- t ve p değerini
-
-bulun. Sonucu `sleep.csv` ana analiziyle karşılaştırın. Eski 10-çift sonucunu yeni dosyaya kopyalamanın neden yanlış olduğunu açıklayın.
-
-## G8 — Ağırlıkla yeni kişi yaratılmaz
-
-Bir analiz ağırlığı değişkeninin frekansları/katkıları değiştirebileceğini, ancak gözlenmemiş yeni bağımsız bireyler yaratmadığını açıklayan 3–4 cümlelik bir not yazın.
-
-SPSS'te herhangi bir ağırlık denemesinden sonra `WEIGHT OFF` komutunun çalıştığını doğrulayın.
-
-## G9 — Yöntem haritası
-
-Bölüm 1–17'den beş farklı araştırma sorusu seçin. Her biri için:
-
-- bağımlı değişken,
-- bağımsız/gruplama değişkeni,
-- analiz birimi,
-- önerilen yöntem,
-- SPSS'te kontrol edilmesi gereken kritik ayar
-
-başlıklarıyla mini karar tablosu hazırlayın.
-
-## G10 — Denetlenebilir analiz teslimi
-
-Tesliminizde en az şunlar bulunsun:
-
-- kullanılan veri dosyasının adı,
-- aktif filtre/ağırlık/split durumu,
-- analiz Syntax'ı,
-- ilgili SPSS çıktı tabloları,
-- kontrol sayıları,
-- akademik raporlama paragrafı,
-- yöntem ve genelleme sınırlılığı.
+**Rubrik:** kaynak/birim 20, içe aktarma/durum 25, model/hesap 25, yorum/sınırlılık 20, yeniden üretim 10 puan.

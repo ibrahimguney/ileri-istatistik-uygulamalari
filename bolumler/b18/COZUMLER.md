@@ -1,92 +1,62 @@
-# Bölüm 18 — Çözüm ve kontrol notları
+# B18 — Çözümler ve kontrol değerleri
 
-Bu dosyayı görevleri tamamladıktan sonra kullanın.
+## D1–D3
 
-## G1 — Oturum sözleşmesi
+**D1.** Her ID iki koşulda ölçülür; 20 ölçümden 10 eşli fark oluşur. `group` koşul etiketidir, bağımsız kişi grubu değildir.
 
-Doğru analiz komutu tek başına yeterli değildir. Aktif filtre, ağırlık veya Split File önceki bir analizden kalmışsa SPSS aynı komutu farklı bir aktif örneklem üzerinde çalıştırabilir. Bu nedenle veri dosyası, analiz birimi ve oturum durumu analizden önce kaydedilmelidir.
+**D2.** `FILTER OFF` yalnız filtreyle dışlanan kayıtları yeniden kullanılabilir yapar; silinmiş/değiştirilmiş değerleri geri getirmez. Ham kaynağı yeniden okumak çalışma kopyasındaki değişiklikleri geri alabilir. Gerçek tasarım ağırlıkları hedef anakütle ve belirsizlik hesabının parçası olabilir.
 
-## G2–G3 — `sleep` eşli test
+**D3.** Syntax planı belgeler; yürütmeyi kanıtlamaz. Gerçek yürütme için yazılım sürümü, çıktı, uyarı/hata ve veri/syntax sürümü birlikte kaydedilmelidir.
 
-Uzun veri 20 satırdır fakat 10 ID vardır. ID üzerinden geniş biçime dönüştürüldüğünde 10 geçerli çift bulunur.
+## G1–G4
 
-Kontrol değerleri:
+**G1. Uyku eşli testi**
 
-- group1: M=0.75, SS=1.7890,
-- group2: M=2.33, SS=2.0022,
-- eşler arası korelasyon r=0.79517, p=.005965,
-- fark yönü: group2−group1,
-- ortalama fark=1.58,
-- fark SS=1.229995,
-- t(9)=4.062128,
-- p=.00283289,
-- %95 GA [0.700114, 2.459886].
+- `n=10`, ortalama fark `1.58`, `sD=1.2299954833`
+- `SH=0.3889587239`
+- `t(9)=4.0621276834`
+- iki yönlü `p=0.0028328902`
+- %95 GA `[0.7001142367, 2.4598857633]` saat
+- `dz=1.2845575626`
+- koşul korelasyonu `r=0.7951702058`, `p=0.0059649958`
 
-Paired Samples Correlations tablosundaki p=.005965, iki koşul arasındaki **farkın** p değeri değildir. Fark testi için Paired Samples Test tablosu kullanılır.
+Korelasyon testi `rho=0`, eşli t testi ise ortalama fark için `muD=0` hipotezini sınar; p değerleri birbirinin yerine yazılmaz.
 
-## G4–G5 — `ToothGrowth`, dose=1
+**G2. ToothGrowth, 1 mg/gün**
 
-Tam veri N=60'tır. `dose=1` filtresi sonrası N=20 olur.
+OJ: `n=10`, ortalama `22.70`, `s=3.9109532796`; VC: `n=10`, ortalama `16.77`, `s=2.5153086844`. Fark `5.93`, SH `1.4704534448`, `t=4.0327696337`.
 
-- OJ: n=10, M=22.70, SS=3.910953,
-- VC: n=10, M=16.77, SS=2.515309,
-- OJ−VC=5.93.
+- Welch: `sd=15.3576716282`, `p=0.0010383759`, GA `[2.8021482492, 9.0578517508]`
+- Student: `sd=18`, `p=0.0007807262`, GA `[2.8406919487, 9.0193080513]`
+- ortalama merkezli Levene: `F=2.2714507307`, `p=0.1491262589`
 
-Levene:
+Levene'nin anlamsızlığı varyans eşitliğini kanıtlamaz; model daha küçük p verdiği için seçilmez.
 
-- F=2.271451,
-- p=.149126.
+**G3. İlk beş ID filtresi**
 
-Eş varyans satırı:
+Farklar `1.2, 2.4, 1.3, 1.3, 0`; `n=5`, ortalama `1.24`, `s=0.8502940668`, `SH=0.3802630668`, `t(4)=3.2609004348`, `p=0.0310544215`, GA `[0.1842204694, 2.2957795306]`. Filtre kapanınca ana `n=10`, ortalama `1.58` geri gelmelidir.
 
-- t(18)=4.032770,
-- p=.0007807.
+**G4. İki hücre gizleme senaryosu**
 
-Welch satırı:
+Her koşulda 9 geçerli ölçüm vardır; ortak tam çiftler ID3–10 olmak üzere 8 kişidir. Fark ortalaması `1.525`, `t(7)=3.1928859278`, `p=0.0152154827`, GA `[0.3955979276, 2.6544020724]`. Eski 10 farkı kullanmak yeni eksik kuralla tutarsızdır.
 
-- t=4.032770,
-- df=15.357672,
-- p=.00103838,
-- %95 GA [2.802148, 9.057852].
+## B1–B3
 
-Bu pakette Welch ana yöntem olarak önceden belirlenmiştir. Levene p>.05 olması Welch sonucunu geçersiz kılmaz ve eş varyans satırını zorunlu hale getirmez.
+**B1.** Yön ters çevrilirse ortalama `-1.58`, t `-4.0621276834` olur; iki yönlü p değişmez. Güven aralığı `[-2.4598857633, -0.7001142367]` olur.
 
-## G6 — Aynı dosyada farklı n
+**B2.** Aynı 10 farkı iki kez mekanik saymak `n=20`, ortalama `1.58`, `s=1.1971896917`, `SH=0.2676997533`, `t(19)=5.9021346892`, `p=0.0000110591`, GA `[1.0196979771, 2.1403020229]` üretir. Bu yeni bağımsız bilgi değildir.
 
-- `sleep.csv`: 20 satır, 10 kişi, 10 eşli analiz birimi.
-- `ToothGrowth.csv`: 60 kayıt.
-- `dose=1` filtresi: 20 kayıt.
-- `sleep_eksik.csv`: 20 satır fakat 9 geçerli çift.
+**B3.** Önce aynı kayıt/eksik kümesi ile filtre-ağırlık-bölünme; sonra grup/fark yönü ve analiz birimi; ardından eşli-bağımsız ve Student-Welch modeli; sonra SH/sd, güven düzeyi, tek/iki yön ve çoklu düzeltme; en son yuvarlama ve yazılım sürümü karşılaştırılır.
 
-Bu nedenle dosya satır sayısı ile analizdeki bağımsız/geçerli birim sayısı aynı kavram değildir.
+## H1 — Düzeltilmiş ilkeler
 
-## G7 — Eksik kopya
+1. 20 satır, 20 bağımsız kişi değildir; 10 tam çift ID üzerinden eşlenir.
+2. `0.005965` koşullar arası korelasyon testinin p'sidir; ortalama farkın p'si `0.002833` civarındadır.
+3. Levene `0.149` eşit varyansı kanıtlamaz; burada ana yöntem Welch'tir.
+4. Ağırlık 2 yeni kişi yaratmaz.
+5. Koşul hücreleri değiştiyse fark yeniden hesaplanır ve ortak tam çift sayısı kullanılır.
+6. Syntax dosyası yürütme kanıtı değildir. Bu depo Python referansını çalıştırabilir; SPSS sonucu ancak gerçek SPSS oturumu kaydedildiğinde öyle adlandırılır.
 
-`sleep_eksik.csv` için:
+## P1 — Örnek teslim omurgası
 
-- geçerli çift n=9,
-- ortalama fark=1.60,
-- fark SS=1.302881,
-- t(8)=3.684142,
-- p=.00618215,
-- %95 GA [0.598517, 2.601483].
-
-Bir eş eksildiğinde yalnız n değil; standart hata, df, t, p ve güven aralığı da yeniden hesaplanır.
-
-## G8 — Ağırlık
-
-Ağırlıklandırma gözlenen satırların analize katkısını değiştirebilir. Ancak veri setinde gözlenmeyen yeni bağımsız bireyler üretmez. Bir ağırlık değişkenini “örneklem büyütme” amacıyla kullanmak araştırma tasarımındaki gerçek n'yi değiştirmez. Kullanım sonrası `WEIGHT OFF` ile oturum temizlenmelidir.
-
-## G9 — Yöntem haritası için örnek
-
-| Araştırma sorusu | Analiz birimi | Yöntem | Kritik SPSS kontrolü |
-|---|---|---|---|
-| Aynı kişilerin iki ölçümü farklı mı? | eşleşmiş kişi | eşli t-testi | doğru ID eşleştirmesi |
-| İki bağımsız grubun ortalaması farklı mı? | kişi/hayvan | Welch t-testi | doğru grup ve filtre |
-| Üç grubun ortalamaları farklı mı? | bağımsız birim | ANOVA/Welch | Split File ve filtre durumu |
-| İki değişken ilişkili mi? | bağımsız birim | korelasyon | eksik değer ve aktif filtre |
-| Bir sonuç kovaryat kontrolünde farklı mı? | bağımsız birim | ANCOVA | faktör/kovaryat kodlaması |
-
-## G10 — Minimum denetlenebilir teslim
-
-İyi bir teslim yalnız `.spv` çıktı dosyası değildir. En az veri adı, Syntax, aktif oturum durumları, kullanılan n, doğru çıktı tablosu, raporlama paragrafı ve sınırlılık birlikte verilmelidir.
+Uyku örneğinde kaynak ve aktarım notu; 20 ölçüm/10 kişi ayrımı; ID eşleme; geçerli negatif/sıfır ölçümler; ana oturumda filtre/ağırlık/bölünmenin kapalı olduğu; `kosul2-kosul1` yönü; `n=10`, `t(9)=4.062128`, `p=0.002833`, GA `[0.700114,2.459886]` ve `dz=1.284558` aynı modele bağlanır. Küçük n ve tarihsel tasarım/genelleme sınırları raporlanır. SPSS çalıştırılmadıysa açıkça “syntax hazır, SPSS çalıştırılmadı” denir.

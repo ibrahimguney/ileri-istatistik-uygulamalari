@@ -1,0 +1,32 @@
+{
+  "bolum": "B18",
+  "baslik": "IBM SPSS Uygulamaları",
+  "kitap_eslemesi": "İleri İstatistik Uygulamaları, Bölüm 18",
+  "veri": {
+    "sleep": "20 ölçüm, 10 ID, iki koşul; ID üzerinden eşleme",
+    "ToothGrowth": "60 kayıt; OJ/VC ve 0.5/1/2 mg/gün; ana karşılaştırma dose=1",
+    "yerel_hash_kontrolu": true
+  },
+  "python_referans": {
+    "dosya": "analiz.py",
+    "beklenen_sozlesme": "beklenen.json",
+    "otomatik_workflow_kapsaminda": true,
+    "not": "Python referans hesabı SPSS veya R yürütmesi değildir."
+  },
+  "spss": {
+    "ana_syntax": "analiz.sps",
+    "durum_deneyi": "durum-deneyi.sps",
+    "gercek_yurutme_bu_depoda_dogrulanmadi": true,
+    "kontrol_listesi": "SPSS-KONTROL-LISTESI.md"
+  },
+  "R": {
+    "dosya": "analiz.R",
+    "gercek_yurutme_bu_depoda_dogrulanmadi": true
+  },
+  "karsiornekler": [
+    "ID<=5 filtresi",
+    "ağırlık 2 ile mekanik tekrar",
+    "iki hücre gizleme ve farkı yeniden hesaplama"
+  ],
+  "yorum_siniri": "Hazırlanmış syntax, çalıştırılmış yazılım çıktısı değildir. Gerçek SPSS/R sonucu ancak sürüm, yürütme kaydı, çıktı ve uyarılarla birlikte öyle adlandırılır."
+}

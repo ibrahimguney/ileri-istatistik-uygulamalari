@@ -1,83 +1,43 @@
-# Bölüm 18 — Veri, kaynak ve analiz sözleşmesi
+# B18 — Veri ve kaynak notları
 
-## Kullanılan dosyalar
+## 1. `sleep.csv`
 
-Bu bölüm iki sabit öğretim verisini ve bir türetilmiş eksik-kopyayı kullanır:
+Kaynak, R `datasets::sleep` arşivinin bu depoda Bölüm 10'da kullanılan yerel kopyasıdır. Dosyada **20 ölçüm fakat 10 bağımsız kişi kodu** vardır; her ID iki koşulda bir kez görünür. `extra`, kontrole göre uyku artışını saat cinsinden verir. Negatif değer ve sıfır geçerli gözlemlerdir.
 
-- `sleep.csv` — R `datasets::sleep` verisinin yerel öğretim kopyası,
-- `ToothGrowth.csv` — R `datasets::ToothGrowth` verisinin yerel öğretim kopyası,
-- `sleep_eksik.csv` — yalnız eksik eş davranışını göstermek amacıyla `sleep.csv` dosyasından türetilmiş kopya.
+Alanlar:
 
-`sleep.csv` ve `ToothGrowth.csv` değerleri Bölüm 10'da kullanılan sabit kopyalarla aynıdır. Kaynak ve lisans bildirimi aynı sınırlarla korunur.
+| Alan | Anlam | Kontrol |
+|---|---|---|
+| `kaynak_satir` | kaynak sıra etiketi | 1–20 |
+| `extra` | kontrole göre uyku artışı | saat; negatif/sıfır geçerli |
+| `group` | koşul | 1 veya 2; bağımsız grup değildir |
+| `ID` | kişi kodu | 1–10; her ID iki koşulda bulunur |
 
-## Kaynaklar
+Python, ID×koşul anahtarının benzersizliğini ve her ID için iki koşul bulunmasını kontrol eder. `uyku_esli.csv`, satır sırasına göre değil ID üzerinden eşlenir ve `fark = kosul2 - kosul1` olarak yeniden üretilir.
 
-R kaynakları:
+## 2. `ToothGrowth.csv`
 
-- `sleep`: R `datasets` paketi; kaynak çalışmalar Cushny ve Peebles (1905) ve Student (1908).
-- `ToothGrowth`: R `datasets` paketi; R sözlüğü Bliss (1952) kaynağına atıf verir.
+Kaynak, R `datasets::ToothGrowth` arşivinin bu depoda Bölüm 10'da kullanılan yerel kopyasıdır. Dosyada 60 hayvan kaydı, `OJ`/`VC` uygulama biçimleri ve 0.5, 1, 2 mg/gün doz düzeyleri vardır. Yanıt `len`, odontoblast uzunluğudur; kısa kaynak açıklamasında ölçüm birimi açık verilmediği için burada **kaynak ölçüm birimi** denir.
 
-R kaynak dağıtımına ilişkin GNU GPL v2 bildirimi depoda `bolumler/b10/GPL-2.txt` dosyasında korunur. B18 aynı iki sabit veri kopyasını yeniden kullandığı için bu kaynak/lisans kaydına açıkça referans verir. Bu bildirim kitabın özgün metni veya depodaki bütün materyaller için yeni bir genel lisans tanımlamaz.
+B18'in bağımsız test uygulaması yalnız **1 mg/gün** düzeyini karşılaştırır; OJ ve VC'de 10'ar kayıt vardır. `dis_veri.csv` bütün 60 kaydı korur ve bu dosyaya özgü olarak `OJ=1`, `VC=2` kodunu ekler.
 
-## `sleep.csv`
+## 3. Yerel bütünlük sözleşmesi
 
-20 ölçüm satırı, 10 ID ve her ID için iki `group` değeri içerir.
+Normalize edilmiş SHA-256 değerleri:
 
-| Değişken | Anlam |
-|---|---|
-| `kaynak_satir` | yerel sıra numarası |
-| `extra` | kontrole göre uyku artışı (saat) |
-| `group` | koşul/ilaç kodu 1 veya 2 |
-| `ID` | eşleştirmeyi sağlayan kişi kodu |
+- `sleep.csv`: `adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e`
+- `ToothGrowth.csv`: `654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3`
 
-Eşli analizde bağımsız gözlem sayısı 20 değil, **10 eşleşmiş ID**'dir. Ana fark `group2 − group1` olarak tanımlanır.
+Normalizasyon LF satır sonu ve tek son satır sonu kullanır. Bu, **yerel kopya bütünlüğü** denetimidir; her çalıştırmada uzak R kaynağıyla otomatik hücre-hücre karşılaştırma yapıldığı anlamına gelmez.
 
-## `ToothGrowth.csv`
+## 4. Ana analiz ile öğretim kopyalarını ayırın
 
-60 ayrı hayvan kaydı içerir. Ana SPSS etkinliğinde yalnız `dose=1` gözlemleri filtrelenir.
+- Ana uyku analizi 10 tam çifttir.
+- `ID<=5` filtresi yalnız bir öğretim alt kümesidir; yeni bağımsız çalışma değildir.
+- Her çifte ağırlık 2 vermek yeni kişi üretmez; mekanik tekrar karşı örneğidir.
+- İki hücrenin gizlendiği eksik kopya kurgudur; gerçek arşivde bu kayıp olduğu iddia edilmez.
+- Kaynak CSV'ler bu karşı örnekler için değiştirilmez.
 
-| Değişken | Anlam |
-|---|---|
-| `kaynak_satir` | yerel sıra numarası |
-| `len` | kaynak ölçüm birimindeki odontoblast uzunluğu |
-| `supp` | `OJ` veya `VC` destek türü |
-| `dose` | 0.5, 1.0 veya 2.0 mg/gün kaynak dozu |
+## 5. Lisans
 
-Ana öğretim karşılaştırması: `dose=1` içinde `OJ − VC`.
-
-Filtre öncesi N=60, filtre sonrası N=20'dir. Filtreyi açık bırakmak daha sonraki analizleri sessizce değiştirebileceği için oturum sonunda `FILTER OFF` kullanılmalıdır.
-
-## `sleep_eksik.csv`
-
-Bu dosya özgün veri kaynağı değildir. Yalnız öğretim amacıyla `sleep.csv` kopyasında `ID=10, group=2` değeri eksik bırakılmıştır.
-
-Amaç:
-
-- dosyada satır sayısı 20 olarak kalırken,
-- geçerli eş sayısının 10'dan 9'a düşebildiğini,
-- eski t-testi sonucunun eksik veri bulunan yeni dosyaya kopyalanmaması gerektiğini
-
-göstermektir.
-
-Bu türetilmiş eksiklik gerçek araştırmadaki bir kayıp gözlem iddiası değildir.
-
-## SPSS içe aktarım denetimi
-
-CSV içe aktarımından sonra en az şu kontroller yapılmalıdır:
-
-1. satır sayısı,
-2. değişken adları,
-3. sayısal/string türleri,
-4. `group`, `ID`, `dose` kodları,
-5. eksik değer sayıları,
-6. aktif `FILTER`, `WEIGHT` ve `SPLIT FILE` durumu.
-
-Dosyanın açılması, doğru analiz örneklemiyle çalışıldığı anlamına gelmez.
-
-## Bilimsel sınırlar
-
-- Bu veriler yeni veya temsili bir örneklem değildir.
-- `sleep` sonuçları klinik tedavi kararı için kullanılmaz.
-- `ToothGrowth` hayvan deneyidir; insanlara doğrudan genellenmez.
-- Filtre/ağırlık/split durumları araştırma tasarımını veya bağımsız birimlerin gerçek sayısını değiştirmez.
-- `sleep_eksik.csv` yalnız öğretim amaçlı türetilmiş bir durum deneyidir.
+Bu iki kaynak veri kopyasının aktarım/lisans notları Bölüm 10 ile aynıdır. Yanındaki `GPL-2.txt` veri kaynaklarına ilişkin lisans metnini korur. Bu durum, deponun tüm özgün kod ve öğrenci materyallerinin otomatik olarak aynı lisansla sunulduğu anlamına gelmez.
