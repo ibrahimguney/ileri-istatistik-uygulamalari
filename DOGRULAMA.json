@@ -47,6 +47,8 @@
     "Pages_giris_sayfasi": "index.html",
     "Pages_stil_dosyasi": "assets/site.css",
     "nojekyll": true,
+    "gitignore": true,
+    "cikti_politikasi": "CIKTI_POLITIKASI.md",
     "bolumler": "B02-B17",
     "ortak_ogrenci_zinciri": [
       "README.md",
@@ -68,8 +70,12 @@
   },
   "veri_ve_lisans_notu": "Her bölümün VERI.md dosyası kaynak, seçim/aktarım, lisans ve yorum sınırlarını ayrıca açıklar. Bir bölümün veri lisansı bütün depoya otomatik uygulanmaz. Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak lisansı seçilmemiştir.",
   "sonuclar_ve_grafikler": {
-    "mevcut_durum": "Bazı bölümlerde sonuclar/ dizinleri izlenmektedir; grafikler analiz çalıştırıldığında üretilebilir.",
-    "politika": "Dağıtım politikası ayrıca netleştirilecektir; otomatik üretilen çıktılar öğrenci ödevi yerine referans/teknik kontrol amacıyla değerlendirilmelidir."
+    "politika_durumu": "kesinleştirildi",
+    "politika_belgesi": "CIKTI_POLITIKASI.md",
+    "sonuclar": "Bölümlerde mevcut sonuclar/ dosyaları sürümlenmiş referans/doğrulama çıktılarıdır. Öğrenci ödevi teslim alanı değildir; yalnız bilinçli analiz/veri değişikliği sonrası yeniden üretim ve doğrulama ile güncellenmelidir.",
+    "grafikler": "grafikler/ yeniden üretilebilir çalışma çıktısıdır ve varsayılan olarak Git tarafından izlenmez.",
+    "gitignore_kurali": "bolumler/b*/grafikler/ ve öğrenci kişisel çıktı klasörleri .gitignore ile dışlanır.",
+    "canli_agac_gozlemi": "Politika belirlenirken canlı recursive depo ağacında sürümlenmiş sonuclar/ klasörleri görüldü; izlenen grafikler/ yolu görülmedi."
   },
   "yapilmayanlar": [
     "Canlı site masaüstü/tarayıcı görsel yerleşim ve mobil görünüm açısından insan gözüyle ayrıca incelenmedi.",
