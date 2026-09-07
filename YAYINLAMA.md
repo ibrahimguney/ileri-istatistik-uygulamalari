@@ -1,72 +1,104 @@
-# GitHub'a toplu yükleme — Bölüm 2–17
+# GitHub ve GitHub Pages yayınlama notları
 
-6 Eylül 2026. Hedef depo:
-https://github.com/ibrahimguney/ileri-istatistik-uygulamalari
+7 Eylül 2026 itibarıyla bu depo GitHub'da `main` dalında yayımlanmış ve GitHub Pages canlılığı doğrulanmıştır.
 
-Bu çalışma ortamında GitHub yazma kimliği bağlı değildir; yükleme/push yapılmadı.
-Parola veya erişim anahtarını sohbet içine göndermeyin. Yetkili GitHub oturumunuzdan
-veya kendi bilgisayarınızdaki GitHub Desktop/Git üzerinden yükleyin.
+Canlı öğrenci giriş sayfası:
 
-## 1. Doğru paketi seçin
+`https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/`
 
-`ileri-istatistik-uygulamalari-tam-yukleme.zip` dosyasını indirip açın.
-İçindeki `index.html`, `assets/`, `bolumler/`, README ve diğer kök dosyaları hedef
-GitHub deposunun **kökünde** olmalıdır; `ogrenci-deposu/` diye ek seviye oluşturmayın.
-ZIP dosyasını tek dosya olarak yüklemek siteyi kurmaz. Gizli `.nojekyll` ve
-`.gitignore` dosyalarını da koruyun. Tam kitap klasörünü yüklemeyin.
+Bu belge artık ilk yükleme yönergesi değil, **bakım ve yeniden yayınlama rehberi** olarak kullanılmalıdır.
 
-Kaynak bildirimleri ve GPL metinleri dağıtıma dahildir. Veri lisansını bütün
-kod/metne uygulanmış saymayın; yazar adına yeni lisans seçilmedi. Ayrıntı KULLANIM.md.
-Mevcut uzak dosyalar varsa yedekleyip farkları inceleyin; geçmişi zorla değiştirmeyin.
+## 1. Depo kökü
 
-## 2A. GitHub Desktop ile tek aktarım
+Aşağıdaki kök dosyaları ve klasörleri korunmalıdır:
 
-Yetkili hesabınızla hedef depoyu klonlayın. Açılmış tam ZIP'in içindekileri
-klonun köküne kopyalayın. Changes listesinde yalnız öğrenci dosyaları olduğunu
-kontrol edin. Açıklama olarak “Bölüm 2–17 öğrenci materyalleri” yazıp değişiklikleri
-commit edin; ardından Push origin / Publish branch işlemini yapın. main dalını
-hedefleyin; mevcut çalışma varsa önce eşitleyin. Kitabın çalışma deposunu push etmeyin.
+- `index.html`
+- `assets/`
+- `.nojekyll`
+- `.gitignore`
+- `README.md`
+- `KULLANIM.md`
+- `CIKTI_POLITIKASI.md`
+- `DOGRULAMA.json`
+- `bolumler/`
+- `.github/workflows/`
+- `tools/`
 
-## 2B. Tarayıcıyla, 100 dosya sınırını aşmadan
+Tam kitap metni, özel öğrenci kayıtları, kimlik bilgileri veya erişim anahtarları bu depoya eklenmemelidir.
 
-GitHub bir yüklemede en fazla 100 dosya kabul ettiğinden tam paketi tek seferde
-sürüklemeyin. Ayrı `web-00-kok.zip`, `web-01-...zip` vb. parçalar da hazırlanır;
-her biri en fazla 90 dosyadır. ZIP'leri ayrı ayrı açın ve şu sırada yükleyin:
+## 2. GitHub Pages
 
-1. Önce `web-00-kok.zip` içindekiler. Boş depoda “uploading an existing file”;
-   dosyalar varsa “Add file → Upload files” yolunu kullanın.
-2. Yükleme listesinde `index.html` ve `assets/site.css` gibi kök yolları kontrol edin.
-   “Commit changes” ile kaydedin; ana dalın main olduğunu doğrulayın.
-3. Sonra numara sırasıyla her bölüm parçasını açın. Her parça içindeki `bolumler`
-   klasörünü depo kökünden yükleyin; klasör yapısını düzleştirmeyin.
-4. Her yüklemeyi ayrı commit edin. Önceki parçanın klasörüne girerek yüklemeyin.
-5. Gizli `.nojekyll` yüklenmediyse depoda “Add file → Create new file” ile
-   kökte `.nojekyll` adlı boş dosyayı ekleyin.
+Yayın kaynağı:
 
-Bu parçalar tam ZIP ile aynı dosyaları içerir; iki yöntemi üst üste uygulamanız gerekmez.
-
-## 3. GitHub Pages
-
-Tüm parçalar tamamlandıktan sonra **Settings → Pages** altında:
 - Source: **Deploy from a branch**
 - Branch: **main**
 - Folder: **/(root)**
-- **Save**
 
-Dağıtımın başarıyla bitmesini bekleyin. Ayar için depo yönetim yetkisi gerekir.
-Hedef site: https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/
+Kök `index.html` öğrenci giriş sayfasıdır. `.nojekyll` korunmalıdır.
 
-## 4. Yayın sonrası denetim
+Canlı site kontrolü `.github/workflows/pages-smoke-test.yml` ile otomatik yapılır. Ana sayfa, örnek bölüm bağlantıları ve stil dosyası HTTP düzeyinde denetlenir.
 
-Oturum açılmamış tarayıcıyla ana sayfa ve 16 bölümün tamamını açın.
-CSV, kod, defter ve çözüm indirmelerini kontrol edin. Depoyu yeniden indirip
-B02 ve B17 analizlerini çalıştırın; bölüm gereksinimlerine göre diğerlerini de sınayın.
-Telefon ve PDF üzerinden karekodları deneyin. Yalnız gerçekten doğrulanan
-bölümlerde yerel `ogrenciYayinHazirfalse` anahtarını değiştirmeyi değerlendirin;
-bu yükleme hazırlığında kitabın yayın anahtarları değiştirilmemiştir.
+## 3. Notebook doğrulaması
 
-## Resmî yönergeler
+B02–B17 için 16 `calisma.ipynb` dosyasının teknik kontrolü `.github/workflows/notebook-validation.yml` üzerinden yapılır.
 
-6 Eylül 2026'da kontrol edilen belgeler:
-- https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
-- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Kontroller:
+
+- Jupyter JSON yapısı,
+- Python sözdizimi,
+- bölüm içi yerel dosya yolları,
+- temiz öğrenci çıktısı (`execution_count=null`, `outputs=[]`),
+- 16 notebookun gerçek çalıştırma testi.
+
+## 4. `sonuclar/` ve `grafikler/` dağıtım politikası
+
+Ayrıntılı kurallar `CIKTI_POLITIKASI.md` dosyasındadır.
+
+Özet:
+
+- `sonuclar/` klasörlerindeki mevcut dosyalar **sürümlenmiş referans/doğrulama çıktılarıdır**.
+- Bu dosyalar yalnız analiz/veri değişikliği bilinçli olarak yapıldığında, analiz yeniden çalıştırılıp farklar doğrulandıktan sonra güncellenmelidir.
+- `grafikler/` klasörleri yeniden üretilebilir çalışma çıktılarıdır ve varsayılan olarak Git tarafından izlenmez.
+- Öğrenci ödevleri ve kişisel raporlar `sonuclar/` veya `grafikler/` içine kalıcı depo içeriği olarak gönderilmemelidir.
+- Kalıcı web görselleri gerekiyorsa bakım amacı açık olacak şekilde `assets/` altında tutulmalıdır.
+
+## 5. `.gitignore`
+
+Kök `.gitignore` şu tür geçici/kişisel dosyaları dışlar:
+
+- `bolumler/b*/grafikler/`
+- `ogrenci-ciktilari/`
+- bölüm içi `ogrenci-ciktilari/`
+- Jupyter checkpoint'leri
+- Python `__pycache__` ve `.pyc` dosyaları
+- temel işletim sistemi/editör geçici dosyaları
+
+Not: `.gitignore`, daha önce Git tarafından izlenmeye başlanmış `sonuclar/` dosyalarını etkilemez. Bunlar bilinçli referans çıktıları olarak sürümlenmeye devam eder.
+
+## 6. Bir analiz değiştiğinde bakım sırası
+
+1. İlgili bölümün `VERI.md`, `analiz.py` ve/veya `analiz.R` değişikliğini inceleyin.
+2. Analizi temiz ortamda yeniden çalıştırın.
+3. `sonuclar/` farklarını `beklenen.json` ve bölüm `DOGRULAMA.json` ile karşılaştırın.
+4. Sayısal değişikliklerin nedenini açıklayın; yalnız kütüphane sürümü farkını otomatik kabul etmeyin.
+5. Gerekirse `README.md`, `RAPORLAMA.md`, `COZUMLER.md` ve `beklenen.json` dosyalarını birlikte güncelleyin.
+6. Notebook Validation kontrolünün başarılı olduğunu doğrulayın.
+7. Web dosyası/bölüm README değiştiyse Pages Smoke Test sonucunu kontrol edin.
+8. Kök `DOGRULAMA.json` yalnız gerçekten doğrulanan yeni durumu yansıtacak biçimde güncellenmelidir.
+
+## 7. Yayın sonrası kontrol
+
+Önemli bir sürümden sonra en az şu kontroller önerilir:
+
+- canlı ana sayfa,
+- bölüm kartlarından örnek bağlantılar,
+- notebookların açılması,
+- veri dosyalarının erişilebilirliği,
+- `sonuclar/` referanslarının beklenen sonuçlarla tutarlılığı,
+- telefon/karekod üzerinden giriş sayfası görünümü.
+
+## 8. Lisans ve kaynak sınırı
+
+Kaynak bildirimleri, veri lisansları ve varsa GPL metinleri korunmalıdır. Bir veri setinin lisansı bütün depo koduna veya özgün öğrenci materyallerine otomatik uygulanmaz.
+
+Ayrıntılar için `KULLANIM.md` ve her bölümün `VERI.md` dosyasına bakın.
