@@ -110,7 +110,12 @@ Bu nedenle her bölümde hesaplama kadar **yorumlama, duyarlılık, sınırlıl�
 
 ## Çıktılar ve teknik doğrulama
 
-Analizler bölüme göre `sonuclar/` ve `grafikler/` klasörlerinde dosya üretebilir. Kişisel ödev veya raporlarınızı bu otomatik çıktı klasörlerine kaydetmeyin; analiz yeniden çalıştırıldığında içerikleri değişebilir.
+Analizler bölüme göre `sonuclar/` ve `grafikler/` klasörlerinde dosya üretebilir. Bu iki klasör aynı amaçla kullanılmaz:
+
+- **`sonuclar/`**: depoda sürümlenmiş **referans/doğrulama çıktılarıdır**. Kendi çalışmanızı tamamladıktan sonra kontrol amacıyla kullanılabilir. Analizi yerelde yeniden çalıştırdığınızda bu dosyalar değişebilir; öğrenci ödevi veya kişisel raporlarınızı buraya kaydetmeyin.
+- **`grafikler/`**: yeniden üretilebilir çalışma çıktılarıdır ve **varsayılan olarak Git tarafından izlenmez**. Analiz çalıştırıldığında yerelde yeniden oluşabilir.
+
+Kendi tablo, grafik ve raporlarınızı depo dışındaki kişisel klasörünüzde tutmanız önerilir. Ayrıntılı bakım kuralları için [CIKTI_POLITIKASI.md](CIKTI_POLITIKASI.md) dosyasına bakın.
 
 Referans sayılar bölüm `beklenen.json` dosyalarında, gerçek çalıştırma ve yazılım doğrulama durumu ise bölüm `DOGRULAMA.json` dosyalarında tutulur. Toplu teknik kontrol bilgileri kökteki [DOGRULAMA.json](DOGRULAMA.json) dosyasında yer alır.
 
@@ -127,6 +132,7 @@ Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak
 Bu README öğrenciler için ana giriş noktasıdır. Yayınlama ve teknik bakım ayrıntıları öğrenci çalışma akışından ayrı tutulur:
 
 - [Kullanım ve kaynak sınırları](KULLANIM.md)
+- [Çıktı dağıtım politikası](CIKTI_POLITIKASI.md)
 - [Teknik doğrulama kaydı](DOGRULAMA.json)
 - [Yayınlama notları](YAYINLAMA.md)
 - [Web ana sayfası](index.html)
