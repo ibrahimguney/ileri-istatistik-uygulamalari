@@ -16,6 +16,8 @@ Bir satırın neyi temsil ettiğini belirtin. Aynı kayda ait tekrarlı ölçüm
 
 > Her satır bir öğrenci kaydını temsil etmektedir. Aynı satırdaki G1 ve G3 değerleri aynı kayda ait iki not olduğundan bağımsız iki gözlem olarak değerlendirilmemiştir.
 
+Dosya uzun biçime çevrilip 160 satır elde edilse bile analiz birimi otomatik olarak 160 bağımsız öğrenciye dönüşmez.
+
 ## 3. Örnekleme/seçim sınırını belirtin
 
 Bu veri, olasılıklı örnekleme ile seçilmiş temsili bir örneklem gibi sunulmamalıdır.
@@ -30,9 +32,15 @@ Kaçınılması gereken ifade:
 
 Bu iddia ancak örnekleme tasarımı ve hedef anakütle açıkça bunu destekliyorsa kullanılabilir.
 
-## 4. Betimsel sonuç ile değer yargısını ayırın
+## 4. Parametre ile istatistiği hedefe göre ayırın
 
-Örneğin G3 ortalamasının yaklaşık 12.64 olması betimsel bir sonuçtur. “Başarılı”, “iyi”, “yeterli” gibi ifadeler ise ek bir ölçüt gerektirir.
+Bölüm 1'de yalnız örnekleme alıştırması amacıyla eldeki 80 kayıt kapalı bir öğretim anakütlesi olarak tanımlanabilir. Bu çerçevede G3 toplamı **1011**, bilinen ortalama ise **12.6375**'tir. Bu sayı yalnız bu 80 kayıtlık öğretim çerçevesinin parametresi rolündedir.
+
+Bu 80 kayıttan seçilen 10 kaydın ortalaması ise bu çerçeveye yönelik bir örneklem istatistiğidir. 12.6375'i bütün Portekiz öğrencilerinin veya kaynak dosyadaki 649 kaydın bilinen parametresi gibi yazmayın.
+
+## 5. Betimsel sonuç ile değer yargısını ayırın
+
+G3 ortalamasının yaklaşık 12.64 olması betimsel bir sonuçtur. “Başarılı”, “iyi”, “yeterli” gibi ifadeler ek bir ölçüt gerektirir.
 
 Daha güvenli ifade:
 
@@ -40,7 +48,7 @@ Daha güvenli ifade:
 
 Daha güçlü bir başarı yorumu yapılacaksa başarı eşiğinin önceden tanımlanmış olması gerekir.
 
-## 5. Frekans ve yüzdeyi birlikte raporlayın
+## 6. Frekans ve yüzdeyi birlikte raporlayın
 
 Kategoriler veya ayrık puanlar için hem sayı hem yüzde yararlıdır. Paydanın ne olduğu açık olmalıdır.
 
@@ -50,7 +58,7 @@ Kategoriler veya ayrık puanlar için hem sayı hem yüzde yararlıdır. Paydan�
 
 Eksik değer varsa toplam satır sayısı ile geçerli gözlem sayısını birbirine karıştırmayın.
 
-## 6. Grafik seçimini gerekçelendirin
+## 7. Grafik seçimini gerekçelendirin
 
 Grafik adı vermek yeterli değildir; neden uygun olduğunu da açıklayın.
 
@@ -60,15 +68,21 @@ Grafik adı vermek yeterli değildir; neden uygun olduğunu da açıklayın.
 
 Bu alıntıda `school` yalnız tek düzey içerdiği için okul dağılımını gösteren grafik bilimsel açıdan sınırlı bilgi taşır.
 
-## 7. Sistematik örnekleme uygulamasını doğru çerçeveleyin
+## 8. Sistematik örnekleme uygulamasını doğru çerçeveleyin
 
-Başlangıç 3 ve aralık 5 ile yapılan seçim, **sistematik seçim algoritmasını göstermek için bir öğretim uygulamasıdır**. Bu işlem ilk 80 kaydın kaynağa göre temsili olmadığını değiştirmez.
+Kitaptaki öğretim örneğinde `N=80`, `n=10`, sistematik aralık `j=8` ve gösterim için sabit başlangıç `r=3` kullanılır. Seçilen kayıtlar:
+
+`3, 11, 19, 27, 35, 43, 51, 59, 67, 75`
+
+Bu 10 kaydın G3 ortalaması **12.2**'dir.
 
 Uygun ifade:
 
-> Sistematik seçim örneğinde 3. kayıttan başlanarak her beşinci kayıt alınmış ve 16 kayıt seçilmiştir. Bu uygulama seçim mekanizmasını göstermek amacıyla yapılmış, temsili örnekleme iddiasında bulunulmamıştır.
+> Sistematik seçim örneğinde 3. kayıttan başlanarak sekizer kayıt arayla toplam 10 kayıt seçilmiştir. Başlangıç 3, hesabı görünür kılmak için öğretim amacıyla sabitlenmiş; rastgele çekildiği iddia edilmemiştir. Uygulama seçim mekanizmasını göstermek amacıyla yapılmış, temsili örnekleme iddiasında bulunulmamıştır.
 
-## 8. Nedensellikten kaçının
+Gerçek bir uygulamada rastgele başlangıcın nasıl üretildiği de yeniden üretim kaydında belirtilmelidir.
+
+## 9. Nedensellikten kaçının
 
 B01 verisi gözlemsel bir alıntıdır. G1 ve G3 arasında görülen desenler nedensel etki olarak yazılmamalıdır.
 
@@ -82,7 +96,7 @@ Daha güvenli:
 
 Nedensel yorum için yalnız ilişki değil, uygun araştırma tasarımı gerekir.
 
-## 9. Yeniden üretilebilirlik notu
+## 10. Yeniden üretilebilirlik notu
 
 Raporun sonunda veri dosyası ve analiz dosyasını belirtmek yararlıdır.
 
@@ -98,8 +112,10 @@ Raporun sonunda veri dosyası ve analiz dosyasını belirtmek yararlıdır.
 - [ ] Analiz birimini tanımladım.
 - [ ] Veri kaynağını belirttim.
 - [ ] Örnek ile örnekleme çerçevesini karıştırmadım.
+- [ ] Parametre/istatistik dilini tanımlanan hedefe göre kullandım.
 - [ ] Frekans/yüzdede doğru paydayı kullandım.
 - [ ] Grafik türünü değişken yapısına göre seçtim.
+- [ ] Sistematik örnekleme örneğinde aralığı 8 ve seçilen n'yi 10 olarak doğruladım.
 - [ ] Betimsel sonuçtan nedensellik çıkarmadım.
 - [ ] “Başarı” gibi normatif ifadeleri ölçütsüz kullanmadım.
 - [ ] Yeniden üretim dosyalarını belirttim.
