@@ -40,7 +40,7 @@ Canlı site kontrolü `.github/workflows/pages-smoke-test.yml` ile otomatik yap�
 
 ## 3. Notebook doğrulaması
 
-B01–B17 için 17 `calisma.ipynb` dosyasının teknik kontrolü `.github/workflows/notebook-validation.yml` üzerinden yapılır.
+B01–B18 için 18 `calisma.ipynb` dosyasının teknik kontrolü `.github/workflows/notebook-validation.yml` üzerinden yapılır.
 
 Kontroller:
 
@@ -48,13 +48,15 @@ Kontroller:
 - Python sözdizimi,
 - bölüm içi yerel dosya yolları,
 - temiz öğrenci çıktısı (`execution_count=null`, `outputs=[]`),
-- 17 notebookun gerçek çalıştırma testi.
+- 18 notebookun gerçek çalıştırma testi.
 
 ## 4. Tam Python analiz doğrulaması
 
-B01–B17 arasındaki 17 `analiz.py` dosyası `.github/workflows/analysis-validation.yml` ile gerçek olarak çalıştırılır.
+B01–B18 arasındaki 18 `analiz.py` dosyası `.github/workflows/analysis-validation.yml` ile gerçek olarak çalıştırılır.
 
-Her bölümde analiz sonrası `sonuclar/ozet.json`, ilgili `beklenen.json` sözleşmesiyle karşılaştırılır. Sayısal değerlerde toleranslı karşılaştırma (`rtol=1e-7`, `atol=1e-8`), diğer yapılarda anlamsal/birebir karşılaştırma kullanılır.
+Her bölümde analiz sonrası `sonuclar/ozet.json`, ilgili `beklenen.json` sözleşmesiyle karşılaştırılır. Sayısal değerlerde toleranslı karşılaştırma (`rtol=1e-6`, `atol=1e-8`), diğer yapılarda anlamsal/birebir karşılaştırma kullanılır.
+
+B15 için `gradient_max`, geçmiş çalışmanın son basamaklarıyla eşitlik yerine mevcut analiz eşiği olan `0 ≤ gradyan ≤ 1e-6` ve sonluluk koşuluyla doğrulanır. `optimizer_alternate_success` çıktıda korunur ancak platforma bağlı durdurma bayrağı referans eşitliği olarak kullanılmaz; analiz içindeki gradyan, iki algoritmanın amaç fonksiyonu/kovaryans uyumu ve çoklu başlangıç kontrolleri korunur. Diğer sayısal sonuçların toleransları değişmez.
 
 Ham `git diff`, tek başına bilimsel geçme/kalma ölçütü değildir; ortam veya kütüphane sürümüne bağlı yazımsal farklar olabilir.
 

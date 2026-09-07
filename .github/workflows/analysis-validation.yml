@@ -5,9 +5,7 @@ on:
     paths:
       - "bolumler/b*/analiz.py"
       - "bolumler/b*/beklenen.json"
-      - "bolumler/b*/veri*.csv"
-      - "bolumler/b*/sleep*.csv"
-      - "bolumler/b*/ToothGrowth.csv"
+      - "bolumler/b*/*.csv"
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"
@@ -16,9 +14,7 @@ on:
     paths:
       - "bolumler/b*/analiz.py"
       - "bolumler/b*/beklenen.json"
-      - "bolumler/b*/veri*.csv"
-      - "bolumler/b*/sleep*.csv"
-      - "bolumler/b*/ToothGrowth.csv"
+      - "bolumler/b*/*.csv"
       - "bolumler/b*/requirements.txt"
       - "requirements.txt"
       - "tools/dogrula_analizler.py"

@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "bolumler/b*/calisma.ipynb"
+      - "bolumler/b*/analiz.py"
+      - "bolumler/b*/*.csv"
       - "requirements.txt"
       - "tools/dogrula_notebooklar.py"
       - "tools/calistir_notebooklar.py"
@@ -11,6 +13,8 @@ on:
   pull_request:
     paths:
       - "bolumler/b*/calisma.ipynb"
+      - "bolumler/b*/analiz.py"
+      - "bolumler/b*/*.csv"
       - "requirements.txt"
       - "tools/dogrula_notebooklar.py"
       - "tools/calistir_notebooklar.py"

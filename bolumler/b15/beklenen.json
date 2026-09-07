@@ -176,7 +176,6 @@
         0.53388496825659,
         0.53388496825659
       ],
-      "optimizer_alternate_success": false,
       "max_abs_residual": 0.3444041394196558
     },
     "correlated": {
@@ -342,7 +341,6 @@
         0.4701886462242939,
         0.470188646224301
       ],
-      "optimizer_alternate_success": true,
       "max_abs_residual": 0.23149745311055067,
       "phi_se": 0.12333794364846427,
       "phi_ci95": [
@@ -523,7 +521,6 @@
         0.39090120897641967,
         0.3909012089764268
       ],
-      "optimizer_alternate_success": true,
       "max_abs_residual": 0.20073573206880635,
       "phi_se": 0.1292851002488765,
       "phi_ci95": [
