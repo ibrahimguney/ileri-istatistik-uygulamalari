@@ -1,0 +1,29 @@
+name: Notebook Validation
+
+on:
+  push:
+    paths:
+      - "bolumler/b*/calisma.ipynb"
+      - "tools/dogrula_notebooklar.py"
+      - ".github/workflows/notebook-validation.yml"
+  pull_request:
+    paths:
+      - "bolumler/b*/calisma.ipynb"
+      - "tools/dogrula_notebooklar.py"
+      - ".github/workflows/notebook-validation.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Statik notebook doğrulaması
+        run: python tools/dogrula_notebooklar.py
