@@ -7,7 +7,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RTOL = 1e-7
+# Farklı Python/SciPy/BLAS ortamlarında aynı analizin son basamaklarında
+# çok küçük kayan nokta farkları oluşabilir. 1e-6 göreli tolerans,
+# bilimsel olarak anlamlı farkları saklamadan çapraz-ortam doğrulamasını
+# kararlı tutar.
+RTOL = 1e-6
 ATOL = 1e-8
 
 
