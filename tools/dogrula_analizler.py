@@ -16,6 +16,7 @@ def fail(message: str) -> None:
 
 
 def compare(expected, actual, path="root"):
+    """Beklenen JSON'u, üretilen özetin zorunlu alt-kümesi olarak doğrula."""
     if isinstance(expected, dict):
         if not isinstance(actual, dict):
             fail(f"{path}: beklenen dict, bulunan {type(actual).__name__}")
