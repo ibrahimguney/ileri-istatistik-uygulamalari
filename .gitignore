@@ -1,0 +1,20 @@
+# Yeniden üretilebilir grafik çıktıları
+bolumler/b*/grafikler/
+
+# Öğrencinin kişisel çalışma/teslim alanı
+ogrenci-ciktilari/
+bolumler/b*/ogrenci-ciktilari/
+
+# Jupyter geçici dosyaları
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+
+# İşletim sistemi / editör geçici dosyaları
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
