@@ -1,19 +1,21 @@
 {
-  "paket": "B02-B17 öğrenci uygulama deposu",
+  "paket": "B01-B17 öğrenci uygulama deposu",
   "tarih": "2026-09-07",
-  "kapsam": "16 öğrenci bölümü; B01/B18 ve tam kitap yok",
+  "kapsam": "17 öğrenci bölümü; B18 ve tam kitap yok",
   "GitHuba_yuklendi": true,
   "varsayilan_dal": "main",
   "Pages_dosyalari_hazir": true,
   "Pages_yayini_dogrulandi": true,
   "Pages_adresi": "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/",
-  "Pages_notu": "Canlı GitHub Pages ana sayfası, B06 ve B17 örnek bölüm yolları ile assets/site.css dosyası GitHub Actions üzerinden HTTP düzeyinde başarıyla doğrulandı.",
+  "Pages_notu": "Canlı GitHub Pages ana sayfası, B01/B06/B17 örnek bölüm yolları ve assets/site.css dosyası GitHub Actions üzerinden HTTP düzeyinde başarıyla doğrulandı.",
   "Pages_dogrulamasi": {
     "workflow": ".github/workflows/pages-smoke-test.yml",
-    "son_basarili_workflow_run_id": 34086394931,
-    "son_basarili_commit": "2277fdfb5d00f9047da8a3dce048bb2157c4a2f7",
+    "son_basarili_workflow_run_id": 34095773331,
+    "son_basarili_commit": "fb23694709aa6797c0bc797708ad3d7de627f18c",
     "kontroller": [
       "ana sayfa HTTP erişimi ve beklenen başlık metni",
+      "ana sayfada B01 İstatistiksel Düşünme: Sorudan Kanıta başlığının bulunması",
+      "B01 README canlı erişimi",
       "B06 README canlı erişimi",
       "B17 README canlı erişimi",
       "assets/site.css canlı erişimi ve boş olmaması"
@@ -21,8 +23,8 @@
     "sonuc": "başarılı"
   },
   "notebook_dogrulamasi": {
-    "defter_sayisi": 16,
-    "kapsam": "bolumler/b02/calisma.ipynb - bolumler/b17/calisma.ipynb",
+    "defter_sayisi": 17,
+    "kapsam": "bolumler/b01/calisma.ipynb - bolumler/b17/calisma.ipynb",
     "statik_kontrol": "başarılı",
     "statik_kontrol_icerigi": [
       "Jupyter JSON yapısı ve nbformat=4",
@@ -33,14 +35,26 @@
       "öğrenci defterlerinde kayıtlı outputs alanlarının boş olması"
     ],
     "gercek_calistirma": "başarılı",
-    "gercek_calistirma_aciklamasi": "GitHub Actions üzerinde gerekli Python ortamı kuruldu ve 16 öğrenci notebookunun tamamı kendi bölüm klasöründe yürütüldü.",
+    "gercek_calistirma_aciklamasi": "GitHub Actions üzerinde gerekli Python ortamı kuruldu ve B01-B17 arasındaki 17 öğrenci notebookunun tamamı kendi bölüm klasöründe yürütüldü.",
     "github_actions_workflow": ".github/workflows/notebook-validation.yml",
     "dogrulama_araclari": [
       "tools/dogrula_notebooklar.py",
       "tools/calistir_notebooklar.py"
     ],
-    "son_basarili_workflow_run_id": 34085930869,
-    "son_basarili_commit": "e4b0104df13fef4d7c383cd2eba7f8065a69e94d"
+    "son_basarili_workflow_run_id": 34095419277,
+    "son_basarili_commit": "43f2085ce6e8e47977bb566361edcedd2bec5fba"
+  },
+  "analiz_dogrulamasi": {
+    "analiz_sayisi": 17,
+    "kapsam": "bolumler/b01/analiz.py - bolumler/b17/analiz.py",
+    "gercek_calistirma": "başarılı",
+    "referans_karsilastirma": "başarılı",
+    "karsilastirma_yontemi": "beklenen.json zorunlu alt-küme sözleşmesi; sayısal değerlerde rtol=1e-7 ve atol=1e-8, diğer yapılarda anlamsal/birebir karşılaştırma",
+    "github_actions_workflow": ".github/workflows/analysis-validation.yml",
+    "dogrulama_araci": "tools/dogrula_analizler.py",
+    "son_basarili_workflow_run_id": 34095481977,
+    "son_basarili_commit": "c70135fa0dbdf578a286857ddd2eb2afd6c89bf6",
+    "sonuc": "B01-B17: 17/17 analiz başarıyla çalıştı ve beklenen.json sözleşmeleri doğrulandı."
   },
   "depo_yapisi": {
     "ana_README_ogrenci_odakli": true,
@@ -49,7 +63,7 @@
     "nojekyll": true,
     "gitignore": true,
     "cikti_politikasi": "CIKTI_POLITIKASI.md",
-    "bolumler": "B02-B17",
+    "bolumler": "B01-B17",
     "ortak_ogrenci_zinciri": [
       "README.md",
       "VERI.md",
@@ -59,31 +73,33 @@
       "COZUMLER.md",
       "beklenen.json"
     ],
-    "RAPORLAMA_md": "B02-B17 için mevcut",
-    "calisma_ipynb": "B02-B17 için mevcut ve otomatik doğrulanmış"
+    "RAPORLAMA_md": "B01-B17 için mevcut",
+    "calisma_ipynb": "B01-B17 için mevcut ve otomatik doğrulanmış",
+    "B01_baslik": "İstatistiksel Düşünme: Sorudan Kanıta",
+    "B18_durumu": "henüz öğrenci uygulama paketi oluşturulmadı"
   },
   "teknik_dogrulama_durumu": {
-    "Python_notebooklari": "16/16 statik ve çalıştırma doğrulamasından geçti",
-    "Python_analiz_betikleri": "Bu güncellemede B02-B17 analiz.py dosyalarının tamamı yeniden çalıştırılmadı; bölüm DOGRULAMA.json kayıtları önceki doğrulamaları belgelemektedir.",
+    "Python_notebooklari": "17/17 statik ve gerçek çalıştırma doğrulamasından geçti",
+    "Python_analiz_betikleri": "17/17 gerçek çalıştırma ve beklenen.json doğrulamasından geçti",
     "R": "Bu güncellemede yeniden çalıştırılmadı; hazırlanmış R dosyası bulunması R doğrulaması anlamına gelmez.",
     "SPSS_PROCESS_AMOS": "Bu güncellemede çalıştırılmadı; kontrol listeleri veya hazırlık notları yazılım çıktısı değildir."
   },
-  "veri_ve_lisans_notu": "Her bölümün VERI.md dosyası kaynak, seçim/aktarım, lisans ve yorum sınırlarını ayrıca açıklar. Bir bölümün veri lisansı bütün depoya otomatik uygulanmaz. Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak lisansı seçilmemiştir.",
+  "veri_ve_lisans_notu": "Her bölümün VERI.md dosyası kaynak, seçim/aktarım, lisans ve yorum sınırlarını ayrıca açıklar. B01 ve B02 aynı UCI öğretim alıntısını kullanır ve ilgili veri için CC BY 4.0 bildirimi korunur; bu lisans bütün depoya otomatik uygulanmaz. Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak lisansı seçilmemiştir.",
   "sonuclar_ve_grafikler": {
     "politika_durumu": "kesinleştirildi",
     "politika_belgesi": "CIKTI_POLITIKASI.md",
     "sonuclar": "Bölümlerde mevcut sonuclar/ dosyaları sürümlenmiş referans/doğrulama çıktılarıdır. Öğrenci ödevi teslim alanı değildir; yalnız bilinçli analiz/veri değişikliği sonrası yeniden üretim ve doğrulama ile güncellenmelidir.",
     "grafikler": "grafikler/ yeniden üretilebilir çalışma çıktısıdır ve varsayılan olarak Git tarafından izlenmez.",
     "gitignore_kurali": "bolumler/b*/grafikler/ ve öğrenci kişisel çıktı klasörleri .gitignore ile dışlanır.",
-    "canli_agac_gozlemi": "Politika belirlenirken canlı recursive depo ağacında sürümlenmiş sonuclar/ klasörleri görüldü; izlenen grafikler/ yolu görülmedi."
+    "dogrulama_politikasi": "Bilimsel geçme/kalma ölçütü ham git diff değil, beklenen.json ile anlamsal ve toleranslı sayısal karşılaştırmadır."
   },
   "yapilmayanlar": [
+    "Bölüm 18 — IBM SPSS Uygulamaları öğrenci paketi henüz oluşturulmadı.",
     "Canlı site masaüstü/tarayıcı görsel yerleşim ve mobil görünüm açısından insan gözüyle ayrıca incelenmedi.",
-    "Tüm B02-B17 analiz.py betikleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
     "R, SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
     "Uzak veri kaynaklarıyla tam hücre-hücre karşılaştırması yeniden yapılmadı.",
-    "Tam kitap derlemesi ve B01/B18 kapsamı bu deponun doğrulama alanında değildir."
+    "Tam kitap metni bu deponun dağıtım ve doğrulama alanında değildir."
   ],
-  "otomatik_kontrol": "Notebook Validation ve Pages Smoke Test iş akışları ilgili dosyalar değiştiğinde otomatik olarak çalışır.",
+  "otomatik_kontrol": "Notebook Validation, Full Analysis Validation ve Pages Smoke Test iş akışları ilgili dosyalar değiştiğinde otomatik olarak çalışır.",
   "dogrulama_yorumu": "Bu dosya canlı deponun güncel teknik durumunu özetler; bilimsel geçerlik, temsil edilebilirlik, nedensellik veya bağımsız yazılım doğrulaması garantisi değildir."
 }
