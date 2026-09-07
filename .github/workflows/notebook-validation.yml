@@ -37,5 +37,5 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt nbformat nbclient ipykernel
 
-      - name: On altı notebooku çalıştır
+      - name: On yedi notebooku çalıştır
         run: python tools/calistir_notebooklar.py
