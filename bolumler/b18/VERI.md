@@ -17,7 +17,7 @@ R kaynakları:
 - `sleep`: R `datasets` paketi; kaynak çalışmalar Cushny ve Peebles (1905) ve Student (1908).
 - `ToothGrowth`: R `datasets` paketi; R sözlüğü Bliss (1952) kaynağına atıf verir.
 
-R kaynak dağıtımına ilişkin GNU GPL v2 bildirimi `GPL-2.txt` dosyasında tutulur. Bu bildirim kitabın özgün metni veya depodaki bütün materyaller için yeni bir genel lisans tanımlamaz.
+R kaynak dağıtımına ilişkin GNU GPL v2 bildirimi depoda `bolumler/b10/GPL-2.txt` dosyasında korunur. B18 aynı iki sabit veri kopyasını yeniden kullandığı için bu kaynak/lisans kaydına açıkça referans verir. Bu bildirim kitabın özgün metni veya depodaki bütün materyaller için yeni bir genel lisans tanımlamaz.
 
 ## `sleep.csv`
 
