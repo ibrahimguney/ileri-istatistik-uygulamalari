@@ -1,35 +1,70 @@
 {
-  "paket": "B02-B17 toplu yayın adayı",
-  "tarih": "2026-09-06",
+  "paket": "B02-B17 öğrenci uygulama deposu",
+  "tarih": "2026-09-07",
   "kapsam": "16 öğrenci bölümü; B01/B18 ve tam kitap yok",
-  "GitHuba_yuklendi": false,
+  "GitHuba_yuklendi": true,
+  "varsayilan_dal": "main",
+  "Pages_dosyalari_hazir": true,
   "Pages_yayini_dogrulandi": false,
-  "aktarim_engeli": "Bu oturumda GitHub CLI, token veya kayıtlı HTTPS yazma kimliği bulunmadı.",
-  "yerel_toplu_kontroller": {
-    "dosyalar": 245,
-    "html_sayfalari": 17,
-    "yerel_html_baglantilari": 259,
-    "http_hedefleri": 227,
-    "defterler": "16 defterin kod hücreleri sözdizimi kontrolünden geçti; kayıtlı çıktı ve yürütme sayaçları boş. Bu oturumda yalnız yeniden oluşturulan B02 defteri iki konumda yürütüldü.",
-    "izole_analizler": [
-      "b02",
-      "b17"
+  "Pages_notu": "index.html, assets/site.css ve .nojekyll depoda bulunmaktadır; canlı GitHub Pages adresi bu doğrulama kaydında tarayıcı üzerinden henüz doğrulanmamıştır.",
+  "notebook_dogrulamasi": {
+    "defter_sayisi": 16,
+    "kapsam": "bolumler/b02/calisma.ipynb - bolumler/b17/calisma.ipynb",
+    "statik_kontrol": "başarılı",
+    "statik_kontrol_icerigi": [
+      "Jupyter JSON yapısı ve nbformat=4",
+      "Python 3 kernelspec bilgisi",
+      "kod hücrelerinde Python sözdizimi",
+      "yerel veri/dosya yollarının bölüm klasörlerinde bulunması",
+      "öğrenci defterlerinde execution_count alanlarının boş olması",
+      "öğrenci defterlerinde kayıtlı outputs alanlarının boş olması"
     ],
-    "b02_defter_yurutmeleri": 2,
-    "butun_bolum_arsiv_hashleri": "B03–B17 dosyaları arşiv SHA-256 değerleriyle doğrulandı; yerel farklar yalnız son satır sonlarıydı.",
-    "kapsam_denetime_alindi": "Yalnız 9 ortak kök dosyası ve B02–B17 izinli paket dosyaları; tam kitap, sonuç/önbellek dizinleri yok.",
-    "HTTP": "Tam ZIP izole dizine açıldı; 17 HTML sayfasının 259 yerel bağlantısı çözüldü, 227 benzersiz hedef HTTP 200 ve beklenen baytlarla eşleşti.",
-    "hesaplar": "İzole tam ZIP içinde B02 ve B17 analizleri çalıştı; beklenen JSON alanları rtol=1e-7, atol=1e-8 ile eşleşti, kaynak CSV değişmedi.",
-    "parcalar": "9 + 84 + 77 + 75 = 245 dosya; dört web ZIP parçasının birleşimi tam ZIP ile bayt düzeyinde eşit.",
-    "paketleyici": "Değiştirilmiş hash ve üst dizine çıkan yol reddedildi.",
-    "hassas_veri_tarama": "Dağıtım kapsamında özel anahtar ve yaygın GitHub token desenleri bulunmadı; bu sınırlı tarama genel güvenlik garantisi değildir."
+    "gercek_calistirma": "başarılı",
+    "gercek_calistirma_aciklamasi": "GitHub Actions üzerinde gerekli Python ortamı kuruldu ve 16 öğrenci notebookunun tamamı kendi bölüm klasöründe yürütüldü.",
+    "github_actions_workflow": ".github/workflows/notebook-validation.yml",
+    "dogrulama_araclari": [
+      "tools/dogrula_notebooklar.py",
+      "tools/calistir_notebooklar.py"
+    ],
+    "son_basarili_workflow_run_id": 34085930869,
+    "son_basarili_commit": "e4b0104df13fef4d7c383cd2eba7f8065a69e94d"
   },
-  "bolum_kayitlari": "Bölümlerin DOGRULAMA.json dosyaları önceki yerel hazırlıkları belgeler; canlı site durumu değildir.",
+  "depo_yapisi": {
+    "ana_README_ogrenci_odakli": true,
+    "Pages_giris_sayfasi": "index.html",
+    "Pages_stil_dosyasi": "assets/site.css",
+    "nojekyll": true,
+    "bolumler": "B02-B17",
+    "ortak_ogrenci_zinciri": [
+      "README.md",
+      "VERI.md",
+      "GOREVLER.md",
+      "calisma.ipynb",
+      "RAPORLAMA.md",
+      "COZUMLER.md",
+      "beklenen.json"
+    ],
+    "RAPORLAMA_md": "B02-B17 için mevcut",
+    "calisma_ipynb": "B02-B17 için mevcut ve otomatik doğrulanmış"
+  },
+  "teknik_dogrulama_durumu": {
+    "Python_notebooklari": "16/16 statik ve çalıştırma doğrulamasından geçti",
+    "Python_analiz_betikleri": "Bu güncellemede B02-B17 analiz.py dosyalarının tamamı yeniden çalıştırılmadı; bölüm DOGRULAMA.json kayıtları önceki doğrulamaları belgelemektedir.",
+    "R": "Bu güncellemede yeniden çalıştırılmadı; hazırlanmış R dosyası bulunması R doğrulaması anlamına gelmez.",
+    "SPSS_PROCESS_AMOS": "Bu güncellemede çalıştırılmadı; kontrol listeleri veya hazırlık notları yazılım çıktısı değildir."
+  },
+  "veri_ve_lisans_notu": "Her bölümün VERI.md dosyası kaynak, seçim/aktarım, lisans ve yorum sınırlarını ayrıca açıklar. Bir bölümün veri lisansı bütün depoya otomatik uygulanmaz. Kod ve özgün öğrenci materyalleri için yazar adına genel bir açık kaynak lisansı seçilmemiştir.",
+  "sonuclar_ve_grafikler": {
+    "mevcut_durum": "Bazı bölümlerde sonuclar/ dizinleri izlenmektedir; grafikler analiz çalıştırıldığında üretilebilir.",
+    "politika": "Dağıtım politikası ayrıca netleştirilecektir; otomatik üretilen çıktılar öğrenci ödevi yerine referans/teknik kontrol amacıyla değerlendirilmelidir."
+  },
   "yapilmayanlar": [
-    "Bu oturumda tüm 16 bölümün analizleri yeniden çalıştırılmadı.",
-    "R/SPSS, telefon taraması ve tam kitap derlemesi yapılmadı.",
-    "Uzak kaynak CSV hücre karşılaştırması ve canlı Pages kontrolü yapılmadı.",
-    "Tarayıcıda görsel site kontrolü yapılmadı; yerel HTTP ve HTML hedefleri denetlendi."
+    "Canlı GitHub Pages sitesi tarayıcı ve mobil görünüm üzerinden doğrulanmadı.",
+    "Tüm B02-B17 analiz.py betikleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
+    "R, SPSS, PROCESS ve AMOS analizleri bu güncelleme kapsamında yeniden çalıştırılmadı.",
+    "Uzak veri kaynaklarıyla tam hücre-hücre karşılaştırması yeniden yapılmadı.",
+    "Tam kitap derlemesi ve B01/B18 kapsamı bu deponun doğrulama alanında değildir."
   ],
-  "yeniden_olusturulan_dosyalar": "Saklanmamış B03–B17 HTML/defter/gizli dosyaları özgün arşivlerinden geri getirildi. B02 ana sayfası/defteri ve ortak site toplu yayın için yeniden oluşturuldu; tarihsel B02 doğrulama kaydı kendi klasöründe korundu."
+  "otomatik_kontrol": "Notebook Validation iş akışı, notebook veya doğrulama araçları değiştiğinde push/pull request üzerinde otomatik olarak çalışır.",
+  "dogrulama_yorumu": "Bu dosya canlı deponun güncel teknik durumunu özetler; bilimsel geçerlik, temsil edilebilirlik, nedensellik veya bağımsız yazılım doğrulaması garantisi değildir."
 }
