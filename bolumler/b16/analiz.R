@@ -41,9 +41,9 @@ reverse <- fit_model(reverse_model)
 zero <- fit_model(zero_model)
 stopifnot(lavaan::lavInspect(forward, "converged"), lavaan::lavInspect(reverse, "converged"),
           lavaan::lavInspect(zero, "converged"))
-stopifnot(max(abs(fitted(forward)$cov - fitted(reverse)$cov)) < 1e-5)
+stopifnot(max(abs(lavaan::fitted(forward)$cov - lavaan::fitted(reverse)$cov)) < 1e-5)
 python_covariance <- as.matrix(read.csv(file.path(directory, "sonuclar/forward_kovaryans.csv"), row.names = 1))
-stopifnot(max(abs(fitted(forward)$cov - python_covariance)) < 1e-4)
+stopifnot(max(abs(lavaan::fitted(forward)$cov - python_covariance)) < 1e-4)
 output <- file.path(directory, "sonuclar_R")
 dir.create(output, showWarnings = FALSE)
 write.csv(lavaan::parameterEstimates(forward, standardized = TRUE, ci = TRUE),
