@@ -1,7 +1,7 @@
 {
   "bolum": "b17",
   "tarih": "2026-09-06",
-  "durum": "Yerel hazırlık; yayın yapılmadı",
+  "durum": "Yerel SPSS 29 çıktıları incelendi; AMOS okul bilgisayarında yapılacak",
   "surumler": {
     "Python": "3.13.15",
     "numpy": "2.4.1",
@@ -24,7 +24,7 @@
   "http": "Başarılı: index.html dahil 15 yerel hedef HTTP 200 ve beklenen dosya baytlarıyla eşit; ortak gezinme/canlı yayın kapsam dışı.",
   "zip": "Başarılı: 16 dosyalı ZIP izole klasörde B10 olmadan çalıştı; 13 JSON/CSV eşleşti, kaynak değişmedi ve bir PDF üretildi.",
   "yapilmayanlar": [
-    "R/emmeans ve SPSS çalıştırılmadı; SPSS rehberi uygulama planıdır.",
+    "R/emmeans çalıştırması yapılmadı; SPSS 29 ANCOVA çıktıları bu doğrulama kaydına eklendi.",
     "Tam kitap derlemesi, telefon karekod taraması, Jupyter arayüzü ve canlı site kontrolü yapılmadı.",
     "Uzak kaynakla otomatik hücre karşılaştırması ve yeni veri toplama yapılmadı."
   ],
@@ -45,5 +45,23 @@
     "gomulu_veri": "ToothGrowth.csv ile aynı 60 kayıt",
     "yerel_kontrol": "NumPy/SciPy model, SSE, iç içe F ve kontrast referansları eşleşti",
     "kapsam": "Ortak eğim, ayrı eğimler, altı hücre ve üç doz karşılaştırmaları"
+  },
+  "SPSS_son_dogrulama": {
+    "tarih": "2026-09-11",
+    "surum": "IBM SPSS Statistics 29 (kullanıcı ekranı; tam build kaydedilmedi)",
+    "veri": "N=60; her supp×dose hücresinde 10 kayıt",
+    "kontroller": [
+      "Model Summary: Model 1 R²=.704; Model 2 R²=.730, F Change=5.333, p=.025; Model 3 R²=.794, F Change=8.399, p<.001.",
+      "Ayrı eğimler Tests of Between-Subjects Effects: oj×dose_c F(1,56)=5.333, p=.025; Error SS=933.635, df=56.",
+      "Ayrı eğimler tahmini ortalama farkları OJ−VC: dose .5=6.303, dose 1=4.351, dose 2=.446; %98.3333 aralıkları referansla uyumlu.",
+      "Altı hücre Pairwise Comparisons: OJ−VC dose .5=5.250 [1.237,9.263], dose 1=5.930 [1.917,9.943], dose 2=−.080 [−4.093,3.933].",
+      "Karşılaştırmalarda SPSS yönü gerektiğinde VC−OJ olarak ters işaretli raporlanmıştır; kayıt yönü OJ−VC olarak standartlaştırıldı."
+    ],
+    "sonuc": "SPSS çıktıları görüntülenen yuvarlama hassasiyetinde beklenen JSON referansıyla uyumlu.",
+    "sinirlar": [
+      "Tam SPV/PDF dosyası depoya eklenmedi.",
+      "HC3, medyan-merkezli Levene ve tek-kayıt dışlama SPSS ile çalıştırılmadı.",
+      "SPSS ekranındaki üç ondalık yuvarlama tam duyarlıklı otomatik eşitlik değildir."
+    ]
   }
 }
