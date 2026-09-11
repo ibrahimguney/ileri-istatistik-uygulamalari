@@ -107,7 +107,9 @@ Aynı seed değerinin R ve NumPy'da aynı bootstrap örneklerini üretmesi bekle
 
 [SPSS-PROCESS-KONTROL.md](SPSS-PROCESS-KONTROL.md) rehberini izleyin. Önce [analiz.sps](analiz.sps) ile OLS modellerini, ardından [process-modeller.sps](process-modeller.sps) ile PROCESS Model 4 ve Model 1 çağrılarını çalıştırın. Dosyalardaki yerel yolları kendi bilgisayarınıza göre düzenleyin.
 
-Bu dosyalar çalıştırma hazırlığıdır; gerçek SPSS/PROCESS çıktısı henüz doğrulanmamıştır. Python/R sonuçları PROCESS çıktısı olarak sunulmamalıdır.
+11 Eylül 2026 tarihinde kullanıcının yerel SPSS ve PROCESS 5.0 oturumundan paylaştığı ekran çıktıları incelendi. SPSS regresyonları, PROCESS Model 1 katsayıları ve üç basit eğim ile Model 4'ün görüntülenen a yolu, toplam/doğrudan etkileri ve dolaylı etki nokta tahmini referansla görüntülenen hassasiyette eşleşti. Model 4 için N=160, seed=202610, 5000 persentil bootstrap ve %95 güven düzeyi doğrulandı; dolaylı etki 0.5218, BootSE=0.0819, bootstrap aralığı [0.3702, 0.6901] olarak gözlendi.
+
+Bu kontrol ekran çıktılarıyla sınırlıdır; tam SPV/PDF arşivi ve tam duyarlıklı otomatik yazılımlar arası karşılaştırma değildir. Python/R sonuçları PROCESS çıktısı olarak sunulmamalıdır. Ayrıntılar [DOGRULAMA.json](DOGRULAMA.json) içindeki `SPSS_PROCESS_son_dogrulama` alanındadır.
 
 ## Analizde inceleyeceğiniz temel kavramlar
 
