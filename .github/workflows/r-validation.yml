@@ -1,0 +1,115 @@
+name: B02-B17 R Validation
+
+on:
+  push:
+    paths:
+      - "bolumler/b02/analiz.R"
+      - "bolumler/b03/analiz.R"
+      - "bolumler/b04/analiz.R"
+      - "bolumler/b05/analiz.R"
+      - "bolumler/b06/analiz.R"
+      - "bolumler/b07/analiz.R"
+      - "bolumler/b08/analiz.R"
+      - "bolumler/b09/analiz.R"
+      - "bolumler/b10/analiz.R"
+      - "bolumler/b11/analiz.R"
+      - "bolumler/b12/analiz.R"
+      - "bolumler/b13/analiz.R"
+      - "bolumler/b14/analiz.R"
+      - "bolumler/b15/analiz.R"
+      - "bolumler/b16/analiz.R"
+      - "bolumler/b17/analiz.R"
+      - "bolumler/b*/**/*.csv"
+      - "requirements.txt"
+      - ".github/workflows/r-validation.yml"
+  pull_request:
+    paths:
+      - "bolumler/b02/**"
+      - "bolumler/b03/**"
+      - "bolumler/b04/**"
+      - "bolumler/b05/**"
+      - "bolumler/b06/**"
+      - "bolumler/b07/**"
+      - "bolumler/b08/**"
+      - "bolumler/b09/**"
+      - "bolumler/b10/**"
+      - "bolumler/b11/**"
+      - "bolumler/b12/**"
+      - "bolumler/b13/**"
+      - "bolumler/b14/**"
+      - "bolumler/b15/**"
+      - "bolumler/b16/**"
+      - "bolumler/b17/**"
+      - ".github/workflows/r-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-r:
+    name: R ${{ matrix.chapter }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        chapter:
+          - b02
+          - b03
+          - b04
+          - b05
+          - b06
+          - b07
+          - b08
+          - b09
+          - b10
+          - b11
+          - b12
+          - b13
+          - b14
+          - b15
+          - b16
+          - b17
+
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: R 4.5.2 kur
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.5.2"
+          use-public-rspm: true
+
+      - name: R paketlerini kur
+        run: |
+          Rscript -e 'install.packages(c("lavaan", "emmeans", "psych", "GPArotation"), repos = "https://cloud.r-project.org")'
+
+      - name: R betiğini çalıştır
+        shell: bash
+        run: |
+          set -o pipefail
+          Rscript --vanilla "bolumler/${{ matrix.chapter }}/analiz.R" 2>&1 | tee "r-validation-${{ matrix.chapter }}.log"
+
+      - name: Sonucu özetle
+        if: always()
+        run: |
+          {
+            echo "## R doğrulama — ${{ matrix.chapter }}"
+            echo ""
+            echo "- Komut: \`Rscript --vanilla bolumler/${{ matrix.chapter }}/analiz.R\`"
+            echo "- İş durumu: \`${{ job.status }}\`"
+            echo "- R sürümü: 4.5.2"
+            echo "- Doğrulama ölçütü: betiğin sıfır hata koduyla tamamlanması"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Log ve grafik çıktısını sakla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: r-validation-${{ matrix.chapter }}
+          path: |
+            r-validation-${{ matrix.chapter }}.log
+            bolumler/${{ matrix.chapter }}/grafikler/**
+          if-no-files-found: warn
