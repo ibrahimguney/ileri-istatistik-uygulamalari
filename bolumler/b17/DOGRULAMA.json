@@ -34,5 +34,16 @@
     "kontrol": "Kitap CSV kopyasıyla birebir bayt eşitliği; analiz/defter/ZIP çalışmaları sonunda değişmedi.",
     "uzak_otomatik_karsilastirma": false
   },
-  "belge_erisim_notu": "6 Eylül 2026: resmi statsmodels anova_lm ve emmeans güven aralığı/aile belgeleri incelendi; R çalıştırması değildir."
+  "belge_erisim_notu": "6 Eylül 2026: resmi statsmodels anova_lm ve emmeans güven aralığı/aile belgeleri incelendi; R çalıştırması değildir.",
+  "SPSS_hazirlik": {
+    "tarih": "2026-09-11",
+    "dosyalar": [
+      "b17-analiz.sps",
+      "SPSS-CALISTIRMA.md"
+    ],
+    "gercek_SPSS_calistirma": false,
+    "gomulu_veri": "ToothGrowth.csv ile aynı 60 kayıt",
+    "yerel_kontrol": "NumPy/SciPy model, SSE, iç içe F ve kontrast referansları eşleşti",
+    "kapsam": "Ortak eğim, ayrı eğimler, altı hücre ve üç doz karşılaştırmaları"
+  }
 }
