@@ -10,15 +10,13 @@ SPLIT FILE OFF.
 
 * Model 4: X=x, M=araci, Y=ymed; W bu modele girmez.
 * Varsayilan persentil bootstrap kullanilir; cikti yontemini kontrol edin.
-PROCESS vars=x araci ymed
- /y=ymed /x=x /m=araci /model=4
+PROCESS y=ymed /x=x /m=araci /model=4
  /boot=5000 /seed=202610 /conf=95 /total=1.
 
 * Model 1: X=x, W=w, Y=ymod; araci bu modele girmez.
 * center=1: urun terimindeki surekli degiskenleri ortalamadan merkezler.
 * moments=1: W icin ortalama ve +/-1 orneklem SS duzeylerini ister.
-PROCESS vars=x w ymod
- /y=ymod /x=x /w=w /model=1
+PROCESS y=ymod /x=x /w=w /model=1
  /center=1 /moments=1 /conf=95.
 
 * PROCESS surum basligini, n, merkezleme ve bootstrap dipnotlarini saklayin.
