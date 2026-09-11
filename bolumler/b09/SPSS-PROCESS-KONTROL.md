@@ -1,6 +1,6 @@
 # B09 — SPSS 29 / PROCESS doğrulama oturumu
 
-Durum: SPSS ve PROCESS için çalıştırma hazırlığı yapıldı; **gerçek yazılım çıktısı henüz doğrulanmadı**. Aşağıdaki sayılar mevcut `beklenen.json` referansıdır, SPSS/PROCESS çıktısı değildir. Veri 160 satırlık simülasyondur.
+Durum: **11 Eylül 2026'da kullanıcının yerel SPSS ve PROCESS 5.0 ekran çıktıları incelendi.** Ayrıntılı kapsam ve sınırlar `DOGRULAMA.json` içindeki `SPSS_PROCESS_son_dogrulama` alanındadır. Tam SPV/PDF dosyası teslim alınmadı. Aşağıdaki sayılar mevcut `beklenen.json` referansıdır, SPSS/PROCESS çıktısı değildir. Veri 160 satırlık simülasyondur.
 
 ## 1. Önce SPSS ile başlayın
 
@@ -25,7 +25,7 @@ CSV sütunları konumlarına göre okunur; özgün CSV değiştirilmez:
 
 ## 2. Ardından PROCESS
 
-Resmî dağıtım: [PROCESS indirme sayfası](https://www.processmacro.org/download.html).
+Resmî dağıtım: [PROCESS indirme sayfası](https://afhayes.com/download.html).
 Makronun kendisi bu depoda dağıtılmaz.
 
 `process-modeller.sps` dosyasını açın. `INSERT FILE` satırına indirdiğiniz resmî `process.sps` dosyasının tam yolunu yazın. B09'un OLS betiğini çalıştırdığınız aynı SPSS oturumunda Run > All seçin. İlk çağrı Model 4, ikinci çağrı Model 1 içindir. PROCESS sürümünü çıktı başlığından kaydedin; bu çağrı taslağının kurulu sürümünüzde çalıştığı ancak gerçek çıktıyla doğrulanabilir. Bir seçenek tanınmazsa hata metnini ve sürüm başlığını birlikte paylaşın.
@@ -58,7 +58,7 @@ Deterministik katsayılarda tam duyarlık mevcutsa mutlak fark 0.000001'i aşmam
 
 Python persentil bootstrap referansı [0.368530, 0.698101]'dir. Aynı seed farklı yazılımlarda aynı örnekleri üretmez; bu uçlar PROCESS için birebir geçme/kalma sınırı değildir. PROCESS uçlarını, yöntemini ve tekrar sayısını ayrı kaydedin; yalnız sıfırı dışlama kararının aynı olması tam sayısal eşdeğerlik kanıtı değildir. Aralığı BCa olarak adlandırmayın.
 
-## 4. Gerçek yürütme kaydı
+## 4. Yeni oturumlar için gerçek yürütme kontrol listesi
 
 - [ ] SPSS ve PROCESS tam sürümleri, tarih ve kullanılan dosyalar kaydedildi.
 - [ ] Veri aktarımı, N=160 ve eksiksiz altı sütun doğrulandı.
@@ -72,3 +72,13 @@ Python persentil bootstrap referansı [0.368530, 0.698101]'dir. Aynı seed farkl
 - [ ] SPV ve okunabilir PDF çıktısı saklandı; hata/uyarılar eklendi.
 
 Çıktılar incelenmeden `SPSS_PROCESS_calistirildi` alanını true yapmayın.
+
+## 5. İncelenen PROCESS oturumu
+
+Model 4: N=160, seed=202610, 5000 persentil bootstrap, %95 güven düzeyi. Toplam etki=0.6571; doğrudan etki=0.1353; dolaylı etki=0.5218; BootSE=0.0819; BootLLCI=0.3702; BootULCI=0.6901. Bunlar kullanıcı tarafından paylaşılan gerçek PROCESS 5.0 ekranında gözlenen değerlerdir.
+
+Model 1: N=160, R²=0.3752; etkileşim B=0.5590, SE=0.0722, t=7.7436, p<.001, %95 GA=[0.4164,0.7016]. X ve W ortalamadan merkezlenmiştir. W=-1.0374,0,1.0374 için eğimler sırasıyla -0.1814,0.3985,0.9784; %95 aralıklar [-0.4020,0.0392], [0.2447,0.5523], [0.7725,1.1843].
+
+İncelenen deterministik sonuçlar referanslarla görüntülenen hassasiyette uyumludur. Bootstrap uçları Python referansının üzerine yazılmamıştır. Tam çıktı dosyası ve bütün oturumun hata geçmişi bu kontrolün kapsamına alınmamıştır.
+
+Oturumda eski `PROCESS vars=...` çağrısı hata verdi; çağrılar `PROCESS y=ymed /x=x /m=araci /model=4 ...` ve `PROCESS y=ymod /x=x /w=w /model=1 ...` biçiminde düzeltildikten sonra çalıştı. Makro aynı oturumda doğrudan Run > All ile yüklenmişse çağrı kodunda INSERT yeniden gerekmez. SPSS kapatılıp açıldığında makroyu yeniden yükleyin.
