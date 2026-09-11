@@ -99,11 +99,15 @@ Bölüm klasöründen:
 Rscript analiz.R
 ```
 
-Temel R yeterlidir ve Python çıktısı gerekmez. R betiğinde de 5000 satır-bootstrap ve %95 persentil aralık tanımlanmıştır. Bu dağıtım hazırlanırken **R betiği çalıştırılarak doğrulanmamıştır**.
+Temel R yeterlidir ve Python çıktısı gerekmez. R betiğinde de 5000 satır-bootstrap ve %95 persentil aralık tanımlanmıştır. R betiği 11 Eylül 2026 tarihinde GitHub Actions üzerinde R 4.5.2 ile hatasız tamamlandı ([çalıştırma kaydı](https://github.com/ibrahimguney/ileri-istatistik-uygulamalari/actions/runs/34604378870)). Bu kayıt çalıştırma başarısını gösterir; bütün R sonuçlarının Python ile otomatik sayısal karşılaştırması değildir.
 
 Aynı seed değerinin R ve NumPy'da aynı bootstrap örneklerini üretmesi beklenmez. Bu nedenle R ve Python bootstrap uçlarının birebir aynı olması zorunlu değildir.
 
-Bu pakette SPSS/PROCESS dosyası veya PROCESS çıktısı bulunmamaktadır. Python/R sonuçları PROCESS çıktısı olarak sunulmamalıdır.
+## SPSS 29 ve PROCESS ile doğrulama
+
+[SPSS-PROCESS-KONTROL.md](SPSS-PROCESS-KONTROL.md) rehberini izleyin. Önce [analiz.sps](analiz.sps) ile OLS modellerini, ardından [process-modeller.sps](process-modeller.sps) ile PROCESS Model 4 ve Model 1 çağrılarını çalıştırın. Dosyalardaki yerel yolları kendi bilgisayarınıza göre düzenleyin.
+
+Bu dosyalar çalıştırma hazırlığıdır; gerçek SPSS/PROCESS çıktısı henüz doğrulanmamıştır. Python/R sonuçları PROCESS çıktısı olarak sunulmamalıdır.
 
 ## Analizde inceleyeceğiniz temel kavramlar
 

@@ -66,7 +66,7 @@
     "tum_kitap_derlendi": false
   },
   "grafik_gorsel_kontrol": true,
-  "R_calistirildi": false,
+  "R_calistirildi": true,
   "SPSS_PROCESS_calistirildi": false,
   "baglanti_kontrolu": {
     "yerel_http_200_ve_bayt_esitligi": [
@@ -94,5 +94,23 @@
     "kaynak_degismedi": true,
     "dagitilan_dosya_sayisi": 15,
     "kitap_ve_diger_bolumler_olmadan": true
+  },
+  "R_son_dogrulama": {
+    "tarih": "2026-09-11",
+    "surum": "4.5.2",
+    "run_id": 34604378870,
+    "commit": "b64026ed06dd06370179520cdedb113b77eae5b8",
+    "sonuc": "R b09 işi başarılı; sıfır hata koduyla tamamlandı",
+    "sinir": "Tüm R çıktılarının Python referansına otomatik sayısal eşitliği kontrol edilmedi."
+  },
+  "SPSS_PROCESS_hazirlik": {
+    "tarih": "2026-09-11",
+    "dosyalar": [
+      "analiz.sps",
+      "process-modeller.sps",
+      "SPSS-PROCESS-KONTROL.md"
+    ],
+    "durum": "Gerçek SPSS 29 ve PROCESS yürütmesi bekliyor",
+    "referans_kontrolu": "CSV üzerinde NumPy OLS ile 12 yol, katsayı ve basit eğim referansla eşleşti; SPSS/PROCESS çalıştırması değildir."
   }
 }
