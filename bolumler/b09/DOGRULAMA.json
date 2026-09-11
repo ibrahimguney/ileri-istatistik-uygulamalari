@@ -66,8 +66,8 @@
     "tum_kitap_derlendi": false
   },
   "grafik_gorsel_kontrol": true,
-  "R_calistirildi": false,
-  "SPSS_PROCESS_calistirildi": false,
+  "R_calistirildi": true,
+  "SPSS_PROCESS_calistirildi": true,
   "baglanti_kontrolu": {
     "yerel_http_200_ve_bayt_esitligi": [
       "COZUMLER.md",
@@ -94,5 +94,132 @@
     "kaynak_degismedi": true,
     "dagitilan_dosya_sayisi": 15,
     "kitap_ve_diger_bolumler_olmadan": true
+  },
+  "R_son_dogrulama": {
+    "tarih": "2026-09-11",
+    "surum": "4.5.2",
+    "run_id": 34604378870,
+    "commit": "b64026ed06dd06370179520cdedb113b77eae5b8",
+    "sonuc": "R b09 işi başarılı; sıfır hata koduyla tamamlandı",
+    "sinir": "Tüm R çıktılarının Python referansına otomatik sayısal eşitliği kontrol edilmedi."
+  },
+  "SPSS_PROCESS_hazirlik": {
+    "tarih": "2026-09-11",
+    "dosyalar": [
+      "analiz.sps",
+      "process-modeller.sps",
+      "SPSS-PROCESS-KONTROL.md"
+    ],
+    "durum": "Yerel SPSS ve PROCESS 5.0 oturumlarının paylaşılan ekran çıktıları incelendi; kapsam SPSS_PROCESS_son_dogrulama alanındadır.",
+    "referans_kontrolu": "CSV üzerinde NumPy OLS ile 12 yol, katsayı ve basit eğim referansla eşleşti; SPSS/PROCESS çalıştırması değildir."
+  },
+  "SPSS_PROCESS_son_dogrulama": {
+    "tarih": "2026-09-11",
+    "kanit_turu": "Kullanıcının yerel SPSS oturumundan bu sohbette paylaştığı tablo ve ekran görüntülerinin referansla manuel karşılaştırılması",
+    "SPSS_surumu": {
+      "kullanici_beyani": "29",
+      "tam_build_bilgisi_dogrulandi": false
+    },
+    "PROCESS_surumu": "5.0",
+    "n": 160,
+    "SPSS_OLS": {
+      "durum": "İncelenen aracılık, merkezlenmiş düzenleyicilik ve basit eğim katsayıları görüntülenen hassasiyette uyumlu",
+      "veri_aktarimi": "6 değişken, N=160, listwise N=160",
+      "a": 0.633,
+      "b": 0.824,
+      "c_prime": 0.135,
+      "c": 0.657,
+      "etkilesim": 0.559,
+      "basit_egimler": [
+        -0.181,
+        0.398,
+        0.978
+      ]
+    },
+    "PROCESS_Model4": {
+      "Y": "ymed",
+      "X": "x",
+      "M": "araci",
+      "seed": 202610,
+      "bootstrap_tekrar": 5000,
+      "guven_duzeyi": 95,
+      "bootstrap_yontemi": "percentile",
+      "a": 0.6333,
+      "toplam_etki": 0.6571,
+      "dogrudan_etki": 0.1353,
+      "dolayli_etki": 0.5218,
+      "BootSE": 0.0819,
+      "BootLLCI": 0.3702,
+      "BootULCI": 0.6901,
+      "sonuc": "Görüntülenen a yolu, toplam/doğrudan etki tabloları ve ab nokta tahmini referansla uyumlu; PROCESS bootstrap aralığı ayrı kaydedildi."
+    },
+    "PROCESS_Model1": {
+      "Y": "ymod",
+      "X": "x",
+      "W": "w",
+      "merkezlenen": [
+        "x",
+        "w"
+      ],
+      "W_noktalari": "ortalama ve +/-1 örneklem standart sapması",
+      "R2": 0.3752,
+      "etkilesim": {
+        "B": 0.559,
+        "SE": 0.0722,
+        "t": 7.7436,
+        "p": "<.001",
+        "GA95": [
+          0.4164,
+          0.7016
+        ]
+      },
+      "basit_egimler": [
+        {
+          "W": -1.0374,
+          "B": -0.1814,
+          "SE": 0.1117,
+          "t": -1.6244,
+          "p": 0.1063,
+          "GA95": [
+            -0.402,
+            0.0392
+          ]
+        },
+        {
+          "W": 0,
+          "B": 0.3985,
+          "SE": 0.0779,
+          "t": 5.1177,
+          "p": "<.001",
+          "GA95": [
+            0.2447,
+            0.5523
+          ]
+        },
+        {
+          "W": 1.0374,
+          "B": 0.9784,
+          "SE": 0.1043,
+          "t": 9.3846,
+          "p": "<.001",
+          "GA95": [
+            0.7725,
+            1.1843
+          ]
+        }
+      ],
+      "sonuc": "Model katsayıları, R² ve üç basit eğim görüntülenen hassasiyette referansla eşleşti."
+    },
+    "duzeltilen_sorunlar": [
+      "Yerel veri ve makro dosya yolları",
+      "PROCESS çağrılarından eski vars= seçeneği kaldırıldı; PROCESS y=... biçimiyle çalıştırıldı."
+    ],
+    "sinirlar": [
+      "Yerel oturum kullanıcı tarafından çalıştırıldı; asistan ortamında SPSS/PROCESS yürütülmedi.",
+      "Tam SPV/PDF dosyası teslim alınmadı; bütün oturumun hata ve uyarı geçmişi denetlenmedi.",
+      "Karşılaştırma ekranlarda gösterilen yuvarlanmış değerlerle yapıldı; tam duyarlıklı otomatik karşılaştırma değildir.",
+      "PROCESS ve Python bootstrap uçları birebir eşitlik ölçütü değildir.",
+      "Makronun doğrudan çalıştırılması ve ardından çağrı yapılması doğrulandı; taslaktaki örnek INSERT dosya yolu her bilgisayarda düzenlenmelidir."
+    ]
   }
 }
