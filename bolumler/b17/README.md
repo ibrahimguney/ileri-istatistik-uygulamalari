@@ -367,3 +367,7 @@ ANCOVA sonuçlarının yöntem ve bulgu bölümünde nasıl raporlanabileceğini
 Çalışmanızı tamamladıktan sonra [COZUMLER.md](COZUMLER.md) ve `beklenen.json` ile karşılaştırın. Gerçekte hangi testlerin yapıldığı ve hangi yazılımların çalıştırılmadığı `DOGRULAMA.json` dosyasında belirtilmiştir.
 
 Yerel kaynak hash'i ve kod kontrolleri yeniden üretilebilirliği destekler; uzak veri doğrulaması, özgün deneyin randomizasyonu veya nedensel geçerlik kanıtı değildir.
+
+## SPSS uygulaması
+
+B17 için [b17-analiz.sps](b17-analiz.sps) dosyası hazırlanmıştır. Dosya ToothGrowth verisinin 60 kaydını kendi içinde taşır; CSV yolu ve PROCESS gerekmez. Çalıştırma adımları ve beklenen sonuçlar [SPSS-CALISTIRMA.md](SPSS-CALISTIRMA.md) içindedir. Gerçek SPSS yürütmesi henüz doğrulanmamıştır; ekran çıktısı alındığında DOGRULAMA.json güncellenecektir.
