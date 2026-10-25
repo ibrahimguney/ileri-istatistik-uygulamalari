@@ -1,8 +1,6 @@
 # Bölüm 17 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 20 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analizden Önce
 
@@ -34,13 +32,21 @@ Yanıtlar Ek F, Bölüm 17’dedir (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Onarma
 
-> “Alfa .70’i geçince ölçek Türkçeye uyarlanmış olur. Negatif korelasyon veren her madde çevrilmelidir. A1’in toplamla r=.51 olması iyi madde olduğunu kanıtlar. Maddeleri iki kez ekleyince güvenirlik gerçekten artar. Bootstrap temsilî olmayan örneklemi düzeltir. Omega hesaplamak için model incelemesine gerek yoktur.”
-
 Her iddiayı bir hesap veya eksik kanıt türüyle düzeltin.
 
 ## P1: Uyarlama Kanıt Dosyası
 
 A4 için iki çeviri taslağı, en az üç bilişsel görüşme sorusu ve bir revizyon kayıt şablonu hazırlayın. “Yapıldı/yapılmadı” sütunlarıyla kaynak-haklar, dil, hedef grupta pilot, yapı, güvenirlik, değişmezlik ve kullanım sınırlarını listeleyin. Gerçekte yapılmamış görüşme, örneklem veya uzman onayı uydurmayın. Puanlama: kaynak/puanlama 20; hesap ve eksikler 25; belirsizlik ve madde kararı 20; uyarlama planı 25; yeniden üretim 10.
+
+## T1–T3: Model ve Belirsizlik Denetimi
+
+1.  A ve C için aynı 97 kişinin kullanılmasını ve bootstrap’ta on yanıtın birlikte çekilmesini gerekçelendirin. Fark aralığı sıfırı içerdiğinde ne söylenebilir, ne söylenemez?
+
+2.  Bilinen kongenerik modele .2 artık kovaryansı eklenince alfa ve hedef faktör payı hangi yönde değişir? Hata varyansının 3.1’den 3.5’e çıkışını gösterin.
+
+3.  İkinci bilinen modelin SEM’ini ve bağımsız hata varsayımındaki fark sınırını hesaplayın. Bu sayıyı IPIP katılımcılarına klinik değişim eşiği diye vermek neden yanlıştır?
+
+P1 kanıt dosyasına puanın hedefini, güvenirlik modelini, belirsizlik yöntemini ve grup/birey kararının gerektirdiği ayrı kanıtları ekleyin.
 
 # Alıştırmalar
 

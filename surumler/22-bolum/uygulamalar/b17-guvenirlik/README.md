@@ -89,3 +89,9 @@ Kaynağın tek son LF ile normalize SHA-256 değeri:
 `8726fd25dbfc685be2d3d726e5511bbb31ba9c7b367b6864eb06e0d8669e6557`.
 Betik son satır sonu farklılıklarını normalize eder; ayrıca gerçek dosya
 baytlarının hash'ini JSON'a kaydeder. Hücre değişimi normalizasyonla gizlenmez.
+## Revizyon 20: model ve belirsizlik
+
+[Ek uygulama](model-belirsizlik/README.md): ortak97 kayıtta eşleşmiş alfa farkı,
+bilinen parametreli kongenerik modeller ve SEM karşı örneği. Gerçek veriye
+omega modeli uydurulmadı; klinik değişim eşiği doğrulanmadı. Yedi test;
+yeni ek yalnız Python. Eski veri, ana analiz ve99/98 kişi özetleri korunur.

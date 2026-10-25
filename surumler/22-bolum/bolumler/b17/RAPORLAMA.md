@@ -15,3 +15,15 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 20: model ve belirsizlik
+
+Ortak97 kişide A=.627614, C=.722686, C−A=.095072. Tohum202617,
+20000 eşleşmiş kişi-satırı persentil bootstrap aralığı[−.062180,.268615].
+Eşitlik/eşdeğerlik veya C'nin geçerlik üstünlüğü kanıtı değildir.
+Bilinen kongenerik modelde alfa=.733471, faktör payı=.743802; ilk iki artığa
+.2 kovaryans eklenince alfa=.750000, faktör payı=.720000 olur.
+Bu parametreler IPIP verisine uydurulmadı; gözlenen veri omega kestirimi yoktur.
+SEM=1.760682 ve bağımsız/eşit normal zaman hatası senaryosundaki4.880 sınırı
+yalnız öğretim örneğidir; klinik değişim eşiği veya bireysel karar doğrulanmadı.
+Yeni ek yalnız Python; önceki99/98 kişi ana analizleri korunur.

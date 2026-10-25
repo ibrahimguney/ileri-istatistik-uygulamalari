@@ -133,3 +133,7 @@ Aynı simülasyonda yapısal hata korelasyonu duyarlılığı, ayrı düzenleyic
 ## Revizyon 19: Bölüm 16
 
 HSB verisinde hedef ortalamalar, eşit olmayan okul büyüklükleri ve bilinen/yeni okul tahmini eklendi. Koşullu aralıklar parametre belirsizliğini içermez; okul sıralaması veya ulusal temsil iddiası yok. Yeni ek yalnız Python; eski veriler ve ana analizler korunur.
+
+## Revizyon 20: Bölüm 17
+
+Ortak97 IPIP kaydında eşleşmiş alfa farkı ve ayrı bilinen parametreli model örnekleri eklendi. Gerçek veriye omega modeli uydurulmadı; SEM öğretim sınırı klinik karar eşiği değildir. Yeni ek yalnız Python; önceki99/98 kişi ana analizleri ve kaynak veriler korunur.
