@@ -144,3 +144,8 @@ satırlarının hangi model/hipoteze ait olduğunu kaydedin. Gözlenen güç kul
    MH tablosundaki grup×doz testi bu iki-sd şekil testiyle aynı değildir.
 7. Python tekrar koşularında JSON/CSV ve şekil byte düzeyinde karşılaştırılabilir.
    R/SPSS ve uzak kaynak karşılaştırması çalıştırılmış sayılmaz.
+## Revizyon 17 — hedef dağılım
+
+[Yeni ek](hedef-dagilim/README.md): aynı hücre/ortak/ayrı modellerde sabit
+eşit, düşük doz ve yüksek doz hedefleri. Yeni aile üç hedeftir; ortak modelde
+aynı kontrast tekrarlandığı için aile1. Eski ana sonuçlar korunur.

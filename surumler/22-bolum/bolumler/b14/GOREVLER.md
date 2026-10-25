@@ -1,8 +1,6 @@
 # Bölüm 14 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 17 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Modelden Önce
 
@@ -34,9 +32,15 @@ göre değişebilir.
 
 ## H1: Hatalı Raporu Onarma
 
-> “Doz ön-testtir; ANCOVA bütün başlangıç farklarını temizledi. Levene anlamsız olduğundan varsayımlar sağlandı. Ortak eğim modelindeki anlamlı grup farkı bütün dozlarda geçerlidir. Etkileşim eklenince model sorunu bitti. 2 mg/günde fark anlamsız, gruplar eşdeğer. Her dozda ayrı Bonferroni seçince bütün model aramamız düzeltildi.”
-
 Altı iddiayı gerçek hesap, hedef karşılaştırma ve kanıt sınırı bakımından düzeltin.
+
+## T1–T3: Hedef Dağılım ve Ön-Test Denetimi
+
+1.  Üç hücre farkından eşit, düşük doz ve yüksek doz hedeflerinin ortalama farklarını hesaplayın. Bunlar neden aynı hedef için üç sağlamlık koşusu değildir? Ağırlıkları iki gruba farklı uygulamak hangi soruyu değiştirir?
+
+2.  $L_w$ ile farkın SH’sini ve üç hedeflik aileyi açıklayın. Ortak eğim modelinde neden yalnız bir kontrast vardır? Hücre modelinin ortalama dozda tanımlanmaması standartlaştırılmış ortalamayı engeller mi?
+
+3.  Yeni bir ön-test/son-test çalışmasında $Y\sim G+X$ ile $(Y-X)\sim G+X$ neden aynı grup katsayısını verir? Ön-testi ikinci modelden çıkarmak hangi kısıtı getirir? Bu örnekte dose neden X yerine kullanılamaz?
 
 ## P1: Ön-Test Kontrollü Yeni Bir Çalışma
 
@@ -81,3 +85,5 @@ Yanıtlar Ek F, Bölüm 14’tedir (s. kitaptaki ilgili sayfa).
 4.  “ANCOVA tüm başlangıç farklarını tamamen yok etti” ifadesi neden fazla güçlüdür?
 
 5.  Güçlü bir ANCOVA raporunda bulunması gereken en az beş unsuru yazınız.
+
+Yöntem belgelerine erişim: 6 Eylül 2026.

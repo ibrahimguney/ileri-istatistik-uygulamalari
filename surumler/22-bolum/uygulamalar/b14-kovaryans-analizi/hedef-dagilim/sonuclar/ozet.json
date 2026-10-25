@@ -1,0 +1,512 @@
+{
+  "source_normalized_sha256": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3",
+  "n": 60,
+  "per_cell": 10,
+  "cell_differences": [
+    5.249999999999999,
+    5.929999999999996,
+    -0.07999999999999474
+  ],
+  "comparisons": [
+    {
+      "model": "additive",
+      "target": "equal",
+      "covariance": "OLS",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.66333333333334,
+      "difference": 3.7000000000000055,
+      "SE": 1.0936044998101517,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.510094763004958,
+        5.8899052369950535
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "additive",
+      "target": "equal",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.66333333333334,
+      "difference": 3.7000000000000055,
+      "SE": 1.1222977968041516,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.452637426861295,
+        5.947362573138716
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "additive",
+      "target": "low_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 13.383357142857143,
+      "OJ_mean": 17.083357142857146,
+      "difference": 3.700000000000005,
+      "SE": 1.0936044998101515,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.510094763004958,
+        5.889905236995052
+      ],
+      "contrast": [
+        0.0,
+        0.9999999999999999,
+        0.0
+      ]
+    },
+    {
+      "model": "additive",
+      "target": "low_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 13.383357142857143,
+      "OJ_mean": 17.083357142857146,
+      "difference": 3.700000000000005,
+      "SE": 1.1222977968041514,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.452637426861295,
+        5.947362573138715
+      ],
+      "contrast": [
+        0.0,
+        0.9999999999999999,
+        0.0
+      ]
+    },
+    {
+      "model": "additive",
+      "target": "high_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 22.658749999999998,
+      "OJ_mean": 26.358750000000004,
+      "difference": 3.7000000000000055,
+      "SE": 1.0936044998101517,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.510094763004958,
+        5.8899052369950535
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "additive",
+      "target": "high_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 22.658749999999998,
+      "OJ_mean": 26.358750000000004,
+      "difference": 3.7000000000000055,
+      "SE": 1.1222977968041516,
+      "family_size": 1,
+      "df": 57,
+      "bonferroni_family_CI_95": [
+        1.452637426861295,
+        5.947362573138716
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "equal",
+      "covariance": "OLS",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.66333333333334,
+      "difference": 3.700000000000005,
+      "SE": 1.0542628481840886,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        1.09805497002491,
+        6.3019450299751
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0,
+        0.16666666666666666
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "equal",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.66333333333334,
+      "difference": 3.700000000000005,
+      "SE": 1.090493772376404,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        1.0086362133116515,
+        6.391363786688359
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0,
+        0.16666666666666666
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "low_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 12.667571428571426,
+      "OJ_mean": 17.79914285714286,
+      "difference": 5.131571428571436,
+      "SE": 1.222996836921312,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        2.113187021889755,
+        8.149955835253117
+      ],
+      "contrast": [
+        0.0,
+        0.9999999999999999,
+        0.0,
+        -0.19999999999999998
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "low_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 12.667571428571426,
+      "OJ_mean": 17.79914285714286,
+      "difference": 5.131571428571436,
+      "SE": 1.2716659915615645,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        1.9930704254950178,
+        8.270072431647854
+      ],
+      "contrast": [
+        0.0,
+        0.9999999999999999,
+        0.0,
+        -0.19999999999999998
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "high_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 23.797500000000007,
+      "OJ_mean": 25.220000000000002,
+      "difference": 1.4225,
+      "SE": 1.443608858725174,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        -2.140359965764538,
+        4.9853599657645375
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "model": "interaction",
+      "target": "high_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 23.797500000000007,
+      "OJ_mean": 25.220000000000002,
+      "difference": 1.4225,
+      "SE": 1.4779819164246675,
+      "family_size": 3,
+      "df": 56,
+      "bonferroni_family_CI_95": [
+        -2.2251934651146232,
+        5.070193465114623
+      ],
+      "contrast": [
+        0.0,
+        1.0,
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "equal",
+      "covariance": "OLS",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.663333333333334,
+      "difference": 3.699999999999999,
+      "SE": 0.9376263700838103,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        1.3832676538192348,
+        6.016732346180763
+      ],
+      "contrast": [
+        -0.3333333333333333,
+        -0.3333333333333333,
+        -0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "equal",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "mean_dose": 1.1666666666666665,
+      "VC_mean": 16.963333333333335,
+      "OJ_mean": 20.663333333333334,
+      "difference": 3.699999999999999,
+      "SE": 0.9883449745669346,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        1.2579496856943622,
+        6.142050314305635
+      ],
+      "contrast": [
+        -0.3333333333333333,
+        -0.3333333333333333,
+        -0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "low_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 12.433000000000002,
+      "OJ_mean": 17.354,
+      "difference": 4.9209999999999985,
+      "SE": 1.1014615879047387,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        2.1994557152051484,
+        7.642544284794848
+      ],
+      "contrast": [
+        -0.6,
+        -0.3,
+        -0.1,
+        0.6,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "low_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "mean_dose": 0.8,
+      "VC_mean": 12.433000000000002,
+      "OJ_mean": 17.354,
+      "difference": 4.9209999999999985,
+      "SE": 1.160582495299262,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        2.0533769327961093,
+        7.788623067203888
+      ],
+      "contrast": [
+        -0.6,
+        -0.3,
+        -0.1,
+        0.6,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "high_dose",
+      "covariance": "OLS",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 23.387,
+      "OJ_mean": 24.441000000000003,
+      "difference": 1.0540000000000025,
+      "SE": 1.319357250920142,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        -2.2059313723456877,
+        4.313931372345692
+      ],
+      "contrast": [
+        -0.1,
+        -0.1,
+        -0.8,
+        0.1,
+        0.1,
+        0.8
+      ]
+    },
+    {
+      "model": "cells",
+      "target": "high_dose",
+      "covariance": "HC3_t_approx",
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "mean_dose": 1.75,
+      "VC_mean": 23.387,
+      "OJ_mean": 24.441000000000003,
+      "difference": 1.0540000000000025,
+      "SE": 1.4807576472456736,
+      "family_size": 3,
+      "df": 54,
+      "bonferroni_family_CI_95": [
+        -2.6047272368650813,
+        4.712727236865087
+      ],
+      "contrast": [
+        -0.1,
+        -0.1,
+        -0.8,
+        0.1,
+        0.1,
+        0.8
+      ]
+    }
+  ],
+  "target_definition": "Three fixed teaching dose distributions, not external population estimates or new animals; same weights applied to both groups",
+  "limits": "Weights treated as known; OLS Bonferroni family3 within each interaction/cells model/covariance; additive is one identical contrast, family1. HC3 t approximate. Different targets, not same-parameter sensitivity; no protection over model search or all book tests, no causal transport or weight uncertainty.",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

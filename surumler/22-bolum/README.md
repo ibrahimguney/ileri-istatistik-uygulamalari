@@ -121,3 +121,7 @@ OLS/klasik t-F/HC3 koşulları ayrıldı. Ayrı eğitim40/kalibrasyon20/kontrol2
 ## Revizyon 16: Bölüm 13
 
 Profil olasılığı GA ve tam kovaryansla olasılık farkı eklendi. Aynı AUC/.50 sınıflarda farklı Brier/log-kayıp, toplu ortalama/kalibrasyon ve kontrol etiketleriyle seçim sınırları açıklandı. Yeni ek yalnız Python; kalibrasyon eğrisi, performans aralıkları ve dış doğrulama yok. Eski ana sonuçlar korunur.
+
+## Revizyon 17: Bölüm 14
+
+Aynı doz desteğinde sabit hedef dağılımları, model grup ortalamaları ve kontrast aralıkları eklendi. Ortak modelde aynı kontrast/aile1; ayrı ve hücrede üç hedef/aile3. Yeni ek yalnız Python; ağırlık belirsizliği ve nedensel taşıma yok. Ön-test/değişim tartışması ayrı teorik modeldir; dozdan değişim üretilmez.
