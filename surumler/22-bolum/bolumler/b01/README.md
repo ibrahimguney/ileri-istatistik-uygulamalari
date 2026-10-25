@@ -50,3 +50,18 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: hedef parametre ve tasarım belirsizliği
+
+Hedef parametre, kestirici ve kestirim ayrımı; SRS ve sistematik seçimde tam
+tasarım varyansı; 20.000 tekrarlı deney ile Monte Carlo hatası ayrımı eklendi.
+Yeni T1–T3 görevleri ve yanıtları yukarıdaki dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b01-istatistiksel-mekanizma/tasarim-belirsizligi/README.md) ·
+[Python kodu](../../uygulamalar/b01-istatistiksel-mekanizma/tasarim-belirsizligi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b01-istatistiksel-mekanizma/tasarim-belirsizligi/sonuclar/ozet.json).
+Bu ek yalnız Python'da sınandı; R/SPSS eşdeğeri hazırlanmadı.
+
+Kuramsal dayanaklar: Lundberg, Johnson ve Stewart (2021),
+https://doi.org/10.1177/00031224211004187 ; Meng (2018),
+https://doi.org/10.1214/18-AOAS1161SF . Kaynak künyeleri ve yazar özetleri kontrol edildi.

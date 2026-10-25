@@ -88,3 +88,14 @@ Payda, yüzdenin hesaplandığı gruptur: bütün örneklem mi, soruya yanıt ve
 Örnek plan: “Belirli öğretim yılında belirli fakültedeki kayıtlı öğrencilerin ders deneyimini betimlemek istiyorum.” Uygun öğrencilerin kapsamı ve güncel öğrenci listesi tanımlanır. Listede olmayanlar kapsam, listeden seçilip yanıt vermeyenler yanıtsızlık başlığında izlenir. Seçim yöntemi, varsa tabaka/kümeler ve ağırlık gereksinimi açıklanır. Ölçümden önce madde anlamı, yanıt kategorileri, eksik kodlar ve analiz birimi belirlenir.
 
 Rapor; davet edilen, yanıt veren ve geçerli kayıt sayılarını ayırır. Kategorik yanıtlar frekans ve açık paydalı yüzdeyle, sayısal ölçümler uygun dağılım grafiğiyle sunulur. Öğrenci kimliğini yayımlamak yerine gerekli en az alan tutulur; veri toplama henüz yapılmadıysa sonuç üretilmez. Dosya sürümü, kaynak, seçim kaydı ve analiz komutu saklanır. Rubrik: soru/kapsam 25, birim/ölçüm 25, seçim/payda 25, grafik/rapor 15, kaynak/yeniden üretim 10 puan. Python denetimleri R/SPSS’in çalıştırıldığı anlamına gelmez.
+
+
+## Revizyon 5: yeni görevlerin çözümleri
+
+## T1–T3: Hedef ve Tasarım Denetimi
+
+1.  $\mu_{80}=80^{-1}\sum_iG3_i=12.6375$ ve $p_{80}=80^{-1}\sum_i\mathbf{1}(G3_i\geq15)=.1875$. Geri kalan 569 kaydın notları bu dosyada yoktur; ilk 80’i 649’a bağlayan olasılıklı seçim tasarımı da verilmemiştir. Bu nedenle $\mu_{649}$ belirlenemez. Örnek sözleşme: hedef kaynak sırasındaki ilk 80 kayıt; ölçüm G3, 0–20 puan; özet ortalama; seçim bu 80 içinde yerine koymadan basit rastgele $n=10$; kestirici örnek ortalaması ve bu seçime göre standart hata; sonuç yalnız kapalı 80’e yöneliktir, Türkiye/Portekiz öğrenci anakütlesine taşınmaz. Bütün 80’in betimlenmesi soruluyorsa seçim aşaması yoktur ve ortalama doğrudan bilinir.
+
+2.  $\sqrt{(1-10/80)(4.107437/10)}=.599500$ puan. Verilen anakütle varyansı 79 böleniyle tanımlıdır. Sistematik sekiz ortalamanın her biri $1/8$ olasılıklıdır; tüm tasarım sonuçları bilindiğinden varyans $\sum_r(\bar y_r-12.6375)^2/8=.124844$ ve standart hata .353332’dir. Bu, yalnız bir sistematik örnekten hesaplanmış standart hata değildir. Döngü kurgusunda sistematik varyans .109375, basit rastgele varyans .009691’dir; oran yaklaşık 11.286’dır. Sistematik tasarımın her durumda daha hassas olduğu iddiası yanlıştır.
+
+3.  Gerçek veri hâlâ aynı 80 kayıttır. Her tekrarda bunlardan 10’u seçilmiş, tekrarlar arasında aynı öğrenciler yeniden kullanılabilmiştir. 200 000 seçim konumu 200 000 farklı öğrenci değildir. Monte Carlo ortalamasının .004239 olan standart hatası, tam tasarım beklentisini sayısal olarak yaklaştırma hatasıdır; $n=10$ kestiricisinin .599500 standart hatasıyla veya dış anakütle belirsizliğiyle aynı değildir. Tekrar sayısının artması seçim mekanizmasını düzeltmez, Türkiye için kapsam/ölçüm gerekçesi üretmez. Doğru rapor: “Kapalı 80 kayıt üzerinde 20 000 yeniden seçimde ortalamaların ortalaması 12.633785, varyansı .356695 bulundu; tam tasarım değerleri 12.6375 ve .359401’dir.”

@@ -85,3 +85,14 @@ Bu alıştırmalar, istatistiksel mekanizmanın temel kavramlarını veri türü
 5.  Bir araştırma raporunda veri türü, ölçüm düzeyi, örnekleme yöntemi ve grafik seçiminin birlikte raporlanması neden bilimsel denetlenebilirliği artırır?
 
 Yöntem ve kaynak belgelerine erişim: 6 Eylül 2026.
+
+
+## Revizyon 5: yeni hedef ve tasarım görevleri
+
+## T1–T3: Hedef ve Tasarım Denetimi
+
+1.  Kapalı 80 kayıt için ortalama ile 15 puan eşiğini karşılayanların oranını hedef parametre olarak yazın. 649 kaydın ortalaması neden bu iki sayıdan belirlenemez? Altı satırlık analiz sözleşmesini tamamlayın.
+
+2.  $N=80$, $n=10$, $S_{80}^{2}=4.107437$ ile basit rastgele seçimin standart hatasını hesaplayın. Sekiz sistematik ortalamanın tam tasarım varyansını neden 8’e bölerek buluruz? Sistematik yöntemin her zaman üstün olduğunu söyleyebilir miyiz?
+
+3.  Araştırmacı “20 000 tekrar sayesinde 200 000 bağımsız öğrenciye ulaştım; Türkiye ortalamasını çok kesin buldum” diyor. Veri büyüklüğü, Monte Carlo hatası ve genelleme bakımından bu cümleyi düzeltin.

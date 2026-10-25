@@ -1,0 +1,40 @@
+{
+  "scope": "Yalnız kapalı 80 kayıt; dış anakütleye güven aralığı değildir",
+  "source_normalized_sha256": "51dcab9aeaa121123dd28a00156d4dfa398c38eecad69bd5699ae4cea03e5ee9",
+  "N": 80,
+  "n": 10,
+  "mu": 12.6375,
+  "finite_population_variance_S2": 4.107436708860759,
+  "srs_exact_variance": 0.3594007120253164,
+  "srs_exact_se": 0.5995003853420917,
+  "fpc_for_se": 0.9354143466934853,
+  "systematic_exact_variance": 0.1248437500000001,
+  "systematic_exact_se": 0.3533323506275644,
+  "systematic_means": [
+    12.8,
+    13.1,
+    12.2,
+    12.4,
+    12.4,
+    13.0,
+    12.2,
+    13.0
+  ],
+  "simulation": {
+    "seed": 20261025,
+    "repetitions": 20000,
+    "mean": 12.633785000000001,
+    "variance": 0.356694908520426,
+    "mc_se_of_mean": 0.004239107877993414
+  },
+  "periodic_synthetic": {
+    "mu": 0.125,
+    "systematic_variance": 0.109375,
+    "srs_variance": 0.009691455696202531,
+    "variance_ratio_systematic_to_srs": 11.285714285714286
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}
