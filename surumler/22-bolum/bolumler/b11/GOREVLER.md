@@ -1,12 +1,10 @@
 # Bölüm 11 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 14 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Hesaplamadan Önce Düşünün
 
-1.  Şekil (kitaptaki ilgili başvuru)’nin ham not panelinde ilişkinin yönünü ve diğerlerinden ayrılan kaydı belirleyin. Tek katsayı bu grafikte hangi bilgiyi kaybettirir?
+1.  Şekil <a href="#fig:b06-uci" data-reference-type="ref" data-reference="fig:b06-uci">[fig:b06-uci]</a>’nin ham not panelinde ilişkinin yönünü ve diğerlerinden ayrılan kaydı belirleyin. Tek katsayı bu grafikte hangi bilgiyi kaybettirir?
 
 2.  “Puanlar doğrusal biçimde birlikte değişiyor mu?” ve “Yüksek not alanlar diğer dönemde de üst sıralarda mı?” soruları için hangi katsayıyı seçersiniz? İkisini de hesaplamak neden yararlı olabilir?
 
@@ -36,9 +34,15 @@ Kaynak satırları 61–80’i seçin; ana grubun katsayılarını bu gruba taş
 
 ## H1: Hatalı Raporu Düzeltin
 
-> “Normallik testi anlamlı olduğundan Pearson hesaplanamaz. Spearman 0.831 olduğu için başarıdaki değişimin %69.1’i açıklanmıştır. Pearson 0.747, notu bir puan yükseltmenin yıl sonu notunu 0.747 puan artırdığını gösterir. Yazılım $p=0$ verdiği için ilişki kesindir. Sıfır notlu kaydı silip sonucu bütün öğrencilere genelleyebiliriz.”
-
 Her iddiayı ayrı değerlendirin ve veriyle desteklenen bir alternatif yazın.
+
+## T1–T3: Birlikte Belirsizlik ve Uyum Denetimi
+
+1.  Pearson ve Spearman aralıkları hesaplanırken neden aynı öğrenci satırları birlikte çekilir ve sıralar her çekilişte yeniden hesaplanır? Sütunları ayrı örneklemek ve aynı kişilerin katsayılarını bağımsız Fisher formülüyle karşılaştırmak hangi yapıyı bozar?
+
+2.  $r_s-r$ yaklaşık aralığı $[-.0865,.2018]$ neden yöntem üstünlüğü veya eşdeğerlik kanıtı değildir? İlk satırın olmadığı 7164 bootstrap örneği neden yeni bir doğrulama grubu değildir?
+
+3.  $r(X,X+5)=1$ neden uyum değildir? $Y=X^2$, $X\sim U(-1,1)$ neden sıfır korelasyonun bağımsızlık olmadığını gösterir? Her örnekte hangi hipotez ve hangi grafik gerekir?
 
 ## P1: Tekrarlanabilir Duyarlılık Projesi
 

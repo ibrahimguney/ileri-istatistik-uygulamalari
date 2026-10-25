@@ -29,3 +29,17 @@ Korelasyon bulguları raporlanırken yalnızca katsayı verilmemelidir. Sağlık
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 14: aynı satır bootstrap
+
+60 GP kaydı, ilk satır/sıfır not korunur. 20000 ortak satır çekilişi, seed20261025;
+Spearman sıraları her tekrarda yenilenir. Yaklaşık percentile aralıkları Pearson
+[.6216,.9091], Spearman[.7064,.9092], rs−r[-.0865,.2018]. Ayrı marjinal
+aralıklar; ortak %95 kapsama yok. Aynı kişilerde farklı iki hedef bağımsız
+Pearson fark testine sokulmaz; sıfırı içeren fark eşdeğerlik kanıtı değildir.
+
+İlk satırın çekilip çekilmemesine göre koşullu bootstrap dağılımları betimseldir;
+yeni öğrenci grupları veya kayıt silme gerekçesi değildir. iid satırlar varsayımı
+sıralı tek okul alt kümesinde doğrulanmış sayılmaz. Küme-bootstrap/BCa/kapsama
+simülasyonu yapılmadı. Korelasyon uyum, sıfır korelasyon bağımsızlık değildir.
+Yeni ek yalnız Python; R/SPSS ve Bland–Altman/ICC analizi yok.

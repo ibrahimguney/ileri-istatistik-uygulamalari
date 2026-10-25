@@ -109,3 +109,7 @@ Ortak tersinir dönüşüm, iki puanlık Bonferroni/Hotelling aralıkları ve ik
 ## Revizyon 13: Bölüm 10
 
 Üstünlük A için grup-içi hayvan bootstrap ve yaklaşık BM, eşli fark için koşullu işaret testi/medyan sıra aralığı eklendi. Eski ana sonuçlar korundu. Yeni ek yalnız Python; küçük örneklem kapsaması, BCa ve öğrencilendirilmiş permütasyon yapılmadı.
+
+## Revizyon 14: Bölüm 11
+
+Aynı öğrenci satırlarını koruyan Pearson/Spearman bootstrap aralıkları, katsayı farkı ve ilk kayıt etkisi eklendi. Sıfır korelasyon/bağımsızlık, dönüşüm ve uyum ayrımı netleştirildi. Eski ana sonuçlar korunur; yeni ek yalnız Python. Küme-bootstrap, BCa ve kapsama simülasyonu yapılmadı.

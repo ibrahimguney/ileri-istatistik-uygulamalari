@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_14_correlation_pairs": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b11-korelasyon/esli-bootstrap/sonuclar/ozet.json",
+    "small_sample_coverage_calibrated": false,
+    "cluster_bootstrap": false
   }
 }
