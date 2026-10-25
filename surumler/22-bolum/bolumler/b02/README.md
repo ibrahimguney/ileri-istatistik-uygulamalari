@@ -50,3 +50,17 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: özet seçimi ve ampirik dağılım
+
+Ortalama/medyan/kırpılmış ortalama farklı hedeflerdir. Eşik oranında >= ve >
+ayrımı, ters ampirik çeyrek–tip 7 ayrımı ve eşleşmiş fark grafiği eklendi.
+Yeni T1–T3 görevleri ve çözümleri ilgili dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b02-betimsel-istatistik/ozet-secimi/README.md) ·
+[Python kodu](../../uygulamalar/b02-betimsel-istatistik/ozet-secimi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b02-betimsel-istatistik/ozet-secimi/sonuclar/ozet.json).
+Bu ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
+
+Kaynaklar: https://doi.org/10.1080/00031305.1996.10473566 ;
+https://doi.org/10.1371/journal.pbio.1002128 .

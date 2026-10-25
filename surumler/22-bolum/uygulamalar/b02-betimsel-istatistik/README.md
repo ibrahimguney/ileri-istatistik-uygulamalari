@@ -80,3 +80,11 @@ Yöntem belgeleri, erişim 6 Eylül 2026:
 - https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm
 - https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/coefvari.htm
 - https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=examine-percentiles-subcommand-command
+
+## Revizyon 6 — Özet seçimi
+
+`ozet-secimi/` ek modülü ortalama/medyan/kırpılmış ortalama hedeflerini, ampirik
+dağılım ve eşik eşitsizliklerini, tip 7–ters ampirik çeyrek ayrımını ve eşleşmiş
+farkların dağılımını inceler. Ana veri ve yukarıdaki analiz değişmedi. Üç yeni
+matematik/girdi denetimi Python'da geçti; bu ek için R/SPSS kodu hazırlanmadı.
+Komut ve sınırlar ek modül README'sindedir.

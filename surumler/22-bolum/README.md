@@ -63,3 +63,9 @@ bilimsel hakemliği veya R/SPSS/Amos yürütme onayı anlamına gelmez.
 Hedef parametre/tasarım görevleri ve Python'da tam tasarım varyansı ile 20.000
 tekrarlı seçim eklendi. Diğer bölüm ana analizleri korunmuştur. Yeni ek modülün
 R/SPSS eşdeğeri yoktur. Küçük anakütlede tam sayım testleri geçmiştir.
+
+## Revizyon 6: Bölüm 2
+
+Özet hedefleri, ampirik dağılım/eşik eşitsizlikleri, eşleşmiş fark grafiği ve
+raporlama hassasiyeti geliştirildi. Yeni Python ek modülü ve T1–T3 görevleri
+eklendi. Diğer bölüm ana analizleri korundu; yeni R/SPSS modülü yok.
