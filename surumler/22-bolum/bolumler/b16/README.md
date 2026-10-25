@@ -52,3 +52,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 19: hedef, okul büyüklüğü ve tahmin
+
+[Uygulama açıklaması](../../uygulamalar/b16-cok-duzeyli-modeller/okul-tahmini/README.md) ·
+[Python kodu](../../uygulamalar/b16-cok-duzeyli-modeller/okul-tahmini/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b16-cok-duzeyli-modeller/okul-tahmini/sonuclar/ozet.json).
+Eski ana analizler ve gerçek HSB verisi korunur; yeni ek yalnız Python.
