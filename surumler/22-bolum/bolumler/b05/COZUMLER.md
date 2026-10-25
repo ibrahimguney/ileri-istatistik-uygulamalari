@@ -90,3 +90,14 @@ Anlamlı çıkmama, verinin sıfır hipoteziyle uyumlu olduğunu gösterir; fark
 Ana senaryo sabit örneklemli iki yönlü, alfa .05, d=.50, güç .80 ise 64/grup analiz hedefi raporlanır. Kayıt hedefinin 76/grup beklenti artırması mı, varsayımsal bağımsız tutulmada 82/grup olasılık hedefi mi olduğu seçilip gerekçelendirilir. Bu alternatiflerin hepsi aynı anda gerçek araştırma kararıymış gibi yazılmaz. Tutulma varsayımı, seçici kayıp, eksik veri analizi ve kişi yükü ayrıca değerlendirilir.
 
 Kaynak yalnız 40/grup ise .598147 güç ve .80 güce karşılık gelen .634299 etki açıklanır. Hassasiyet amacı varsa ayrıca tanımlanır; .2$\sigma$ yarı genişlik için 194/grup yerine koymalı hesabı bir genişlik garantisi değildir. Çoklu aile, yön, dışlama, izleme ve durdurma kararları sonuçlara bakmadan yazılır. Komut, sürüm, tam sayı denetimi ve duyarlılık tabloları saklanır. Python hesapları R/SPSS/G\*Power’ın çalıştırıldığı anlamına gelmez. Rubrik: hedef/tasarım 25, etki gerekçesi 25, hesap/birim 25, kayıp/çokluk 15, yeniden üretim 10 puan.
+
+
+## Revizyon 9: eşdeğerlik gücü ve hassasiyet
+
+## T1–T3: Güç ve Hassasiyet Hedeflerini Eşleştirme
+
+1.  Eşdeğerlik sınırı her iki planda $(-5,5)$; gerçek fark varsayımı değişir. 0 için önceki 69’da .798512, 70’te .805931; 2.5 için 198’de .799080, 199’da .800840 güç bulunur. Toplamlar 140 ve 398’dir. Ana 64 kişi/grup planı, sıfırdan farklılık testi ve gerçek fark 5 varsayımıyla .801460 gücü hedefler; aynı hipotez değildir. Gerçek fark 5 eşdeğerlik sıfır hipotezinin sınırındadır; eşdeğerlik red olasılığı .05’i aşmamalıdır ve .80 güce erişmesi istenmez. Öğretim sınırları alan kanıtı yerine geçmez.
+
+2.  n=194, s yerine $\sigma$ konan planlama yarı genişliğini 2’nin altına indirir; gerçekleşen rastgele yarı genişliğin bu hedefi sağlama olasılığı .530073’tür. n=210’da .893633, n=211’de .906617 ile en az .90 olasılık ilk sağlanır. Bu, sabit $\sigma=10$ ve normal/eşit varyanslı iki grup altında genişlik olayının olasılığıdır. %95 aralık kapsaması veya sıfır hipotezinin red gücü değildir; gözlenmiş aralık için posterior olasılık da değildir.
+
+3.  Tekrarlar normal ortalama farkı ve ki-kare varyansın kuramsal dağılımlarından alınır. Yeni katılımcı veya klinik pilot üretmez; mevcut/gelecek verinin varsayımlarını doğrulamaz. Daha fazla tekrar yalnız Monte Carlo hatasını küçültür. Pilotun bilinmeyen gerçek $\sigma$’sı için önsel üzerinden bütünleştirme yapılmamıştır. Güç, genişlik ve tutulma aynı değişkenlere bağlı olabilir; ortak olayın olasılığı bağımsızlık gerekçesi veya ortak model olmadan marjinal olasılıkların çarpımı değildir. Bu uygulamada kayıp modeli birleştirilmemiştir.

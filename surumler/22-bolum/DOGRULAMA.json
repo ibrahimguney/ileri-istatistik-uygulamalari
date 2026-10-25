@@ -347,5 +347,43 @@
       "tests": "passed",
       "differences": []
     }
+  },
+  "revision_9": {
+    "scope": "B05 ana analiz, eşdeğerlik/hassasiyet ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 5,
+        "id": "b05",
+        "title": "Güç Analizi ve Örneklem Büyüklüğü Planlama",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.399,
+        "differences": []
+      }
+    ],
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
   }
 }

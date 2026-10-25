@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_9_power_precision": {
+    "status": "passed",
+    "tests": 5,
+    "MC_repetitions": 100000,
+    "reference": "../../uygulamalar/b05-guc-analizi/esdegerlik-hassasiyet/sonuclar/ozet.json",
+    "R_SPSS": "no_equivalent_module"
   }
 }

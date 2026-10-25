@@ -52,3 +52,15 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: eşdeğerlik gücü ve genişlik olasılığı
+
+TOST gücünde sınır ile beklenen gerçek fark, %95 aralık kapsaması ile genişlik
+olasılığı ayrıldı. T1–T3 görevleri ve çözümleri ilgili dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b05-guc-analizi/esdegerlik-hassasiyet/README.md) ·
+[Python kodu](../../uygulamalar/b05-guc-analizi/esdegerlik-hassasiyet/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b05-guc-analizi/esdegerlik-hassasiyet/sonuclar/ozet.json).
+Varsayımsal bağımsız normal/eşit varyanslı gruplar; klinik sınır, gerçek pilot veya
+kayıpla ortak güç hesabı yoktur. Ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
+Kaynak: https://doi.org/10.1146/annurev.psych.59.103006.093735 .

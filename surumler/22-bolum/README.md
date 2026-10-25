@@ -83,3 +83,10 @@ TOST eşdeğerliği, %90 aralık terslemesi, belirsiz sonuç ayrımı ve Holm ai
 düzeltmesi eklendi. Sınırlar ve p ailesi öğretim içindir; klinik standart değildir.
 Yeni Python ek modülü ve T1–T3 görevleri eklendi; ana test/simülasyon korundu.
 Yeni R/SPSS eşdeğeri veya düzeltilmiş güven aralığı hesaplanmadı.
+
+## Revizyon 9: Bölüm 5
+
+TOST için örneklem planı ve rastgele güven aralığı genişliği olasılığı eklendi.
+Normal/eşit varyanslı varsayımsal modelin sayısal sonuçları 100.000 çekilişle
+denetlendi; yeni kişi/pilot verisi yok. Ana güç analizi korundu. Ek yalnız Python;
+R/SPSS/G*Power, belirsiz sigma üzerinden veya kayıpla ortak güç hesabı yok.
