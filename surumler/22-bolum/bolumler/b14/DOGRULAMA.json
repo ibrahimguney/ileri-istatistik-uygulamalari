@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_17_target_distribution": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b14-kovaryans-analizi/hedef-dagilim/sonuclar/ozet.json",
+    "weight_uncertainty": false,
+    "causal_transport": false
   }
 }

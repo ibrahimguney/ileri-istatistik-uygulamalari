@@ -949,5 +949,106 @@
       "Amos"
     ],
     "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_17": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 14,
+        "id": "b14",
+        "title": "Kovaryans Analizi (ANCOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.405,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
   }
 }

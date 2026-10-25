@@ -15,3 +15,18 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 17: sabit hedef dağılım
+
+Aynı60 hayvan/6 hücre, doz(.5,1,2); iki gruba ortak sabit ağırlıklar eşit,
+düşük(.6,.3,.1), yüksek(.1,.1,.8). Hücre modelinde hedef farkları
+3.700/4.921/1.054; OLS üçlü aralıklar[1.3833,6.0167],
+[2.1995,7.6425],[-2.2059,4.3139]. HC3/t yaklaşık duyarlılık ayrıca verilir.
+Bu üç hedef genel olarak aynı parametrenin sağlamlık koşuları değildir.
+
+Hücre/ayrı eğimde aile3; ortak eğimde aynı kontrast, aile1. Modeller arası
+arama ve önceki doz ailesiyle ortak hata kontrolü yok. Ağırlıklar biliniyor
+kabul edilir; dış örneklem/ağırlık belirsizliği veya nedensel taşıma yok.
+Ortalama dozda hücre tahmini kurmak, gözlenen hücreleri ağırlıklandırmak
+değildir. Destek uydurulmaz. Doz ön-test değildir; aynı ölçekte ön-test/son-test
+modelinin değişim eşitliği ayrı teorik tartışmadır. Yeni ek yalnız Python.

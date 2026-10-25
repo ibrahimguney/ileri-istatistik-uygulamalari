@@ -1,7 +1,6 @@
 # Bölüm 14 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 17; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -83,6 +82,14 @@ Hayır. Rastgele atanmış gruplarda kovaryat hata varyansını azaltarak kesinl
 5.  2 mg/gündeki farkın aralığı sıfırı içerir ve kayda değer farkları da dışlamaz. Anlamsızlık eşdeğerlik değildir; .5 ve 1 mg/gündeki anlamlılıkla doğrudan “farklar arası fark” testi yapılmış da olmaz.
 
 6.  Üç doz kontrastı tek aile olarak tanımlanmalıdır. Her dozdaki ayrı iki-grup düzeltmesi dozlar arasını otomatik kapsamaz. Burada Bonferroni aralıkları her modeldeki üç farkı kapsar; modeller arasındaki arama/karar sürecini düzelttiği iddia edilmez. Değerler Python ile hesaplanmış, R/`emmeans` ile aynı bulunmuştur.
+
+## T1–T3: Hedef Dağılım ve Ön-Test Denetimi
+
+1.  $\Delta=(5.25,5.93,-.08)$ ile eşit hedef 3.700, düşük doz hedefi $.6(5.25)+.3(5.93)+.1(-.08)=4.921$, yüksek doz hedefi $.1(5.25)+.1(5.93)+.8(-.08)=1.054$ olur. Hedef dağılım değişince genel olarak parametre değişir; küçük p seçilmez. Her grupta ayrı doz ağırlıkları kullanmak aynı dağılıma standardizasyon değil, bileşim farkını da içeren karşılaştırmadır.
+
+2.  Hücre katsayı sırasıyla $L_w=(-w_1,-w_2,-w_3,w_1,w_2,w_3)$ ve $SH=\sqrt{L_wVL_w'}$ kullanılır. Hücre OLS üçlü aralıkları \[1.3833,6.0167\],\[2.1995,7.6425\],\[-2.2059,4.3139\]’dur. Ortak eğim modelinde fark bütün dozlarda aynı $\tau$ olduğundan tek kontrast vardır. Hücreleri ağırlıklandırmak ara dozda tahmin yapmak değildir; hedefin ortalama dozunda hücre olmaması bu toplamı engellemez. Yeni aile önceki doz ailesini veya model aramasını topluca düzeltmez.
+
+3.  Y’den X çıkarılınca yalnız X katsayısı $\beta$’dan $\beta-1$’e değişir; aynı tasarımda grup katsayısı ve artıklar korunur. X’i çıkarmak Y ölçeğinde ön-test eğimini 1’e kısıtlar; yalnız son-test modeli ise 0’a kısıtlar. Uygunluk ve nedensel yorum ayrı sorulardır. ToothGrowth dose uygulanan koşuldur, ön-test değildir ve yanıtla aynı ölçekte puan değildir; sayısal çıkarma yapabilmek anlamlı değişim puanı üretmez.
 
 ## P1: Ön-Test Kontrollü Yeni Bir Çalışma
 
