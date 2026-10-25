@@ -50,3 +50,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 18: tanımlama, duyarlılık ve bölgeler
+
+[Uygulama açıklaması](../../uygulamalar/b15-aracilik-duzenleyicilik/duyarlilik-bolgeler/README.md) ·
+[Python kodu](../../uygulamalar/b15-aracilik-duzenleyicilik/duyarlilik-bolgeler/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b15-aracilik-duzenleyicilik/duyarlilik-bolgeler/sonuclar/ozet.json).
+Eski ana analizler/simülasyon korunur; yeni ek yalnız Python.

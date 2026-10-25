@@ -1,8 +1,6 @@
 # Bölüm 15 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 18 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Modelden Önce
 
@@ -18,7 +16,7 @@ Yanıtlar Ek F, Bölüm 15’tedir (s. kitaptaki ilgili sayfa).
 
 ## G1–G3: Rehberli Çözüm
 
-1.  Tablo (kitaptaki ilgili başvuru)’deki katsayılarla $c=c'+ab$ özdeşliğini doğrulayın. Aynı özdeşlik lojistik regresyonda neden kendiliğinden geçerli olmaz?
+1.  Tablo kitaptaki ilgili tablo’deki katsayılarla $c=c'+ab$ özdeşliğini doğrulayın. Aynı özdeşlik lojistik regresyonda neden kendiliğinden geçerli olmaz?
 
 2.  Paketi çalıştırıp bootstrap tekrar sayısını 1000’e indirin. Aralığın sınırları ne kadar değişir? Bu değişim örneklem belirsizliği mi, hesap belirsizliği midir?
 
@@ -30,9 +28,15 @@ Yanıtlar Ek F, Bölüm 15’tedir (s. kitaptaki ilgili sayfa).
 
 2.  Düzenleyicilik modelinde $W$ yerine $W$’nin ortancadan ikiye bölünmüş hâlini kullanın. Etkileşim katsayısı, standart hatası ve yorum nasıl değişir?
 
-## H1: Hatalı Raporu Onarma
+## T1–T3: Tanımlama ve Anlamlılık Bölgesi Denetimi
 
-> “Doğrudan etki anlamsız olduğundan tam aracılık vardır; M, X’in Y üzerindeki etkisinin tek nedenidir. Etkileşim anlamlı olduğundan X her W düzeyinde Y’yi artırır.”
+1.  X’in rastgele atanması neden M–Y karıştırıcılığını tek başına gidermez? Bootstrap aralığı, zaman sırası ve $c=c'+ab$ özdeşliği hangi iddiaları kanıtlamaz?
+
+2.  $\rho=0,.3,.6$ için varsayım çarpımlarını karşılaştırın. .600490 değeri neden bir karıştırıcılık tahmini veya güven aralığının sıfır eşiği değildir? Bilinen üretim korelasyonuyla ayrımını yapın.
+
+3.  Noktasal ve eşzamanlı eğim bantlarının çarpanlarını/sınırlarını karşılaştırın. Merkezlenmiş w’yi ham W’ye nasıl çevirirsiniz? Bir eğimin anlamlı diğerinin anlamsız olması neden fark testi yerine geçmez?
+
+## H1: Hatalı Raporu Onarma
 
 Üç iddiayı tablolardaki değerler ve bu bölümdeki kanıt sınırları bakımından düzeltin.
 

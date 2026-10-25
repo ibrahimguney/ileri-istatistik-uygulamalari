@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_18_mediation_regions": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b15-aracilik-duzenleyicilik/duyarlilik-bolgeler/sonuclar/ozet.json",
+    "rho_intervals": false,
+    "HC3_cluster_band": false
   }
 }
