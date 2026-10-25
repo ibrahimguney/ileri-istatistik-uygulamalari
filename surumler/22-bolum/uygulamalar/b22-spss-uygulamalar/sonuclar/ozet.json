@@ -1,0 +1,153 @@
+{
+  "source_hashes_LF": {
+    "sleep.csv": "adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e",
+    "ToothGrowth.csv": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3"
+  },
+  "executed": {
+    "Python": true,
+    "SPSS": false,
+    "R": false
+  },
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9"
+  },
+  "paired": {
+    "n": 10,
+    "mean": 1.58,
+    "sd": 1.2299954832798732,
+    "se": 0.3889587238883952,
+    "t": 4.062127683382037,
+    "df": 9,
+    "p_two": 0.002832890197384273,
+    "ci95": [
+      0.7001142367230176,
+      2.4598857632769824
+    ],
+    "dz": 1.2845575625910546
+  },
+  "welch_dose1": {
+    "difference": 5.929999999999996,
+    "se": 1.4704534448031104,
+    "t": 4.03276963371935,
+    "df": 15.357671628182148,
+    "p_two": 0.0010383758722998845,
+    "ci95": [
+      2.8021482491653615,
+      9.057851750834631
+    ],
+    "d_pooled": 1.803509407718679
+  },
+  "student_dose1_comparison": {
+    "difference": 5.929999999999996,
+    "se": 1.4704534448031106,
+    "t": 4.03276963371935,
+    "df": 18.0,
+    "p_two": 0.0007807261651774479,
+    "ci95": [
+      2.8406919486647824,
+      9.01930805133521
+    ],
+    "d_pooled": 1.803509407718679
+  },
+  "levene_mean_dose1": {
+    "F": 2.2714507307194816,
+    "df1": 1,
+    "df2": 18,
+    "p": 0.14912625893090994
+  },
+  "paired_correlation_not_mean_test": {
+    "r": 0.7951702058335778,
+    "p": 0.005964995796918454
+  },
+  "scenarios": {
+    "ana": {
+      "n": 10,
+      "mean": 1.58,
+      "sd": 1.2299954832798732,
+      "se": 0.3889587238883952,
+      "t": 4.062127683382037,
+      "df": 9,
+      "p_two": 0.002832890197384273,
+      "ci95": [
+        0.7001142367230176,
+        2.4598857632769824
+      ],
+      "dz": 1.2845575625910546
+    },
+    "filtre_ID_1_5": {
+      "n": 5,
+      "mean": 1.24,
+      "sd": 0.8502940667792528,
+      "se": 0.38026306683663097,
+      "t": 3.2609004348369446,
+      "df": 4,
+      "p_two": 0.031054421487028173,
+      "ci95": [
+        0.18422046939393466,
+        2.2957795306060653
+      ],
+      "dz": 1.4583190080308062
+    },
+    "iki_hucre_gizli_kurgu": {
+      "n": 8,
+      "mean": 1.525,
+      "sd": 1.3509256086106294,
+      "se": 0.4776243293635699,
+      "t": 3.192885927800304,
+      "df": 7,
+      "p_two": 0.015215482703232735,
+      "ci95": [
+        0.39559792763616297,
+        2.654402072363837
+      ],
+      "dz": 1.128855645551348
+    },
+    "her_cifti_iki_kez_sayma_karsi_ornek": {
+      "n": 20,
+      "mean": 1.58,
+      "sd": 1.1971896916924805,
+      "se": 0.26769975325864015,
+      "t": 5.902134689207095,
+      "df": 19,
+      "p_two": 1.1059117321388117e-05,
+      "ci95": [
+        1.0196979770704973,
+        2.140302022929503
+      ],
+      "dz": 1.3197574377426657
+    }
+  },
+  "teaching_missing": {
+    "kosul1_valid": 9,
+    "kosul2_valid": 9,
+    "complete_pairs": 8,
+    "remaining_ID": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "checks": [
+    "source hashes",
+    "unique complete pairs",
+    "permuted row invariance",
+    "four invalid copies rejected",
+    "manual formulas versus SciPy",
+    "paired versus one-sample",
+    "covariance identity",
+    "reversed direction",
+    "Levene versus squared pooled t on absolute deviations"
+  ],
+  "remote_cells_compared": false,
+  "main_records_deleted": false,
+  "normality_tests_performed": false,
+  "effect_size_intervals_computed": false
+}

@@ -1,5 +1,9 @@
 # Kitap–depo eşleştirmesi
 
+> **22 bölümlük güncel sürüm:** [Öğrenci paketleri](surumler/22-bolum/README.md) · [Bölüm sayfaları](surumler/22-bolum/index.html).
+> Aşağıdaki 18 bölümlük kayıt önceki kitap sürümüne aittir; numaralar yeni sürümle karıştırılmamalıdır.
+
+
 Kontrol tarihi: 7 Eylül 2026. Referans: İbrahim Güney, *İleri İstatistik Uygulamaları*, `ileri-istatistik-izü6.pdf`. Sayfalar PDF görüntüleyicisinin sıra numarası değil, kitapta basılı sayfalardır.
 
 Bu kayıt bölüm sırası, başlıklar ve öğrenci paketinin dosya kapsamı içindir. Bütün formüllerin, tabloların, alıştırmaların ve sayısal değerlerin kitapla tek tek karşılaştırıldığı anlamına gelmez. Python analiz ve notebook yürütmeleri ayrıca `DOGRULAMA.json` içinde kayıtlıdır.
@@ -67,3 +71,4 @@ B18 ayrıca GitHub Actions üzerinde R 4.5.2 ile gerçekten yürütüldü. 71 sa
 - Güncellenmiş PDF SHA-256: `ac1b9bd7bd0604ee319fbb0b37cb2789c2e5c98bb2530bbc87fdba661f623a08`
 - Başlık güncellemesi öncesi PDF SHA-256: `47c0c233bfce35aea59a1402b18cf292c4eb5743fa920d31624dbc010f8fdf89`
 - Denetlenen depo başlangıcı: `52a206de7dca5b5a8b536ea0f4240b195bc536b4`.
+

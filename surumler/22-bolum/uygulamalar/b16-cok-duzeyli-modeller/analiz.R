@@ -1,0 +1,25 @@
+# Çok düzeyli modeller — R/lme4 karşılaştırması (çalışma dizini kitap kökü).
+for (package in c("lme4", "sandwich", "lmtest")) {
+  if (!requireNamespace(package, quietly = TRUE)) stop(package, " kurulu olmalı; betik paket kurmaz.")
+}
+library(lme4)
+directory <- "uygulamalar/b16-cok-duzeyli-modeller"
+data <- read.csv(file.path(directory, "sonuclar/analiz_verisi.csv"), colClasses = c(School = "character"))
+stopifnot(nrow(data) == 7185, length(unique(data$School)) == 160)
+m0 <- lmer(MathAch ~ 1 + (1 | School), data)
+print(summary(m0))
+vc <- as.data.frame(VarCorr(m0)); cat("ICC =", vc$vcov[1] / sum(vc$vcov), "\n")
+ols <- lm(MathAch ~ SES, data)
+print(lmtest::coeftest(ols, vcov = sandwich::vcovCL(ols, cluster = ~School, type = "HC1")))
+print(summary(lmer(MathAch ~ SES + (1 | School), data))$coefficients)
+m1 <- lmer(MathAch ~ ses_m + ses_ort + (1 | School), data)
+print(summary(m1)$coefficients); print(VarCorr(m1))
+m2a <- lmer(MathAch ~ ses_m + ses_ort + katolik + (1 | School), data)
+m2b <- lmer(MathAch ~ ses_m + ses_ort + katolik + (ses_m | School), data)
+lr <- as.numeric(2 * (logLik(m2b) - logLik(m2a)))
+cat("Rastgele eğim LR (REML) =", lr, " karışım p =", 0.5 * pchisq(lr, 1, lower.tail = FALSE) + 0.5 * pchisq(lr, 2, lower.tail = FALSE), "\n")
+print(VarCorr(m2b))
+m3 <- lmer(MathAch ~ ses_m * (ses_ort + katolik) + (ses_m | School), data)
+print(summary(m3))
+print(anova(update(m2b, REML = FALSE), update(m3, REML = FALSE)))
+print(sessionInfo())

@@ -1,5 +1,9 @@
 # İleri İstatistik Uygulamaları
 
+> **22 bölümlük güncel sürüm:** [Öğrenci paketleri](surumler/22-bolum/README.md) · [Bölüm sayfaları](surumler/22-bolum/index.html).
+> Aşağıdaki 18 bölümlük kayıt önceki kitap sürümüne aittir; numaralar yeni sürümle karıştırılmamalıdır.
+
+
 ## Kitap için öğrenci uygulama materyalleri
 
 Bu depo, **Prof. Dr. İbrahim Güney** tarafından hazırlanan *İleri İstatistik Uygulamaları* kitabına eşlik eden öğrenci çalışma ortamıdır.
@@ -159,3 +163,4 @@ Bir bölümde hedef yalnız doğru sayıya ulaşmak değildir:
 ## Kitapla eşleştirme
 
 Bölüm başlıkları, kitap sayfaları ve kalan içerik kontrolleri için [kitap–depo eşleştirme tablosuna](KITAP_ESLESMESI.md) bakın.
+

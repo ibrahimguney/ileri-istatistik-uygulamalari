@@ -1,0 +1,5 @@
+variable,method,Q1,Q3,lower_fence,upper_fence,flagged_rows
+G1,type7,11.0,13.25,7.625,16.625,"[1, 16, 48, 61]"
+G1,halves_n80,11.0,13.5,7.25,17.25,[1]
+G3,type7,11.0,14.0,6.5,18.5,[]
+G3,halves_n80,11.0,14.0,6.5,18.5,[]

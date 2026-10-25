@@ -18,3 +18,9 @@ __pycache__/
 Thumbs.db
 *.tmp
 *.swp
+
+
+# 22 bölümlük sürümün yeniden üretilen çıktıları
+surumler/22-bolum/assets_figures/*
+!surumler/22-bolum/assets_figures/.gitkeep
+surumler/22-bolum/dogrulama/latest.json

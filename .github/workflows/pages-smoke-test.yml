@@ -2,9 +2,11 @@ name: Pages Smoke Test
 
 on:
   push:
+    branches: [main]
     paths:
       - "index.html"
       - "assets/**"
+      - "surumler/22-bolum/**"
       - "bolumler/b*/README.md"
       - ".github/workflows/pages-smoke-test.yml"
   workflow_dispatch:
@@ -45,3 +47,20 @@ jobs:
           set -euo pipefail
           curl --fail --location --retry 3 --retry-delay 5 --max-time 30 "https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/assets/site.css" -o /tmp/site.css
           test -s /tmp/site.css
+
+
+      - name: Güncel 22 bölümün doğrudan sayfalarını doğrula
+        run: |
+          set -euo pipefail
+          BASE="https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/22-bolum"
+          for N in $(seq -w 1 22); do
+            curl --fail --location --retry 6 --retry-delay 10 --retry-all-errors --max-time 30 "$BASE/bolumler/b$N/" -o "/tmp/current-b$N.html"
+            grep -F "data-book-version=\"22-bolum\"" "/tmp/current-b$N.html"
+            grep -F "data-chapter=\"b$N\"" "/tmp/current-b$N.html"
+            if grep -Eqi 'http-equiv=["\x27]?refresh' "/tmp/current-b$N.html"; then
+              echo "Beklenmeyen yönlendirme: b$N" >&2
+              exit 1
+            fi
+          done
+          curl --fail --location --retry 6 --retry-delay 10 --max-time 30 "$BASE/ogrenci-paketi-22-bolum.zip" -o /tmp/current22.zip
+          unzip -t /tmp/current22.zip

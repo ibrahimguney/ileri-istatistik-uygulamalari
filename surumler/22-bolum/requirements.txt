@@ -1,0 +1,9 @@
+# İleri İstatistik Uygulamaları — Python uygulama paketleri
+# Kurulum (kitap kökünden):  python -m pip install -r uygulamalar/requirements.txt
+# Denenmiş sürümler: Python 3.11; numpy 2.4.4, scipy 1.17.1, pandas 3.0.2,
+# matplotlib 3.10.9, statsmodels 0.15.0 (pandas 2.3.3 ile de çalışır).
+numpy>=2.0,<3
+scipy>=1.17,<2
+pandas>=2.2,<4
+matplotlib>=3.8,<4
+statsmodels>=0.14,<1
