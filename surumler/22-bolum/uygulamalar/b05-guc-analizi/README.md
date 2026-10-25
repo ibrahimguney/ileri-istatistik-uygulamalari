@@ -17,7 +17,7 @@ R betiği (`power.t.test`, `pwr`) Python ile aynı örneklem büyüklüklerini v
 - %15 kayıp için beklenen sayı payı ile iki grupta yeterli kişi kalma olasılığı ayrı hesaplanır.
   Bağımsız Bernoulli tutulma varsayımı gerçek kayıp mekanizmasını doğrulamaz.
 - Hassasiyet hesabı σ'yı yerine koyan t-aralık yarı genişliği planıdır; genişlik garantisi değildir.
-- Çıktı CSV/JSON'ları ve `assets_figures/b05-guc-planlama.pdf` deterministiktir; simülasyon yoktur.
+- Ana betiğin çıktı CSV/JSON'ları ve `assets_figures/b05-guc-planlama.pdf` deterministiktir; ana betikte simülasyon yoktur.
 
 ## Gerçek arşivin sınırlı rolü
 Bölüm 6 `kaynak/sleep.csv`: 20 satır, ID ile eşlenmiş 10 kişi, saat birimi.
@@ -34,3 +34,11 @@ merkezi sıfırda güç=alfa, işaret simetrisi ve yanlış tek yön,
 güç eğrisi monotonluğu, Fisher-z minimumu, binom eşiği ve geçersiz girdi reddi.
 Yüksek n/normal model hesabı temsil, nedensellik, küme tasarımı veya eksik veri çözümü sağlamaz.
 Yöntem belgeleri ve erişim tarihi: kitap Bölüm 5 kaynakçası, 6 Eylül 2026.
+
+## Revizyon 9 — Eşdeğerlik ve hassasiyet
+
+`esdegerlik-hassasiyet/` ek modülü TOST gücünü sayısal integralle ve gerçekleşen
+%95 aralık genişliği olasılığını ki-kare dağılımıyla hesaplar. 100.000 tekrar yalnız
+bu yeni hesapların model altında sayısal denetimidir; gerçek kişi/pilot üretilmez.
+Ana analiz ve önceki referanslar korunur. Beş yeni Python testi geçti; R/SPSS
+eşdeğeri, kayıpla ortak güç veya pilot belirsizliği üzerinden bütünleştirme yoktur.

@@ -83,3 +83,14 @@ Bu alıştırmalar güç, etki büyüklüğü, örneklem büyüklüğü ve araş
 4.  Gerçekçi olmayan büyük etki varsayımının örneklem planlamasını nasıl yanıltabileceğini açıklayınız.
 
 5.  Bir tez çalışması için güç analizi raporunda bulunması gereken unsurları yazınız.
+
+
+## Revizyon 9: eşdeğerlik gücü ve hassasiyet
+
+## T1–T3: Güç ve Hassasiyet Hedeflerini Eşleştirme
+
+1.  $\Delta=5$, $\sigma=10$ eşdeğerlik planında gerçek fark 0 için 70, 2.5 için 199 kişi/grup bulunmasını yorumlayın. Ana fark testinin 64 kişi/grup sonucu neden doğrudan taşınamaz? Gerçek fark tam 5 ise .80 eşdeğerlik gücü hedeflemek ne anlama gelir?
+
+2.  Yarı genişlik en fazla 2 puan hedefinde yerine koymalı n=194 ile olasılık hedefli n=211’i ayırın. .906617 olasılığı %95 aralığın kapsama düzeyi veya test gücü müdür?
+
+3.  Sayısal integralin 100 000 tekrarla denetlenmesi yeni katılımcı sayısı veya gerçek pilot belirsizliği üretir mi? Güç/genişlik/tutulma olasılıklarını çarpmak neden ayrıca gerekçe ister?
