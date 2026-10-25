@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_20_reliability_model": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b17-guvenirlik/model-belirsizlik/sonuclar/ozet.json",
+    "empirical_omega_fitted": false,
+    "clinical_threshold_validated": false
   }
 }

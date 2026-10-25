@@ -1,7 +1,6 @@
 # Bölüm 17 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 20; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -97,7 +96,7 @@ Yanıtlar `psych::bfi` verisinin ilk 100 satırındaki A ve C maddeleri içindir
 
 5.  Bootstrap mevcut örneklemi yeniden kullanır; seçilmeyen kişilerin bilgilerini veya kültürel temsili üretmez.
 
-6.  Omega yükler, hata varyansları ve belirlenmiş ölçüm modeline bağlıdır. Uygun modelin incelenmesi atlanamaz; bu pakette sayısal omega hesaplanmamıştır. A+C’nin 97 kişideki .727369 alfası da tek boyutlu toplamın geçerli olduğunu göstermez.
+6.  Omega yükler, hata varyansları ve belirlenmiş ölçüm modeline bağlıdır. Uygun modelin incelenmesi atlanamaz; bu veriye uygunluğu sınanmış bir omega modeli kurulmamıştır. Revizyon 20 yalnız bilinen parametreli modellerde sayısal karşı örnek ekler; bunlar IPIP omega kestirimi değildir. A+C’nin 97 kişideki .727369 alfası da tek boyutlu toplamın geçerli olduğunu göstermez.
 
 ## P1: Uyarlama Dosyası İçin Örnek İskelet
 
@@ -125,3 +124,11 @@ Revizyon günlüğünde madde kodu, sürüm/tarih, taslak, gözlenen anlaşılma
 </div>
 
 Değerlendirme: kaynak/puanlama 20, hesap ve eksikler 25, belirsizlik ve madde kararı 20, uyarlama planı 25, yeniden üretim 10 puan. Yapılmamış araştırmayı yapılmış gibi yazmak kanıt üretmez; açık sınırlandırma beklenir. Hangi sonucun hangi yazılımla üretildiği belirtilir.
+
+## T1–T3: Model ve Belirsizlik Denetimi
+
+1.  Ortak 97 tam kayıt örneklem kuralını sabitler. $\alpha_A=.627614$, $\alpha_C=.722686$, fark .095072’dir. Ortak satır çekimi A–C bağımlılığını korur; 20000 tekrarın persentil aralığı $[-.062180,.268615]$’tir. Sıfırı içermesi eşitlik/eşdeğerlik veya eşit geçerlik kanıtı değildir. Farklı yapılar ve seçilmiş tam kayıtlar için alfa fonksiyonelleri karşılaştırılır; seçilim/eksiklik yanlılığı giderilmez.
+
+2.  Alfa .733471’den .750000’a yükselir; hedef faktör payı .743802’den .720000’a düşer. Artık kovaryansı .2 iki simetrik hücrede olduğundan toplam hata varyansı $3.1+2(.2)=3.5$ olur. Hedef faktör varyansı $(.8+.7+.6+.5+.4)^2=9$ değişmez. Yeni pay $9/(9+3.5)=.72$’dir. Bu bir bilinen-model karşı örneğidir; veriye uydurulmuş omega değildir.
+
+3.  SEM $\sqrt{3.1}=1.760682$, bağımsız ve eşit normal hata senaryosunda yaklaşık fark sınırı $1.96\sqrt{6.2}=4.880$ puandır. İlişkili zaman hatalarında kovaryans terimi gerekir. Tek uygulamalı iç tutarlılık verisi bu varsayımları veya klinik anlamlı değişimi doğrulamaz. Puan ölçeği, koşullu hata, değişmezlik ve amaç ayrıca incelenir; grup ortalaması veya alfa katsayısı standart hatasıyla SEM karıştırılmaz.
