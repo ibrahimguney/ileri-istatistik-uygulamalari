@@ -78,3 +78,8 @@ zorunludur. Hash karşılaştırmasında yalnızca dosya sonundaki satır sonu f
 tolere edilir; güncel ham dosya hash’i ayrıca kaydedilir. İlk 60 kayıt, Bölüm 12
 not_basari.csv dosyasıyla da hücre hücre karşılaştırılır. Kaynak dosyasının işlem
 sonunda değişmediği denetlenir.
+## Revizyon 14 — aynı satırla bootstrap
+
+[Eşli bootstrap](esli-bootstrap/README.md): aynı60 kayıtta Pearson, Spearman ve
+farkı için yaklaşık aralık; ilk satırın yeniden çekilmesi, dönüşüm ve uyum ayrımı.
+Eski ana analizler/veriler korunur. Yeni ek yalnız Python.

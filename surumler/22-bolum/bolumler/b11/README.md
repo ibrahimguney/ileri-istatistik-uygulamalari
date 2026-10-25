@@ -54,3 +54,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 14: birlikte belirsizlik ve uyum ayrımı
+
+[Uygulama açıklaması](../../uygulamalar/b11-korelasyon/esli-bootstrap/README.md) ·
+[Python kodu](../../uygulamalar/b11-korelasyon/esli-bootstrap/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b11-korelasyon/esli-bootstrap/sonuclar/ozet.json).
+Eski ana analizler/veriler korunur; yeni ek yalnız Python.

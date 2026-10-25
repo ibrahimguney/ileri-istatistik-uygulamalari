@@ -1,11 +1,10 @@
 # Bölüm 11 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 14; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
-Ortak bir nedenin (karıştırıcı) iki değişkeni birlikte etkilediği durumlarda, ters nedensellikte, seçilim (örneklemin bir değişkene göre seçilmesi) ve rastlantıda; ayrıca zaman sırası belirsizse. Korelasyon yalnız birlikte değişimi gösterir; nedensellik tasarım (rastgele atama) veya güçlü kuramsal ve zamansal kanıt ister.
+Ortak bir nedenin (karıştırıcı) iki değişkeni birlikte etkilediği durumlarda, ters nedensellikte, seçilim (örneklemin bir değişkene göre seçilmesi) ve rastlantıda; ayrıca zaman sırası belirsizse. Korelasyon yalnız birlikte değişimi gösterir; nedensel çıkarım uygun tasarım, zaman sırası ve karıştırma/seçilim hakkında savunulabilir tanımlama varsayımları ister; yalnız güçlü kuram veya korelasyon yeterli değildir.
 
 ## Kolay Düzey
 
@@ -82,6 +81,14 @@ Bu yanıtlar Bölüm 11’deki UCI Portekizce dersi etkinliklerine aittir. İlk
 4.  **Sıfır $p$:** Ekranda yuvarlanan değer $p=0$ diye yazılmamalıdır. Ana Pearson testi $p\approx7.47\times10^{-12}$ verir. İleri permütasyon etkinliğinde ise 19999 tekrarda sıfır uç sonuç, artı-bir düzeltmesiyle $p_{\mathrm{MC}}=0.00005$ üretir; kesinlik veya sıfır olasılık anlamına gelmez.
 
 5.  **Silme ve genelleme:** İlk kaydı silince Pearson’ın artması hata kanıtı değildir. Ana analiz kaydı korur, duyarlılık sonucu ayrıca sunulur. Rastgele seçilmemiş GP kayıtları bütün öğrencilere doğrudan genellenmez.
+
+## T1–T3: Birlikte Belirsizlik ve Uyum Denetimi
+
+1.  Yeniden örnekleme birimi bütün $(G1,G3)$ öğrenci satırıdır. Ayrı sütun çekimi ilişkiyi bozar; aynı çekilişin iki katsayıda kullanılması tahminler arası bağımlılığı korur. Spearman sıraları her örneklemde ham notlardan, bağlara ortalama sıra verilerek yeniden oluşturulur. Bağımsız Pearson katsayıları için Fisher fark formülü, aynı 60 kişinin Pearson/Spearman karşılaştırması değildir. iid satırlar modeli okul/sınıf bağımsızlığı kanıtı olmaz.
+
+2.  Fark .0845’tir; yaklaşık aralık sıfırı içerir. İki katsayı farklı ilişki özelliklerini hedefler; bu, Spearman’ın daha doğru olduğu veya aynı Pearson parametresinin karşılaştırıldığı anlamına gelmez. Sıfırı içerme eşdeğerlik değildir. İlk satırın olmadığı 7164 tekrar koşullu ampirik bootstrap örnekleridir; yeni gözlem veya dış doğrulama değildir. Kayıt silmeye gerekçe üretmez.
+
+3.  $Y^\dagger=X+5$ aynı sıralı doğrusal örüntüyü korur, ama her fark 5 birimdir; uyum kabul sınırları olmadan değiştirilebilirlik söylenemez. $Y=X^2$ modelinde $E(X)=E(X^3)=0$ nedeniyle kovaryans sıfır, bağımlılık kesindir. İlk örnekte fark/kalibrasyon, ikincide eğrisel saçılım ve bağımsızlık sorusu gerekir. İkisi de yeni not kaydı değildir; bu kitapta uyum analizi veya genel bağımsızlık testi eklenmiş sayılmaz.
 
 ## P1: Duyarlılık Projesinin Kontrol Noktaları
 
