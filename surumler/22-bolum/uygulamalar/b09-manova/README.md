@@ -40,3 +40,9 @@ R (stats::manova, car::Manova 3.1-2) aynı sonuçları verir.
 ## Dosyalar
 - `sonuclar/ozet.json`, `sonuclar/analiz_verisi.csv` (687 kayıt; SPSS girdisi).
 - `assets_figures/mv-sat-gruplar.pdf`.
+
+## Revizyon 12 eki
+
+[Hedef ve aralık](hedef-aralik/README.md): aynı 687 kişiyle tersinir dönüşüm,
+Bonferroni/Hotelling aralıkları ve iki grupluk asimptotik heterojen Wald duyarlılığı.
+Eski ana kod/veriler/sonuçlar korunur. Altı eğitim grubuna sağlam düzeltme değildir.

@@ -1,8 +1,6 @@
 # Bölüm 9 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 12 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analizden Önce
 
@@ -36,9 +34,15 @@ Yanıtlar Ek F, Bölüm 9’dadır (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Onarma
 
-> “MANOVA anlamlı olduğu için üç puanda da eğitim farkı vardır. Roy’un $p<.001$ değeri en güçlü kanıttır. Box M anlamlı olduğundan MANOVA yapılamaz. Sonra üç ayrı ANOVA’yı .05 düzeyinde yaptık. Cinsiyet SATV’de farksız olduğu için SATV ayırma fonksiyonunda önemsizdir.”
-
 Beş iddiayı düzeltin.
+
+## T1–T3: Hedef, Birim ve Aile Denetimi
+
+1.  SAT puanlarını 100’e bölmek veya ortak tersinir dönüşüm yapmak neden genel testi değiştirmez? Tek bileşik puan üretmek ve her cinsiyeti ayrı standartlaştırmak neden farklıdır?
+
+2.  SATV/SATQ için marjinal, Bonferroni ve Hotelling aralıklarının kapsadığı aileyi açıklayın. SATV aralığının sıfırı kapsaması neden eşdeğerlik değildir?
+
+3.  $W=29.052$ ile Hotelling $T^2=28.655$ sonuçları benzer diye eğitimdeki altı grubun kovaryans problemi çözülmüş müdür? Box M, Pillai ve basit etiket permütasyonunun hangi sınırları vardır?
 
 ## P1: MANOVA Planı
 
@@ -52,7 +56,7 @@ Bir eğitim müdahalesinin okuma, yazma ve matematik başarısına etkisini sın
 
 2.  SSCP matrisinin köşegen ve köşegen dışı öğeleri neyi gösterir?
 
-3.  Dört çok değişkenli istatistikten hangisi varsayım ihlallerine en dayanıklıdır?
+3.  Dört çok değişkenli istatistikten hangisi birçok koşulda görece dayanıklı kabul edilir ve bunun sınırı nedir?
 
 4.  Hotelling $T^2$ hangi durumda kullanılır?
 

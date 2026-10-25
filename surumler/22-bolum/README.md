@@ -101,3 +101,7 @@ Yeni ek yalnız Python'da sınandı; R/SPSS karşılığı veya klinik genelleme
 ## Revizyon 11: Bölüm 8
 
 Eksik izlemde aynı karma modelin karşılaştırılması, normal Wald sınırları ve yaş ailesinde Holm/Bonferroni eklendi. Ham veriler ve eski ana sonuçlar korunur. Tek maske yanlılığı kanıtlamaz; MNAR duyarlılığı ve küçük örneklem sd düzeltmesi uygulanmadı.
+
+## Revizyon 12: Bölüm 9
+
+Ortak tersinir dönüşüm, iki puanlık Bonferroni/Hotelling aralıkları ve iki grup için asimptotik heterojen Wald duyarlılığı eklendi. Pillai/Box M, seçilmiş ayırma yönü ve çokluk sınırları netleştirildi. Ana veriler/sonuçlar korundu; yeni ek yalnız Python, altı eğitim grubu için sağlam çözüm değildir.
