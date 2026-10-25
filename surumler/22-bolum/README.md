@@ -137,3 +137,7 @@ HSB verisinde hedef ortalamalar, eşit olmayan okul büyüklükleri ve bilinen/y
 ## Revizyon 20: Bölüm 17
 
 Ortak97 IPIP kaydında eşleşmiş alfa farkı ve ayrı bilinen parametreli model örnekleri eklendi. Gerçek veriye omega modeli uydurulmadı; SEM öğretim sınırı klinik karar eşiği değildir. Yeni ek yalnız Python; önceki99/98 kişi ana analizleri ve kaynak veriler korunur.
+
+## Revizyon 21: Bölüm 18
+
+Keşif yarısında dört faktörlü PAF doğrudan denendi; bu yordam/başlangıçta Heywood ile yakınsamadı. İki faktörlü modelde regresyon/Bartlett puanları ve sabit model altında koşullu belirsizlik eklendi. Yarım B yanıtları okunmadı; bireysel tanı/kapsama doğrulanmadı. Yeni ek yalnız Python; eski veri/bölme ve ana analizler korunur.

@@ -52,3 +52,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 21: faktör sayısı ve puan belirsizliği
+
+[Uygulama açıklaması](../../uygulamalar/b18-faktor-analizi/puan-belirsizligi/README.md) ·
+[Python kodu](../../uygulamalar/b18-faktor-analizi/puan-belirsizligi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b18-faktor-analizi/puan-belirsizligi/sonuclar/ozet.json).
+Eski ana analizler, gerçek IPIP verisi ve bölme korunur; yeni ek yalnız Python.
