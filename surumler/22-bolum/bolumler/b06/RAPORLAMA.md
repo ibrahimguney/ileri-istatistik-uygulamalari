@@ -19,3 +19,12 @@ Raporda araştırma sorusu, kaynak ve seçim kuralı, analiz birimi, fark yönü
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Kalibrasyon ve ayrı hedef
+
+Normal kurgu: n1=10/n2=30, gerçek fark0. Sigma1/2=3/1 için Student/Welch
+red oranları .210145/.051055; 1/3 için .004045/.049930; 1/1 için .049160/.050320.
+Her senaryoda 200.000 çekiliş; bunlar gerçek hayvan verisi veya test gücü değildir.
+Gerçek doz1'de Yuen (%20 her kuyruk) fark6.80, GA[3.18698,10.41302],
+p=.003369; h6/grup. Bu kırpılmış konum hedefidir, ana Welch fark5.93'ü değiştirmez.
+Küçük p seçilmez; ham veri korunur; sağlam yöntem varsayımsız değildir.

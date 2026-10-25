@@ -385,5 +385,47 @@
       "tests": "passed",
       "differences": []
     }
+  },
+  "revision_10": {
+    "scope": "B06 ana analiz, Welch/Yuen ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 6,
+        "id": "b06",
+        "title": "Parametrik Testler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.135,
+        "differences": []
+      }
+    ],
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
   }
 }

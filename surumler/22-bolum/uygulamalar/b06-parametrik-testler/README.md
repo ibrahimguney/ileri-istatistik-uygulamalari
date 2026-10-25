@@ -102,3 +102,10 @@ satır sonunun kaybolması yanlış veri-değişikliği uyarısı üretmez. Ham 
 hash'leri ayrıca `source_csv_sha256`, normalleştirilmiş hash'ler
 `source_normalized_sha256` alanında tutulur; çalışma sonunda ham dosyaların
 değişmediği tekrar sınanır. Sayısal/kategorik hücre farkları normalleştirilmez.
+
+## Revizyon 10 — Kalibrasyon ve sağlam duyarlılık
+
+`welch-saglamlik/` eki; n10/n30 normal sıfır modelinde Student/Welch hata
+oranlarını ve gerçek doz1 verisinde %20 kırpılmış ortalama için Yuen testini
+gösterir. Yuen farklı hedefi sınar; küçük p seçilmez. Ana veri ve ana analiz
+korunur. Beş yeni Python testi geçti; yeni R/SPSS eşdeğeri hazırlanmadı.

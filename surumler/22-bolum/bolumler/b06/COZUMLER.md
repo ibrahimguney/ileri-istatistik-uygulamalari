@@ -92,3 +92,14 @@ Kaynaklar uyku için 20 satır/10 ID; diş için 60 satır/6 hücre içerir. Her
 Tek çifti dışarıda bırakmada ortalama farkın en küçüğü ID 9 dışarıdayken 1.24444; en büyüğü ID 5 dışarıdayken 1.75556 saattir. ID 9 için aralık $[0.73731,1.75158]$, ID 5 için $[0.86070,2.65041]$ olur. Bütün 10 duyarlılık aralığı sıfırın üzerindedir; ancak bu, farkların normal dağıldığını veya nedensel etkinin tanımlandığını kanıtlamaz. Ana fark dağılımında Shapiro $p=.03334$ ve üst Q–Q noktasındaki sapma özellikle belirtilmelidir.
 
 Tam puan için kaynak/ID denetimi (20), üç test ve yön (25), aralık/etki büyüklüğü paydası (20), tanılar/bütün çiftler için duyarlılık (20), çalıştırma/ölçülü rapor (15) beklenir. Raporda hangi sonucun hangi yazılımla üretildiği belirtilmelidir.
+
+
+## Revizyon 10: kalibrasyon ve hedef duyarlılığı
+
+## T1–T3: Varsayım, Kalibrasyon ve Hedef Denetimi
+
+1.  Gerçek varyans $9/10+1/30=.933333$; pooled standart hata karesinin beklentisi $[(9\cdot9+29\cdot1)/38](1/10+1/30)=.385965$’tir. Oran .413534 ve belirsizlik küçümsenir. Sıfır ortalama fark doğru olduğundan .210145 güç değil, yanlış red olasılığının simülasyon tahminidir. Büyük varyans büyük gruba geçince gerçek varyans .400000, beklenti .947368 ve oran 2.368421 olur; Student red oranı .004045 ile tutucudur. Senaryolar normal ve bağımsız model kurgusudur; gerçek ToothGrowth sonuçları veya evrensel hata oranları değildir.
+
+2.  Her grupta n=10 korunur; her kuyruktan iki değer konum hesabı dışında kalır, altı değer katkı verir. Ana dosyadan hayvan silinmez. Welch sıradan ortalama farkını, Yuen yüzde 20 kırpılmış anakütle ortalamaları farkını hedefler. Yuen varyans için winsorize dizi kullanır; bu dizi ham veri diye saklanmaz. p=.001038/.003369 sonuçlarından küçük olanı seçmek analiz planı değildir; ana hedef ve duyarlılık gerekçesi ayrı yazılır. Yuen yaklaşımı bağımsızlık ve küçük örneklem sorunlarını otomatik çözmez.
+
+3.  p\>.05 normalliği kanıtlamaz; küçük örneklemde tanının duyarlılığı düşük olabilir. p\<.05 ise sapmanın belirli hedef ve kestirici üzerindeki önemini tek başına ölçmez. Student’ın eş varyans varsayımı, Welch’in yayılım uyarlaması ve sıra testinin farklı hedefi tasarımla birlikte değerlendirilir. Eşli t’de kişi içi farklar ve çiftler arası bağımsızlık önemlidir; iki koşul sütununu ayrı ayrı test ederek eşleşme modeli doğrulanmaz. Q–Q, uç kayıt, seçilme/bağımlılık ve uygun duyarlılık birlikte raporlanır.
