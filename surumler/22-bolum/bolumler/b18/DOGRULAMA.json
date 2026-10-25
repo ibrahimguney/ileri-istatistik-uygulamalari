@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_21_factor_scores": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b18-faktor-analizi/puan-belirsizligi/sonuclar/ozet.json",
+    "half_B_responses_read": false,
+    "parameter_uncertainty_included": false
   }
 }

@@ -1,8 +1,6 @@
 # Bölüm 18 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 21 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analiz Öncesi Kararlar
 
@@ -36,13 +34,21 @@ Yanıtlar Ek F, Bölüm 18’dedir (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Düzeltme
 
-> “KMO .78 ve Bartlett anlamlı olduğu için ölçek geçerlidir. SMC paralel analizi dört faktör önerdiği için dört faktör seçildi. Varimax modelin artıklarını iyileştirdi. A4’ün C yapı katsayısı .28 olduğundan bu onun örüntü çapraz yüküdür. Sonra aynı 2632 kişiyle yapılan DFA modeli doğruladı.”
-
 Her cümleyi veri, yöntem veya eksik kanıt açısından düzeltin.
 
 ## P1: Keşiften Doğrulamaya Kanıt Dosyası
 
 Bir sayfalık dosyada kaynak, bölme tohumu ve yarım büyüklükleri, eksik kuralı, anahtar, korelasyon türü, faktör sayısı gerekçesi (iki paralel analiz sürümü ve üç faktör denemesi dâhil), çıkarma/rotasyon ayarları, tam yük ve artık tabloları, madde kararları ve yarım B’de sınanacak DFA modeli bulunsun. Model, alternatifler ve karar ölçütleri yarım B açılmadan yazılır. Değerlendirme: kaynak/ön işlem 20, yöntem/hesap 30, matris yorumu 25, sınırlılıklar/doğrulama planı 15, yeniden üretim 10 puan.
+
+## T1–T3: Faktör Sayısı ve Puan Denetimi
+
+1.  Dört faktörlü doğrudan PAF denemesinin yakınsama ve ortak varyans sonuçlarını raporlayın. Neden kabul edilmiş yük tablosu verilmez? Hangi daha geniş sonuç çıkarılamaz?
+
+2.  Aynı modelde $\phi_{AC}=.317$ iken regresyon puanları korelasyonu neden .391 olabilir? Bartlett puanlarıyla .239 bulunması yeni bir faktör modeli kurulduğunu gösterir mi?
+
+3.  Regresyon puanlarının koşullu aralıkları hangi belirsizlikleri dışlar? Yarım B’ye aynı puan kuralını uygulamak için hangi eğitim sabitleri saklanmalıdır?
+
+P1 dosyasına dört faktörlü sayısal denemeyi, puanlama amacını ve yöntemini, parametre belirsizliği sınırını ve doğrulama verisinin hangi aşamada kullanıldığını ekleyin.
 
 # Alıştırmalar
 

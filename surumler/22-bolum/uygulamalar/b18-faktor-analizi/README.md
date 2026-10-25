@@ -57,8 +57,16 @@ sayı üreteci nedeniyle son basamaklarda ayrışabilir.
 
 ## Faktör sayısı kararının kapsamı
 
-Betik yalnız bir, iki ve üç faktörlü PAF çözümlerini dener. SMC paralel
+Ana betik yalnız bir, iki ve üç faktörlü PAF çözümlerini dener. Revizyon21 eki dört faktörü ayrıca doğrudan dener; aynı SMC başlangıcında2000 yinelemede yakınsamaz ve en büyük ortak varyans1.669407 olur. SMC paralel
 analizinin dört boyut önermesi, dört faktörlü PAF modelinin kurulduğu
 anlamına gelmez. Üç faktörlü denemenin uygunsuzluğu dört faktörlü
 modeli reddetme kanıtı sayılmamalıdır. İki faktörlü çözüm içerik ve
 yük/artık incelemesiyle izlenen bir adaydır.
+
+## Revizyon 21: faktör sayısı ve puan belirsizliği
+
+[Ek uygulama](puan-belirsizligi/README.md): dört faktörün sayısal denetimi,
+regresyon/Bartlett puanları ve sabit model altında koşullu belirsizlik.
+Yarım B yanıtları okunmaz; bireysel tanı veya yeni örneklemde kapsama
+doğrulanmadı. Yedi test; yeni ek yalnız Python. Eski veri/bölme/kod ve
+ana sayısal sonuçlar korunur.
