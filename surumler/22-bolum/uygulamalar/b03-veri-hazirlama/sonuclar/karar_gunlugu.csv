@@ -1,0 +1,6 @@
+adim,giren,cikan,karar
+aktarim,100,100,Ham arşiv değişmedi; hash denetlendi.
+aralik_anahtar,100,100,Geçersiz değer veya anahtar tekrarı yok.
+eksik,100,100,3 boş madde korundu; atama yapılmadı.
+ters,100,100,A1/C4/C5 yeni sütunlarda 7-x; ham sütunlar korundu.
+puan,100,100,"A5tam n99, C5tam n98, ortak n97; 4/5 duyarlılık n100."

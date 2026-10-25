@@ -1,0 +1,24 @@
+{
+  "book_chapter": 15,
+  "title": "Aracılık ve Düzenleyicilik Analizleri",
+  "version": "22-bolum",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  }
+}

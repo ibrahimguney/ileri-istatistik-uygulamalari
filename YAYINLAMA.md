@@ -1,5 +1,9 @@
 # GitHub ve GitHub Pages yayınlama notları
 
+> **22 bölümlük güncel sürüm:** [Öğrenci paketleri](surumler/22-bolum/README.md) · [Bölüm sayfaları](surumler/22-bolum/index.html).
+> Aşağıdaki 18 bölümlük kayıt önceki kitap sürümüne aittir; numaralar yeni sürümle karıştırılmamalıdır.
+
+
 7 Eylül 2026 itibarıyla bu depo GitHub'da `main` dalında yayımlanmış ve GitHub Pages canlılığı doğrulanmıştır.
 
 Canlı öğrenci giriş sayfası:
@@ -113,3 +117,4 @@ Not: `.gitignore`, daha önce Git tarafından izlenmeye başlanmış `sonuclar/`
 Kaynak bildirimleri, veri lisansları ve varsa GPL metinleri korunmalıdır. Bir veri setinin lisansı bütün depo koduna veya özgün öğrenci materyallerine otomatik uygulanmaz.
 
 Ayrıntılar için `KULLANIM.md` ve her bölümün `VERI.md` dosyasına bakın.
+

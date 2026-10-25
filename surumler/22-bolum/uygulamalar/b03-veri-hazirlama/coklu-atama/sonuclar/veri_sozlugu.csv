@@ -1,0 +1,6 @@
+alan,anlam
+id,Simülasyon sırası; gerçek kişi kimliği değil
+x,"Tam gözlenen sürekli yardımcı değişken, N(0,1)"
+y,Gözlenen sürekli yanıt; boş hücre eksik
+y_full,Yalnız öğretim karşılaştırması; atamaya girdi olmaz
+p_missing,Bilinen üretim olasılığı; atamada kullanılmaz

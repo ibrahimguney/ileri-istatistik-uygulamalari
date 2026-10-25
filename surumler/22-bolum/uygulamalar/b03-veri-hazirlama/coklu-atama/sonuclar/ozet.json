@@ -1,0 +1,138 @@
+{
+  "data_kind": "continuous_simulation_not_bfi",
+  "n": 240,
+  "n_missing": 104,
+  "missing_fraction": 0.43333333333333335,
+  "estimand": "Üretim anakütlesindeki Y ortalaması; bilinen değer 50",
+  "seeds": {
+    "data": 20261025,
+    "mask": 20261026,
+    "imputation": 20261027
+  },
+  "missingness": "MAR by design: logit P(Y missing | X)=-0.4+0.9X",
+  "imputation_model": "Y|X: normal homoskedastic linear regression; prior p(beta,sigma2) proportional to 1/sigma2",
+  "primary": {
+    "m": 200,
+    "estimate": 49.467075729903826,
+    "within": 0.4478251236985939,
+    "between": 0.16211222021068142,
+    "total": 0.6107479050103287,
+    "se": 0.7815036180404596,
+    "lambda": 0.2667594599591456,
+    "df": 163.6270983077429,
+    "ci_lower": 47.92394367491913,
+    "ci_upper": 51.01020778488852,
+    "mcse_estimate": 0.028470354775685658
+  },
+  "m1000_check": {
+    "m": 1000,
+    "estimate": 49.48199927508125,
+    "within": 0.4460770994957188,
+    "between": 0.15852752274663565,
+    "total": 0.604763149765101,
+    "se": 0.7776651913034948,
+    "lambda": 0.2623937161697406,
+    "df": 172.74947663365327,
+    "ci_lower": 47.94705033151067,
+    "ci_upper": 51.016948218651834,
+    "mcse_estimate": 0.012590771332473464
+  },
+  "methods": [
+    {
+      "method": "simulasyon_tam_veri_karsilastirma",
+      "n_used": 240,
+      "estimate": 49.62900479832765,
+      "se": 0.6515944253256741,
+      "ci_lower": 48.34540326320279,
+      "ci_upper": 50.91260633345251
+    },
+    {
+      "method": "yalniz_gozlenen_y",
+      "n_used": 136,
+      "estimate": 47.00606382848233,
+      "se": 0.844503894763312,
+      "ci_lower": 45.33589499771046,
+      "ci_upper": 48.676232659254204
+    },
+    {
+      "method": "ortalama_tek_atama_naif",
+      "n_used": 240,
+      "estimate": 47.006063828482326,
+      "se": 0.47778600434991864,
+      "ci_lower": 46.06485435091781,
+      "ci_upper": 47.94727330604684
+    },
+    {
+      "method": "coklu_atama_m200",
+      "n_used": 240,
+      "estimate": 49.467075729903826,
+      "se": 0.7815036180404596,
+      "ci_lower": 47.92394367491913,
+      "ci_upper": 51.01020778488852
+    }
+  ],
+  "delta_sensitivity": [
+    {
+      "delta": -6.0,
+      "m": 200,
+      "estimate": 46.867075729903824,
+      "within": 0.4147921490974803,
+      "between": 0.16211222021068217,
+      "total": 0.5777149304092158,
+      "se": 0.7600756083503902,
+      "lambda": 0.28201241258613763,
+      "df": 159.34338425125068,
+      "ci_lower": 45.36595408873877,
+      "ci_upper": 48.36819737106888,
+      "mcse_estimate": 0.028470354775685724
+    },
+    {
+      "delta": 0.0,
+      "m": 200,
+      "estimate": 49.467075729903826,
+      "within": 0.4478251236985939,
+      "between": 0.16211222021068142,
+      "total": 0.6107479050103287,
+      "se": 0.7815036180404596,
+      "lambda": 0.2667594599591456,
+      "df": 163.6270983077429,
+      "ci_lower": 47.92394367491913,
+      "ci_upper": 51.01020778488852,
+      "mcse_estimate": 0.028470354775685658
+    },
+    {
+      "delta": 6.0,
+      "m": 200,
+      "estimate": 52.06707572990383,
+      "within": 0.5548329936971971,
+      "between": 0.16211222021068153,
+      "total": 0.7177557750089321,
+      "se": 0.8472046830659826,
+      "lambda": 0.2269891611944292,
+      "df": 174.92447320095388,
+      "ci_lower": 50.39501698294293,
+      "ci_upper": 53.73913447686473,
+      "mcse_estimate": 0.028470354775685665
+    }
+  ],
+  "regression": {
+    "n_observed": 136,
+    "residual_df": 134,
+    "ols_intercept": 49.66339719323697,
+    "ols_slope": 8.03153063693139,
+    "rss": 5269.775648199829,
+    "posterior_sigma2_mean": 39.92254278939265
+  },
+  "observed_csv_sha256": "c3570a582aa3bd1ee07cc559996c7ca30495e8ed75c7a9e0c0ddd23ae5bb9461",
+  "limitations": [
+    "Tek simülasyon bir kapsama/yanlılık araştırması değildir.",
+    "Delta veriden tahmin edilmez; verilen deltalar için belirsizlik koşulludur.",
+    "Ordinal maddeye normal regresyon ataması uygulanmadı.",
+    "FIML/MICE ve R/SPSS doğrulaması yapılmadı."
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}

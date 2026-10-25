@@ -1,0 +1,91 @@
+
+	Paired t-test
+
+data:  sleep$kosul2 and sleep$kosul1
+t = 4.0621, df = 9, p-value = 0.002833
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.7001142 2.4598858
+sample estimates:
+mean difference 
+           1.58 
+
+
+	One Sample t-test
+
+data:  sleep$fark
+t = 4.0621, df = 9, p-value = 0.002833
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.7001142 2.4598858
+sample estimates:
+mean of x 
+     1.58 
+
+
+	Welch Two Sample t-test
+
+data:  selected$len[selected$supp == 1] and selected$len[selected$supp == 2]
+t = 4.0328, df = 15.358, p-value = 0.001038
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 2.802148 9.057852
+sample estimates:
+mean of x mean of y 
+    22.70     16.77 
+
+
+	Two Sample t-test
+
+data:  selected$len[selected$supp == 1] and selected$len[selected$supp == 2]
+t = 4.0328, df = 18, p-value = 0.0007807
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 2.840692 9.019308
+sample estimates:
+mean of x mean of y 
+    22.70     16.77 
+
+
+	Paired t-test
+
+data:  filtered$kosul2 and filtered$kosul1
+t = 3.2609, df = 4, p-value = 0.03105
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.1842205 2.2957795
+sample estimates:
+mean difference 
+           1.24 
+
+
+	Paired t-test
+
+data:  teaching$kosul2 and teaching$kosul1
+t = 3.1929, df = 7, p-value = 0.01522
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.3955979 2.6544021
+sample estimates:
+mean difference 
+          1.525 
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.4 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+[1] C
+
+time zone: Europe/Istanbul
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3
