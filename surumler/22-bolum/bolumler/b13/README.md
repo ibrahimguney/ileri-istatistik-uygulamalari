@@ -54,3 +54,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 16: olasılık, fark ve kalibrasyon
+
+[Uygulama açıklaması](../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/README.md) ·
+[Python kodu](../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/sonuclar/ozet.json).
+Eski ana analizler/veriler korunur; yeni ek yalnız Python.

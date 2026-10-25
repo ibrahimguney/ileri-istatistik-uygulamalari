@@ -117,3 +117,7 @@ Aynı öğrenci satırlarını koruyan Pearson/Spearman bootstrap aralıkları, 
 ## Revizyon 15: Bölüm 12
 
 OLS/klasik t-F/HC3 koşulları ayrıldı. Ayrı eğitim40/kalibrasyon20/kontrol20 split conformal öğretimi eklendi; model ve kontrol yanıtları karıştırılmaz. Yeni ek yalnız Python, tek okulun sıralı verisi değiştirilebilirlik ve garantili kapsama kanıtı değildir. Ana60 kayıtlık sonuçlar korunur.
+
+## Revizyon 16: Bölüm 13
+
+Profil olasılığı GA ve tam kovaryansla olasılık farkı eklendi. Aynı AUC/.50 sınıflarda farklı Brier/log-kayıp, toplu ortalama/kalibrasyon ve kontrol etiketleriyle seçim sınırları açıklandı. Yeni ek yalnız Python; kalibrasyon eğrisi, performans aralıkları ve dış doğrulama yok. Eski ana sonuçlar korunur.

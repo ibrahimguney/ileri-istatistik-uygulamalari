@@ -1,8 +1,6 @@
 # Bölüm 13 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 16 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Model Kurmadan Önce Düşünün
 
@@ -36,9 +34,15 @@ Bölüm 12’nin yeniden model kurma etkinliğinden farklı olarak burada ilk 6
 
 ## H1: Araştırma Raporundaki Hataları Bulun
 
-> “VIF 1.23 olduğundan bütün varsayımlar sağlanmıştır. Yaş eklenince $R^2$ arttığı için yaşın nedensel etkisi kanıtlanmıştır. OR=5.22, öğrencinin olasılığının 5.22 katına çıktığını gösterir. Model %88 doğru olduğundan yeni okullarda kullanılabilir. 14 resmî geçme sınırıdır; bu nedenle 0.50 de zorunlu karar eşiğidir.”
-
 Her iddiayı veri, yöntem ve kullanım bağlamı açısından ayrı düzeltin.
+
+## T1–T3: Olasılık ve Kalibrasyon Denetimi
+
+1.  16 yaşta G1=12 ve 13 için olasılıkları, OR’yi ve olasılık farkını karşılaştırın. İki olasılık aynı katsayılardan geldiğinde fark aralığı neden tam kovaryans gerektirir? Bu aralık bir kişinin 0/1 sonucu için tahmin aralığı mıdır?
+
+2.  $c\hat\eta$ dönüşümünde AUC ve .50 sınıfları neden korunur? Brier/log-kaybın değişmesi ne gösterir? Ortalama tahminin .25’e yaklaşması tek başına neden iyi kalibrasyon değildir?
+
+3.  Son 20 kayıtta 5 olay varken tabloya bakıp c seçmek ve aynı grubu yeniden test saymak neden uygun değildir? Profil güven aralığı ile performans belirsizliği ve dış doğrulamayı ayırın.
 
 ## P1: İki Model İçin Analiz Denetimi
 

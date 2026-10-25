@@ -1,7 +1,6 @@
 # Bölüm 13 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 16; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -83,6 +82,14 @@ Bu yanıtlar Bölüm 13’teki ilk 60 UCI kaydıyla model kurma ve sonraki 20 k
 4.  **Eğitim doğruluğu kullanım onayı değildir.** 0.8833 aynı verideki eğitim doğruluğudur; sınıf dengesi ve eşik seçimine bağlıdır. Sonraki 20 kayıt da yeni okul örneklemi değildir. Yeni kullanım bağlamı için bağımsız değerlendirme ve kalibrasyon incelemesi gerekir.
 
 5.  **İki farklı eşik vardır.** 14, öğretim amacıyla tanımlanan hedef not; 0.50, tahmin edilen olasılığı sınıfa çeviren karar eşiğidir. Hiçbiri burada resmî geçme kuralı veya bütün uygulamalar için zorunlu karar olarak sunulamaz.
+
+## T1–T3: Olasılık ve Kalibrasyon Denetimi
+
+1.  $p_0=.085985$, $p_1=.329304$, fark .243319 (24.33 yüzde puan), koşullu OR 5.219’dur; olasılık çarpanı değildir. Tam katsayı kovaryansıyla delta SH .114630, yaklaşık aralık \[.01865,.46799\] çıkar. Tahminler bağımsız değildir; ayrı varyans toplamı ortak kovaryansı atlar. Bu, model profil farkıdır; nedensel etki veya gelecekteki 0/1 yanıt aralığı değildir. Profil olasılığı GA’ları logit ölçeğinden ters dönüşür.
+
+2.  Pozitif c sıralamayı ve logit işaretini korur; AUC .760, .50 doğruluğu .850 kalır. Olasılık uzaklıkları değiştiğinden Brier/log-kayıp değişir. Örneğin c=2’de ortalama .26486 olay oranı .25’e yakınken log-kayıp .82157 olur; yalnız toplu ortalama tam kalibrasyon değildir. Tablo yeni model uyumu veya kullanım önerisi değildir.
+
+3.  Kontrol etiketleriyle c/olay/olasılık eşiği seçilirse aynı veri seçime de kullanılır; artık el değmemiş kontrol sayılmaz. Beş olayla esnek eğri/alt grup çıkarımı güçlü değildir. Profil güven aralığı model parametrelerinin belirsizliğidir; AUC/Brier kalibrasyon belirsizliği veya dış okul geçerliği değildir. Yeni ekte performans aralıkları ve dış doğrulama yoktur.
 
 ## P1: Analiz Denetiminin Kontrol Noktaları
 
