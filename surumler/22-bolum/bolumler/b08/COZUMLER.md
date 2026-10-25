@@ -84,3 +84,14 @@ Gözlemlerin bağımsızlığı varsayımını çiğner: aynı kişinin ölçüm
 ## P1: Tekrarlı Ölçüm Çalışması Planı
 
 İyi bir plan, rastgele atanmış müdahale ve kontrol gruplarını, temel ölçüm dâhil eşit aralıklı dört ölçümü ve ölçüm koşullarının standartlaştırılmasını tanımlar. Birincil hipotez tek sd’li bir karşıtlık olarak yazılır: grup $\times$ doğrusal zaman (büyüme hızı farkı). İkincil karşıtlıklar ve çoklu karşılaştırma ailesi belirtilir. Küresellik için GG düzeltmesi önceden seçilir; birincil analiz olarak, eksik ölçümlere dayanıklı olduğu için rastgele kesişim ve eğimli karma model tercih edilir, ANOVA duyarlılık analizi olur. Eksiklik nedenleri kaydedilir; MAR varsayımı ve duyarlılık analizi (ör. tam kayıt karşılaştırması) planlanır. Etki büyüklüğü olarak ham eğim farkı ve güven aralığı, ek olarak $\eta^2_G$ verilir. Raporlanacak tablolar: hücre betimselleri, model tahminleri, varyans bileşenleri, karşıtlık sonuçları. Kod, sürüm ve veri sözlüğü paylaşılır. Rubrik: tasarım 25, analiz planı 30, varsayımlar 20, raporlama 15, yeniden üretim 10 puan.
+
+
+## Revizyon 11: eksik izlem ve aynı hedef
+
+## T1–T3: Eksik İzlem ve Hedef Denetimi
+
+1.  Özgün arşivde eksik yoktur. Maske 40 ölçümü gizler; bütün 18 kişide en az iki ölçüm kalır, yalnız yedi kişinin sekiz ölçümü tamdır. Bu nedenle mevcut veri 104, tam-kişi veri 56 satırdır. Üçünde de aynı doğrusal rastgele kesişim/eğim REML modeli kullanılır; gün kategorilerinin genel ANOVA testiyle karşılaştırma hem hedefi hem modeli değiştirirdi. Eğimler 11.435, 12.753, 10.411 ms/gündür. İlki bilinen anakütle gerçeği değil, tam arşivin model kestirimidir; bir maske yanlılık/üstünlük kanıtı vermez. SH’nin maskede azalması bilgi kazancı diye yorumlanmaz.
+
+2.  Çıkış olasılığı yalnız gözlenen temel tepki ve bağımsız rastgele çekilişle belirlenmiştir; bu öğretim mekanizmasında MAR yapısı bilinir. Gerçek veri için mekanizma testi yapılmamıştır. Yakınsama ve pozitif kovaryans özdeğerleri yalnız sayısal kontrollerdir; doğru ortalama/kovaryans ve MAR’ı kanıtlamaz. Normal Wald aralığı ortalama eğim kestiriminin model-temelli belirsizliğidir; normal rastgele eğim dağılımından $\hat\beta_1\pm1.96\hat\tau_1$ ise parametreler sabitken kişiler arası merkez aralığıdır. İkincisi belli kişinin aralığı veya nedensel duyarlılık değildir. Küçük örneklem sd düzeltmesi ve MNAR duyarlılığı yapılmamıştır.
+
+3.  Holm p’leri yaş sırasıyla .109487, .109487, .038228, .005306; Bonferroni p’leri .273898, .218973, .050970, .005306’dır. Holm 12/14, Bonferroni yalnız 14 yaş sorusunu reddeder. Bunlar belirli yaşlardaki grup farklarıdır; genel kategorik etkileşim ve kişi başına doğrusal eğimlerin Welch karşılaştırması farklı hedef/hata yapısı kullanır. Düzeltme veya aile sonuçları gördükten sonra avantaj için değiştirilmez. Bu alıntıda aile öğretim içindir, gerçek önkayıt değildir; düzeltilmiş aralık verilmemiştir.

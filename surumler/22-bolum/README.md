@@ -97,3 +97,7 @@ Welch/Student normal model kalibrasyonu ve gerçek doz1'de Yuen kırpılmış ko
 duyarlılığı eklendi. Her kurguda200.000 çekiliş; bu bir Tip I hata denetimidir.
 Yuen farklı hedefi sınar; küçük p seçilmez. Ana analizler/ham veriler korunur.
 Yeni ek yalnız Python'da sınandı; R/SPSS karşılığı veya klinik genelleme yoktur.
+
+## Revizyon 11: Bölüm 8
+
+Eksik izlemde aynı karma modelin karşılaştırılması, normal Wald sınırları ve yaş ailesinde Holm/Bonferroni eklendi. Ham veriler ve eski ana sonuçlar korunur. Tek maske yanlılığı kanıtlamaz; MNAR duyarlılığı ve küçük örneklem sd düzeltmesi uygulanmadı.

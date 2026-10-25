@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_11_incomplete_followup": {
+    "status": "passed",
+    "tests": 5,
+    "reference": "../../uygulamalar/b08-tekrarli-olcumler/eksik-izlem/sonuclar/ozet.json",
+    "small_sample_df_correction": false,
+    "MNAR_sensitivity": false
   }
 }

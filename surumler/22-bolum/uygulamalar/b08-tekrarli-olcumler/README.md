@@ -55,3 +55,16 @@ R/afex 1.3 ve lme4 1.1-35.1 aynı sonuçları verir.
 - `sonuclar/ozet.json`: bütün sayılar, sürümler ve kaynak özetleri.
 - `sonuclar/uyku_genis.csv`, `uyku_uzun.csv`, `orthodont_genis.csv`: SPSS girdileri.
 - `assets_figures/tk-uyku-profilleri.pdf`, `assets_figures/tk-orthodont-profil.pdf`.
+
+
+## Revizyon 11 — Eksik izlem ve çıkarım sınırı
+
+`eksik-izlem/` eki sonradan maskelenmiş öğretim kopyasında aynı doğrusal karma
+modeli tam/mevcut/tam kişi verilerinde karşılaştırır. Özgün arşivde eksik yoktur.
+MAR/model uyumu, normal Wald ile küçük örneklem sd düzeltmesi ve kişi eğim
+dağılımı ayrımı metinde açıklandı. Ana JSON'daki eski `slope_prediction_interval_95`
+alanı, kestirilen parametreler sabitken normal rastgele eğim dağılımının yaklaşık
+merkez aralığıdır; ortalama eğimin veya belirli bir kişinin formal tahmin aralığı
+değildir. Yeni modül bu alanı kullanmaz. Dört yaşlık Holm öğretim ailesi eklenir.
+Beş yeni Python testi geçti; ana veri/kod/sonuçlar korundu. Yeni R/SPSS eşdeğeri
+veya MNAR/küçük-örneklem sd uygulaması yoktur.

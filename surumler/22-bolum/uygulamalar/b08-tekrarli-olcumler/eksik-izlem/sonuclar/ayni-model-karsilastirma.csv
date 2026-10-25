@@ -1,0 +1,4 @@
+,rows,subjects,converged,slope,slope_SE,slope_z,normal_Wald_CI95,random_covariance_eigenvalues,residual_SD,warnings,inference
+full_reference,144,18,True,11.435428703703712,1.8452434627677978,6.197246560923179,"[np.float64(7.818817973970852), np.float64(15.052039433436573)]","[44.259155930270936, 959.8809218180545]",25.52647639254807,[],Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı
+masked_available,104,18,True,12.753158050743107,1.7939823398560437,7.108853731395411,"[np.float64(9.237017275724366), np.float64(16.269298825761847)]","[20.741555366194675, 889.9166906135154]",22.22636023083691,[],Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı
+masked_complete_subjects,56,7,True,10.411452380952383,1.8627370321574346,5.589330217424071,"[np.float64(6.760554885254782), np.float64(14.062349876649984)]","[15.321062283210217, 894.9008869989973]",18.370064570122068,[],Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı

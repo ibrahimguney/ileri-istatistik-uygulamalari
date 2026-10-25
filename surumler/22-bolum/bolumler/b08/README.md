@@ -52,3 +52,15 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: eksik izlem ve aynı model
+
+Ayrı öğretim maskesinde tam/mevcut/tam kişi aynı eğim modeli, küçük örneklem
+çıkarım sınırı ve dört yaşlık Holm ailesi eklendi. Yeni T1–T3 görevleri/çözümleri var.
+
+[Açıklama ve komutlar](../../uygulamalar/b08-tekrarli-olcumler/eksik-izlem/README.md) ·
+[Python kodu](../../uygulamalar/b08-tekrarli-olcumler/eksik-izlem/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b08-tekrarli-olcumler/eksik-izlem/sonuclar/ozet.json).
+Özgün arşivde eksik yok; maskeli sonuçlar model üstünlüğü/gerçek MAR testi değildir.
+Yeni ek yalnız Python; R/SPSS, MNAR veya küçük-örneklem sd düzeltmesi yok.
+Kaynak: https://doi.org/10.1001/archpsyc.61.3.310 .
