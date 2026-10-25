@@ -73,3 +73,11 @@ https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.nct.html
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html
 https://stat.ethz.ch/R-manual/R-devel/library/stats/html/t.test.html
+
+## Revizyon 8 — Eşdeğerlik ve çoklu karşılaştırma
+
+`esdegerlik-cokluk/` ek modülü, sleep farkında yalnız öğretim amaçlı delta1/3
+sınırlarıyla TOST, ayrı kurgusal özetlerle hassasiyet ve kurgusal p ailesinde
+Holm/Bonferroni karşılaştırması yapar. Ana veri ve ana test sonuçları korunur.
+Sınırlar klinik standart değildir. Beş yeni Python testi ve statsmodels çapraz
+hesapları geçmiştir; ek modülün R/SPSS karşılığı veya düzeltilmiş aralıkları yoktur.

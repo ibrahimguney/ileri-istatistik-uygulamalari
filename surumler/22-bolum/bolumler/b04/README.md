@@ -50,3 +50,15 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: eşdeğerlik ve çoklu karşılaştırma
+
+TOST ile hedef/sınır/aralık eşleşmesi, belirsiz sonuç ile eşdeğerlik ayrımı ve
+planlı ailede Holm düzeltmesi eklendi. T1–T3 görevleri/çözümleri ilgili dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b04-hipotez-testi/esdegerlik-cokluk/README.md) ·
+[Python kodu](../../uygulamalar/b04-hipotez-testi/esdegerlik-cokluk/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b04-hipotez-testi/esdegerlik-cokluk/sonuclar/ozet.json).
+Sleep delta1/3 sınırları öğretim içindir; klinik standart veya gerçek önkayıt yok.
+Holm p ailesi ayrı kurgudur. Ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
+Kaynak: Lakens (2017), https://doi.org/10.1177/1948550617697177 ; Holm (1979).

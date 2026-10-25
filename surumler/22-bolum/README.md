@@ -76,3 +76,10 @@ Veri sözleşmesi, atama/analiz uyumu ve gerçek A/C puanlarında birleştirme
 paydaları geliştirildi. Yeni Python ek modülü, merkezleme sızıntısı kurgusu
 ve T1–T3 görevleri eklendi. Mevcut çoklu atama uygulaması korundu; yeni
 R/SPSS/MICE/FIML veya tahmin başarımı uygulaması yok.
+
+## Revizyon 8: Bölüm 4
+
+TOST eşdeğerliği, %90 aralık terslemesi, belirsiz sonuç ayrımı ve Holm aile
+düzeltmesi eklendi. Sınırlar ve p ailesi öğretim içindir; klinik standart değildir.
+Yeni Python ek modülü ve T1–T3 görevleri eklendi; ana test/simülasyon korundu.
+Yeni R/SPSS eşdeğeri veya düzeltilmiş güven aralığı hesaplanmadı.

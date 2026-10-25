@@ -1,0 +1,123 @@
+{
+  "scope": "Yalnız model altında öğretim; klinik sınır veya gerçek çoklu test ailesi yok",
+  "source_normalized_sha256": "adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e",
+  "sleep_teaching_bounds": [
+    {
+      "label": "sleep_delta1_teaching",
+      "n": 10,
+      "mean": 1.58,
+      "sd": 1.2299954832798732,
+      "se": 0.3889587238883952,
+      "df": 9,
+      "delta": 1.0,
+      "alpha": 0.05,
+      "p_lower": 4.778595695546834e-05,
+      "p_upper": 0.9149441145512887,
+      "p_tost": 0.9149441145512887,
+      "CI_1_minus_2alpha": [
+        0.8669947329707164,
+        2.293005267029284
+      ],
+      "equivalent_under_model": false,
+      "p_difference_two_sided": 0.002832890197384273
+    },
+    {
+      "label": "sleep_delta3_teaching",
+      "n": 10,
+      "mean": 1.58,
+      "sd": 1.2299954832798732,
+      "se": 0.3889587238883952,
+      "df": 9,
+      "delta": 3.0,
+      "alpha": 0.05,
+      "p_lower": 4.5226949658324543e-07,
+      "p_upper": 0.002655570292658671,
+      "p_tost": 0.002655570292658671,
+      "CI_1_minus_2alpha": [
+        0.8669947329707164,
+        2.293005267029284
+      ],
+      "equivalent_under_model": true,
+      "p_difference_two_sided": 0.002832890197384273
+    }
+  ],
+  "synthetic_summaries_no_raw_data": [
+    {
+      "label": "summary_n25_synthetic",
+      "n": 25,
+      "mean": 0.0,
+      "sd": 10.0,
+      "se": 2.0,
+      "df": 24,
+      "delta": 5.0,
+      "alpha": 0.05,
+      "p_lower": 0.009827087558289392,
+      "p_upper": 0.009827087558289392,
+      "p_tost": 0.009827087558289392,
+      "CI_1_minus_2alpha": [
+        -3.421764159818856,
+        3.421764159818856
+      ],
+      "equivalent_under_model": true,
+      "p_difference_two_sided": 1.0
+    },
+    {
+      "label": "summary_n4_synthetic",
+      "n": 4,
+      "mean": 0.0,
+      "sd": 10.0,
+      "se": 5.0,
+      "df": 3,
+      "delta": 5.0,
+      "alpha": 0.05,
+      "p_lower": 0.19550110947788524,
+      "p_upper": 0.19550110947788524,
+      "p_tost": 0.19550110947788524,
+      "CI_1_minus_2alpha": [
+        -11.766817174009116,
+        11.766817174009116
+      ],
+      "equivalent_under_model": false,
+      "p_difference_two_sided": 1.0
+    }
+  ],
+  "synthetic_p_family": [
+    {
+      "comparison": "H1",
+      "p_raw": 0.2,
+      "p_holm": 0.2,
+      "p_bonferroni": 0.8,
+      "reject_holm_05": false,
+      "reject_bonferroni_05": false
+    },
+    {
+      "comparison": "H2",
+      "p_raw": 0.004,
+      "p_holm": 0.016,
+      "p_bonferroni": 0.016,
+      "reject_holm_05": true,
+      "reject_bonferroni_05": true
+    },
+    {
+      "comparison": "H3",
+      "p_raw": 0.024,
+      "p_holm": 0.048,
+      "p_bonferroni": 0.096,
+      "reject_holm_05": true,
+      "reject_bonferroni_05": false
+    },
+    {
+      "comparison": "H4",
+      "p_raw": 0.012,
+      "p_holm": 0.036000000000000004,
+      "p_bonferroni": 0.048,
+      "reject_holm_05": true,
+      "reject_bonferroni_05": true
+    }
+  ],
+  "holm_strong_FWER_assumes_valid_marginal_p": true,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}

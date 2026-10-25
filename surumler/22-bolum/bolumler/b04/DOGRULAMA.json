@@ -20,5 +20,15 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_8_equivalence_multiplicity": {
+    "status": "passed",
+    "tests": 5,
+    "reference": "../../uygulamalar/b04-hipotez-testi/esdegerlik-cokluk/sonuclar/ozet.json",
+    "cross_checks": [
+      "statsmodels ttost_paired",
+      "statsmodels multipletests holm"
+    ],
+    "R_SPSS": "no_equivalent_module"
   }
 }
