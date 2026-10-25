@@ -82,3 +82,11 @@ ayrı bir simülasyon sunar. Regresyon parametreleri her atamada çekilir; Rubin
 birleştirmesi, küçük örneklem sd'si, Monte Carlo hatası ve delta duyarlılığı
 hesaplanır. Ana BFI verisine veya yukarıdaki hazırlama sonuçlarına dokunmaz.
 Çalıştırma ve yöntem sınırları alt klasörün README dosyasındadır.
+
+
+## Revizyon 7 — Birleştirme denetimi ve bilgi sınırı
+
+`birlesim-denetimi/` ek modülü, gerçek A/C 5/5 puanlarında inner/left/outer
+birleştirme paydalarını ve ayrı merkezleme kurgusunda eğitim/test sızıntısını
+gösterir. Beş Python testi geçmiştir. Ana hazırlama ve çoklu atama kodları ile
+kayıtlı referanslar korunur; yeni R/SPSS modülü veya tahmin başarımı yoktur.

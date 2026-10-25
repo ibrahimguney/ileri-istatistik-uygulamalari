@@ -15,3 +15,13 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Birleştirme ve bilgi sınırı
+
+A=99, C=98, ortak=97 geçerli puan. Inner 97; A solda left 99; outer 100 satırdır.
+Outer'da A/C geçerli 99/98; ortak analiz 97'dir. Ortak A ortalaması 4.554639,
+bütün A puanlarında 4.563636; değişim kayıt kümesindendir.
+Eksik nedenleri bu arşivde bilinmiyor; reddetme/uygulanamazlık nedeni uydurmayın.
+Atama modeli analiz sorusu ve değişken türleriyle uyumlu planlanmalıdır.
+Eğitim/test merkezleme örneği ayrı kurgudur; gerçek BFI tahmin modeli veya
+başarım ölçüsü yoktur. Yeni R/SPSS/MICE/FIML yürütmesi yapılmadı.

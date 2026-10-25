@@ -95,3 +95,14 @@ Bu alıştırmalar veri sözlüğü, eksik veri, aykırı değer, yeniden kodlam
 4.  Analiz öncesi veri hazırlama sürecini tekrarlanabilir kılmak için bir kontrol listesi tasarlayınız.
 
 5.  Veri temizleme kararlarının sonuçların genellenebilirliğine etkisini örnek bir araştırma üzerinden yorumlayınız.
+
+
+## Revizyon 7: veri akışı ve bilgi sınırı
+
+## T1–T3: Veri Akışı ve Bilgi Sınırı
+
+1.  A için 99, C için 98 ve ortak 97 geçerli puandan `inner`, A solda `left` ve `outer` birleştirmelerin satır/geçerli n’lerini bulun. Ortak kümedeki A ortalaması ile 99 geçerli A puanının ortalaması neden farklı olabilir?
+
+2.  Bire bir ilişki beklenen iki tabloda boş anahtar, tekrarlı anahtar veya “01”/1 tür farkı varsa neden doğrudan birleştirme yapılmamalıdır? Gerçek BFI arşivinde bu sorunların bulunduğu sonucunu çıkarabilir miyiz?
+
+3.  $(0,2)$ eğitim ve $(100,102)$ test kurgusunda doğru ve sızıntılı merkezlemeyi hesaplayın. Bilinen ters anahtar ile öğrenilen atama/standartlaştırmanın farkını, çıkarım ve gelecekte tahmin amaçlarını ayırarak açıklayın.

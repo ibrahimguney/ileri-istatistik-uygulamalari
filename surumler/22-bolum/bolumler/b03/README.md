@@ -52,3 +52,15 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: birleştirme denetimi ve bilgi sınırı
+
+Veri sözleşmesi, eksik nedeninin saklanması, gerçek A/C puanlarında birleşim
+paydaları ve tahmin değerlendirmesinde ön işlem sızıntısı genişletildi.
+T1–T3 görevleri ve çözümleri ilgili dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b03-veri-hazirlama/birlesim-denetimi/README.md) ·
+[Python kodu](../../uygulamalar/b03-veri-hazirlama/birlesim-denetimi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b03-veri-hazirlama/birlesim-denetimi/sonuclar/ozet.json).
+Mevcut çoklu atama simülasyonu korunmuştur; yeni ek yalnız Python'da sınandı.
+Kaynaklar: https://doi.org/10.18637/jss.v059.i10 ; https://doi.org/10.1002/sim.4067 .

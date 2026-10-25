@@ -99,3 +99,14 @@ Bu arşiv için 100 kayıt korunur; A 5/5 n=99, C 5/5 n=98 ve ortak n=97 raporla
 2.  Her tamamlanmış dosyada yalnız 104 eksik yanıt 6 azalır; toplam değişim $-624$, ortalama değişimi $-624/240=-2.6$ olur. $49.467-2.6=46.867$. Delta gözlenen veriden belirlenmiş değildir; aralık bu sabit varsayıma koşulludur ve MAR/MNAR testi sayılmaz.
 
 3.  50, veri üreten anakütlenin bilinen ortalamasıdır; 49.629 ise 240 kişilik tam simülasyon örnekleminin ortalamasıdır. MI yalnız gözlenen veriyi kullanır; gizlenmiş Y değerlerini bilmez. Kapsama oranı, aynı tasarım altında çok sayıda bağımsız veri/maske üretiminde aralıkların hedefi kapsama sıklığıyla değerlendirilir; tek başarılı koşu bunu göstermez.
+
+
+## Revizyon 7: veri akışı ve bilgi sınırı
+
+## T1–T3: Veri Akışı ve Bilgi Sınırı
+
+1.  `inner`: 97 satır, A/C geçerli 97/97. A solda `left`: 99 satır, geçerli 99/97. `outer`: 100 satır, geçerli 99/98; iki yalnız A, bir yalnız C kaydı vardır. Ortak A ortalaması 4.554639, bütün 99 A puanının ortalaması 4.563636’dır. C’de eksiği olan iki A kaydı ortak kümeden çıkar; kayıt kümesi değiştiği için özet değişebilir. Bu, aktarım hatası veya eksiklik mekanizmasının kanıtı değildir. A’yı tek başına betimlemek için C tamlığı dayatılmaz; ortak analizin kendi kullanılabilirlik kuralı yazılır.
+
+2.  Boş anahtar gözlem kimliğini belirlemez; bazı yazılımlarda boşların birbirine eşleşmesi hatalı bağlantı yaratabilir. Tekrar bire bir çokluğu bozar ve satırları çoğaltabilir. “01” kodundaki baştaki sıfır anlamlı olabilir; sayısal 1’e dönüşüm ancak kaynağa dayalı açık kuralla yapılır. Burada sorunlu anahtarlar ayrı kontrol kopyalarında denenir; gerçek BFI kaynağında hata bulunduğu iddia edilmez. Tür eşitliği ve benzersizlik de yanlış ama aynı biçimde kodlanmış kimlikleri tek başına doğrulayamaz.
+
+3.  Eğitim ortalaması 1, doğru merkezlenmiş eğitim $(-1,1)$’dir. Eğitim+test ortalaması 51, bu ortalamayla eğitim $(-51,-49)$ olur. İkinci işlem test dağılımını eğitim temsilini kurmakta kullanmıştır. Sabit $7-x$ kuralı veri sözlüğünden bilinir; ortalama/s/atama parametreleri öğrenilir ve tahmin değerlendirmesinde eğitim katında kalır. Gelecekte bilinmeyen test sonucu kullanılamaz; buna karşılık çıkarım amaçlı MI’da gözlenen sonuç yardımcı olabilir. Kurgu BFI kişilik yanıtları değildir; tahmin başarımı hesaplanmamıştır.
