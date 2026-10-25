@@ -1,0 +1,55 @@
+{
+  "source_hashes": {
+    "sleep.csv": "adc729344227b4c76a9c3fb3588a46028909946aebf56676aca2d4860271231e",
+    "ToothGrowth.csv": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3"
+  },
+  "n_OJ": 10,
+  "n_VC": 10,
+  "brunner_munzel": {
+    "A": 0.885,
+    "SE": 0.089473770209797,
+    "t_positive_for_x_superiority": 4.302937040623825,
+    "df": 11.835243617880607,
+    "p_two_sided": 0.001058984240810524,
+    "method": "Brunner-Munzel t approximation; not exhaustive"
+  },
+  "bootstrap": {
+    "A": 0.885,
+    "interval_percentile_95": [
+      0.69,
+      1.0
+    ],
+    "repetitions": 20000,
+    "seed": 20261025,
+    "quantile_method": "linear",
+    "n_at_zero": 0,
+    "n_at_one": 2415,
+    "unit": "Independent animal rows within each group; not n*m independent pairs",
+    "exact_coverage": false
+  },
+  "sign_median": {
+    "n_pairs": 10,
+    "n_zero": 1,
+    "n_signs": 9,
+    "n_positive": 9,
+    "sign_p": 0.00390625,
+    "sign_target": "P(D>0 | D!=0)=.5; zero differences omitted only in this conditional test",
+    "median": 1.3,
+    "median_interval": [
+      0.8,
+      2.4
+    ],
+    "order_k": 2,
+    "continuous_model_coverage": 0.978515625,
+    "requested_coverage": 0.95,
+    "median_interval_target": "Population median of paired difference D; all pairs including zeros; iid continuous model for stated exact coverage"
+  },
+  "weak_null": "A=P(X>Y)+.5P(X=Y)=.5; unlike equality of entire distributions",
+  "limits": "Small n=10/group; approximate BM and percentile bootstrap, no calibrated coverage claim; no animal independence of all100 comparisons",
+  "median_continuity_limit": "Rounded data contain ties and a zero: continuous-model coverage is a benchmark, not measured coverage of these data",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  }
+}

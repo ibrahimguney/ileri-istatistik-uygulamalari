@@ -77,3 +77,9 @@ seçeneklerini denetlemeden aynı sayıyı beklemeyin.
 Kontroller: U_OJ88.5, A.885, kesin p.002229968; sleep T0, p.00390625;
 OJ H18.505593, p.000095843; Friedman Q11.142857, W.253247, MCp.003120;
 Pearson chi2 5.406007, p.02006757, V.300167. Sayısal p yöntemi rapordan çıkarılmamalı.
+## Revizyon 13 — belirsizlik eki
+
+[Üstünlük ve belirsizlik](ustunluk-belirsizlik/README.md): aynı doz1'de A için
+yaklaşık hayvan-bootstrap aralığı ve BM duyarlılığı; sleep'te koşullu işaret
+testi ve bütün10 farkla medyan sıra aralığı. Önceki “aralık üretilmedi” ifadesi
+ana eski hesaplar içindir; yeni ekin kapsamı bu iki hedeftir. W/V aralıkları yok.
