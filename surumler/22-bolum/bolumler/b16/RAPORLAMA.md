@@ -15,3 +15,15 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 19: hedef ve tahmin
+
+Öğrenci ortalaması12.747853, eşit okul ortalaması12.620755, boş model sabiti12.636974.
+DE gerçek büyüklüklerle9.479471; n_eff757.953649 yalnız öğrenci ortalaması içindir.
+Okul8367 için büzülmüş merkez6.533962; okul ortalaması koşullu varyansı2.111023,
+yeni öğrenci varyansı41.259345. Yeni okulda tek öğrenci47.762347,
+aynı yeni okulun30 öğrenci ortalaması9.918969 varyansına sahiptir.
+Normal tak-yerine-koy aralıkları parametre kestirim belirsizliğini içermez.
+Yeni okul hedefi bütün okulları ayıran doğrulama gerektirir; burada uygulanmadı.
+Okul örneklem büyüklüğü toplam mevcut değildir; tarama ağırlığı uygulanmadı.
+Ek yalnız Python ile sınandı.

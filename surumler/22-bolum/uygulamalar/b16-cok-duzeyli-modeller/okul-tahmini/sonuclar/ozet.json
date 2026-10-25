@@ -1,0 +1,51 @@
+{
+  "students": 7185,
+  "schools": 160,
+  "model": {
+    "intercept": 12.636973810641827,
+    "school_variance": 8.614025338477568,
+    "residual_variance": 39.148321844620234,
+    "intercept_se": 0.24439356721711428
+  },
+  "empirical_student_mean": 12.74785260960334,
+  "empirical_equal_school_mean": 12.62075465328524,
+  "design_effect": {
+    "icc": 0.18035180108413745,
+    "equal_size_approx": 8.91857126635041,
+    "unequal_size": 9.47947148612869,
+    "mean_variance": 0.06301486544645159,
+    "effective_n_for_student_mean": 757.953648630497
+  },
+  "new_school": {
+    "center": 12.636973810641827,
+    "pupil_variance": 47.7623471830978,
+    "mean_of_30_variance": 9.918969399964908
+  },
+  "selected_schools": [
+    {
+      "School": "8367",
+      "n": 14.0,
+      "mean": 4.552785714285715,
+      "within_ss": 254.60795035714284,
+      "reliability": 0.754931915842563,
+      "school_mean_prediction": 6.533962203028065,
+      "conditional_mean_variance": 2.111022686584315,
+      "known_school_pupil_variance": 41.25934453120455,
+      "mean_halfwidth_95": 2.847702006893405,
+      "pupil_halfwidth_95": 12.58952234937663
+    },
+    {
+      "School": "2305",
+      "n": 67.0,
+      "mean": 11.137761194029851,
+      "within_ss": 1658.3540441791042,
+      "reliability": 0.9364772304434137,
+      "school_mean_prediction": 11.232995331591221,
+      "conditional_mean_variance": 0.547186746530706,
+      "known_school_pupil_variance": 39.69550859115094,
+      "mean_halfwidth_95": 1.4498259737041894,
+      "pupil_halfwidth_95": 12.348629949084076
+    }
+  ],
+  "conditions": "Normal random-intercept model; independent schools, noninformative cluster size; plug-in conditional intervals omit parameter-estimation uncertainty. No causal or national inference."
+}

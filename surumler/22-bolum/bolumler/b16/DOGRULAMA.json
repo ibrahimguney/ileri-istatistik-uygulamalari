@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_19_school_prediction": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b16-cok-duzeyli-modeller/okul-tahmini/sonuclar/ozet.json",
+    "parameter_uncertainty_included": false,
+    "cross_validation": false
   }
 }

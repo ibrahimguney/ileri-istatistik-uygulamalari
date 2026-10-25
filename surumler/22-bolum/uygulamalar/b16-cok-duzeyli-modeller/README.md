@@ -49,3 +49,10 @@ Grup içi merkezleme okul içi ve gruplar arası ilişkileri ayırır; tek baş�
 nedensel karıştırıcılığı gidermez. Yaklaşık DE=8.92 ve etkili n≈806 bir
 ortalama için kaba hesaptır; her katsayının belirsizliğine uygulanmaz.
 Okul türü katsayıları bu gözlemsel örneklemde ilişki olarak yorumlanır.
+
+## Revizyon 19: hedef ve tahmin
+
+[Ek uygulama](okul-tahmini/README.md): bağımsız toplulaştırılmış REML,
+eşit/eşitsiz okul büyüklüklerinde tasarım etkisi, hedef ortalamalar ve bilinen/yeni
+okul tahmini. Yedi test; yalnız Python. Eski veriler ve ana analizler korunur.
+Koşullu aralıklar parametre kestirim belirsizliğini içermez.

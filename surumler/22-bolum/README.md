@@ -129,3 +129,7 @@ Aynı doz desteğinde sabit hedef dağılımları, model grup ortalamaları ve k
 ## Revizyon 18: Bölüm 15
 
 Aynı simülasyonda yapısal hata korelasyonu duyarlılığı, ayrı düzenleyicilik yanıtında noktasal JN ve iki-parametre eşzamanlı bant eklendi. Yol çarpımı/özdeşlik/bootstrap nedensel tanımlama testi değildir. Yeni ek yalnız Python; rho eğrisi aralıkları ve HC3/küme bandı yok. Eski üretim/5000 bootstrap korunur.
+
+## Revizyon 19: Bölüm 16
+
+HSB verisinde hedef ortalamalar, eşit olmayan okul büyüklükleri ve bilinen/yeni okul tahmini eklendi. Koşullu aralıklar parametre belirsizliğini içermez; okul sıralaması veya ulusal temsil iddiası yok. Yeni ek yalnız Python; eski veriler ve ana analizler korunur.

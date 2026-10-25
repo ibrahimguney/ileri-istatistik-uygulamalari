@@ -1,8 +1,6 @@
 # Bölüm 16 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 19 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analizden Önce
 
@@ -36,13 +34,31 @@ Yanıtlar Ek F, Bölüm 16’dadır (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Onarma
 
-> “ICC .18 olduğu için okulların etkisi küçüktür ve 7185 öğrenciyle sıradan regresyon yeterlidir. SES’in etkisi 3.18’dir (SH .097). Okul ortalama SES’inin 5.87’lik etkisi, zengin okula gitmenin öğrencinin başarısını 5.87 puan artırdığını gösterir. Rastgele eğim varyansının p değerini $\chi^2_2$ ile .005 bulduk. Katolik okulların eşitlikçi olduğu kanıtlanmıştır.”
-
 Beş iddiayı düzeltin.
 
 ## P1: Çok Düzeyli Çalışma Planı
 
 Türkiye’de sınıflar içindeki öğrencilerde bir okuma müdahalesinin etkisini inceleyecek bir çalışma için plan yazın: düzeyler ve atama birimi (öğrenci mi sınıf mı), beklenen ICC ve buna göre sınıf/öğrenci sayısı, merkezleme kararları, rastgele etki yapısı, kestirim (ML/REML), düzey 2 örneklemi ve sd düzeltmesi, raporlanacak tablolar. Rubrik: tasarım 25, örneklem 20, model 30, raporlama 15, yeniden üretim 10 puan.
+
+## T1–T3: Hedef ve Tahmin Denetimi
+
+1.  HSB’deki üç ortalamayı ve ağırlıklarını karşılaştırın. Hangisi ulusal ortalamadır? Okul büyüklüğü sonuçla ilişkiliyse neyi sorgularsınız?
+
+2.  Eşit ve eşitsiz büyüklük tasarım etkilerini karşılaştırın. 757.95 sayısını okul türü katsayısına doğrudan uygulamak neden yanlıştır?
+
+3.  Okul 8367 için okul ortalaması ve yeni öğrenci aralıklarını ayırın. Yeni okuldan 30 öğrenci alınca okul varyansı neden kaybolmaz? Yeni okula genelleme için doğrulama bölmesini nasıl yaparsınız?
+
+P1 planınıza hedef birimi, büyüklük dağılımını, bilinen/yeni küme hedefini ve parametre belirsizliğinin nasıl ele alınacağını ekleyin.
+
+- Kümelenmiş veriyi bağımsız sayıp okul düzeyindeki etkileri aşırı kesin raporlamak.
+
+- Ham bir yordayıcıyla tek eğim kestirip okul içi ve okullar arası ilişkileri karıştırmak.
+
+- Rastgele eğim varyansını naif ki-kare veya Wald z ile sınamak.
+
+- Sabit etkileri farklı modelleri REML olabilirlikleriyle karşılaştırmak.
+
+- Yazılımın “yakınsadı” iletisini denetlemeden kabul etmek; sınırdaki varyansları gözden kaçırmak.
 
 # Alıştırmalar
 

@@ -1,7 +1,6 @@
 # Bölüm 16 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 19; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -77,10 +76,18 @@ Hayır. Okul türü okul içinde sabittir; düzey 2 ilişkisinin tahmini için 1
 
 3.  5.87 okul ortalamaları arasındaki ilişkidir; bireysel SES sabitken ek fark (bağlamsal etki) 3.68’dir ve rastgele atama olmadığı için nedensel değildir.
 
-4.  Varyans sıfır hipotezi sınırdadır; karışım dağılımıyla $p=.0032$ bulunur.
+4.  Varyans sıfır hipotezi sınırdadır; bu model karşılaştırmasına uygun asimptotik karışım yaklaşımıyla $p=.0032$ bulunur; kural tüm rastgele-etki testlerine genellenmez.
 
 5.  Katolik okullarda SES eğimi daha düzdür; ancak okul türü rastgele atanmamıştır, seçilim ve ölçülmemiş farklar olasıdır. “Kanıtlanmıştır” yerine betimsel bir ilişki raporlanır.
 
 ## P1: Çok Düzeyli Çalışma Planı
 
 İyi bir plan, müdahale sınıf düzeyinde uygulanıyorsa atama birimini sınıf olarak alır (küme randomize tasarım); öğrenci düzeyinde randomizasyon bulaşma riski taşır. Öğrenci düzeyi (düzey 1), sınıf (düzey 2) ve gerekirse okul (düzey 3) tanımlanır. Benzer çalışmalardan beklenen ICC (ör. .10–.20), hedef etki, sınıf sayısı ve büyüklük dağılımı, atama düzeni ve kayıp senaryoları birlikte kullanılarak güç planlanır. Tasarım etkisi başlangıç yaklaşımı olabilir; özellikle etkileşim ve rastgele eğimler için modele uygun güç hesabı veya simülasyon tercih edilir. 40–50 sınıf gibi bir sayı evrensel alt sınır sayılmaz. Ön test puanı hem grup ortalamasına merkezlenmiş (düzey 1) hem sınıf ortalaması (düzey 2) olarak eklenir. Birincil model rastgele kesişimlidir; ön test eğiminin sınıflar arası değişimi ikincil sorudur. Varyans bileşenleri REML ile, sabit etki karşılaştırmaları ML ile yapılır; sınıf sayısı küçükse Kenward–Roger sd düzeltmesi planlanır. Raporlanacaklar: boş model ICC, model tablosu, varyans bileşenleri, etki büyüklüğü (standartlaştırılmış ortalama fark), yakınsama denetimleri. Kod ve veri sözlüğü paylaşılır. Rubrik: tasarım 25, örneklem 20, model 30, raporlama 15, yeniden üretim 10 puan.
+
+## T1–T3: Hedef ve Tahmin Denetimi
+
+1.  Ham öğrenci ortalaması 12.748 ($n_j$ ağırlığı), eşit okul ortalaması 12.621 (eşit ağırlık), boş model sabiti 12.637 (hassasiyet ağırlığı). Hiçbiri tarama tasarımı/ağırlıkları olmadan ulusal ortalama diye adlandırılmaz. Bilgi taşıyan okul büyüklüğü standart rastgele-etki modelini ve hedefi sorgulatır; yalnız sağlam standart hata çözüm değildir.
+
+2.  Eşit yaklaşım 8.919, gerçek $n_j$ ile 9.479; etkili sayı 757.95’tir. Blok kovaryansı toplayarak öğrenci ortalaması için elde edilir. Okul türü katsayısının bilgisi okul sayısına, tür dağılımına ve yordayıcı yapısına da bağlıdır.
+
+3.  Okul 8367’de $\lambda=.755$, büzülmüş merkez 6.534; okul ortalamasının koşullu varyansı 2.111, yeni öğrencininki 41.259’dur. Yaklaşık %95 yarı genişlikler 2.848 ve 12.590’dır. Bunlar parametre belirsizliği hariç normal koşullu aralıklardır; kesin başarı sıralaması değildir. Yeni okulda 30 öğrencinin ortalamasının varyansı $8.614+39.148/30=9.919$; ortak okul bileşeni kalır. Yeni okul doğrulaması bütün okulları ayırır; bilinen okulda yeni öğrenci hedefi ayrı değerlendirilir. Eğitim dışı bilgiyle merkezleme yapılmaz. Bu ekte doğrulama uygulanmamıştır.
