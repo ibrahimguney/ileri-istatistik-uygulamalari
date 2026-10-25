@@ -93,9 +93,16 @@ def run_analyses(root,report_path,only=None):
             assert r.returncode==0,'Tasarım belirsizliği denetimi başarısız'
         expected=json.loads((root/'uygulamalar/b01-istatistiksel-mekanizma/tasarim-belirsizligi/sonuclar/ozet.json').read_text())
         design_diffs=compare(expected,json.loads((design/'sonuclar/ozet.json').read_text()))
-    report={'python':sys.version,'package_versions':{n:package_version(n) for n in ['numpy','scipy','pandas','matplotlib','statsmodels']},'comparison_policy':{'excluded_metadata':sorted(SKIP_KEYS),'excluded_paths':['.bootstrap.seconds'],'optimizer_note':'Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır.'},'results':rows,'multiple_imputation':{'tests':'passed','differences':mi_diffs},'design_uncertainty':{'tests':'passed','differences':design_diffs},'tolerance':{'rtol':1e-5,'atol':1e-7},'not_run':['R','IBM SPSS','Amos'],'note':'Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir.'}
+        summary=work/'uygulamalar/b02-betimsel-istatistik/ozet-secimi'
+        for name in ['dogrula.py','analiz.py']:
+            r=subprocess.run([sys.executable,str(summary/name)],cwd=work,env=env,capture_output=True,text=True,timeout=60)
+            (logs/('b02-summary-'+name+'.log')).write_text(r.stdout+'\n'+r.stderr)
+            assert r.returncode==0,'Özet seçimi denetimi başarısız'
+        expected=json.loads((root/'uygulamalar/b02-betimsel-istatistik/ozet-secimi/sonuclar/ozet.json').read_text())
+        summary_diffs=compare(expected,json.loads((summary/'sonuclar/ozet.json').read_text()))
+    report={'python':sys.version,'package_versions':{n:package_version(n) for n in ['numpy','scipy','pandas','matplotlib','statsmodels']},'comparison_policy':{'excluded_metadata':sorted(SKIP_KEYS),'excluded_paths':['.bootstrap.seconds'],'optimizer_note':'Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır.'},'results':rows,'multiple_imputation':{'tests':'passed','differences':mi_diffs},'design_uncertainty':{'tests':'passed','differences':design_diffs},'summary_selection':{'tests':'passed','differences':summary_diffs},'tolerance':{'rtol':1e-5,'atol':1e-7},'not_run':['R','IBM SPSS','Amos'],'note':'Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir.'}
     report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2))
-    return not mi_diffs and not design_diffs and all(x['status']=='passed' for x in rows)
+    return not mi_diffs and not design_diffs and not summary_diffs and all(x['status']=='passed' for x in rows)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--analyses',action='store_true');p.add_argument('--chapters',help='Örn. 5,15,19,21; yalnız seçili Python analizlerini tekrarlar');p.add_argument('--report',type=Path,default=ROOT/'dogrulama/latest.json');a=p.parse_args();print(json.dumps(structure(ROOT),ensure_ascii=False))

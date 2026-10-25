@@ -17,3 +17,13 @@ SPSS betiği frekans ve betimsel tabloları üretir; `EXAMINE` için çeyrek yö
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Özet hedefi, eşik ve hassasiyet
+
+G3 ana raporu: ortalama 12.64, s=2.03, medyan 12, tip 7 Q1/Q3=11/14;
+isteğe bağlı her kuyruktan %20 kırpılmış ortalama 12.46 (16+16 kırpma, 48 katkı).
+Ana dosyada 80 kayıt korunur; kırpma hata nedeniyle kişi silme değildir.
+En az 15 oranı %18.75; 15'ten büyük oranı %11.25, fark 7.50 yüzde puanıdır.
+Eşleşmiş fark ortalaması .4625, medyanı 0; artış/eşit/azalış 32/31/17.
+Grafikte dağılım ve eşleşmeyi görünür kılın. Sonuçlar bu 80 kaydın betimidir.
+Ara hesapları yuvarlamayın; rapor basamakları bilimsel kesinlik iddiası değildir.

@@ -88,3 +88,14 @@ Okul kodları kategorileri adlandıran nominal etiketlerdir; sayıların büyük
 Rapor 80 GP kaydının kaynağını, ilk-sıra seçimini, not ölçeğini ve eksik bulunmadığını belirtir. G1/G3 ortalama, örneklem s, medyan ve tip 7 çeyrekleri birlikte verilir. Histogramlar ortak puan ekseni ve bir puanlık sınıflarla; kutular açık çeyrek/bıyık tanımıyla sunulur. Aynı değerdeki noktalar üst üste gelebileceği için taranan kayıt listesi ayrıca tutulur.
 
 İlk satırın dışlanması ana sonuç değil duyarlılıktır. Dönem farkı ve 32/31/17 yön sayıları raporlanabilir; bunlar test veya nedensellik iddiasına çevrilmez. Ortak kayıt kümesi, varyans böleni, yazılım/sürüm ve komut saklanır. Hangi sonucun hangi yazılımla üretildiği belirtilir. Rubrik: kapsam/ölçüm 20, hesap/tanımlar 30, grafik/uç kayıt 20, yorum 20, yeniden üretim 10 puan.
+
+
+## Revizyon 6: özet seçimi
+
+## T1–T3: Özet Seçimi ve Dağılım Denetimi
+
+1.  Üç sayı farklı tanımlı konum hedefleridir. Aritmetik toplam veya kayıt başına aritmetik düzey için ortalama; ortadaki konum için medyan; önceden tanımlı uç duyarlılığını azaltan hedef için kırpılmış ortalama kullanılır. Her kuyrukta $\lfloor .20(80)\rfloor=16$, toplam 32 değer hesap dışında kalır; 48 değerle ortalama hesaplanır. Ana dosya 80 kaydı korur. Kaydın hatalı olduğuna veya bilimsel olarak dışlanması gerektiğine hükmedilmez. Farklı hedefler raporlanırken oran ve amaç açık yazılır.
+
+2.  $1-\widehat F(15)=9/80=.1125$ yalnız 15’ten büyükleri verir. En az 15 için $1-\widehat F(15^-)=15/80=.1875$ gerekir. Eşiğe eşit 6 kaydın payı $6/80=.075$, yani 7.50 yüzde puanıdır. G1 ters ampirik çeyreği sıralı 60. değer 13’ü, tip 7 ise $h=60.25$ ile 60/61. değerler arasında $13+.25(14-13)=13.25$’i kullanır. Algoritmalar farklıdır; ana tip 7 tanımı değiştirilmez.
+
+3.  Ayrı medyanlar 2 ve 100, farkları 98’dir. Eşleşmiş farklar 1, 98, 1 ve medyanları 1’dir. Gerçek notlarda her iki sonucun 0 olması genel bir eşitlik kanıtlamaz. Ortalamalar farkında doğrusallık vardır; medyanda böyle bir kural yoktur. Ortak ölçekli dağılım/ampirik dağılım ile eşleşmiş fark sayımları birlikte sunulabilir; az sayıda birimde eşleşmiş nokta/çizgi de kullanılabilir. Ortalama çubukları tek başına bireysel değişimleri göstermez. Kurgu gerçek not ölçeğiyle karıştırılmaz.

@@ -83,3 +83,14 @@ Bu alıştırmalar, merkezi eğilim, yayılım, çarpıklık, aykırı değer ve
 4.  Aynı standart sapmaya sahip iki veri kümesinden birinin ortalaması çok küçük, diğerinin ortalaması çok büyükse varyasyon katsayısı karşılaştırması neden önemlidir?
 
 5.  Bir raporda yalnızca ortalama ve standart sapma verilmiş, grafik ve çeyrekler sunulmamıştır. Çarpık dağılım ve aykırı değer açısından bu raporun sınırlılıklarını tartışınız.
+
+
+## Revizyon 6: özet seçimi
+
+## T1–T3: Özet Seçimi ve Dağılım Denetimi
+
+1.  G3 için ortalama 12.6375, medyan 12 ve her kuyruktan yüzde 20 kırpılmış ortalama 12.458333’tür. Neden birini “gerçek ortalama” ilan edemeyiz? Kırpılan değer sayısını ve hesapta kalan sayıyı yazın; bu işlem ana dosyadan kişi silmek midir?
+
+2.  G3’te en az 15 puan alanların oranını $1-\widehat F(15)$ ile hesaplayan raporu düzeltin. Eşiğe eşit altı kaydı ve yüzde puan farkını gösterin. G1 tip 7 $Q_3=13.25$ ile ters ampirik dağılım $Q_3=13$ arasındaki farkı açıklayın.
+
+3.  Kurgusal $(1,2,100)$ ve $(2,100,101)$ eşleşmelerinde medyanların farkı ile farkların medyanını bulun. Gerçek notlarda aynı çıkan iki medyanın neden genel özdeşlik olmadığını açıklayın. Ana rapor için hem dağılım hem eşleşme bilgisini gösteren bir sunum önerin.
