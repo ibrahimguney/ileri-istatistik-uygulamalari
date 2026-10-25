@@ -39,3 +39,17 @@ Regresyon analizi sonuçları raporlanırken yalnızca denklem yazmak yeterli de
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 15: ayrı kalibrasyon
+
+Ana60 kayıtlık model korunur. Ayrı deney: eğitim1–40, kalibrasyon41–60,
+kontrol61–80. Model yalnız40 kayıtta kurulur; sonrasında yeniden kurulmaz.
+Sabit7.167985/eğim.470810; m20 ve alpha.05 için k20, q2.876083.
+G1=12 nokta12.817702, split aralık[9.9416,15.6938]. Aynı40 kayıtta klasik
+bireysel aralık[9.9660,15.6694]. Kontrol20 kişide ikisi de18/20 kapsar;
+bu oran dış doğrulama veya gelecekte garantili kapsama değildir.
+
+Değiştirilebilirlik altında split conformal garanti marjinaldir; her x/alt grup
+ve bütün20 yeni kişiye eşzamanlı değildir. Kaynak sırası/tek okul varsayımı
+kanıtlamaz. HC3 katsayı aralığı bireysel tahmin aralığı değildir. Yeni ek
+yalnız Python; küme/zaman/çapraz conformal veya normalize skor yok.

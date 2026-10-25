@@ -54,3 +54,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 15: eğitim, kalibrasyon ve kontrol
+
+[Uygulama açıklaması](../../uygulamalar/b12-regresyon/ayri-kalibrasyon/README.md) ·
+[Python kodu](../../uygulamalar/b12-regresyon/ayri-kalibrasyon/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b12-regresyon/ayri-kalibrasyon/sonuclar/ozet.json).
+Eski ana analizler/veriler korunur; yeni ek yalnız Python.

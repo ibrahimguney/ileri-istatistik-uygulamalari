@@ -1,7 +1,6 @@
 # Bölüm 12 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 15; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -90,9 +89,17 @@ Bu yanıtlar Bölüm 12’deki UCI birinci dönem notu–yıl sonu başarısı 
 
 Düzeltilmiş bir özet şöyle olabilir: “İlk 60 UCI Portekizce dersi kaydında birinci dönem notu ile yıl sonu notu pozitif ilişkilidir ($b_1=0.582$, $R^2=0.557$). Klasik eğim SH’si 0.068, HC3 SH’si 0.281’dir. İlk kaydın etkisi yüksektir; duyarlılık hesabında çıkarılınca eğim 0.856’ya değişir. Ana analiz bütün seçili kayıtları korur. Sonuç, rastgele seçilmemiş tek okul alt kümesi için betimseldir; nedensellik ve geniş topluluklara genelleme iddiası taşımaz.”
 
+## T1–T3: Eğitim, Kalibrasyon ve Tahmin Denetimi
+
+1.  Model yalnız ilk 40 kayıtta kurulur, sonraki 20 mutlak artık eşiğini seçer, son 20 betimsel kontrol içindir. 60 kayıtta tekrar kurulan modelde eski skorlar yeni fonksiyonun bağımsız kalibrasyon hataları değildir. Kontrol yanıtlarına göre seçme de veri sızıntısı yaratır. Bu kaynak sırası bölmesi rastgele örneklem/değiştirilebilirlik kanıtı değildir.
+
+2.  $k=\lceil21(.95)\rceil=20$, en büyük skor $q=2.876083$; $m=18$ için $k=19>18$ ve genişletilmiş eşik sonsuzdur. Sıradan %95 yüzdeliği sıra düzeltmesini içermez. $\hat f(12)=12.817702$, aralık $[9.9416,15.6938]$’dir. Bu, 40 eğitim kaydının yeni birey aralığıdır; önceki 60 kaydın ortalama güven aralığı değildir.
+
+3.  .90 yalnız bu 20 kaydın gözlenen kapsamıdır; ne gelecek için .90 garantisi ne de yöntemin evrensel geçersizlik kanıtıdır. Uygun değiştirilebilirlikte nominal garanti yeni rastgele (X,Y) için marjinaldir; her x/alt grup ve bütün 20 yanıt için ortak garanti değildir. Seçili tek okulda varsayım ayrıca gerekir. HC3 katsayı kovaryansını değiştirir; yeni bireyin hata dağılımını veya conformal değiştirilebilirliğini kurmaz.
+
 ## P1: Mini Proje İçin Kontrol Noktaları
 
-Rapor Tablo (kitaptaki ilgili başvuru)’teki ölçütlerle değerlendirilir. Karşılaştırma değerleri $n=60$, $b_0=5.7412$, $b_1=0.5820$, klasik $SH(b_1)=0.0681$, $R^2=0.5574$ ve $s_e=1.3368$’dir. G1=12 için aralıklar G2 etkinliğindeki değerlerle eşleşmelidir. Kaynak atfı, lisans ve ilk 60 kayıt seçim kuralı raporda bulunmalıdır.
+Rapor Tablo <a href="#tab:b07-rubrik" data-reference-type="ref" data-reference="tab:b07-rubrik">[tab:b07-rubrik]</a>’teki ölçütlerle değerlendirilir. Karşılaştırma değerleri $n=60$, $b_0=5.7412$, $b_1=0.5820$, klasik $SH(b_1)=0.0681$, $R^2=0.5574$ ve $s_e=1.3368$’dir. G1=12 için aralıklar G2 etkinliğindeki değerlerle eşleşmelidir. Kaynak atfı, lisans ve ilk 60 kayıt seçim kuralı raporda bulunmalıdır.
 
 Altmış ayrı modelde birer kayıt çıkarıldığında eğimler 0.5435–0.8556 arasında değişir. Alt uç kaynak sırası 19 olan kayıt, üst uç kaynak sırası 1 olan kayıt çıkarıldığında oluşur. İlk kaydın kaldıracı 0.3966, Cook uzaklığı 8.4269’dur. İşaretin pozitif kalması etki duyarlılığını önemsiz kılmaz; notun kaynağı araştırılmadan değer değiştirilmez.
 

@@ -1,8 +1,16 @@
 # Bölüm 12 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 15 görevleri; önce kendiniz çözün.
+
+## Hesaplamadan Önce: Tahmin Et ve Gerekçelendir
+
+1.  **\[Yöntem seç\]** Açıklanan ve açıklayıcı değişkeni belirleyin. Neden iki grup ortalaması karşılaştırması yerine basit regresyon düşünürsünüz? Bu tahmin hangi zamanda kullanılabilir?
+
+2.  **\[Yorumla\]** Eğimin işaretini tahmin edin. Birinci dönem notu daha yüksek olan herkesin yıl sonu notunun da daha yüksek olması gerekir mi? Tablodaki kayıtlarla tartışın.
+
+3.  **\[Eleştir\]** Önceki ve sonraki notların ilişkisini etkileyebilecek iki etmen önerin. Bu ilişki, birinci dönem notunu idari olarak yükseltmenin yıl sonu başarısını artıracağını gösterir mi? Neden?
+
+Yanıtlarınızı yazdıktan sonra ilerleyin. Etkinliklerin gerekçeli yanıtları Ek F’dedir (s. kitaptaki ilgili sayfa).
 
 # Rehberli ve Bağımsız Etkinlikler
 
@@ -33,6 +41,14 @@ Birinci dönem notu 12 olan bir öğrenci düşünün. Cevap anahtarını açmad
 > “Birinci dönem notunu bir puan artırmak her öğrencinin yıl sonu notunu kesinlikle 0.582 artırır. $R^2=0.557$, öğrencilerin yüzde 55.7’sinin başarılı olacağını gösterir. $p<.001$ olduğundan bütün varsayımlar sağlanmıştır. G1 notu 12 olan yeni öğrencinin yıl sonu notu yüzde 95 güvenle 12.38–13.07 arasındadır. Aynı model G1=20 için de aynı güvenilirliktedir. Bu bulgular Türkiye’deki bütün öğrenciler için geçerlidir. İlk kayıttaki sıfır notu hatadır; onu silerek daha doğru sonucu buluruz.”
 
 Bir arkadaşınızın düzeltmesinde nedensellik dili, aralık türü, etkili gözlem kararı ve örnekleme sınırlarını kontrol edin. Kaynağa atıf verilmesi, bu hatalı yorumları geçerli kılmaz.
+
+## T1–T3: Eğitim, Kalibrasyon ve Tahmin Denetimi
+
+1.  Eğitim 1–40, kalibrasyon 41–60, kontrol 61–80 rollerini açıklayın. Kalibrasyondan sonra 60 kayıtta yeniden uyum veya kontrol yanıtlarına göre eşik seçimi neden aynı geçerli split conformal hesabı değildir?
+
+2.  $m=20$, $\alpha=.05$ için k ve q’yu; $m=18$ için k’yi bulun. Sıradan enterpolasyonlu yüzdelik neden kullanılmaz? G1=12 için aralığı model ve q’dan hesaplayın.
+
+3.  Son 20 kayıtta 18/20 kapsama ne söyler, ne söylemez? Marjinal, x’e koşullu ve eşzamanlı kapsama ayrımını yapın; HC3 eğim aralığı neden bunların yerine geçmez?
 
 ## Mini Proje: Yeniden Üretilebilir Analiz Raporu
 

@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_15_split_prediction": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b12-regresyon/ayri-kalibrasyon/sonuclar/ozet.json",
+    "exchangeability_verified": false,
+    "conditional_coverage_claim": false
   }
 }
