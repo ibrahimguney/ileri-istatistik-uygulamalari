@@ -88,3 +88,14 @@ Bir müdahalenin dört haftalık izlem çalışması için tasarımı yazın: ko
 4.  Kişiler arası kovaryans matrisleri gruplar arasında belirgin biçimde farklıysa karma desen ANOVA’sı yerine ne yapılabilir?
 
 5.  Güçlü bir tekrarlı ölçüm raporunda bulunması gereken en az beş unsuru yazın.
+
+
+## Revizyon 11: eksik izlem ve aynı hedef
+
+## T1–T3: Eksik İzlem ve Hedef Denetimi
+
+1.  Özgün veride 144 tam ölçüm varken maskede 104 ölçüm/18 kişi, tam kişilerde 56 ölçüm/7 kişi kalmasını açıklayın. Üç satırda neden aynı doğrusal model kullanıldı? Tam-veri eğimi bilinen anakütle gerçeği midir?
+
+2.  Maskenin MAR türü olduğu hangi tasarım bilgisinden gelir? Karma modelin yakınsaması, MAR veya doğru kovaryans kanıtı mıdır? 18 kişiyle normal Wald aralığı ve kişi eğim dağılımı aralığını ayırın.
+
+3.  Dört yaş için Holm ve Bonferroni sonuçlarını hesaplayın. Bu kararlar genel etkileşim ve doğrusal eğim karşıtlığı hakkında neden aynı iddiayı üretmez? Karşılaştırma ailesinin ne zaman tanımlanması gerekir?

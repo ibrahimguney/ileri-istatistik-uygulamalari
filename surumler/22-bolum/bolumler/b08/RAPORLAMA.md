@@ -15,3 +15,14 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Eksik izlem ve hedef ayrımı
+
+Tam veri18 kişi/144 ölçüm; ayrı maskede18/104; tam kişiler7/56. Aynı doğrusal
+REML rastgele kesişim/eğim modelinde eğim11.435/12.753/10.411 ms/gün ve
+SH1.845/1.794/1.863. Tam-veri kestirimi anakütle gerçeği değildir.
+Aralıklar normal Wald; Satterthwaite/Kenward–Roger yok. Kişiler arası eğim
+dağılımı aralığı ortalama eğim CI'si veya birey tahmin aralığı değildir.
+MAR tasarımı yalnız bu öğretim maskesinde gözlenen temele bağlıdır; gerçek
+eksik öyküsü/MNAR duyarlılığı yoktur. Dört yaşa Holm p'leri
+.109487/.109487/.038228/.005306; bu genel etkileşim veya eğim testi değildir.
