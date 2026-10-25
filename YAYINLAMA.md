@@ -1,3 +1,18 @@
+## 25 Ekim 2026 canlı yayın kontrolü
+
+22 bölümlük paket PR #4 ile ana dala birleştirildi ve Python CI geçti.
+Pages Smoke Test #40182857982 ana adreste yedi HTTP 404 yanıtı aldı;
+bu nedenle aşağıdaki Eylül ayı canlılık kaydı güncel erişim kanıtı değildir.
+Depo gizliliği değiştirilmedi. Bölüm adresleri ve öğrenci ZIP'i canlı olarak
+henüz doğrulanamadı; kitabın PDF karekodları bu teslimde değiştirilmedi.
+
+[Settings → Pages](https://github.com/ibrahimguney/ileri-istatistik-uygulamalari/settings/pages)
+üzerinde Source: **Deploy from a branch**, Branch: **main**, Folder: **/(root)**
+ve hesabın özel depoda Pages desteği kontrol edilmelidir. Ayarların gerçek durumu
+bu bağlantı üzerinden okunamadığı için 404'ün kesin ayar nedeni saptanamadı.
+Yayın sonrasında Actions → Pages Smoke Test → Run workflow ile kontrolü tekrarlayın.
+Yeni 22 bölüm adresi `surumler/22-bolum/bolumler/bNN/` biçimindedir.
+
 # GitHub ve GitHub Pages yayınlama notları
 
 > **22 bölümlük güncel sürüm:** [Öğrenci paketleri](surumler/22-bolum/README.md) · [Bölüm sayfaları](surumler/22-bolum/index.html).
