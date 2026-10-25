@@ -21,3 +21,18 @@ Simülasyon sonuçları için örnek raporlar:
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 18: varsayım duyarlılığı ve eğim bantları
+
+Simülasyon n160/seed202609; tam üretim fonksiyonu kullanılır, altı ondalıklı
+CSV yuvarlama sınırında kontrol edilir. Gerçek katılımcı değildir. Yapısal hata
+rho0/.3/.6 varsayımlarında nokta çarpımları.521844/.303306/.000665;
+nokta sıfırı.600490. Bu gerçek karıştırıcılık tahmini veya aralık eşiği değil;
+her rho'da belirsizlik hesaplanmadı. Gerçek üretimde rho0'dır.
+
+Ayrı düzenleyicilik yanıtında wc noktasal sınırlar[-1.123572,-.411676],
+2-parametre klasik eşzamanlı sınırlar[-1.259870,-.344350]. Ham W için
+.110603 eklenir; gözlenen destek[-2.606267,2.513480] ve ortak destek gerekir.
+Noktasal tarama genel %95 bant değildir; sınırlar klinik eşik/güven aralığı değil.
+HC3/küme bandı, gerçek insan veya nedensel tanımlama testi yok.
+İki yanıt koşullu aracılık diye birleştirilmez. Yeni ek yalnız Python.

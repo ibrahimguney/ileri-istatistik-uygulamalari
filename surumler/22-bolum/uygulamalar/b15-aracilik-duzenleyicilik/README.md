@@ -42,3 +42,9 @@ farklı olduğu için bootstrap aralığının son basamakları farklıdır
 ([.367, .692]); bu Monte Carlo belirsizliğidir. SPSS betiği yol katsayılarını
 ve basit eğimler için gereken katsayı kovaryanslarını verir; dolaylı etkinin
 bootstrap aralığı için PROCESS makrosu (Model 4) veya Python/R kullanılır.
+
+## Revizyon 18 — tanımlama ve bölgeler
+
+[Yeni ek](duyarlilik-bolgeler/README.md): aynı tam duyarlıklı simülasyonda
+varsayımsal hata korelasyonu ve ayrı düzenleyicilik yanıtında noktasal/eşzamanlı
+eğim bölgeleri. Eski 5000 bootstrap hesabı korunur; yeni ek yalnız Python.

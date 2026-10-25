@@ -125,3 +125,7 @@ Profil olasılığı GA ve tam kovaryansla olasılık farkı eklendi. Aynı AUC/
 ## Revizyon 17: Bölüm 14
 
 Aynı doz desteğinde sabit hedef dağılımları, model grup ortalamaları ve kontrast aralıkları eklendi. Ortak modelde aynı kontrast/aile1; ayrı ve hücrede üç hedef/aile3. Yeni ek yalnız Python; ağırlık belirsizliği ve nedensel taşıma yok. Ön-test/değişim tartışması ayrı teorik modeldir; dozdan değişim üretilmez.
+
+## Revizyon 18: Bölüm 15
+
+Aynı simülasyonda yapısal hata korelasyonu duyarlılığı, ayrı düzenleyicilik yanıtında noktasal JN ve iki-parametre eşzamanlı bant eklendi. Yol çarpımı/özdeşlik/bootstrap nedensel tanımlama testi değildir. Yeni ek yalnız Python; rho eğrisi aralıkları ve HC3/küme bandı yok. Eski üretim/5000 bootstrap korunur.
