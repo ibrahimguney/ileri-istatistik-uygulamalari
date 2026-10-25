@@ -160,6 +160,8 @@ Bir bölümde hedef yalnız doğru sayıya ulaşmak değildir:
 
 **Doğru soruyu kurmak → doğru veriyi anlamak → uygun yöntemi seçmek → analizi yeniden üretmek → sonucu doğru yorumlamak → sınırlılıkları görmek → bilimsel biçimde raporlamak.**
 
+başarılar
+
 ## Kitapla eşleştirme
 
 Bölüm başlıkları, kitap sayfaları ve kalan içerik kontrolleri için [kitap–depo eşleştirme tablosuna](KITAP_ESLESMESI.md) bakın.
