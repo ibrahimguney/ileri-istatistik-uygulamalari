@@ -1,0 +1,114 @@
+{
+  "scope": "Kalibrasyon yalnız normal bağımsız model kurgusu; Yuen farklı konum hedefidir",
+  "source_normalized_sha256": "654a2c36a26499006839c1c3ee2d899bf455eb14eef59ddb6764a49b39d838f3",
+  "ToothGrowth_dose1": {
+    "direction": "OJ-VC",
+    "ordinary_mean_Welch": {
+      "first": {
+        "n": 10,
+        "mean": 22.7,
+        "sd": 3.9109532796436675
+      },
+      "second": {
+        "n": 10,
+        "mean": 16.770000000000003,
+        "sd": 2.5153086843919934
+      },
+      "estimate": 5.929999999999996,
+      "se": 1.4704534448031104,
+      "df": 15.357671628182148,
+      "t": 4.03276963371935,
+      "p": 0.0010383758722998845,
+      "ci": [
+        2.8021482491653615,
+        9.057851750834631
+      ],
+      "pooled_sd": 3.2880338603284898,
+      "d_pooled": 1.803509407718679
+    },
+    "trimmed_mean_Yuen": {
+      "trim_each_tail": 0.2,
+      "groups": [
+        {
+          "n": 10,
+          "g": 2,
+          "h": 6,
+          "trimmed_mean": 23.183333333333334,
+          "winsor_SS": 59.00100000000002,
+          "q": 1.9667000000000006
+        },
+        {
+          "n": 10,
+          "g": 2,
+          "h": 6,
+          "trimmed_mean": 16.383333333333333,
+          "winsor_SS": 8.34100000000001,
+          "q": 0.2780333333333337
+        }
+      ],
+      "estimate": 6.800000000000001,
+      "se": 1.4982434159152291,
+      "df": 6.386004697438156,
+      "t": 4.538648344966093,
+      "p": 0.003369007911397997,
+      "CI95": [
+        3.1869820337815638,
+        10.413017966218437
+      ]
+    }
+  },
+  "synthetic_calibration": [
+    {
+      "n1": 10,
+      "n2": 30,
+      "sigma1": 3.0,
+      "sigma2": 1.0,
+      "true_mean_difference": 0.0,
+      "nominal_alpha": 0.05,
+      "true_variance_difference": 0.9333333333333333,
+      "expected_pooled_SE_squared": 0.3859649122807018,
+      "variance_ratio": 0.4135338345864662,
+      "Welch_rejection_rate": 0.051055,
+      "Welch_MC_SE": 0.0004921807949067091,
+      "Student_rejection_rate": 0.210145,
+      "Student_MC_SE": 0.0009109996678786442
+    },
+    {
+      "n1": 10,
+      "n2": 30,
+      "sigma1": 1.0,
+      "sigma2": 3.0,
+      "true_mean_difference": 0.0,
+      "nominal_alpha": 0.05,
+      "true_variance_difference": 0.4,
+      "expected_pooled_SE_squared": 0.9473684210526316,
+      "variance_ratio": 2.3684210526315788,
+      "Welch_rejection_rate": 0.04993,
+      "Welch_MC_SE": 0.0004870164016745227,
+      "Student_rejection_rate": 0.004045,
+      "Student_MC_SE": 0.00014192670599644027
+    },
+    {
+      "n1": 10,
+      "n2": 30,
+      "sigma1": 1.0,
+      "sigma2": 1.0,
+      "true_mean_difference": 0.0,
+      "nominal_alpha": 0.05,
+      "true_variance_difference": 0.13333333333333333,
+      "expected_pooled_SE_squared": 0.13333333333333333,
+      "variance_ratio": 1.0,
+      "Welch_rejection_rate": 0.05032,
+      "Welch_MC_SE": 0.0004888143696742149,
+      "Student_rejection_rate": 0.04916,
+      "Student_MC_SE": 0.0004834423150697506
+    }
+  ],
+  "seed": 20261025,
+  "repetitions": 200000,
+  "simulation_unit": "Normal ortalamalar ve ki-kare varyanslar; ham kişi/hayvan tablosu üretilmez",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}

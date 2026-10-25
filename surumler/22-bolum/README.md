@@ -90,3 +90,10 @@ TOST için örneklem planı ve rastgele güven aralığı genişliği olasılı�
 Normal/eşit varyanslı varsayımsal modelin sayısal sonuçları 100.000 çekilişle
 denetlendi; yeni kişi/pilot verisi yok. Ana güç analizi korundu. Ek yalnız Python;
 R/SPSS/G*Power, belirsiz sigma üzerinden veya kayıpla ortak güç hesabı yok.
+
+## Revizyon 10: Bölüm 6
+
+Welch/Student normal model kalibrasyonu ve gerçek doz1'de Yuen kırpılmış konum
+duyarlılığı eklendi. Her kurguda200.000 çekiliş; bu bir Tip I hata denetimidir.
+Yuen farklı hedefi sınar; küçük p seçilmez. Ana analizler/ham veriler korunur.
+Yeni ek yalnız Python'da sınandı; R/SPSS karşılığı veya klinik genelleme yoktur.

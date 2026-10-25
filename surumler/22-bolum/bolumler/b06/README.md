@@ -56,3 +56,15 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Yeni ileri uygulama: Welch kalibrasyonu ve Yuen duyarlılığı
+
+Dengesiz gruplarda normal null modelinin hata oranı ve gerçek doz1 verisinde
+kırpılmış ortalama için Yuen eklendi. T1–T3 görevleri ve çözümleri ilgili dosyalardadır.
+
+[Açıklama ve komutlar](../../uygulamalar/b06-parametrik-testler/welch-saglamlik/README.md) ·
+[Python kodu](../../uygulamalar/b06-parametrik-testler/welch-saglamlik/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b06-parametrik-testler/welch-saglamlik/sonuclar/ozet.json).
+Ana Welch sıradan ortalama farkını, Yuen kırpılmış ortalama farkını hedefler.
+Yeni ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
+Kaynak: https://doi.org/10.1093/biomet/61.1.165 .

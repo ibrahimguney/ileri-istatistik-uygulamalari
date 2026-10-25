@@ -93,3 +93,14 @@ Yerel kaynağın 20/60 satırını ve uyku verisinin 10 ID’sini doğrulayın. 
 4.  Tek örneklem t-testinde ortalama farkı için %95 GA $[-1.20,4.80]$ bulunmuştur. Bu aralık karar ile nasıl ilişkilidir?
 
 5.  Bir t-testinden sonra yalnızca “$p<.05$” raporlanmıştır. Daha güçlü rapor için en az dört ek unsur yazınız.
+
+
+## Revizyon 10: kalibrasyon ve hedef duyarlılığı
+
+## T1–T3: Varsayım, Kalibrasyon ve Hedef Denetimi
+
+1.  $n_1=10,n_2=30$, $\sigma_1=3,\sigma_2=1$ için gerçek ortalama farkı varyansını ve $E(SE_P^2)$’yi hesaplayın. .210145 Student red oranı neden yüksek güç diye yorumlanamaz? Varyansları yer değiştirince yön niçin değişir?
+
+2.  Doz 1’de Welch farkı 5.93, Yuen farkı 6.80’dir. Her kuyruktan yüzde 20 kırpıldığında kişi/grup sayısını, katkı veren sayıyı ve iki yöntemin hedefini ayırın. Daha küçük p’yi ana sonuç seçmek doğru mudur?
+
+3.  Küçük bir örnekte Shapiro p\>.05; başka bir örnekte p\<.05 olsun. Bu iki sonuç neden tek başına Student/Welch/sıra testi seçtirmez? Eşli veride tanının hangi değişkene ait olması gerektiğini açıklayın.

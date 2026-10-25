@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_10_welch_robustness": {
+    "status": "passed",
+    "tests": 5,
+    "MC_repetitions_per_scenario": 200000,
+    "reference": "../../uygulamalar/b06-parametrik-testler/welch-saglamlik/sonuclar/ozet.json",
+    "R_SPSS": "no_equivalent_module"
   }
 }
