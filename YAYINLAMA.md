@@ -1,3 +1,7 @@
+## Güncel yayın doğrulaması — 25 Ekim 2026
+
+GitHub Pages yayını açıldı. [22 bölümlük öğrenci sitesi](https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/22-bolum/) erişilebilir. [Pages Smoke Test](https://github.com/ibrahimguney/ileri-istatistik-uygulamalari/actions/runs/40182857982) son yeniden çalıştırmada başarılıdır (iş 121148503050): 22 güncel bölüm sayfası, sürüm/bölüm kimlikleri, yönlendirme bulunmaması ve öğrenci ZIP bütünlüğü doğrulandı. Aşağıdaki önceki 404 notları geçmiş teşhis kaydıdır; güncel durumu göstermez. Yayın kaynağı `Deploy from a branch → main → /(root)` olarak kullanıcı tarafından kaydedilmiştir.
+
 ## 25 Ekim 2026 canlı yayın kontrolü
 
 22 bölümlük paket PR #4 ile ana dala birleştirildi ve Python CI geçti.
