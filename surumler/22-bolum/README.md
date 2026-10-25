@@ -69,3 +69,10 @@ R/SPSS eşdeğeri yoktur. Küçük anakütlede tam sayım testleri geçmiştir.
 Özet hedefleri, ampirik dağılım/eşik eşitsizlikleri, eşleşmiş fark grafiği ve
 raporlama hassasiyeti geliştirildi. Yeni Python ek modülü ve T1–T3 görevleri
 eklendi. Diğer bölüm ana analizleri korundu; yeni R/SPSS modülü yok.
+
+## Revizyon 7: Bölüm 3
+
+Veri sözleşmesi, atama/analiz uyumu ve gerçek A/C puanlarında birleştirme
+paydaları geliştirildi. Yeni Python ek modülü, merkezleme sızıntısı kurgusu
+ve T1–T3 görevleri eklendi. Mevcut çoklu atama uygulaması korundu; yeni
+R/SPSS/MICE/FIML veya tahmin başarımı uygulaması yok.

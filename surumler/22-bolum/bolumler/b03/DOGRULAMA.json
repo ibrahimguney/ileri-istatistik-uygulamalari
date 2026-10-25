@@ -20,5 +20,11 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_7_preparation_audit": {
+    "status": "passed",
+    "tests": 5,
+    "reference": "../../uygulamalar/b03-veri-hazirlama/birlesim-denetimi/sonuclar/ozet.json",
+    "R_SPSS": "no_equivalent_module"
   }
 }

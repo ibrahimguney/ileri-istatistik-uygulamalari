@@ -283,5 +283,35 @@
       "tests": "passed",
       "differences": []
     }
+  },
+  "revision_7": {
+    "scope": "B03 ana analiz, birleştirme ve önceki ek modüller; diğer ana analiz kod/verileri değişmedi",
+    "results": [
+      {
+        "chapter": 3,
+        "id": "b03",
+        "title": "Veri Hazırlama ve Analize Hazırlık",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.454,
+        "differences": []
+      }
+    ],
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
   }
 }
