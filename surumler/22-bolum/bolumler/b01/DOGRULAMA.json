@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_5_design_uncertainty": {
+    "status": "passed",
+    "tests": 3,
+    "repetitions": 20000,
+    "reference": "../../uygulamalar/b01-istatistiksel-mekanizma/tasarim-belirsizligi/sonuclar/ozet.json",
+    "R_SPSS": "no_equivalent_module"
   }
 }

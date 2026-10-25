@@ -78,3 +78,11 @@ aralığı veya geçerlik kanıtı değildir. Üretilen frekans sırası ve payd
 Yöntem belgeleri:
 - https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch13/prob/5214899-eng.htm
 - https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=reference-frequencies
+## İleri okuma: hedef parametre ve tasarım belirsizliği (Revizyon 5)
+
+Yeni `tasarim-belirsizligi/` modülü ana analizi değiştirmeden, kapalı 80 kayıtta
+tam SRS varyansını, sekiz sistematik başlangıcı ve 20.000 tekrarlı seçimi karşılaştırır.
+Komutlar, matematik denetimleri ve kapsam sınırları modülün README'sindedir.
+Yukarıdaki güven aralığı/hipotez/nedensel analiz yapılmadığı notu korunur; bu ek
+modül yalnız kapalı çerçeve için tasarım standart hatası hesaplar. Python'da sınandı;
+R/SPSS'te aynı ileri uygulamanın çalıştırıldığı iddia edilmez.

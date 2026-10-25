@@ -57,3 +57,9 @@ yerine kullanılmaz; kitap uygulamalarının bu iç denetimleri korunmuştur.
 
 Bu paket kod ve materyal bütünlüğü açısından sınandı; kitabın tamamının bağımsız
 bilimsel hakemliği veya R/SPSS/Amos yürütme onayı anlamına gelmez.
+
+## Revizyon 5: Bölüm 1
+
+Hedef parametre/tasarım görevleri ve Python'da tam tasarım varyansı ile 20.000
+tekrarlı seçim eklendi. Diğer bölüm ana analizleri korunmuştur. Yeni ek modülün
+R/SPSS eşdeğeri yoktur. Küçük anakütlede tam sayım testleri geçmiştir.

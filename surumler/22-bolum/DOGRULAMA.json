@@ -235,5 +235,27 @@
     "Amos"
   ],
   "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir.",
-  "review_note": "İlk koşudaki farklar yalnız sürüm kaydı, optimizasyon durdurma bayrağı ve bootstrap çalışma süresiydi. Teknik metadata politikası açıkça ayrıldı; dört bölüm tekrar çalıştırılarak doğrulandı. Bilimsel referans değerler değiştirilmedi."
+  "review_note": "İlk koşudaki farklar yalnız sürüm kaydı, optimizasyon durdurma bayrağı ve bootstrap çalışma süresiydi. Teknik metadata politikası açıkça ayrıldı; dört bölüm tekrar çalıştırılarak doğrulandı. Bilimsel referans değerler değiştirilmedi.",
+  "revision_5": {
+    "scope": "B01 ana analiz ve yeni tasarım belirsizliği; diğer bölüm kod/verileri bu turda değişmedi",
+    "results": [
+      {
+        "chapter": 1,
+        "id": "b01",
+        "title": "İstatistiksel Düşünme: Sorudan Kanıta",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.558,
+        "differences": []
+      }
+    ],
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  }
 }
