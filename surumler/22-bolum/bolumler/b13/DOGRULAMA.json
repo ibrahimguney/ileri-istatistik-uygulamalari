@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_16_logistic_probability": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/sonuclar/ozet.json",
+    "calibration_curve_fitted": false,
+    "metric_intervals": false
   }
 }

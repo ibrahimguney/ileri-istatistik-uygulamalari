@@ -99,3 +99,8 @@ Eğitim performansı iyimser olabilir. Sonraki 20 kayıtta yalnız 5 olay vardı
 sonuçlar bir kullanım onayı veya doğrulanmış genellenebilirlik değildir.
 Brier skoru yalnızca kalibrasyon ölçüsü değildir; AUC de kalibrasyonu ölçmez.
 Model-temelli güven aralıkları seçim/kümelenme yanlılığını ortadan kaldırmaz.
+## Revizyon 16 — olasılık ve kalibrasyon
+
+[Yeni ek](olasilik-kalibrasyon/README.md): sabit modelde profil olasılığı GA'ları,
+12→13 farkının delta aralığı ve aynı AUC/.50 doğrulukta farklı olasılık kayıpları.
+Eski ana kod/veri/sonuçlar korunur. Yeni ek yalnız Python.

@@ -19,3 +19,16 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 16: olasılık ve kalibrasyon
+
+İlk60/19 olay sabit Logit; son20/5 olay kontrol. 16 yaş/G1=12 olasılık.085985,
+13 olasılık.329304, fark.243319 (24.33 yüzde puan). Tam kovaryans delta
+SH.114630, yaklaşık aralık[.01865,.46799]. Noktasal profil GA'ları logit
+ölçeğinden dönüşür; gelecekteki0/1 yanıt aralığı veya nedensel etki değildir.
+
+Sabit logit c=.5/1/2 dönüşümlerinde AUC.760 ve .50 doğruluk.850 aynı;
+Brier/log-kayıp farklı. Toplu ortalama olay oranına yaklaşsa bile bütün olasılık
+düzeylerinde kalibrasyon kanıtlanmaz. Kontrolde c/olay/olasılık eşiği seçilmez.
+Kalibrasyon eğrisi/eğimi, performans aralıkları veya dış doğrulama yapılmadı.
+Yeni ek yalnız Python; eski ana sonuçlar korunur.
