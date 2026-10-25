@@ -94,3 +94,14 @@ Hedef parametre ve referansın kaynağı tanımlanır; sabit referansla tahmin e
 Eksik ve geçersiz değer kuralları, dışlama gerekçeleri, model varsayımları ve gerekirse alternatif/duyarlılık yöntemleri belirtilir. Çoklu aile ve düzeltme, ham tahmin ve güven aralığı, etki büyüklüğünün standartlaştırıcısı ile pratik önem ölçütü birlikte planlanır. Eşdeğerlik hedefleniyorsa sınırlar ayrıca gerekçelendirilir. Küçük p için yöntem/yön/durdurma değiştirilmez; bütün planlı sonuçlar raporlanır.
 
 Kaynak/sürüm, kod, yazılım, simülasyon tohumu ve karar günlüğü saklanır. Ana sonuç ile kurgusal öğretim veya simülasyon sonuçları ayrılır. Python hesabı R/SPSS’in çalıştırıldığını göstermez; d için aralık, normallik veya permütasyon yapılmadıysa yapılmış denmez. Rubrik: soru/tasarım 25, hipotez/yön 20, hesap/varsayım 25, belirsizlik/çokluk 20, yeniden üretim 10 puan.
+
+
+## Revizyon 8: eşdeğerlik ve çokluk
+
+## T1–T3: Kararı Hedef ve Hata Güvencesiyle Eşleştirme
+
+1.  $\Delta=1$ için aralık $(-1,1)$ içinde değildir; $p_{\mathrm{TOST}}=.914944$ ve eşdeğerlik gösterilemez. $\Delta=3$ için aralık $(-3,3)$ içinde, $p_{\mathrm{TOST}}=.002656$ ve model altında öğretim sınırları için eşdeğerlik gösterilir. İki yönlü p=.002833 yalnız sıfır farkı sınar; yeterince geniş eşdeğerlik sınırına göre küçük olan bir fark sıfırdan farklı olabilir. Her iki sınır da geriye dönük öğretim tercihidir; klinik geçerliği, önkayıt veya nedensel tasarım kanıtı yoktur. Sınır büyütülerek gerçek araştırma iddiası kurtarılmaz.
+
+2.  İki yönlü p her ikisinde 1’dir. $n=25$ için %90 aralık $[-3.4218,3.4218]$ ve TOST p=.009827; $(-5,5)$ için eşdeğerlik gösterilir. $n=4$ için aralık $[-11.7668,11.7668]$ ve p=.195501; hem anlamlı fark hem eşdeğerlik gösterilemez. p=1 parametrenin tam sıfır olduğunun olasılığı değildir. İlk sonuç belirtilen sınırda yeterince küçük farkı destekler; ikinci sonuç önemli farkları dışlayacak hassasiyete sahip değildir. Bu özetlere ait ham veri üretilmemiştir.
+
+3.  Sıralama $H_2,H_4,H_3,H_1$; eşikler $.05/4=.0125$, $.05/3=.016667$, $.05/2=.025$, $.05$’tir. İlk üç red, dördüncü reddedilemez. Özgün sırada Holm p’leri $(.20,.016,.048,.036)$; Bonferroni p’leri $(.80,.016,.096,.048)$’dir. Holm ailesinde geçerli tekil testler altında en az bir yanlış redin olasılığı kontrol edilir; bu FDR değildir. Burada düzeltilmiş aralıklar hesaplanmadı; sıradan tekil %95 aralıkların aynı aile güvencesini taşıdığı söylenemez.

@@ -83,3 +83,14 @@ Bu alıştırmalar, hipotez kurma, test istatistiği hesaplama, $p$ değeri yoru
 4.  Ki-kare bağımsızlık testinde bazı beklenen frekansların 5’in altında olması ne tür bir sorun doğurur? Olası çözüm yollarını belirtiniz.
 
 5.  Tip II hata olasılığı, örneklem büyüklüğü, etki büyüklüğü ve ölçüm hatası arasındaki ilişkiyi araştırma planlama açısından açıklayınız.
+
+
+## Revizyon 8: eşdeğerlik ve çokluk
+
+## T1–T3: Kararı Hedef ve Hata Güvencesiyle Eşleştirme
+
+1.  Uyku verisinin %90 aralığı $[.866995,2.293005]$ için öğretim sınırları $\Delta=1$ ve 3 altında TOST kararlarını verin. Sıfıra karşı p=.002833 ile bu kararlar neden çelişmez? Klinik eşdeğerlik denebilir mi?
+
+2.  $\bar D=0$, $s=10$, $\Delta=5$ ve $n=25/4$ kurgularında iki farklı TOST sonucunu yorumlayın. İki yönlü p=1 neden tek başına “etki yok” anlamına gelmez?
+
+3.  Ham p ailesi $(.20,.004,.024,.012)$ için sıralamayı, Holm eşiklerini ve özgün sırada düzeltilmiş p’leri hesaplayın. Bu p’lerle düzeltmesiz %95 aralıkları aynı aile güvencesine sahipmiş gibi raporlayabilir miyiz?

@@ -1,0 +1,5 @@
+comparison,p_raw,p_holm,p_bonferroni,reject_holm_05,reject_bonferroni_05
+H1,0.2,0.2,0.8,False,False
+H2,0.004,0.016,0.016,True,True
+H3,0.024,0.048,0.096,True,False
+H4,0.012,0.036000000000000004,0.048,True,True

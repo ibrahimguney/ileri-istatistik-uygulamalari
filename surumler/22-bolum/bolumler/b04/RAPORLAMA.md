@@ -15,3 +15,13 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Eşdeğerlik ve hata ailesi
+
+Sleep %90 aralığı [.866995,2.293005] saat; yalnız öğretim için delta1/3
+sınırlarında TOST p=.914944/.002656. Sıfıra karşı p=.002833 değişmez.
+Bu geriye dönük sınırlar klinik eşdeğerlik veya gerçek önkayıt iddiası sağlamaz.
+TOST iki p'nin büyüğünü kullanır; her iki bileşen .05'te reddedilmelidir.
+Kurgusal [.20,.004,.024,.012] p ailesinde Holm [.20,.016,.048,.036].
+Aile önceden tanımlanır; düzeltilmiş aralıklar hesaplanmadı. Tekil %95 aralıklar
+aynı aile hata güvencesine sahipmiş gibi sunulmaz.

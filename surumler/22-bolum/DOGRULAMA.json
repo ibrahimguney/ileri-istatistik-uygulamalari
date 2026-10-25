@@ -313,5 +313,39 @@
       "tests": "passed",
       "differences": []
     }
+  },
+  "revision_8": {
+    "scope": "B04 ana analiz, TOST/Holm ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 4,
+        "id": "b04",
+        "title": "Hipotez Testi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.113,
+        "differences": []
+      }
+    ],
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
   }
 }
