@@ -105,3 +105,7 @@ Eksik izlemde aynı karma modelin karşılaştırılması, normal Wald sınırla
 ## Revizyon 12: Bölüm 9
 
 Ortak tersinir dönüşüm, iki puanlık Bonferroni/Hotelling aralıkları ve iki grup için asimptotik heterojen Wald duyarlılığı eklendi. Pillai/Box M, seçilmiş ayırma yönü ve çokluk sınırları netleştirildi. Ana veriler/sonuçlar korundu; yeni ek yalnız Python, altı eğitim grubu için sağlam çözüm değildir.
+
+## Revizyon 13: Bölüm 10
+
+Üstünlük A için grup-içi hayvan bootstrap ve yaklaşık BM, eşli fark için koşullu işaret testi/medyan sıra aralığı eklendi. Eski ana sonuçlar korundu. Yeni ek yalnız Python; küçük örneklem kapsaması, BCa ve öğrencilendirilmiş permütasyon yapılmadı.

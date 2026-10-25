@@ -1,8 +1,6 @@
 # Bölüm 10 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 13 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analizden Önce
 
@@ -36,9 +34,15 @@ Cevaplar Ek F, Bölüm 10’dadır (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Düzeltin
 
-> “Parametrik olmayan testlerin varsayımı yoktur. U testi yalnız medyanları karşılaştırır. Bağlı gözlemlerde exact seçmek her zaman kesindir. Sleep’te sıra-biserial 1 olduğu için herkes yarar görmüştür. Friedman’da 66 bağımsız kişi vardır. Genel H anlamlıysa düzeltmesiz bütün çiftler raporlanabilir.”
-
 Her iddiayı bu bölümden bir hesap veya tasarım koşuluyla düzeltin.
+
+## T1–T3: Üstünlük ve Belirsizlik Denetimi
+
+1.  İki dağılımın medyanı0 iken $A=.82$ olabilmesini verilen kurgu ile hesaplayın. $F=G$, $A=.5$ ve eşit medyan hipotezleri neden farklıdır?
+
+2.  ToothGrowth’taki 100 çift neden 100 bağımsız deneme değildir? Bootstrap birimini, .690–1.000 aralığını ve 2415 sınır tekrarını yorumlayın. Bu aralık kesin %95 kapsama veya evrende $A=1$ kanıtı mıdır?
+
+3.  Sleep’te işaret ve Wilcoxon p’leri neden aynı çıkıyor? Sıfır hangi hesapta çıkarılır? Medyan aralığını bütün10 farkla, $k=2$ ve sürekli-model %97.85 kapsamayı kullanarak bulun; iki marjinal medyanın farkından ayrımını açıklayın.
 
 ## P1: Yeniden Üretim Dosyası
 
@@ -81,5 +85,3 @@ Kaynak sözlüğü, çalışan kod, iki grafik, bütün karşılaştırma tablol
 4.  Mann–Whitney U testi $p<.05$ verirken dağılım şekilleri çok farklıdır. Hangi dikkat gerekir?
 
 5.  Güçlü bir parametrik olmayan test raporunda bulunması gereken en az beş unsuru yazınız.
-
-Çevrimiçi kaynaklara erişim tarihi: 5 Eylül 2026.

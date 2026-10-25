@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_13_rank_uncertainty": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b10-parametrik-olmayan/ustunluk-belirsizlik/sonuclar/ozet.json",
+    "small_sample_coverage_calibrated": false,
+    "studentized_permutation": false
   }
 }

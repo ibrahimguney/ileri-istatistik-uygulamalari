@@ -50,3 +50,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 13: üstünlük belirsizliği ve eşli medyan
+
+[Uygulama açıklaması](../../uygulamalar/b10-parametrik-olmayan/ustunluk-belirsizlik/README.md) ·
+[Python kodu](../../uygulamalar/b10-parametrik-olmayan/ustunluk-belirsizlik/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b10-parametrik-olmayan/ustunluk-belirsizlik/sonuclar/ozet.json).
+Eski ana analizler/veriler korunur; yeni ek yalnız Python.

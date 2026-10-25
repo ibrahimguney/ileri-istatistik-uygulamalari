@@ -1,7 +1,6 @@
 # Bölüm 10 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 13; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -99,8 +98,16 @@ Bu yanıtlar ortak sleep/ToothGrowth dosyaları ve R belgesinden aktarılan 22 s
 
 6.  Genel H’nin anlamlılığı izleme ailesinin hata oranını kendiliğinden kontrol etmez. Dunn–Holm gibi planlanmış yöntemle bütün çiftler raporlanır.
 
+## T1–T3: Üstünlük ve Belirsizlik Denetimi
+
+1.  $P(X>Y)=.4+.6(.4)=.64$ ve $P(X=Y)=.36$; $A=.64+.18=.82$. İki medyan0’dır. Ortak dağılım eşitliği A=.5’i gerektirir; tersi gerekmez. Medyan eşitliği de A=.5’i gerektirmez. Konum-kayması gibi ek koşullar olmadan hipotezler değiştirilmez.
+
+2.  Aynı hayvan10 karşılaştırmada tekrar kullanılır; 100 kazanım bağımsız değildir. Her grupta hayvanlar yeniden örneklenir. Seed20261025, 20000 çekilişte yaklaşık percentile aralığı\[.690,1.000\], üst sınırdaki tekrar2415’tir. Bu, küçük örneklemde sınırlı ampirik desteği gösterir; evrende kusursuz ayrımı veya tam %95 kapsamayı kanıtlamaz. Bootstrap etiket permütasyonu değildir. BM p=.001059 da klasik tam U p=.002230 yerine en küçük p diye seçilmez; kalibrasyon/hedef koşulları ayrılır.
+
+3.  Dokuz sıfır olmayan farkın hepsi pozitiftir; iki uç işaret örüntüsü iki yöntemde de aynı p’yi üretir. İşaret testi simetri istemez, sıfır dışlandığında koşullu işaret dengesini sınar. Sıra aralığına ise bütün10 fark girer: ikinci değer .8, dokuzuncu değer 2.4, medyan 1.3 saattir. Sürekli medyanda kapsama $1-2(11/1024)=.978515625$; ayrık veri için eşitlik otomatik değildir, tutucu kapsama olabilir. Bu, D’nin medyanıdır; $\operatorname{med}(Y_2)-\operatorname{med}(Y_1)$ genel olarak farklıdır.
+
 ## P1: Yeniden Üretim Kontrolü
 
 Tam puan için 10 ID’nin doğru eşlenmesi, altı diş hücresinin 10’ar hayvan içermesi ve 22 satırlık blok matrisinin kaynağının açıklanması beklenir. Kaynak ve eşleme 20; bağ ve sıfırlar 20; kesin/yaklaşık yöntem 25; aile ve yorum 25; yeniden üretim 10 puandır.
 
-OJ Dunn, VC Dunn ve Friedman izleme çiftleri ayrı öğretim aileleridir. Holm p değerleri Tukey ortalama aralıklarıyla birleştirilmez. Paket sıra-biserial, A, W ve V için nokta tahminleri verir; etki büyüklüğü güven aralıkları hesaplanmış gibi raporlanmaz.
+OJ Dunn, VC Dunn ve Friedman izleme çiftleri ayrı öğretim aileleridir. Holm p değerleri Tukey ortalama aralıklarıyla birleştirilmez. Ana paket sıra-biserial, A, W ve V için nokta tahminleri verir. Revizyon13 eki yalnız bağımsız iki gruptaki A ve dönüşümü için yaklaşık percentile bootstrap, eşli fark medyanı için sıra-istatistiği aralığı ekler. W ve V için aralık yoktur; bütün ölçüler için aralık üretilmiş sayılmaz.
