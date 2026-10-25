@@ -52,3 +52,11 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 12: hedef, birim ve birlikte belirsizlik
+
+[Uygulama açıklaması](../../uygulamalar/b09-manova/hedef-aralik/README.md) ·
+[Python kodu](../../uygulamalar/b09-manova/hedef-aralik/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b09-manova/hedef-aralik/sonuclar/ozet.json).
+Ortak tersinir dönüşüm, Bonferroni/Hotelling aralıkları ve iki grup asimptotik
+Wald hesabı. Eski ana kod/veri korunur; yeni ek yalnız Python.

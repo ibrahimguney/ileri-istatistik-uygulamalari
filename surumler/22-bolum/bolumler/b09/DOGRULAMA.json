@@ -20,5 +20,12 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_12_multivariate_targets": {
+    "status": "passed",
+    "tests": 6,
+    "reference": "../../uygulamalar/b09-manova/hedef-aralik/sonuclar/ozet.json",
+    "small_sample_Wald_calibration": false,
+    "permutation": false
   }
 }
