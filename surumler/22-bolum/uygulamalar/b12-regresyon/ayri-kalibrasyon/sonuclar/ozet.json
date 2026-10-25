@@ -1,0 +1,61 @@
+{
+  "source_sha256": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
+  "roles": {
+    "train": [
+      1,
+      40
+    ],
+    "calibration": [
+      41,
+      60
+    ],
+    "audit": [
+      61,
+      80
+    ]
+  },
+  "model_40": {
+    "beta": [
+      7.167984934086624,
+      0.47080979284369107
+    ],
+    "n": 40,
+    "x_mean": 11.75,
+    "Sxx": 265.5,
+    "residual_sd": 1.3912203644598715
+  },
+  "calibration": {
+    "q": 2.8760828625235355,
+    "k": 20,
+    "m": 20,
+    "alpha": 0.05
+  },
+  "at_G1_12": {
+    "point": 12.817702448210916,
+    "split_conformal": [
+      9.94161958568738,
+      15.693785310734452
+    ],
+    "classical_individual": [
+      9.966009245018485,
+      15.669395651403347
+    ]
+  },
+  "audit_20": {
+    "n": 20,
+    "split_conformal_covered": 18,
+    "split_conformal_fraction": 0.9,
+    "constant_width": 5.752165725047071,
+    "classical_covered": 18,
+    "classical_fraction": 0.9,
+    "classical_average_width": 5.7478313855816285,
+    "RMSE": 1.8338658344895342
+  },
+  "ideal_marginal_coverage_without_ties": 0.9523809523809523,
+  "limits": "Source-ordered single-school data do not establish exchangeability; observed20 coverage is descriptive, not guaranteed future/conditional/simultaneous coverage. Model frozen after train40, no refit after calibration; no clipping, tuning or normalized-score conformal.",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  }
+}

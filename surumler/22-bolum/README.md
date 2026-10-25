@@ -113,3 +113,7 @@ Ortak tersinir dönüşüm, iki puanlık Bonferroni/Hotelling aralıkları ve ik
 ## Revizyon 14: Bölüm 11
 
 Aynı öğrenci satırlarını koruyan Pearson/Spearman bootstrap aralıkları, katsayı farkı ve ilk kayıt etkisi eklendi. Sıfır korelasyon/bağımsızlık, dönüşüm ve uyum ayrımı netleştirildi. Eski ana sonuçlar korunur; yeni ek yalnız Python. Küme-bootstrap, BCa ve kapsama simülasyonu yapılmadı.
+
+## Revizyon 15: Bölüm 12
+
+OLS/klasik t-F/HC3 koşulları ayrıldı. Ayrı eğitim40/kalibrasyon20/kontrol20 split conformal öğretimi eklendi; model ve kontrol yanıtları karıştırılmaz. Yeni ek yalnız Python, tek okulun sıralı verisi değiştirilebilirlik ve garantili kapsama kanıtı değildir. Ana60 kayıtlık sonuçlar korunur.

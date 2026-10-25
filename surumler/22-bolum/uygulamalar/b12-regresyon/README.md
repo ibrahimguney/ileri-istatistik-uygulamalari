@@ -106,3 +106,8 @@ nedeniyle ilişkiyi bir müdahalenin nedensel etkisi olarak yorumlamayın.
 Python, bağımsız scipy hesabı, elle kurulan aralıklar, doğrudan HC3 matris hesabı
 ve 60 ayrı modelle LOOCV üzerinden doğrulanmıştır. R betiği aynı katsayıları,
 aralıkları ve LOOCV hatasını verir. Eski sentetik çalışma süresi verisi bu paketten çıkarılmıştır.
+## Revizyon 15 — ayrı kalibrasyon
+
+[Split conformal öğretimi](ayri-kalibrasyon/README.md): eğitim1–40, kalibrasyon41–60,
+kontrol61–80. Önceki60 kayıtlık OLS/HC3/LOOCV hesapları korunur. Yeni ek yalnız
+Python; sıralı tek okul verisi değiştirilebilirlik/garantili kapsama kanıtı değildir.
