@@ -1,7 +1,6 @@
 # Bölüm 20 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 23; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -49,7 +48,7 @@ Her ikisi de olabilir. Fark gizil özellikteki gerçek bir farkı, maddelerin ka
 
 2.  Ki-kare ve ortak parametreler büyük grubun (kadınlar) verisine daha çok dayanır; küçük grupta uyumsuzluk daha az görünür. Gizil ölçek birinci gruba (erkekler) göre tanımlandığından farklar erkek SS’si birimindedir; havuzlanmış SS ile ikinci bir ölçü verilir.
 
-3.  Sonuçları gördükten sonra düzey, ölçüt veya serbest bırakılacak parametre seçmek, istenen sonucu verene kadar aramaya dönüşür ve aşırı uyuma yol açar. Önceden yazılan kural bunu engeller ve karar sürecini denetlenebilir kılar.
+3.  Sonuçları gördükten sonra düzey, ölçüt veya serbest bırakılacak parametre seçmek, istenen sonucu verene kadar aramaya dönüşür ve aşırı uyuma yol açar. Önceden yazılan kural karar sürecini denetlenebilir kılar; veri içindeki aday seçimini ve seçim sonrası belirsizliği kaldırmaz. Arama p değerleri tek, önceden belirlenmiş hipotezin p değeri sayılmaz.
 
 ## G1–G4: Rehberli Çözüm
 
@@ -84,3 +83,11 @@ Her ikisi de olabilir. Fark gizil özellikteki gerçek bir farkı, maddelerin ka
 ## P1: Uyarlama Çalışmasında Değişmezlik Planı
 
 İyi bir plan, Türkçe ve özgün form gruplarını, benzer örneklem özelliklerini ve grup başına örneklem büyüklüğü gerekçesini tanımlar; evrensel bir asgari sayı yerine model, kategori dağılımları ve hedeflenen farklar üzerinden planlama yapılır. Ölçüm modeli önceden (ör. özgün geliştirme çalışmasından) alınır. Sıralı maddeler için ordinal kestirim (WLSMV) ve eşik değişmezliği değerlendirilir; yaklaşık sürekli yaklaşım ve MLR seçilecekse kategori sayısının yanında dağılım ve model varsayımlarıyla gerekçelendirilir. Ölçekleme birinci grupta gizil varyans 1 ve ortalama 0 ile yapılır. Düzeyler biçimsel, metrik, skaler ve (gerekirse) katı; uyum bozulmasına ilişkin örnek uyarı sınırları $\Delta$CFI $\le-.010$ ve $\Delta$RMSEA $\ge.015$ olup bunlar evrensel geçme/kalma kuralları sayılmaz; uygun ki-kare fark testi ve içerik bilgisiyle birlikte değerlendirilir. Kısmi değişmezlik kuralı: puan testi en büyük tek parametre, $p<.001$ ise serbest; her faktörde en az üç değişmez madde. DIF gösteren maddeler için çeviri ve kültürel anlam incelemesi, uzman paneli ve bilişsel görüşme planlanır. Raporlanacaklar: grup başına betimseller, düzey uyum tablosu, karşılaştırma tablosu, serbest bırakılan parametreler, gizil ortalama farkları ve duyarlılık. Rubrik: tasarım 20, model ve kestirim 25, ölçütler ve kurallar 25, yorum 20, yeniden üretim 10 puan.
+
+## T1–T3: Çıpa, Birim ve Belirsizlik
+
+1.  A1 serbestken A=.487959 \[.351373,.624546\]; A1+A2 serbestken .435385 \[.297154,.573615\], erkek gizil SD’si birimindedir. Yön aynı, nokta farkı .052575 daha küçüktür; örtüşme model farkı veya eşdeğerlik testi değildir. Aynı veride en büyük düşüşü arama, seçilen maddeyi önceden belirlenmiş tek hipotez yapmaz. Ana nominal p’ler ve sabit çıpa aralıkları seçimi kapsamaz. İki/üç çıpa sayısı tek başına doğru çıpaları kanıtlamaz; A1+A2 yalnız duyarlılık senaryosudur.
+
+2.  Kadın varyansı .804641 olduğundan erkek–kadın farkı kadın SD’sinde $-.487959/\sqrt{.804641}=-.543980$’dir. İşaretle birlikte birim değişir; gözlenen model ortalama/kovaryansları korunur. Yük işaretleyicisi birimi, kesişim çıpası ortalama başlangıcını belirler; kesişimi değişmez olmayan maddeyi otomatik olarak her tür ölçek işaretleyicisi için yasak saymak yanlıştır.
+
+3.  Beş A maddesinin ortalama puanında kesişim .054673, gizil bileşen .371693, toplam model farkı .426366 ham puandır. Gözlenen .452416 ile fark .026050’dir. Bu, modelin öngördüğü farkın ayrıştırmasıdır; bütün gözlenen farkı açıklamaz ve .488 gizil-SD katsayısıyla aynı birimde değildir. Aynı çevrimiçi örneklemin iki kodlu grubu için betimsel sonuçtur; nedensellik veya madde yanlılığı kanıtı yoktur. Koşullu aralıklar model/normal kuram varsayımlarına bağlıdır; yeni bağımsız doğrulama değildir.

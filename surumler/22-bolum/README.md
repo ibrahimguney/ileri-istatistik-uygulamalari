@@ -145,3 +145,7 @@ Keşif yarısında dört faktörlü PAF doğrudan denendi; bu yordam/başlangı�
 ## Revizyon 22: Bölüm 19
 
 Aynı incelenmiş B yarısında ham/standart toplam payları ve tam beklenen parametre kovaryansıyla CR/AVE delta aralıkları eklendi. Her sabit modelin iki AVE−phi² farkı ayrı Bonferroni ailesidir; bütün rapor için ortak kapsama iddiası yok. Normal kuramlı; sağlam/ordinal veya yeni doğrulama değil. Yeni ek yalnız Python; eski ana analizler korunur.
+
+## Revizyon 23: Bölüm 20
+
+Aynı B yarısında sabit çıpa kümeleri için gizil fark aralıkları, A1+A2 duyarlılık senaryosu, referans birimi dönüşümü ve model ortalama farkının bileşenleri eklendi. Seçim sonrası koşullu normal kuramlı çıkarımdır; tüm arama belirsizliği veya yeni doğrulama değildir. Ana veri/model/arama korunur; yeni ek yalnız Python.

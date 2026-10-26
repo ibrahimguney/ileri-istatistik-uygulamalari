@@ -20,5 +20,13 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_23_anchor_sensitivity": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b20-olcme-degismezligi/capa-duyarliligi/sonuclar/ozet.json",
+    "conditional_on_anchor_selection": true,
+    "selection_adjusted": false,
+    "new_validation": false
   }
 }

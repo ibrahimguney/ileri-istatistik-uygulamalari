@@ -1,8 +1,6 @@
 # Bölüm 20 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 23 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Analizden Önce
 
@@ -36,13 +34,31 @@ Yanıtlar Ek F, Bölüm 20’dedir (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Onarma
 
-> “Biçimsel model iyi uyum verdiğine göre ölçek iki grupta aynı şeyi ölçer ve ortalamalar karşılaştırılabilir. Skaler modelde ki-kare farkı anlamlı olduğundan hiçbir karşılaştırma yapılamaz. Uyumu iyileştirmek için modifikasyon indeksi en yüksek beş kesişimi serbest bıraktık. A1 kadınlara karşı yanlıdır, ölçekten çıkarılmalıdır. Katı değişmezlik sağlanmadığı için gizil ortalamalar da karşılaştırılamaz.”
-
 Beş iddiayı düzeltin.
 
 ## P1: Uyarlama Çalışmasında Değişmezlik Planı
 
 Bir ölçeğin Türkçe uyarlaması ile özgün form arasında değişmezlik sınayacak bir plan yazın: gruplar ve örneklemler, ölçüm modeli, veri türü (sürekli/ordinal) ve kestirici, ölçekleme, düzeyler ve karşılaştırma ölçütleri, kısmi değişmezlik kuralı, DIF bulgusu için içerik incelemesi ve raporlanacak tablolar. Rubrik: tasarım 20, model ve kestirim 25, ölçütler ve kurallar 25, yorum 20, yeniden üretim 10 puan.
+
+## T1–T3: Çıpa, Birim ve Belirsizlik
+
+1.  A1 ve A1+A2 serbest senaryolarının A farklarını ve aralıklarını karşılaştırın. Arama kuralı önceden yazılsa bile neden seçim belirsizliği kalır?
+
+2.  Referans kadın grubu olduğunda A farkı neden yalnız $-.488$ olmaz? Yük işaretleyicisi ile kesişim çıpasının görevini ayırın.
+
+3.  A ortalama puanının model farkını kesişim ve gizil bileşenlerine ayırın. Gözlenen farkla kalan artığı ve bunların neden nedensel etkiler olmadığını açıklayın.
+
+P1 planına çıpa duyarlılığını, seçim sonrası çıkarım sınırını, referans birimini ve ham/model fark ayrıştırmasını ekleyin.
+
+- Değişmezlik sınamadan gözlenen ölçek puanlarıyla grup karşılaştırması yapmak.
+
+- Yalnız ki-kare farkına veya yalnız $\Delta$CFI’ye dayanmak; ölçütü sonuçlara göre seçmek.
+
+- Kısmi değişmezlikte kesişimleri kural olmadan, uyum iyileşene kadar serbest bırakmak.
+
+- Değişmez olmayan bir maddeyi işaretleyici madde olarak kullanmak.
+
+- DIF bulgusunu içerik incelemesi yapmadan “madde yanlıdır” diye yorumlamak.
 
 # Alıştırmalar
 

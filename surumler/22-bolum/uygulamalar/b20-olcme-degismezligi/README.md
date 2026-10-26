@@ -47,3 +47,11 @@ C .216 (SH .074). Kısmi: A .488, C .216.
 ## Dosyalar
 - `sonuclar/ozet.json`, `sonuclar/analiz_verisi.csv` (grup + anahtarlanmış maddeler).
 - `assets_figures/od-yuk-kesisim.pdf`.
+
+## Revizyon 23: çıpa duyarlılığı ve gizil fark
+
+[Ek uygulama](capa-duyarliligi/README.md): sabit çıpa kümelerinde gizil
+fark aralıkları, A1+A2 duyarlılığı, referans birimi dönüşümü ve model
+ortalama farkının bileşenleri. Aynı veri araması sonrası koşullu çıkarımdır;
+seçim belirsizliği veya yeni doğrulama kapsanmaz. Eski veri/model/arama
+korunur; yeni ek yalnız Python, yedi test.
