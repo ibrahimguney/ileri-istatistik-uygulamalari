@@ -1,7 +1,6 @@
 # Bölüm 22 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 25 bütünlük düzeltmeleri.
 
 ## Kendinizi Sınayın
 
@@ -88,3 +87,11 @@ Filtre açık kalırsa sonraki bütün analizler yalnız seçili alt kümede yap
 Örnek teslim uyku karşılaştırmasını seçer: kaynak ve aktarım notu; 20 ölçüm/10 kişi ayrımı; ID eşleme; geçerli sıfır/negatif ölçümler; filtre/ağırlık/bölünmenin kapalı olduğu ana sözleşme yazılır. Tam içe aktarma komutu ve iki yönlü eşli test saklanır. Koşul 2 eksi koşul 1 farkı, n=10, t(9)=4.062128, p=.002833 ve \[.700114,2.459886\] saat aralığı aynı modele bağlanır. Etki $d_z=1.284558$ ve standartlaştırıcısı belirtilir; etki aralığı hesaplanmadığı açık yazılır.
 
 Küçük n, farkların biçimi, tarihsel tasarım bilgisi ve genelleme sınırları raporlanır. İlk beş filtre, sahte tekrar ağırlığı ve iki-hücre gizleme çıktıları ayrı karşı örneklerdir; yeni deney veya eksiklik çözümü sayılmaz. Kaynak dosya özeti, Python sürümleri ve üretilen CSV/JSON/PDF dosyaları saklanır. SPSS erişimi varsa ana sözdizimi gerçekten çalıştırılır; n/SH/sd/aralık ve uyarılar kontrol edilip SAV/SPV sürümlenir. Erişim yoksa “sözdizimi hazır, SPSS çalıştırılmadı” denir. Rubrik: kaynak/birim 20, içe aktarma/durum 25, model/hesap 25, yorum/sınırlılık 20, yeniden üretim 10 puan.
+
+## T1–T3: Çıktı Sözleşmesi
+
+1.  Model etiketi, iki grubun n’si, sd, SH ve aralık birlikte gerekir. Aynı fark/t, eş-varyans Student ile Welch’in aynı model olduğu anlamına gelmez. Eşli uyku satırı 10 kişi ve sd9 içindir; 20 bağımsız ölçüm değildir.
+
+2.  .00051 mutlak tolerans üç ondalık gösterimin yuvarlama düzeyini denetler; varsayım, kaynak eşitliği veya gerçek SPSS yürütmesini kanıtlamaz. p=0 reddedilir; uygun üst sınır veya daha fazla basamak kullanılır. Kişi sayıları toleranssız eşleşir.
+
+3.  Beklenen dosyanın kendisiyle eşleşmesi aynı hesabın iç kontrolüdür; SPSS çalıştırıldığına dair bağımsız kanıt değildir. Gerçek sürüm/lisans, tam komut, veri hash’i, Viewer/OMS dosyası, alan eşlemesi ve hata/uyarılar saklanır. Bu ortamda yalnız Python kontrolü ve hazır sözdizimi vardır; SPSS yürütülmüş gibi raporlanmaz.

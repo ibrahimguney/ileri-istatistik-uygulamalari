@@ -1,0 +1,7 @@
+{
+  "reference_generated_with": "Python/SciPy",
+  "SPSS_executed": false,
+  "observed_output_supplied": false,
+  "rounding_absolute_tolerance": 0.00051,
+  "conditions": "Two exact model rows, directions and sample sizes. Decimal-point comma-delimited CSV. Matching numbers do not prove software execution, assumptions, data provenance or independent review."
+}

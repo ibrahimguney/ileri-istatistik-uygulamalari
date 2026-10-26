@@ -1,7 +1,6 @@
 # Bölüm 7 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 25 bütünlük düzeltmeleri.
 
 ## Kendinizi Sınayın
 
@@ -109,3 +108,11 @@ Tam modelde uygulama, doz ve etkileşim F değerleri sırasıyla 15.57198, 91.99
 Artık Shapiro $p=.66942$ ve altı hücre için medyan merkezli Levene $p=.14836$ varsayımların kanıtı değildir. Q–Q ve artık grafikleriyle birlikte raporlanır. HC3 ortak etkileşim testi yaklaşık $F(2,54)=3.52285$, $p=.03647$ verir. Klasik testle karar yönü benzer olmakla birlikte bu test ortak klasik MSE’nin oranı değildir; HC3 bağımlı gözlemleri bağımsız hâle getirmez.
 
 Değerlendirme: kaynak ve hücre kodlaması 20; kareler toplamları ve etki büyüklükleri 25; karşılaştırma aileleri ve aralıklar 25; etkileşim, tanılar ve HC3 20; yeniden üretilebilirlik ve sınırlılıklar 10 puan. Kod, veri sözlüğü, üç grafik ve bir sayfalık rapor beklenir. OJ, VC ve basit etkilerin ayrı öğretim aileleri olduğu belirtilmeli; tüm bölüm için tek bir .05 aile hatası kontrolü iddia edilmemelidir. R/SPSS çıktıları ancak bu yazılımlarda gerçekten çalıştırılmışsa doğrulanmış sayılır.
+
+## T1–T3: Hedef ve Etkileşim Denetimi
+
+1.  Eşit doz ağırlıkları $1/3$ ile fark 4.376111; ortak örneklem doz ağırlıkları ile 4.220660’dır. 5.654783 her grubun kendi doz bileşimiyle ham farktır; aynı doz dağılımına standartlaştırılmış fark değildir. Farklı hedefler hata veya daha doğru p seçimi diye sıralanmaz.
+
+2.  Etkileşim doğrudan farkların farkıdır. 1–.5 ve 2–.5 kestirimleri $-2.570$ ve $-7.461667$; yalnız bu iki kontrastın HC3/t–Bonferroni aralıkları $[-9.354,4.214]$ ve $[-14.603,-.320]$’dir. Aile bütün hedefleri kapsamaz. Bir koşulun anlamlı, diğerinin anlamsız olması farklarının anlamlı olduğunu göstermez. Küçük hücrelerde HC3 t yaklaşımı kesin test değildir.
+
+3.  Alt küme, altı hücreden kaynak sırasıyla 5/10/8 ve 10/6/9 kayıt seçilen öğretim örneğidir; ana veri değişmez, yeni gözlem veya rastgele kayıp üretilmez. Tip III etiketi tek başına hipotezi açıklamaz; kontrast, kodlama ve hedef ağırlıklar yazılır.

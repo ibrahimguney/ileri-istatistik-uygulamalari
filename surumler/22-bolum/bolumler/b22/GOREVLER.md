@@ -1,9 +1,5 @@
 # Bölüm 22 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
-
 ## D1–D3: Çalıştırmadan Önce
 
 1.  Uyku dosyasında neden 20 satır fakat 10 bağımsız kişi modeli vardır? `group` adı neden bağımsız grup seçtirmez?
@@ -34,8 +30,6 @@ göre değişebilir.
 
 ## H1: Hatalı Raporu Onarma
 
-> “Uyku dosyasında 20 satır olduğu için bağımsız t kullandık. Korelasyon tablosundaki .005965 artışın p’sidir. Levene .149 olduğundan varyanslar kanıtla eşittir; küçük p veren Student satırını seçtik. İki ağırlıkla 20 kişiye ulaştık. İki hücreyi gizledik ama eski fark sütunuyla test yaptık. Syntax dosyamız var, bu nedenle SPSS çalıştırılmıştır.”
-
 Altı iddiayı birim, hipotez, yöntem ve yürütme kanıtı bakımından düzeltin.
 
 ## P1: Denetlenebilir Analiz Teslimi
@@ -43,6 +37,14 @@ Altı iddiayı birim, hipotez, yöntem ve yürütme kanıtı bakımından düzel
 Bir ana analizi seçip veri kaynağı/sözlüğü, oturum ayarları, eksik ve dışlama kuralları, tam sözdizimi, geçerli n, tahmin/aralık/etki tanımı ve kısa rapor hazırlayın. Karşı örnekleri ana sonuçtan ayırın. Gerçek SPSS erişimi yoksa yalnız kontrol hesabını ve hazırlanmış sözdizimini teslim edin; yürütülmüş gibi ekran görüntüsü üretmeyin. Rubrik: kaynak/birim 20, içe aktarma/durum 25, model/hesap 25, yorum/sınırlılık 20, yeniden üretim 10 puan.
 
 Yanıtlar Ek F, Bölüm 22’dedir (s. kitaptaki ilgili sayfa).
+
+## T1–T3: Çıktı Sözleşmesi
+
+1.  Fark ve t aynı görünse bile Welch yerine Student satırı seçimini yakalamak için hangi alanlar gerekir?
+
+2.  Üç ondalık basamak toleransı neyi denetler, hangi bilimsel veya yürütme iddialarını sağlamaz? p’nin .000 görüntüsünü neden sıfır diye raporlamazsınız?
+
+3.  Beklenen kontrol CSV’sini araca geri vermek neden bağımsız yazılım doğrulaması değildir? Gerçek oturumun kanıt dosyalarını listeleyin.
 
 # Alıştırmalar
 
@@ -81,3 +83,5 @@ Yanıtlar Ek F, Bölüm 22’dedir (s. kitaptaki ilgili sayfa).
 4.  SPSS sözdizimi yeniden üretilebilirliği nasıl artırır?
 
 5.  SPSS çıktısını güçlü akademik rapora dönüştürürken en az beş unsur yazınız.
+
+Yöntem belgelerine erişim: 6 Eylül 2026.

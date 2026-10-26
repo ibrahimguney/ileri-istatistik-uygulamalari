@@ -19,3 +19,11 @@ ANOVA bulguları raporlanırken F değeri, serbestlik dereceleri, p değeri, etk
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 25
+
+[Yeni uygulama ve kapsamı](../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/README.md). Ana analiz korunur; yeni ek yalnız Python. SPSS yürütme veya bağımsız hakemlik iddiası yoktur.
+
+## Revizyon 25
+
+[Yeni uygulama ve kapsamı](../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/README.md). Ana analiz korunur; yeni ek yalnız Python. SPSS yürütme veya bağımsız hakemlik iddiası yoktur.

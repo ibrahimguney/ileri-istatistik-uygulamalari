@@ -1,0 +1,150 @@
+{
+  "n": 48,
+  "cell_counts": [
+    5,
+    10,
+    8,
+    10,
+    6,
+    9
+  ],
+  "cell_order": [
+    [
+      "OJ",
+      0.5
+    ],
+    [
+      "OJ",
+      1.0
+    ],
+    [
+      "OJ",
+      2.0
+    ],
+    [
+      "VC",
+      0.5
+    ],
+    [
+      "VC",
+      1.0
+    ],
+    [
+      "VC",
+      2.0
+    ]
+  ],
+  "kept_source_rows": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "cell_means": [
+    15.700000000000001,
+    22.7,
+    26.025,
+    7.98,
+    17.549999999999997,
+    25.766666666666666
+  ],
+  "marginal_targets": {
+    "equal_dose": {
+      "estimate": 4.376111111111112,
+      "se": 1.175321810379908,
+      "df": 42,
+      "nominal_p": 0.0005792395546639313,
+      "ci_family95": [
+        2.004215670659971,
+        6.748006551562254
+      ]
+    },
+    "common_observed_dose": {
+      "estimate": 4.220659722222226,
+      "se": 1.1675544215609552,
+      "df": 42,
+      "nominal_p": 0.0007978947934094117,
+      "ci_family95": [
+        1.8644395070252902,
+        6.576879937419163
+      ]
+    },
+    "different_group_composition": {
+      "estimate": 5.654782608695652,
+      "se": 1.1186343468651347,
+      "df": 42,
+      "nominal_p": 8.900896578607556e-06,
+      "ci_family95": [
+        3.3972871011428625,
+        7.912278116248442
+      ]
+    }
+  },
+  "interaction_differences": [
+    {
+      "estimate": -2.5699999999999985,
+      "se": 2.9181635312404492,
+      "df": 42,
+      "nominal_p": 0.3834971126992077,
+      "ci_family95": [
+        -9.353621729559453,
+        4.213621729559455
+      ]
+    },
+    {
+      "estimate": -7.461666666666666,
+      "se": 3.072250974245567,
+      "df": 42,
+      "nominal_p": 0.01951222118449923,
+      "ci_family95": [
+        -14.603483170244644,
+        -0.31985016308868897
+      ]
+    }
+  ],
+  "conditions": "Teaching subset selected by source order, not new/missing-at-random data. Independent records; saturated cell means; HC3 with residual-df t approximation. Marginal targets are pointwise; only the two specified interaction contrasts form a Bonferroni family. No causal or population inference."
+}

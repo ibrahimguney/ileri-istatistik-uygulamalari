@@ -82,3 +82,6 @@ R datasets: sleep ve ToothGrowth resmi belgeleri; IBM SPSS Statistics 31
 Command Syntax Reference (GET DATA), FILTER, WEIGHT, SPLIT FILE belgeleri;
 IBM T-TEST genel başvuru ve çıktı açıklamaları; Delacre, Lakens ve Leys (2017),
 DOI 10.5334/irsp.82. Tam erişim adresleri bölüm kaynakçasındadır.
+## Revizyon 25
+
+[Yeni geliştirme](cikti-sozlesmesi/README.md). Ana veri ve sayısal referanslar korunur; yeni ek yalnız Python ile denetlendi.

@@ -20,5 +20,11 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_25": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/sonuclar/ozet.json",
+    "SPSS_executed": false
   }
 }

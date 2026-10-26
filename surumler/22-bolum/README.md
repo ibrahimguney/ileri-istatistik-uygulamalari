@@ -1,3 +1,7 @@
+# Güncel durum — Revizyon25
+
+22 bölümün ilk içerik geliştirme turu tamamlandı. B07 dengesiz hedef/etkileşim ve B22 çıktı sözleşmesi eklendi;22 ana analiz ve ekler yerelde geçti. Bağımsız bilimsel hakemlik kullanıcı talebiyle ertelendi; gerçek SPSS oturumu yürütüldüğü iddia edilmez. Aşağıdaki revizyon notları tarihçedir.
+
 # İleri İstatistik — 22 bölümlük öğrenci sürümü
 
 Bu klasör güncel 22 bölümlük kitaba eşlik eder. Depo kökündeki `bolumler/`

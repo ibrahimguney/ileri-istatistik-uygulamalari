@@ -1,6 +1,6 @@
 # Bölüm 18 — açıklamalı çözümler
 
-Revizyon 21; yeni T1–T3 dahil.
+Revizyon 25 bütünlük düzeltmeleri.
 
 ## Kendinizi Sınayın
 
@@ -58,7 +58,7 @@ Aşağıdaki sonuçlar `psych::bfi` verisinin keşif yarısı (yarım A, $n=1316
 
 1.  KMO $6.275687/(6.275687+1.724063)=.784485$’tir. Bartlett çarpanı $1316-1-25/6=1310.833333$; $-1310.833333\times(-2.151426)=2820.16$ ve $sd=10(9)/2=45$ olur; $p<.001$. Faktör sayısı, bağımsızlık, kültürel eşdeğerlik ve tüm maddelerin iyi temsil edildiği bu iki istatistikten çıkmaz; büyük örneklemde birim matristen küçük sapmalar bile saptanabilir; gerçek küresellik altında anlamlılık zorunlu değildir.
 
-2.  PCA sürümünde 3.064 \> 1.174 ve 1.864 \> 1.125, fakat 0.876 \< 1.087; karar iki boyuttur. SMC sürümünde ilk dört değer (2.375, 1.165, .131, .093) referansları (.186, .135, .095, .064) aşar; beşinci değer (.012) aşmaz, karar dörttür. Bu örnekte permüte matrislerin SMC’leri sıfıra yakın olduğundan referanslar küçüktür; .131 ve .093 değerlerinin bunları aşması tek başına içerik önemini veya kararlı ortak faktörleri kanıtlamaz. Üç faktörlü PAF denemesi uygunsuzdur; Revizyon 21 ekindeki dört faktörlü PAF da aynı SMC başlangıcıyla 2000 yinelemede yakınsamaz (en büyük ortak varyans 1.669407). İki faktör içerik, PCA paralel analizi ve yük/artık incelemesiyle aday olarak izlenir; dört faktörün uygunluğu ayrıca sınanmadan reddedilemez.
+2.  PCA sürümünde 3.064 \> 1.174 ve 1.864 \> 1.125, fakat 0.876 \< 1.087; karar iki boyuttur. SMC sürümünde ilk dört değer (2.375, 1.165, .131, .093) referansları (.186, .135, .095, .064) aşar; beşinci değer (.012) aşmaz, karar dörttür. Bu örnekte permüte matrislerin SMC’leri sıfıra yakın olduğundan referanslar küçüktür; .131 ve .093 değerlerinin bunları aşması tek başına içerik önemini veya kararlı ortak faktörleri kanıtlamaz. Üç faktörlü PAF denemesi uygunsuzdur; Revizyon 21 ekindeki dört faktörlü PAF da aynı SMC başlangıcıyla 2000 yinelemede yakınsamaz (en büyük ortak varyans 1.669407). İki faktör içerik, PCA paralel analizi ve yük/artık incelemesiyle aday olarak izlenir; bu tek deneme bütün dört faktörlü modelleri reddetmez; farklı başlangıç/kestirim ve kararlılık ayrıca incelenir.
 
 3.  A4 için yapı C katsayısı $.130377+.460568(.317112)=.276429$’dur. Ortak varyans $.460568^2+.130377^2+2(.460568)(.130377)(.317112)=.267205$; özgüllük .732795 olur. Yalnız örüntü kareleri toplamı .229121’dir; faktör ilişkisine ait çapraz terim (.038084) eksik kalır. .276 yapı korelasyonudur, .130 örüntü katsayısıyla karıştırılmaz.
 
