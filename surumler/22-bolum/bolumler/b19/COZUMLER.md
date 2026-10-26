@@ -1,7 +1,6 @@
 # Bölüm 19 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 22; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -70,7 +69,7 @@ Keşif aşamasında model örneklemin rastlantısal özelliklerine uydurulmuştu
 
 2.  M2’de $\chi^2(31)=180.541$, CFI $=.944$, TLI $=.918$, RMSEA $=.061$ (%90 GA $[.052,.069]$), SRMR $=.041$ bulunur. M1–M2 farkı $\Delta\chi^2(3)=126.449$, $p<.001$’dir; $\mathrm{AIC}^*$ 348.99’dan 228.54’e, $\mathrm{BIC}^*$ 457.82’den 352.92’ye düşer. Fark, seçim sürecindedir: bu üç çift yarım A’nın artıklarından ve madde içeriğinden, yarım B’ye bakılmadan yazıldı. Yarım B’nin MI listesinde ilk üç sırada çıkmaları bu nedenle bağımsız bir yineleme bulgusudur. MI listesine bakıp en büyük değerleri eklemek ise aynı veride arama olurdu; nominal p değerleri seçimi hesaba katmaz ve A1–C4 veya C$\to$A4 gibi içerik gerekçesi zayıf parametreleri de modele sokardı.
 
-3.  M2’de C yükleri $\sum\lambda=2.861928$, $\sum\lambda^2=1.650621$, $\sum\theta=3.349379$; üstelik C1–C2 (.137) ve C4–C5 (.150) hata kovaryansları pozitiftir. Toplam puanın faktöre ait olmayan ortak varyansı paydaya $2(.137232+.149723)=.573910$ olarak eklenir: $\mathrm{CR}=8.190632/(8.190632+3.349379+.573910)=.676$. M1 bu ortak hata varyansını faktöre yazdığı için CR’yi (.736) olduğundan yüksek gösterir. M1’de $\phi=.340$, $\phi^2=.115$; her iki AVE (.348, .359) bu kareden büyüktür. Bu sınırlı bir ayırt edicilik taramasıdır; düşük AVE’leri, içerik sorunlarını veya belirsizliği ortadan kaldırmaz. Türkçe katılımcı yanıtları, yerel uyarlama ve değişmezlik kanıtı bulunmadığından Türkçe ölçek geçerliği sonucuna varılmaz.
+3.  M2’de C yükleri $\sum\lambda=2.861928$, $\sum\lambda^2=1.650621$, $\sum\theta=3.349379$; üstelik C1–C2 (.137) ve C4–C5 (.150) hata kovaryansları pozitiftir. Toplam puanın faktöre ait olmayan ortak varyansı paydaya $2(.137232+.149723)=.573910$ olarak eklenir: $\mathrm{CR}=8.190632/(8.190632+3.349379+.573910)=.676$. M2’nin hedef ve artık varsayımları altında bu pay .676’dır; M1’in .736 payı farklı varyans ayrıştırmasına dayanır. Hangisinin hedef güvenirliğe daha yakın olduğu yalnız uyum indeksinden belirlenmez. M1’de $\phi=.340$, $\phi^2=.115$; her iki AVE (.348, .359) bu kareden büyüktür. Bu sınırlı bir ayırt edicilik taramasıdır; düşük AVE’leri, içerik sorunlarını veya belirsizliği ortadan kaldırmaz. Türkçe katılımcı yanıtları, yerel uyarlama ve değişmezlik kanıtı bulunmadığından Türkçe ölçek geçerliği sonucuna varılmaz.
 
 ## H1: Raporu Onarma
 
@@ -80,7 +79,7 @@ Keşif aşamasında model örneklemin rastlantısal özelliklerine uydurulmuştu
 
 3.  C’de CR=.736 iken AVE=.359’dur. Güvenirlik ve ortalama temsil edilen varyans farklı soruları yanıtlar; biri diğerinin yerine geçmez.
 
-4.  Tersine: hata kovaryansları pozitif olduğunda doğru CR paydası büyür ve C’nin CR’si .736’dan .676’ya düşer. Uyum iyileşir ama güvenirlik “artmaz”; ortak hata varyansının faktöre yazılması düzeltilmiş olur.
+4.  Tersine: hata kovaryansları pozitif olduğunda doğru CR paydası büyür ve C’nin CR’si .736’dan .676’ya düşer. Uyum iyileşir ama güvenirlik “artmaz”; M2 altında hedef faktör payı farklı ayrıştırılır. Artıkların hata sayılması ve hangi modelin uygun olduğu ayrıca gerekçelendirilir.
 
 5.  Rastgele bölme örneklem içi çapraz geçerlemedir. Aynı örneklemin iki yarısı kullanılmıştır; başka anakütlede, başka dilde veya farklı koşullarda kopyalama yapılmamıştır.
 
@@ -91,3 +90,11 @@ Keşif aşamasında model örneklemin rastlantısal özelliklerine uydurulmuştu
 Örneklem planı sabit kişi/madde kuralıyla değil, beklenen yükler (.30–.75), model karmaşıklığı, kategori dağılımları ve hedef belirsizlik üzerinden gerekçelendirilir; benzetim yapılmadıysa yapılmış gibi yazılmaz. Eksik yanıtların tanımı, dışlama kuralı ve gerekçesi; ordinal veya yaklaşık sürekli model tercihi, kestirici ve raporlanacak standart hata/test düzeltmeleri önceden belirlenir. Karşılaştırılacak gruplar varsa ölçme değişmezliği planı gerekir. Modifikasyonlar içerik gerekçesiyle sınırlanır; veri sonrası değişiklikler ayrı raporlanır ve yeni doğrulama gerektirir.
 
 Teslim dosyasında kaynak/ön işlem günlüğü, model kısıtları ve ölçeklendirme, uyum ve artık tabloları, yük belirsizlikleri, AVE/CR tanımları (hata kovaryanslı CR dâhil), yazılım/sürüm ve yeniden üretim komutları bulunur. Rubrik: kaynak/ön işlem 20, model/hesap 30, belirsizlik/yorum 25, bağımsız doğrulama planı 15, yeniden üretim 10 puan.
+
+## T1–T3: Puan ve Aralık Denetimi
+
+1.  Ham, anahtarlanmış 1–6 toplamı ile model-standart maddelerin toplamı farklı ağırlıklıdır. Veri-standart modelde ham ağırlıklar kaynak madde SD’leri; model-standart ağırlıklar $1/\sqrt{\hat\sigma_{jj}}$’dir. M1 A için .706272/.716047 bu hedef farkını gösterir; standartlaştırmanın kalite üstünlüğü değildir. M2’de artık kovaryansları da $\mathbf w'\Theta\mathbf w$’ye girer.
+
+2.  Delta varyansı $G V_{\vartheta}G'$ tam kovaryansı kullanır; yalnız parametre varyansları genel olarak yetmez. M1 A için nokta CR .716047, SH .011799 ve yaklaşık tekil %95 aralık \[.692920,.739173\]’tür; .70 eşiği kesin kabul/ret vermez. M2 A aralığı \[.661002,.714604\]’tür. Örtüşme veya örtüşmeme, aynı kayıtlarda iki modelin farkı için test değildir; ortak fark belirsizliği hesaplanmadı. Model/normal kuram varsayımları ve yapı seçimi sınırı sürer.
+
+3.  M1’de farklar .232829/.243443, Bonferroni aralıkları \[.176368,.289290\] ve \[.185919,.300966\]’dir. Çarpan 2.241403, yalnız bu sabit modelin iki tarama farkı ailesi içindir; bütün CR/AVE ve M1/M2 tablosunun ortak aralığı değildir. Pozitif alt sınırlar tüm ayrışan geçerlik, değişmezlik, Türkçe eşdeğerlik veya yeni örneklemde doğrulama sağlamaz. Aynı incelenmiş B yarısındaki ek analizdir; dış zaman damgalı ön kayıt değildir.

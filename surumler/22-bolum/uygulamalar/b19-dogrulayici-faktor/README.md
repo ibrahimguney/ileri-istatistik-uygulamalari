@@ -125,3 +125,10 @@ Erişim 6 Eylül 2026; veri arşivi geçmişi 5 Eylül 2026.
 - https://raw.githubusercontent.com/yrosseel/lavaan/master/R/lav_fit_srmr.R
 - https://search.r-project.org/CRAN/refmans/semTools/html/AVE.html
 - https://search.r-project.org/CRAN/refmans/semTools/html/compRelSEM.html
+## Revizyon 22: puan hedefi ve belirsizlik
+
+[Ek uygulama](puan-guvenirligi/README.md): ham/standart toplam payları,
+tam beklenen parametre kovaryansıyla CR/AVE delta aralıkları ve her sabit
+modelin iki AVE−phi² farkı için ayrı Bonferroni ailesi. Normal kuramlı;
+sağlam/ordinal analiz veya yeni doğrulama değildir. Eski veri/model/kod
+ve sayısal referanslar korunur. Yeni ek yalnız Python; yedi test.

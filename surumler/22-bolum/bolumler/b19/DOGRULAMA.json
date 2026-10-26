@@ -20,5 +20,13 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_22_score_reliability": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b19-dogrulayici-faktor/puan-guvenirligi/sonuclar/ozet.json",
+    "normal_theory_delta": true,
+    "robust_ordinal": false,
+    "new_validation": false
   }
 }

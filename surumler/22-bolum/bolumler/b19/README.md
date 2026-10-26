@@ -52,3 +52,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 22: puan hedefi ve delta belirsizliği
+
+[Uygulama açıklaması](../../uygulamalar/b19-dogrulayici-faktor/puan-guvenirligi/README.md) ·
+[Python kodu](../../uygulamalar/b19-dogrulayici-faktor/puan-guvenirligi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b19-dogrulayici-faktor/puan-guvenirligi/sonuclar/ozet.json).
+Eski ana analizler ve gerçek IPIP verisi ve bölme korunur; yeni ek yalnız Python.

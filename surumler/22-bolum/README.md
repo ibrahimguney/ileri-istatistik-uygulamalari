@@ -141,3 +141,7 @@ Ortak97 IPIP kaydında eşleşmiş alfa farkı ve ayrı bilinen parametreli mode
 ## Revizyon 21: Bölüm 18
 
 Keşif yarısında dört faktörlü PAF doğrudan denendi; bu yordam/başlangıçta Heywood ile yakınsamadı. İki faktörlü modelde regresyon/Bartlett puanları ve sabit model altında koşullu belirsizlik eklendi. Yarım B yanıtları okunmadı; bireysel tanı/kapsama doğrulanmadı. Yeni ek yalnız Python; eski veri/bölme ve ana analizler korunur.
+
+## Revizyon 22: Bölüm 19
+
+Aynı incelenmiş B yarısında ham/standart toplam payları ve tam beklenen parametre kovaryansıyla CR/AVE delta aralıkları eklendi. Her sabit modelin iki AVE−phi² farkı ayrı Bonferroni ailesidir; bütün rapor için ortak kapsama iddiası yok. Normal kuramlı; sağlam/ordinal veya yeni doğrulama değil. Yeni ek yalnız Python; eski ana analizler korunur.
