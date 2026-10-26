@@ -15,3 +15,16 @@
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 23: çıpa duyarlılığı ve koşullu aralıklar
+
+A1-serbest A farkı.487959 [.351373,.624546], A1+A2-serbest.435385
+[.297154,.573615], erkek gizil SD'sinde. Yön aynı; büyüklük çıpaya duyarlıdır.
+Model farkı/eşdeğerlik testi yapılmadı. Sabit çıpa kümesine koşullu normal
+kuramlı aralıklar; veri temelli seçim belirsizliği ve yeni doğrulama dışarıda.
+Her sabit senaryonun iki A/C farkına ait Bonferroni ailesi arama sürecini kapsamaz.
+Kadın referansında erkek−kadın A farkı−.543980; işaretle birlikte birim değişir.
+A ortalama puanı model farkı.054673 kesişim+.371693 gizil=.426366;
+gözlenen.452416 ve kalan.026050 ham puandır. Nedensel ayrıştırma değildir.
+A1+A2 yalnız duyarlılık senaryosu; p<.01 aramasının tüm adımları değildir.
+Yeni ek yalnız Python; veri/ana model/arama korunur.
