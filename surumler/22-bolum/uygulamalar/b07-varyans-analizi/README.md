@@ -85,3 +85,6 @@ Welch F(2,17.069264)=29.404475. OJ'de 2−1 Tukey p=.130926, GA[-.800395,7.52039
 Tam model etkileşim F(2,54)=4.106991, p=.021860, kısmi eta²=.132028;
 HC3 F(2,54)=3.522846, p=.036471. Basit etkiler 5.25,5.93,−.08;
 üçlü Bonferroni p değerleri .006277,.001769,1.000000.
+## Revizyon 25
+
+[Yeni geliştirme](dengesiz-hedef/README.md). Ana veri ve sayısal referanslar korunur; yeni ek yalnız Python ile denetlendi.

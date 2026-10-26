@@ -1,9 +1,5 @@
 # Bölüm 7 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
-
 ## D1–D3: Analizden Önce
 
 1.  İki faktör, düzeyleri, hücre sayısı ve analiz birimi nedir? Bu veri neden tekrarlı ölçümler ANOVA’sı değildir?
@@ -36,8 +32,6 @@ Yalnız VC alan 30 kaydı seçin; OJ hata terimini veya katsayılarını taşım
 
 ## H1: Altı Hatalı İddiayı Düzeltin
 
-> “Genel F anlamlıysa bütün doz çiftleri farklıdır. Levene $p>.05$ olduğundan eş varyans kesin sağlanmıştır. Doz sayısal yazılsa da üç düzeyli faktörle aynı model kurulur. Tam modelde hata serbestlik derecesi 59’dur. Üç kısmi eta-kareyi toplarsak açıklanan toplam oranı buluruz. Her dozdaki ayrı $p$ değerlerini karşılaştırmak etkileşim testidir.”
-
 Her iddiayı bu bölümdeki bir formül veya sayısal sonuçla düzeltin.
 
 ## P1: Ortak Model ve Çoklu Karşılaştırma Denetimi
@@ -56,7 +50,27 @@ Her iddiayı bu bölümdeki bir formül veya sayısal sonuçla düzeltin.
 
 </div>
 
-> OJ Tukey ailesi, VC Tukey ailesi ve üç basit etki ailesi ayrı öğretim sorularıdır. Her birinde aile kapsamı belirtilmiş olsa da bölüm boyunca yapılan bütün testlerin toplam hata oranının %5’te tutulduğu iddia edilmez. Aynı araştırmada bütün sonuçlar doğrulayıcı amaçla kullanılacaksa ortak analiz planı gerekir.
+## T1–T3: Hedef ve Etkileşim Denetimi
+
+1.  Öğretim alt kümesindeki 4.376111, 4.220660 ve 5.654783 farklarının ağırlıklarını açıklayın. Hangisi grupların ayrı doz bileşimini de taşır?
+
+2.  Bir dozda p küçük, diğerinde büyük bulunması neden etkileşim testi değildir? İki planlı farkların farkının ailesini ve HC3 t yaklaşımının sınırını belirtin.
+
+3.  Kaynak sırasıyla 48 kayıt seçiminin ana 60 kaydı veya rastgele kayıp varsayımını neden değiştirmediğini açıklayın. Tip III etiketi hedef kontrastı açıklamaya tek başına yeter mi?
+
+- Üç veya daha fazla grupta karşılaştırma ailesini tanımlamadan düzeltmesiz t-testleri taramak.
+
+- Genel F testini bütün ikili testleri düzeltmesiz yapma izni saymak veya her karşıtlık için zorunlu anlamlılık kapısı sanmak.
+
+- Varyans homojenliği varsayımını kontrol etmemek.
+
+- ANOVA’nın hangi grupların farklı olduğunu doğrudan söylediğini sanmak.
+
+- Etki büyüklüğünü raporlamadan yalnızca $p$-değerine odaklanmak.
+
+- Etkileşim anlamlıyken yalnızca ana etkileri yorumlamak.
+
+Bu hataları önlemek için ANOVA sonuçları her zaman varsayımlar, genel test, etki büyüklüğü ve post-hoc aşamalarıyla birlikte ele alınmalıdır.
 
 # Alıştırmalar
 

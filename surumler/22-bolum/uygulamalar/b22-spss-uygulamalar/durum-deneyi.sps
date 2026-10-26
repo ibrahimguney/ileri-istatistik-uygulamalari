@@ -20,6 +20,9 @@ GET DATA /TYPE=TXT
    kosul2 F16.4
    fark F16.4.
 EXECUTE.
+FILTER OFF.
+WEIGHT OFF.
+SPLIT FILE OFF.
 
 * Karşı örnek 1: filtre açık unutulursa n değişir.
 COMPUTE ilk5 = (ID LE 5).

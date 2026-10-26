@@ -56,3 +56,11 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 25
+
+[Yeni uygulama ve kapsamı](../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/README.md). Ana analiz korunur; yeni ek yalnız Python. SPSS yürütme veya bağımsız hakemlik iddiası yoktur.
+
+## Revizyon 25
+
+[Yeni uygulama ve kapsamı](../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/README.md). Ana analiz korunur; yeni ek yalnız Python. SPSS yürütme veya bağımsız hakemlik iddiası yoktur.

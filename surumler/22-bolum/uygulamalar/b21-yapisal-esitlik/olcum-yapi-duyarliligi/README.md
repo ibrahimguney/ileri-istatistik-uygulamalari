@@ -42,7 +42,7 @@ aralığının sıfırı içerme eşiği değildir. Rho−.3 örneği de JSON/CS
 
 Rho veriyle kestirilmedi; her rho için belirsizlik/bootstrap hesaplanmadı.
 b ve artık ilişkisini ek kısıt olmadan birlikte serbest kestirmek burada
-tekil çözüm vermez: aynı kovaryansın farklı ayrıştırmaları vardır.
+benzersiz bir çözüm sağlamaz: aynı kovaryansın farklı ayrıştırmaları vardır.
 Eski bağımsız-artık R² ayrıştırması bu senaryolara otomatik taşınmaz.
 Bu, ölçüm hatası modellemenin ölçülmemiş karıştırıcılığı çözmediğini gösterir;
 nedensel doğal dolaylı etki tanımlandığı iddiası yoktur.

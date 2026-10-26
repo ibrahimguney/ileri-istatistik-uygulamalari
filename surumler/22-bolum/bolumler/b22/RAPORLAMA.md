@@ -15,3 +15,7 @@ Yöntem seçimini, veri hazırlamayı ve bulgunun kapsamını açıklayın.
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 25
+
+[Yeni uygulama ve kapsamı](../../uygulamalar/b22-spss-uygulamalar/cikti-sozlesmesi/README.md). Ana analiz korunur; yeni ek yalnız Python. SPSS yürütme veya bağımsız hakemlik iddiası yoktur.
