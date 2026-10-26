@@ -1,7 +1,6 @@
 # Bölüm 21 — açıklamalı çözümler
 
-22 bölümlük kitap sürümünün cevap anahtarından ilgili öğrenci çözümleridir.
-Bulguların kapsamını ve yapılmamış analizleri koruyun.
+Revizyon 24; yeni T1–T3 dahil.
 
 ## Kendinizi Sınayın
 
@@ -95,3 +94,11 @@ Kuramdan (ve tasarımdan). Aynı kovaryansı üreten eşdeğer modeller (ör. A$
 Tahminci ve uyum tanımları, ham/standart yol aralıkları, maddelerin ve yapıların $R^2$’leri, LR/Wald yaklaşımı, kısıtlı ve eşdeğer alternatifler (ters yön dâhil) ve modifikasyon kararları önceden yazılır. Bootstrap için birim (kişi veya küme), çekiliş sayısı (örneğin 2000), tohum, aralık türü, yakınsamayan/uygunsuz çözüm kuralı ve bütün modelin her çekilişte yeniden kestirileceği belirtilir. Varsayım/ordinal duyarlılık ve bağımsız doğrulama henüz yapılmadıysa açıkça gelecek iş olarak yazılır.
 
 Teslim; kaynak sözlüğü, ham arşiv, dönüşüm kaydı, model sözdizimi, çıktı, sürüm ve yapılmamış analizlerin listesini içerir. Yeni veri veya AMOS oturumu yoksa sonuçları uydurulmaz. Rubrik: kuram/ölçüm 25, model/tanımlama 25, tahmin/belirsizlik 25, yorum/sınırlılıklar 15, yeniden üretim 10 puan.
+
+## T1–T3: Ölçüm ve Yapısal Duyarlılık
+
+1.  Ana/A1/A1+A2 dolaylı çarpımları .190225/.185939/.161933; doğrudan değerler .023679/.027912/.051931, toplamlar yaklaşık .2139’dur. A1+A2 modelinde $T=192.442$, $sd=37$; iki yeni doğrudan gösterge yolu vardır. A1’in yük işaretleyicisi değişmez. Bu, aynı veride keşifsel tek tip DIF duyarlılığıdır; bütün grup yük/eşik/artık değişmezliği sınanmaz. A5 sorunu veya nedensel yanlılık çözülmüş değildir; eski ana model değiştirilmez.
+
+2.  $\rho=.30$ için std.nox dolaylı .029919, doğrudan .183986; toplam .213904 kalır. Yapısal artık kovaryansı .043899, C artığı varyansı .247148 seçilince gözlenen kovaryans ve $T=215.022$ ana modelle aynıdır. Uyum indeksleri aynı kovaryansın bu ayrıştırmalarından birini seçemez. Ölçüm hatasını modellemek yapısal artık bağımsızlığını kanıtlamaz.
+
+3.  .349627, $w/\sqrt{uv}$ ile, ana koşullu kovaryansta nokta $b$ ve dolaylı çarpımı sıfır yapan varsayılan rho’dur. Gerçek rho tahmini veya aralığın sıfır eşiği değildir; her rho için belirsizlik hesaplanmadı. Ana \[.125,.274\] bootstrap aralığı yalnız özgün modele aittir; yeni MIMIC yapıları veya rho senaryolarına kopyalanmaz. Ek kısıt olmadan $b$ ve artık ilişkisini birlikte serbest bırakmak tekil ayrıştırma vermez. Senaryolar doğal nedensel etki veya yeni doğrulama diye sunulmaz.

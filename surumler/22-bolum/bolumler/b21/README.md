@@ -52,3 +52,10 @@ Tüm paketi indirmeniz dosya yollarını ve gerekli ortak kaynakları korur.
 Dosyanın bulunması o yazılımda yürütme kanıtı değildir. [Beklenen sonuçlar](beklenen.json)
 önceki sürümlenmiş sayısal dayanakları taşır; kod başarısız olunca bu dosyayı
 sonuca uydurarak değiştirmeyin.
+
+## Revizyon 24: ölçüm ve yapısal varsayım duyarlılığı
+
+[Uygulama açıklaması](../../uygulamalar/b21-yapisal-esitlik/olcum-yapi-duyarliligi/README.md) ·
+[Python kodu](../../uygulamalar/b21-yapisal-esitlik/olcum-yapi-duyarliligi/analiz.py) ·
+[Sonuçlar](../../uygulamalar/b21-yapisal-esitlik/olcum-yapi-duyarliligi/sonuclar/ozet.json).
+Eski ana analizler ve gerçek IPIP verisi ve bölme korunur; yeni ek yalnız Python.

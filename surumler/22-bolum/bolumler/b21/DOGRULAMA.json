@@ -20,5 +20,13 @@
   },
   "SPSS_Amos": {
     "status": "not_run_for_this_delivery"
+  },
+  "revision_24_sem_sensitivity": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b21-yapisal-esitlik/olcum-yapi-duyarliligi/sonuclar/ozet.json",
+    "new_scenario_intervals": false,
+    "rho_estimated": false,
+    "new_validation": false
   }
 }

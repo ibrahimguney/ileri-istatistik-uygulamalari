@@ -1,8 +1,6 @@
 # Bölüm 21 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 24 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Modelden Önce
 
@@ -34,8 +32,6 @@ göre değişebilir.
 
 ## H1: Hatalı Raporu Onarma
 
-> “A1 yükü 1, dolayısıyla hatasız. C’nin artık varyansı .227, toplam varyansı da budur. Ki-kare anlamlı olduğu için model çöpe atılmalı. Ters modelin uyumu aynı, nedensel geri besleme bulundu. Kadınlar uyumlu oldukları için daha sorumludur; aracılık oranı %89 olduğundan tam aracılık kanıtlandı. Bootstrap’i yalnız a ve b yollarını yeniden örnekleyerek yaptık.”
-
 Altı iddiayı ölçekleme, varyans, uyum, eşdeğerlik, nedensellik ve bootstrap bakımından düzeltin.
 
 ## P1: Denetlenebilir YEM Protokolü
@@ -43,6 +39,16 @@ Altı iddiayı ölçekleme, varyans, uyum, eşdeğerlik, nedensellik ve bootstra
 Yeni bir araştırma için yapı/gösterge, ölçüm zamanı, veri türü, ölçekleme, sıfır/eşitlik kısıtları, tanımlanabilirlik, kestirici, eksikler, örneklem planı, uyum/yol aralıkları, alternatif ve eşdeğer modeller ve yeniden üretim dosyalarını belirleyin. Aracılık planlanıyorsa zaman sırasını (örneğin üç ölçüm dalgası), bootstrap birimini, çekiliş sayısını ve başarısız çözüm kuralını yazın. Yapılmamış veri toplama veya model doğrulaması sonuç gibi sunulmaz. Rubrik: kuram/ölçüm 25, model/tanımlama 25, tahmin/belirsizlik 25, yorum/sınırlılıklar 15, yeniden üretim 10 puan.
 
 Yanıtlar Ek F, Bölüm 21’dedir (s. kitaptaki ilgili sayfa).
+
+## T1–T3: Ölçüm ve Yapısal Duyarlılık
+
+1.  $K\to A1,A2$ yolları eklenince dolaylı ve doğrudan std.nox değerler nasıl değişir? Bu hesap neden çok gruplu değişmezliğin veya yeni doğrulamanın yerine geçmez?
+
+2.  $\rho=.30$ senaryosunda kovaryans ve $T$ aynı kalırken dolaylı çarpım nasıl değişir? Aynı uyumdan hangi artık varsayımının doğru olduğu seçilebilir mi?
+
+3.  $\rho=.349627$ neyin eşiğidir, neyin değildir? Ana bootstrap aralığını yeni MIMIC veya rho satırlarına aktarmak neden yanlıştır?
+
+P1 planına ölçüm duyarlılığını, yapısal artık kısıtlarını, tanımlama gerekçesini ve her senaryonun ayrı belirsizlik/doğrulama gereğini ekleyin.
 
 # Alıştırmalar
 
@@ -81,3 +87,5 @@ Yanıtlar Ek F, Bölüm 21’dedir (s. kitaptaki ilgili sayfa).
 4.  Küçük örneklem ve karmaşık YEM hangi riskleri doğurur?
 
 5.  Güçlü bir YEM raporunda en az beş unsur yazınız.
+
+Yöntem belgelerine erişim: 6 Eylül 2026.

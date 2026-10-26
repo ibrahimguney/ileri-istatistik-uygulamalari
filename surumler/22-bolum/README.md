@@ -149,3 +149,7 @@ Aynı incelenmiş B yarısında ham/standart toplam payları ve tam beklenen par
 ## Revizyon 23: Bölüm 20
 
 Aynı B yarısında sabit çıpa kümeleri için gizil fark aralıkları, A1+A2 duyarlılık senaryosu, referans birimi dönüşümü ve model ortalama farkının bileşenleri eklendi. Seçim sonrası koşullu normal kuramlı çıkarımdır; tüm arama belirsizliği veya yeni doğrulama değildir. Ana veri/model/arama korunur; yeni ek yalnız Python.
+
+## Revizyon 24: Bölüm 21
+
+Aynı B yarısında K→A1/A2 MIMIC senaryoları ve aynı kovaryansı veren yapısal artık-rho ailesi eklendi. Ana dolaylı çarpım .190 iken rho=.3 varsayımında aynı uyumla .030 olur; bu varsayım veriden seçilemez. Yeni senaryolara bootstrap/aralık raporlanmaz; eski ana veri/kod/2000 bootstrap korunur. Yeni ek yalnız Python; nedensel etki veya yeni doğrulama iddiası yok.
