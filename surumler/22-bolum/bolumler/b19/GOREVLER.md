@@ -1,8 +1,6 @@
 # Bölüm 19 — görevler
 
-Güncel kitap bölümünün etkinlik ve alıştırmalarıdır. Önce kendi çözümünüzü
-üretin; ardından çözümleri kontrol edin. Kitap sayfa numaraları PDF sürümüne
-göre değişebilir.
+Güncel Revizyon 22 görevleri; önce kendiniz çözün.
 
 ## D1–D3: Modelden Önce
 
@@ -36,13 +34,21 @@ Yanıtlar Ek F, Bölüm 19’dadır (s. kitaptaki ilgili sayfa).
 
 ## H1: Hatalı Raporu Onarma
 
-> “Ki-kare anlamlı çıktığı için model reddedildi, yapı yok. Sonra MI listesine baktık, en büyük altı değeri ekleyince CFI .95’i geçti; model doğrulandı. CR .70’in üstünde olduğu için AVE’ye gerek kalmadı. Hata kovaryanslarını ekleyince güvenirlik de arttı. Veriyi ikiye böldüğümüz için bağımsız bir anakütlede kopyalama yapmış olduk.”
-
 Beş iddiayı sonuç ve yapılmayan işlem ayrımıyla düzeltin.
 
 ## P1: Bağımsız Doğrulama Protokolü
 
 Yeni bir örneklemde (örneğin Türkçe formun uygulandığı bir grupta) sınanacak model, önceden gerekçelendirilmiş alternatifler, hedef grup, örneklem planı, eksik veri/kestirici kararları ve modifikasyon sınırlarını içeren bir sayfalık protokol yazın. A1 ve A4 içeriği ile bu bölümde öngörülmeden görülen A4–C artıkları için kararları sonuçları görmeden tanımlayın. Gerçekte yapılmamış veri toplama veya uzman görüşmesini yapılmış gibi yazmayın. Rubrik: kaynak/ön işlem 20, model/hesap 30, belirsizlik/yorum 25, bağımsız doğrulama planı 15, yeniden üretim 10 puan.
+
+## T1–T3: Puan ve Aralık Denetimi
+
+1.  M1 A için ham toplam payı .706272 ile standart toplam payı .716047 neden farklıdır? Model veri-standart birimde kurulmuşken ham toplamın ağırlıkları nasıl yazılır?
+
+2.  CR/AVE aralığında neden tam parametre kovaryansı gerekir? M1 A’nın CR aralığı $[.692920,.739173]$ iken yalnız .70 eşiğine bakarak onay vermenin ve M1/M2 aralık örtüşmesini fark testi saymanın sorununu açıklayın.
+
+3.  M1’in iki AVE–$\phi^2$ farkı için Bonferroni aralıklarını yorumlayın. Ortak kapsama hangi aile içindir; hangi geçerlik ve doğrulama iddiaları yapılamaz?
+
+P1 dosyasına puan ağırlıklarını, hedef faktör payının hata tanımını, tam kovaryansla belirsizliği ve analizlerin ne zaman geliştirildiğini ekleyin.
 
 # Alıştırmalar
 
@@ -81,3 +87,5 @@ Yeni bir örneklemde (örneğin Türkçe formun uygulandığı bir grupta) sına
 4.  Kuramsal olarak güçlü bir maddenin yükü orta, hata varyansı yüksektir. Karar nasıl verilmelidir?
 
 5.  Güçlü bir DFA raporunda en az beş unsur yazınız.
+
+Yöntem belgelerine erişim: 6 Eylül 2026. Veri kaynağı ve bölme kaydı Bölüm <a href="#chap:faktor" data-reference-type="ref" data-reference="chap:faktor">[chap:faktor]</a> uygulama klasöründe belgelenmiştir.
