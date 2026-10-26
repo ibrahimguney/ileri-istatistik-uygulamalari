@@ -78,3 +78,11 @@ ters modelle aynı uyumu verir ve kesitsel veride zaman sırası yoktur.
 https://lavaan.ugent.be/tutorial/sem.html
 https://lavaan.ugent.be/tutorial/est.html
 https://lavaan.ugent.be/tutorial/mediation.html
+
+## Revizyon 24: ölçüm ve yapısal varsayım duyarlılığı
+
+[Ek uygulama](olcum-yapi-duyarliligi/README.md): K→A1/A2 MIMIC türü
+keşifsel senaryolar ve aynı kovaryansı veren yapısal artık-rho ailesi.
+Yeni senaryolar için bootstrap/aralık raporlanmadı; eski2000 çekilişli ana
+bootstrap korunur. Yeni ek yalnız Python; yedi test. Aynı B yarısıdır,
+nedensel etki veya yeni doğrulama iddiası yoktur.

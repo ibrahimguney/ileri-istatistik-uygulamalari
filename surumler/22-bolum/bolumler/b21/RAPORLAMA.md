@@ -17,3 +17,16 @@ Modifikasyon indeksleriyle otomatik yol/hata kovaryansı eklenmez; kuramsal gere
 
 Yalnız p değerine veya yazılımın başarı iletisine dayanmayın. Başka sürümün
 aynı numaralı bölümünü bu bölümün sonucu olarak raporlamayın.
+
+## Revizyon 24: ölçüm ve yapısal varsayım duyarlılığı
+
+Ana/A1/A1+A2 doğrudan gösterge yolu senaryolarında std.nox dolaylı
+çarpımlar.190225/.185939/.161933; doğrudan.023679/.027912/.051931.
+Toplam yaklaşık.2139. Aynı veride keşifsel MIMIC duyarlılığıdır;
+yeni doğrulama veya çok gruplu değişmezliğin yerine geçmez.
+Ayrı artık-rho senaryolarında rho0/.3/.6 için çarpım.190225/.029919/−.192082;
+gözlenen kovaryans ve T215.021837 her satırda aynıdır. Uyum rho'yu seçemez.
+.349627 nokta çarpımını sıfır yapan varsayımdır; rho tahmini/aralık eşiği değil.
+Yeni senaryolara bootstrap/aralık raporlanmadı; ana2000 çekilişli aralıklar
+onlara kopyalanmaz. İki aile birlikte seçilmedi. Yeni ek yalnız Python;
+eski veri/kod/ana bootstrap korunur; nedensel etki veya yeni doğrulama yoktur.
