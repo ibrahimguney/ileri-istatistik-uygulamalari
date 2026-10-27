@@ -91,3 +91,7 @@ Revizyon 12; kuramsal sınırlar ve yeni T1–T3 dahil.
 ## P1: MANOVA Planı
 
 Üç alanın ortak soru için gerekçesi, hedeflenen ortalama vektörü ve analiz birimi yazılır. Korelasyonlar tek başına yöntem veya bileşik puan seçtirmez. Birincil istatistik ve izleme ailesi sonuç görülmeden tanımlanır; örneğin Pillai ve üç sonuç için Holm/Bonferroni. Box M otomatik seçim anahtarı değildir. Bağımsızlık, grup-içi artıklar, kovaryans koşulluluğu ve kayıt doğrulama incelenir; uç değerler otomatik silinmez. Heterojen kovaryans ve eksik kayıt yaklaşımı için tasarıma uygun duyarlılık ayrıca planlanır; sıradan etiket permütasyonu gerekçesiz uygulanmaz. Ham farklar ve aileyle uyumlu aralıklar, tam tanımlanmış çok değişkenli özetler raporlanır; $V/s$ toplam varyans yüzdesi değildir. Ayırma yönünün keşif niteliği ve dış doğrulama sınırı yazılır. Örneklem gerekçesi en küçük önemli vektör farkı, kovaryans, grup oranları ve planlı testin kalibrasyon/gücünü kullanır; eksik izlem ayrıca hesaba katılır. Rubrik: kuram 20, analiz planı 30, varsayımlar 20, izleme 20, raporlama 10 puan.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Ortak vektör veya bir bileşim farklı olabilir; tekil hipotezler ve izleme ailesi ayrıca incelenir.

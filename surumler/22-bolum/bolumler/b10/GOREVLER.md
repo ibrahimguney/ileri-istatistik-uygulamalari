@@ -85,3 +85,17 @@ Kaynak sözlüğü, çalışan kod, iki grafik, bütün karşılaştırma tablol
 4.  Mann–Whitney U testi $p<.05$ verirken dağılım şekilleri çok farklıdır. Hangi dikkat gerekir?
 
 5.  Güçlü bir parametrik olmayan test raporunda bulunması gereken en az beş unsuru yazınız.
+
+## Çekirdek öğrenme rotası
+
+1. Sıra testinin hangi hipotezi sınadığını belirtir.
+2. Bağımsız, eşli ve bloklu tasarımları ayırır.
+3. Bağ, sıfır fark ve çoklu aile kararlarını raporlar.
+
+**İleri rota:** Üstünlük olasılığı, zayıf sıfır ve kesin/Monte Carlo hesapları temel sıra yorumundan sonra.
+
+**Ç1:** Mann–Whitney ile t testi her koşulda aynı ortalama farkını mı sınar?
+
+**Karar görevi:** Üstünlük olasılığı veya ortalama farkı hedefini seçin; yöntem değişince sorunun aynı kalıp kalmadığını açıklayın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

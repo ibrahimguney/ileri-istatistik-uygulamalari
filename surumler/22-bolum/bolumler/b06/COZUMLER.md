@@ -103,3 +103,7 @@ Tam puan için kaynak/ID denetimi (20), üç test ve yön (25), aralık/etki bü
 2.  Her grupta n=10 korunur; her kuyruktan iki değer konum hesabı dışında kalır, altı değer katkı verir. Ana dosyadan hayvan silinmez. Welch sıradan ortalama farkını, Yuen yüzde 20 kırpılmış anakütle ortalamaları farkını hedefler. Yuen varyans için winsorize dizi kullanır; bu dizi ham veri diye saklanmaz. p=.001038/.003369 sonuçlarından küçük olanı seçmek analiz planı değildir; ana hedef ve duyarlılık gerekçesi ayrı yazılır. Yuen yaklaşımı bağımsızlık ve küçük örneklem sorunlarını otomatik çözmez.
 
 3.  p\>.05 normalliği kanıtlamaz; küçük örneklemde tanının duyarlılığı düşük olabilir. p\<.05 ise sapmanın belirli hedef ve kestirici üzerindeki önemini tek başına ölçmez. Student’ın eş varyans varsayımı, Welch’in yayılım uyarlaması ve sıra testinin farklı hedefi tasarımla birlikte değerlendirilir. Eşli t’de kişi içi farklar ve çiftler arası bağımsızlık önemlidir; iki koşul sütununu ayrı ayrı test ederek eşleşme modeli doğrulanmaz. Q–Q, uç kayıt, seçilme/bağımlılık ve uygun duyarlılık birlikte raporlanır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Eşleşme korunur ve kişi içi farklar modellenir; bağımsızlık, kişiler arasındaki tasarım koşuludur.

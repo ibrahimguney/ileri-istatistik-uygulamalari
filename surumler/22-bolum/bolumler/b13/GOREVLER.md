@@ -99,3 +99,17 @@ Bu alıştırmalar çoklu doğrusal regresyon, lojistik regresyon, varsayım kon
 4.  Hiyerarşik regresyon ile standart çoklu regresyon raporlamasını karşılaştırınız.
 
 5.  Bir lojistik regresyon sonucunu odds oranı, güven aralığı ve pratik önem birlikte yer alacak biçimde raporlayınız.
+
+## Çekirdek öğrenme rotası
+
+1. Çoklu doğrusal modelde koşullu katsayıyı yorumlar.
+2. Lojistik modelde odds ile olasılığı ayırır.
+3. Model tanısı, kalibrasyon ve veri seçimini raporlar.
+
+**İleri rota:** Doğrusal ve lojistik kısım iki laboratuvara ayrılır; HC3, ayrışma ve olasılık kalibrasyonu ileri rotadır.
+
+**Ç1:** Başlangıç olasılığı .20 iken odds oranı 2 olması yeni olasılığın .40 olduğu anlamına gelir mi?
+
+**Karar görevi:** Lojistik raporda odds oranı veya belirli profilde olasılık sunumunu seçin; aynı ilişkiyi farklı ölçekte nasıl ifade ettiğinizi gösterin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

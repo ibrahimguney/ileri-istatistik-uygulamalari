@@ -96,3 +96,7 @@ Bu yanıtlar Bölüm 13’teki ilk 60 UCI kaydıyla model kurma ve sonraki 20 k
 Doğrusal G1 katsayısı 0.6396963, klasik standart hatası 0.0740429, HC3 standart hatası 0.2270434’tür. HC3 $t_{57}$ aralığı $[0.1850,1.0943]$’tür. Yaş için karşılık gelen HC3 aralığı $[-0.5375,1.5484]$ olur. Kaynak sırası 1’in kaldıracı 0.4534916 ve Cook uzaklığı 6.4827020’tır. Bu kayıt çıkarıldığında doğrusal G1/yaş katsayıları 0.8594205/0.0683148 olur. Lojistik G1/yaş katsayıları ise gösterilen basamaklarda 1.6523417/$-0.3199655$ olarak kalır. Duyarlılık model ve yanıt tanımına bağlıdır; otomatik silme gerekçesi değildir.
 
 G3 doğrusal modelde yanıt, `hedef14` lojistik modelde yanıttır. `hedef14`’ü G3 yordayıcısı yapmak gelecekteki yanıtı modele taşır; ayrıca lojistik yanıttan yine kendisini yordamak ayrışmaya yol açabilir. Tam puan için kaynak ve bilgi zamanı (20), katsayı/OR/aralıklar (25), gözlem etkisi–VIF–HC3 ayrımı (20), sabit-model aktarımı (20), kod ve ölçülü rapor (15) birlikte değerlendirilir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Başlangıç odds .25, yeni odds .50 ve yeni olasılık .50/1.50 yaklaşık .333 olur; diğer model koşulları aynı tutulur.

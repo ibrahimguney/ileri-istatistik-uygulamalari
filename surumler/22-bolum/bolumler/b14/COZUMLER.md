@@ -104,3 +104,7 @@ Kaynak, kodlama, merkezleme, yazılım/sürüm ve yeniden üretim komutları sak
 Beklenen denetim zinciri: 60 kayıt ve altı hücrede 10’ar gözlem; ortak/ayrı/hücre hata sd’leri 57/56/54; OJ–VC yönü ve 1 mg/gün merkezi; tekil ortalama aralıklarının fark aralıklarından ayrılmasıdır. Ayrı doğruların biçim testi $F(2,54)=8.399425$, hücre modelindeki genel grup–doz etkileşim testiyle aynı hipotez değildir.
 
 SPSS’te `oj=1` eksi `oj=0` satırı okunur. Ayrı/hücre çağrılarının genişletilmiş aralıkları üçlü aile içindir; ham p ayrıca $\min(3p,1)$ ile raporlanır. Aralığı bir kez daha genişletmek çift düzeltme olur. `duzeltilmis_ortalamalar.csv` ortalamaları, `karsilastirmalar.csv` kontrastları içerir. R sonuçları paketteki betikle doğrulanmıştır; SPSS sözdizimi aynı tanımlarla hazırlanmıştır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Toplam etki hedefini değiştirebilir ve karıştırıcılık sorunlarını kendiliğinden çözmez; zaman ve nedensel yapı gerekçelendirilir.

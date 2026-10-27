@@ -97,3 +97,17 @@ P1 planına çıpa duyarlılığını, seçim sonrası çıkarım sınırını, 
 4.  Kısmi değişmezlikte sorunlu maddeyi serbest bırakmak ile ölçekten çıkarmak arasındaki farkı tartışın.
 
 5.  Güçlü bir değişmezlik raporunda bulunması gereken en az beş unsuru yazın.
+
+## Çekirdek öğrenme rotası
+
+1. Değişmezlik düzeyini izin verdiği karşılaştırmayla eşler.
+2. Gizil farkın referans birimini açıklar.
+3. Kısmi değişmezlik ve çapa duyarlılığını raporlar.
+
+**İleri rota:** Ortalama yapısı, çapa seçimi ve seçilim sonrası belirsizlik; Bölüm 19 sonrasında.
+
+**Ç1:** Yalnız metrik değişmezlik desteklenince gizil ortalama farkı otomatik olarak karşılaştırılabilir mi?
+
+**Karar görevi:** Tam skaler veya A1 kesişimi serbest senaryoyu seçin; A farkını aynı referans biriminde karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

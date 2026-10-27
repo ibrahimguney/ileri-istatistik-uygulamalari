@@ -85,3 +85,17 @@ Yanıtlar Ek F, Bölüm 22’dedir (s. kitaptaki ilgili sayfa).
 5.  SPSS çıktısını güçlü akademik rapora dönüştürürken en az beş unsur yazınız.
 
 Yöntem belgelerine erişim: 6 Eylül 2026.
+
+## Çekirdek öğrenme rotası
+
+1. Veri, oturum ve analiz sözleşmesini birlikte denetler.
+2. Doğru çıktı tablosunu ve model satırını seçer.
+3. Gerçek yazılım yürütmesini referans hesaptan ayırır.
+
+**İleri rota:** OMS/CSV çıktı sözleşmesi ve yazılımlar arası karşılaştırma; gerçek SPSS oturumu ayrıca gereklidir.
+
+**Ç1:** Bir analiz.sps dosyasının bulunması SPSS çıktısının gerçekten üretildiğini kanıtlar mı?
+
+**Karar görevi:** Doğru yön/model satırı veya kasıtlı hatalı satırı denetleyin; sözleşmenin neyi yakaladığını ve neyi kanıtlamadığını gösterin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

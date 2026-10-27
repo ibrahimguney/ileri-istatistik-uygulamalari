@@ -104,3 +104,17 @@ Yerel kaynağın 20/60 satırını ve uyku verisinin 10 ID’sini doğrulayın. 
 2.  Doz 1’de Welch farkı 5.93, Yuen farkı 6.80’dir. Her kuyruktan yüzde 20 kırpıldığında kişi/grup sayısını, katkı veren sayıyı ve iki yöntemin hedefini ayırın. Daha küçük p’yi ana sonuç seçmek doğru mudur?
 
 3.  Küçük bir örnekte Shapiro p\>.05; başka bir örnekte p\<.05 olsun. Bu iki sonuç neden tek başına Student/Welch/sıra testi seçtirmez? Eşli veride tanının hangi değişkene ait olması gerektiğini açıklayın.
+
+## Çekirdek öğrenme rotası
+
+1. Bağımsız, eşli ve tek örneklem tasarımlarını ayırır.
+2. Fark yönü, standart hata ve aralığı birlikte raporlar.
+3. Student, Welch ve duyarlılık hedeflerini gerekçelendirir.
+
+**İleri rota:** Yuen, hata kalibrasyonu ve bütün çiftleri dışarıda bırakma ekleri; Bölüm 4–5 temellerinden sonra.
+
+**Ç1:** Aynı 18 kişinin önce ve sonra ölçümleri için iki grubu bağımsız saymak uygun mudur?
+
+**Karar görevi:** Aynı karşılaştırmada Student veya Welch modelini seçin; standart hata, serbestlik derecesi ve varsayım gerekçesini karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

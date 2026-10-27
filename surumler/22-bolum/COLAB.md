@@ -52,3 +52,11 @@ oturum bu ortamda yürütülmedi. R/SPSS/Amos da çalıştırılmış sayılmaz.
 GitHub Actions **Colab Notebook Execution** dört grupta tüm defterleri sınar.
 Çalıştırılmış defterler ve raporlar bu iş akışının kanıt dosyalarında korunur.
 Ana analiz ve veri dosyaları değiştirilmemiştir.
+
+## Öğrenci kararı ve kısa savunma
+
+Her defterin sonunda `karar_gunlugu` alanlarını kendi çalışmanızla doldurun.
+Tek değişiklik, önce/sonra kanıtı, gerekçe, belirsizlik/sınır, savunma ve Ç1 yanıtı
+istenir. Sonra çıktı ZIP’i hücresini tekrar çalıştırın. `ogrenci-karari.json`
+ZIP’e ve çalışma kaydına eklenir. Alanların dolu olması otomatik akademik onay
+değildir; öğretim elemanı kanıtı ve savunmayı değerlendirir.

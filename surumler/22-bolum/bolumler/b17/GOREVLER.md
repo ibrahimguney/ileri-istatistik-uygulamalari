@@ -87,3 +87,17 @@ P1 kanıt dosyasına puanın hedefini, güvenirlik modelini, belirsizlik yöntem
 5.  Güçlü bir güvenirlik raporunda bulunması gereken en az beş unsur yazınız.
 
 Çevrimiçi kaynaklara erişim tarihi: 5 Eylül 2026.
+
+## Çekirdek öğrenme rotası
+
+1. Güvenirliği puan ve kullanım bağlamıyla tanımlar.
+2. İç tutarlılığı geçerlik ve uyarlamadan ayırır.
+3. Anahtarlama, kayıt seçimi ve belirsizliği raporlar.
+
+**İleri rota:** Ortak kayıtta alfa farkı ve congeneric model/omega; Bölüm 18–19 ile birlikte derinleştirilebilir.
+
+**Ç1:** Alfa=.90, ölçeğin tek boyutlu ve Türkçe kullanım için geçerli olduğunu kanıtlar mı?
+
+**Karar görevi:** Ham veya standart madde toplamı puanını seçin; katsayı değişimini puan tanımı ve ortak kayıtlarla açıklayın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

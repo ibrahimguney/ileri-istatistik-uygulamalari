@@ -30,6 +30,9 @@ def execute(n,output,run_twice=False,isolated=False):
    with zipfile.ZipFile(z) as archive:
     assert archive.testzip() is None
     m=json.loads(archive.read('calisma-kaydi.json'))
+    journal=json.loads(archive.read('ogrenci-karari.json'))
+    assert journal['bolum']==n and journal['alanlar_dolu'] is False
+    assert journal==m['ogrenci_karari']
     if n==2:assert len(m['checks'])==9 and all(m['checks'].values())
     else:
      assert m['chapter']==n and all(not differences for differences in m['checks'].values())

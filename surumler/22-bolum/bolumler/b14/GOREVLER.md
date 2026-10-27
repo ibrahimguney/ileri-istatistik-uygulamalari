@@ -87,3 +87,17 @@ Yanıtlar Ek F, Bölüm 14’tedir (s. kitaptaki ilgili sayfa).
 5.  Güçlü bir ANCOVA raporunda bulunması gereken en az beş unsuru yazınız.
 
 Yöntem belgelerine erişim: 6 Eylül 2026.
+
+## Çekirdek öğrenme rotası
+
+1. ANCOVA modelinde grup, kovaryat ve hedefi belirtir.
+2. Kovaryat zamanı ve ortak desteği denetler.
+3. Koşullu ortalama ile marjinal hedefi ayırır.
+
+**İleri rota:** Ayrı eğimler, doğrusal olmayan doz ve hedef dağılım; Bölüm 13 doğrusal kısmından sonra.
+
+**Ç1:** İşlemden sonra oluşan bir aracı değişkeni kontrol etmek başlangıç farklarını güvenle gidermek demek midir?
+
+**Karar görevi:** Belirli doz düzeyi veya ortak doz dağılımı hedefini seçin; aynı modelde koşullu ve marjinal karşılaştırmayı ayırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

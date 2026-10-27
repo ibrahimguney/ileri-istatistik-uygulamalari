@@ -171,3 +171,10 @@ Bölüm başlıkları, kitap sayfaları ve kalan içerik kontrolleri için [kita
 [Atölye](https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/22-bolum/) ·
 [Ortak kullanım rehberi](surumler/22-bolum/COLAB.md).
 GitHub ana kaynak olarak korunur; yerel defterler de kullanılabilir.
+
+## Öğretim yolları ve öğrenci kararları
+
+[İki dönemlik ders planı](surumler/22-bolum/DERS-PLANI.md) ve
+[ön koşul haritası](surumler/22-bolum/ON-KOSULLAR.md) eklendi. Her bölümde
+üç çekirdek kazanım, ileri rota, çıkış sorusu ve yerel rubrik eşlemesi var.
+Colab çıktı ZIP’i, öğrenci kararını ve kısa savunmayı ayrıca saklar.

@@ -95,3 +95,7 @@ Bu yanıtlar Bölüm 11’deki UCI Portekizce dersi etkinliklerine aittir. İlk
 60 ayrı dışarıda bırakma hesabında Pearson en küçük 0.7278461 (kaynak sırası 16 veya 48 çıkarıldığında), en büyük 0.8658335 (sıra 1 çıkarıldığında) olur. Spearman en küçük 0.8222556 (sıra 16 veya 48 çıkarıldığında), en büyük 0.8498310 (sıra 40 çıkarıldığında) olur. Her hesap kalan 59 gözlemle ve yeniden oluşturulan sıralarla yapılır. Katsayı aralıkları güven aralığı değildir; gözlem duyarlılığını betimler.
 
 Tam puanlık rapor, bölümdeki rubriğe göre veri kaynağını ve seçimi (20), doğru grafik ve katsayıları (25), yeniden sıralanan 60 karşılaştırmayı (25), silme/genelleme ve çıkarım sınırlılıklarını (20), çalıştırılabilir kod ve sürümleri (10) içerir. Yalnızca beklenen katsayıları yazmak yeterli değildir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Pozitif doğrusal ilişki kusursuz olabilir; sabit 10 birim yanlılık ölçüm uyumunu bozar.

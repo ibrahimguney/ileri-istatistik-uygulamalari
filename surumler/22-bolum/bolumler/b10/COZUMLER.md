@@ -111,3 +111,7 @@ Bu yanıtlar ortak sleep/ToothGrowth dosyaları ve R belgesinden aktarılan 22 s
 Tam puan için 10 ID’nin doğru eşlenmesi, altı diş hücresinin 10’ar hayvan içermesi ve 22 satırlık blok matrisinin kaynağının açıklanması beklenir. Kaynak ve eşleme 20; bağ ve sıfırlar 20; kesin/yaklaşık yöntem 25; aile ve yorum 25; yeniden üretim 10 puandır.
 
 OJ Dunn, VC Dunn ve Friedman izleme çiftleri ayrı öğretim aileleridir. Holm p değerleri Tukey ortalama aralıklarıyla birleştirilmez. Ana paket sıra-biserial, A, W ve V için nokta tahminleri verir. Revizyon13 eki yalnız bağımsız iki gruptaki A ve dönüşümü için yaklaşık percentile bootstrap, eşli fark medyanı için sıra-istatistiği aralığı ekler. W ve V için aralık yoktur; bütün ölçüler için aralık üretilmiş sayılmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Hedefler dağılım ve model koşullarına bağlıdır; sıra testi otomatik olarak aynı ortalama veya medyan hipotezi değildir.

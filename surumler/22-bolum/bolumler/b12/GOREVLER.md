@@ -121,3 +121,17 @@ Bu alıştırmalar, basit doğrusal regresyonun katsayı yorumu, model uyumu, va
 4.  Aynı $X$ düzeyi için ortalama yanıtın güven aralığı ile tek bir yeni gözlemin tahmin aralığından hangisi daha geniştir? Nedenini açıklayınız.
 
 5.  Güçlü bir basit regresyon raporunda bulunması gereken en az beş unsuru yazınız.
+
+## Çekirdek öğrenme rotası
+
+1. Regresyon katsayısını bağlam ve birimle yorumlar.
+2. Artık, etkili gözlem ve genelleme sınırlarını inceler.
+3. Ortalama güven aralığı ile bireysel tahmini ayırır.
+
+**İleri rota:** HC3, LOOCV ve split conformal ayrı ileri rotalardır; eğitim/kalibrasyon/kontrol rolleri karıştırılmaz.
+
+**Ç1:** Ortalama yanıt için dar güven aralığı yeni öğrencinin notunun aynı dar aralıkta olacağını garanti eder mi?
+
+**Karar görevi:** Ortalama yanıt veya yeni birey tahmini hedefini seçin; G1=12 için uygun aralık türünü ve genişliğini karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

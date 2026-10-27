@@ -110,3 +110,7 @@ Bu arşiv için 100 kayıt korunur; A 5/5 n=99, C 5/5 n=98 ve ortak n=97 raporla
 2.  Boş anahtar gözlem kimliğini belirlemez; bazı yazılımlarda boşların birbirine eşleşmesi hatalı bağlantı yaratabilir. Tekrar bire bir çokluğu bozar ve satırları çoğaltabilir. “01” kodundaki baştaki sıfır anlamlı olabilir; sayısal 1’e dönüşüm ancak kaynağa dayalı açık kuralla yapılır. Burada sorunlu anahtarlar ayrı kontrol kopyalarında denenir; gerçek BFI kaynağında hata bulunduğu iddia edilmez. Tür eşitliği ve benzersizlik de yanlış ama aynı biçimde kodlanmış kimlikleri tek başına doğrulayamaz.
 
 3.  Eğitim ortalaması 1, doğru merkezlenmiş eğitim $(-1,1)$’dir. Eğitim+test ortalaması 51, bu ortalamayla eğitim $(-51,-49)$ olur. İkinci işlem test dağılımını eğitim temsilini kurmakta kullanmıştır. Sabit $7-x$ kuralı veri sözlüğünden bilinir; ortalama/s/atama parametreleri öğrenilir ve tahmin değerlendirmesinde eğitim katında kalır. Gelecekte bilinmeyen test sonucu kullanılamaz; buna karşılık çıkarım amaçlı MI’da gözlenen sonuç yardımcı olabilir. Kurgu BFI kişilik yanıtları değildir; tahmin başarımı hesaplanmamıştır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Aynı kişide birden çok eksik olabilir. Kişi sayısı maske üzerinden ayrıca sayılır; bu örnekte 2 ile 20 arasında olabilir.

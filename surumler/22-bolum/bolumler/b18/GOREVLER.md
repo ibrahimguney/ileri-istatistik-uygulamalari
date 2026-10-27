@@ -89,3 +89,17 @@ P1 dosyasına dört faktörlü sayısal denemeyi, puanlama amacını ve yöntemi
 5.  Güçlü bir AFA raporunda en az beş unsur yazınız.
 
 Çevrimiçi yöntem belgelerine erişim: 6 Eylül 2026.
+
+## Çekirdek öğrenme rotası
+
+1. PCA ile ortak faktör modelini ayırır.
+2. Faktör sayısını birden çok kanıtla gerekçelendirir.
+3. Örüntü, yapı ve puan belirsizliğini ayırır.
+
+**İleri rota:** PAF yinelemesi, Heywood denemesi ve koşullu puan belirsizliği; matematik köprüsü ve Bölüm 17 sonrasında.
+
+**Ç1:** Dört faktörlü bir denemenin Heywood sonucu vermesi gerçek faktör sayısının kesinlikle dört olmadığını kanıtlar mı?
+
+**Karar görevi:** Regresyon veya Bartlett puanlama yaklaşımını seçin; puan korelasyonunun gizil faktör korelasyonuna eşit olmadığını gösterin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

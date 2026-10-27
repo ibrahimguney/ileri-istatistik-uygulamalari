@@ -75,3 +75,15 @@ Revizyon 18; yeni T1–T3 dahil.
 4.  Grafik etkinin yönünü ve büyüklüğünü görünür kılar; test yalnız etkileşimin varlığına ilişkin kanıt sunar.
 
 5.  Rapor dolaylı/etkileşim katsayısı, bootstrap güven aralığı, basit eğimler ve kuramsal yorum içermelidir.
+
+## P1 öğretim notu
+
+Aynı 160 simülasyon kaydı korunur. Yol çarpımı ve nedensel etki için ek varsayımlar
+ayrılır. Rho=0/.3 karşılaştırması varsayımsal duyarlılıktır; yeni veri veya rho
+kestirimi değildir. Ana bootstrap aralığı yeni senaryoya otomatik taşınmaz.
+Alternatif açıklama ve gerekli dış kanıt yazılır. Farklı gerekçeli seçimler
+savunulabilir; rubriğin altı ölçütü ayrı değerlendirilir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Zaman sırası, müdahale/ölçüm tanımı, ortak destek ve uygun karıştırıcı varsayımları ayrıca gerekir; bootstrap bunları sağlamaz.

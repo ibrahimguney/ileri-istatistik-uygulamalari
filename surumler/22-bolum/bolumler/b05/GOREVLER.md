@@ -94,3 +94,17 @@ Bu alıştırmalar güç, etki büyüklüğü, örneklem büyüklüğü ve araş
 2.  Yarı genişlik en fazla 2 puan hedefinde yerine koymalı n=194 ile olasılık hedefli n=211’i ayırın. .906617 olasılığı %95 aralığın kapsama düzeyi veya test gücü müdür?
 
 3.  Sayısal integralin 100 000 tekrarla denetlenmesi yeni katılımcı sayısı veya gerçek pilot belirsizliği üretir mi? Güç/genişlik/tutulma olasılıklarını çarpmak neden ayrıca gerekçe ister?
+
+## Çekirdek öğrenme rotası
+
+1. Önemli farkı, beklenen etkiyi ve planlama varsayımlarını ayırır.
+2. Grup başına, toplam ve analiz edilebilir kişi sayılarını doğru belirtir.
+3. Güç, hassasiyet ve kayıt kaybı senaryolarını yorumlar.
+
+**İleri rota:** Merkezi olmayan t hesabı Bölüm 6 sonrasında; TOST ve gerçekleşen aralık genişliği ileri planlama rotasıdır.
+
+**Ç1:** Planlanan gücün .80 olması eldeki çalışmanın mutlaka anlamlı çıkacağını garanti eder mi?
+
+**Karar görevi:** Beklenen etki veya tutulma varsayımından yalnız birini değiştirin; gereken kişi sayısını ve değişmeyen bilimsel hedefi belirtin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

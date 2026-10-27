@@ -89,3 +89,17 @@ P1 planına ölçüm duyarlılığını, yapısal artık kısıtlarını, tanım
 5.  Güçlü bir YEM raporunda en az beş unsur yazınız.
 
 Yöntem belgelerine erişim: 6 Eylül 2026.
+
+## Çekirdek öğrenme rotası
+
+1. Ölçüm ve yapısal modeli ayırır.
+2. Yol katsayısını, belirsizliği ve uyumu birlikte okur.
+3. Eşdeğer uyumdan nedensel yön çıkarmaz.
+
+**İleri rota:** Gizil aracılık, MIMIC ve artık-rho duyarlılığı; Bölüm 15 ve 19 sonrasında.
+
+**Ç1:** Ok yönü ters çevrilince aynı kovaryans ve uyum elde edilmesi hangi yönün nedensel olduğunu belirler mi?
+
+**Karar görevi:** Yapısal rho=0 veya .3 varsayımını seçin; toplam ve dolaylı ilişkiyi aynı uyum altında karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

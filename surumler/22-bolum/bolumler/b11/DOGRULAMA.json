@@ -31,8 +31,15 @@
   "colab": {
     "status": "passed_with_jupyter_kernel",
     "inline_images": 1,
-    "source_notebook_sha256": "e0a492aa3c61d933e7b3af2a06dc5818098c97bcfb9e1f3ffe2831215b8c4399",
+    "source_notebook_sha256": "48ba05b0b9978a0a840064b39f935266fbb5ac6a797e657c240f2ce615f5c8d4",
     "colab_ui_executed": false,
-    "report": "../../dogrulama/colab-22.json"
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 27,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
   }
 }

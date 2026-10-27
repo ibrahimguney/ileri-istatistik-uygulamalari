@@ -97,3 +97,17 @@ P1 planınıza hedef birimi, büyüklük dağılımını, bilinen/yeni küme hed
 4.  Küme-sağlam standart hatalı OLS ile çok düzeyli model ne zaman tercih edilir?
 
 5.  Güçlü bir çok düzeyli model raporunda bulunması gereken en az beş unsuru yazın.
+
+## Çekirdek öğrenme rotası
+
+1. İç içe veride birimleri ve bağımlılığı tanımlar.
+2. Grup içi ve gruplar arası hedefleri ayırır.
+3. Merkezleme ve yeni grup tahminini gerekçelendirir.
+
+**İleri rota:** Rastgele eğimler, sınırda testler, REML ve hedef ağırlıkları; Bölüm 8 ve 13 sonrasında.
+
+**Ç1:** ICC=.10, her regresyon katsayısının tasarım etkisinin aynı olduğu anlamına gelir mi?
+
+**Karar görevi:** Öğrenci ağırlıklı veya okul ağırlıklı hedefi seçin; ortalama ve yorum biriminin değişimini gösterin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).
