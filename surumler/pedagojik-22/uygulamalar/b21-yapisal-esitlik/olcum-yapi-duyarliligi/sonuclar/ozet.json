@@ -1,0 +1,136 @@
+{
+  "n": 1316,
+  "measurement_scenarios": {
+    "baseline": {
+      "direct_indicator_paths": [],
+      "chi2": 215.02183672240017,
+      "df": 39,
+      "points": {
+        "a_stdnox": 0.5297674149464678,
+        "b_std": 0.3590730789496123,
+        "c_prime_stdnox": 0.023679017585375325,
+        "indirect_stdnox": 0.19022521681200508,
+        "total_stdnox": 0.2139042343973804
+      }
+    },
+    "direct_A1": {
+      "direct_indicator_paths": [
+        "A1"
+      ],
+      "chi2": 203.76089983577688,
+      "df": 38,
+      "jacobian_rank": 28,
+      "points": {
+        "a_stdnox": 0.5183997199125502,
+        "b_std": 0.35867794280070764,
+        "c_prime_stdnox": 0.027911871644962772,
+        "indirect_stdnox": 0.18593854508669652,
+        "total_stdnox": 0.21385041673165928
+      },
+      "direct_coefficients": {
+        "A1": 0.1933456440231064
+      }
+    },
+    "direct_A1_A2": {
+      "direct_indicator_paths": [
+        "A1",
+        "A2"
+      ],
+      "chi2": 192.44168507471556,
+      "df": 37,
+      "jacobian_rank": 29,
+      "points": {
+        "a_stdnox": 0.45784003175336624,
+        "b_std": 0.3536885198210317,
+        "c_prime_stdnox": 0.0519308830717695,
+        "indirect_stdnox": 0.16193276314566224,
+        "total_stdnox": 0.21386364621743176
+      },
+      "direct_coefficients": {
+        "A1": 0.24315621706271465,
+        "A2": 0.18117768367390746
+      }
+    }
+  },
+  "structural_sensitivity": {
+    "conditional_covariance": [
+      [
+        0.08663656662486595,
+        0.05209155445467671
+      ],
+      [
+        0.05209155445467671,
+        0.25622574234457757
+      ]
+    ],
+    "rho_zero_point": 0.349627287458055,
+    "rows": [
+      {
+        "rho": -0.3,
+        "b": 1.1079634703170353,
+        "c_prime": -0.06950800396528503,
+        "psi_C": 0.2471482442827242,
+        "residual_covariance": -0.0438985965593628,
+        "indirect": 0.17832978046410153,
+        "total": 0.1088217764988165,
+        "indirect_stdnox": 0.3505318180579548,
+        "c_prime_stdnox": -0.13662758366057437,
+        "total_stdnox": 0.21390423439738043,
+        "chi2": 215.0218367223955
+      },
+      {
+        "rho": 0.0,
+        "b": 0.6012652218806381,
+        "c_prime": 0.012046478493736676,
+        "psi_C": 0.22490490229727902,
+        "residual_covariance": 0.0,
+        "indirect": 0.09677529800507982,
+        "total": 0.1088217764988165,
+        "indirect_stdnox": 0.19022521681200516,
+        "c_prime_stdnox": 0.023679017585375262,
+        "total_stdnox": 0.21390423439738043,
+        "chi2": 215.0218367223955
+      },
+      {
+        "rho": 0.3,
+        "b": 0.09456697344424103,
+        "c_prime": 0.09360096095275838,
+        "psi_C": 0.2471482442827242,
+        "residual_covariance": 0.0438985965593628,
+        "indirect": 0.015220815546058109,
+        "total": 0.1088217764988165,
+        "indirect_stdnox": 0.029918615566055518,
+        "c_prime_stdnox": 0.1839856188313249,
+        "total_stdnox": 0.21390423439738043,
+        "chi2": 215.02183672240017
+      },
+      {
+        "rho": 0.349627287458055,
+        "b": 0.0,
+        "c_prime": 0.1088217764988165,
+        "psi_C": 0.25622574234457757,
+        "residual_covariance": 0.05209155445467671,
+        "indirect": 0.0,
+        "total": 0.1088217764988165,
+        "indirect_stdnox": 0.0,
+        "c_prime_stdnox": 0.21390423439738043,
+        "total_stdnox": 0.21390423439738043,
+        "chi2": 215.02183672240017
+      },
+      {
+        "rho": 0.6,
+        "b": -0.6071330843013164,
+        "c_prime": 0.2065415231660654,
+        "psi_C": 0.3514139098394985,
+        "residual_covariance": 0.10469148036290807,
+        "indirect": -0.09771974666724888,
+        "total": 0.1088217764988165,
+        "indirect_stdnox": -0.19208166112405972,
+        "c_prime_stdnox": 0.40598589552144015,
+        "total_stdnox": 0.21390423439738043,
+        "chi2": 215.02183672240017
+      }
+    ]
+  },
+  "limits": "Same inspected B half; MIMIC direct K-to-indicator paths are exploratory uniform-DIF sensitivity, not multi-group invariance or causal effects. Rho is assumed, not estimated; covariance/fit is identical across rho. No intervals/bootstrap for new scenarios, ordinal/robust analysis, selection adjustment or new validation. Original 2000-draw bootstrap applies only to original model."
+}

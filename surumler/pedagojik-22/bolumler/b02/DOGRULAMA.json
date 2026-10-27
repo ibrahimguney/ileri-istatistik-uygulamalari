@@ -1,0 +1,55 @@
+{
+  "book_chapter": 2,
+  "title": "Betimsel İstatistik",
+  "version": "pedagojik-22",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  },
+  "revision_6_summary_selection": {
+    "status": "passed",
+    "tests": 3,
+    "reference": "../../uygulamalar/b02-betimsel-istatistik/ozet-secimi/sonuclar/ozet.json",
+    "R_SPSS": "no_equivalent_module"
+  },
+  "colab_pilot": {
+    "status": "passed_in_clean_python_directory",
+    "code_cells": 10,
+    "checks_per_run": 9,
+    "runs": 2,
+    "corrupt_source_rejected": true,
+    "colab_ui_executed": false,
+    "source_commit": "047d96c3d18ef77bc127ca5b106f6a64d3083e79",
+    "report": "../../dogrulama/colab-pilot.json"
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "cf95260483d31302845eebd7e759b0afb32e130f9848da90dc26332633f7d9c4",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 28,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
+  },
+  "source_number": 2
+}

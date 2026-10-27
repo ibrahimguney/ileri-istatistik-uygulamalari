@@ -1,0 +1,46 @@
+{
+  "book_chapter": 15,
+  "title": "Aracılık ve Düzenleyicilik Analizleri",
+  "version": "pedagojik-22",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  },
+  "revision_18_mediation_regions": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b15-aracilik-duzenleyicilik/duyarlilik-bolgeler/sonuclar/ozet.json",
+    "rho_intervals": false,
+    "HC3_cluster_band": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "110189d4c6ad1eded140622d30ca312f2cc1bf6457b3f1c1c46228c26be68697",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 28,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
+  },
+  "source_number": 15
+}

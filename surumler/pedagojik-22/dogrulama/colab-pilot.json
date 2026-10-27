@@ -1,0 +1,30 @@
+{
+  "notebook": "bolumler/b02/colab.ipynb",
+  "notebook_sha256": "cf95260483d31302845eebd7e759b0afb32e130f9848da90dc26332633f7d9c4",
+  "clean_directory": true,
+  "runs": [
+    {
+      "run": 1,
+      "success": true,
+      "checks": 9
+    },
+    {
+      "run": 2,
+      "success": true,
+      "checks": 9
+    }
+  ],
+  "corrupt_source_rejected": true,
+  "versions": {
+    "Python": "3.12.14",
+    "NumPy": "2.5.4",
+    "pandas": "3.1.0",
+    "Matplotlib": "3.11.2",
+    "SciPy": "1.18.1"
+  },
+  "source_commit": "047d96c3d18ef77bc127ca5b106f6a64d3083e79",
+  "source_sha256": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
+  "code_cells": 10,
+  "colab_ui_executed": false,
+  "scope": "Python hücreleri yeni alt süreçlerde yürütüldü; gerçek Google Colab oturumu değildir."
+}

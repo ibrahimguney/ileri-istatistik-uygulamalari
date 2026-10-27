@@ -1,0 +1,110 @@
+{
+  "n_half_A": 1316,
+  "half_B_responses_read": false,
+  "four_factor_PAF": {
+    "factors": 4,
+    "converged": false,
+    "iterations": 2000,
+    "last_change": 0.00012814063223835347,
+    "max_communality": 1.669406519182465,
+    "heywood": true,
+    "accepted_for_interpretation": false
+  },
+  "regression_scores": {
+    "factor_correlation": [
+      [
+        1.0,
+        0.3171117054874822
+      ],
+      [
+        0.3171117054874822,
+        1.0
+      ]
+    ],
+    "conditional_covariance": [
+      [
+        0.22369352256705,
+        0.0174040235729106
+      ],
+      [
+        0.0174040235729106,
+        0.2444318136680137
+      ]
+    ],
+    "model_score_covariance": [
+      [
+        0.77630647743295,
+        0.2997076819145716
+      ],
+      [
+        0.2997076819145716,
+        0.7555681863319863
+      ]
+    ],
+    "model_score_correlation": [
+      [
+        1.0000000000000002,
+        0.391331166974677
+      ],
+      [
+        0.391331166974677,
+        0.9999999999999999
+      ]
+    ],
+    "empirical_score_correlation": [
+      [
+        1.0,
+        0.3910783637529264
+      ],
+      [
+        0.3910783637529264,
+        1.0
+      ]
+    ],
+    "determinacy_under_model": [
+      0.8810825599414336,
+      0.8692342528524669
+    ],
+    "conditional_sd": [
+      0.4729624959413273,
+      0.4944004588064353
+    ],
+    "conditional_normal_halfwidth95": [
+      0.9269894580831729,
+      0.9690070932006918
+    ]
+  },
+  "bartlett_scores": {
+    "model_score_correlation": [
+      [
+        1.0000000000000002,
+        0.23885780628790657
+      ],
+      [
+        0.23885780628790657,
+        1.0
+      ]
+    ],
+    "empirical_score_correlation": [
+      [
+        1.0,
+        0.2385798524242147
+      ],
+      [
+        0.23857985242421467,
+        1.0
+      ]
+    ],
+    "model_mean_square_error": [
+      [
+        0.29558247168766444,
+        -0.0031990231287881915
+      ],
+      [
+        -0.0031990231287881902,
+        0.33313392874139525
+      ]
+    ]
+  },
+  "limits": "Fixed estimated two-factor model, normal working-model conditional moments; excludes loading/rotation/factor-number uncertainty. No bootstrap stability, ordinal model, new-population validation or individual diagnosis. Four-factor attempt is a numerical diagnostic, not factor-count proof."
+}

@@ -1,0 +1,108 @@
+{
+  "source_sha256": "9321303749cb463059b1d807acc39472d2181e7cf372fd9018a7623185eb7103",
+  "training_n": 60,
+  "training_events": 19,
+  "audit_n": 20,
+  "audit_events": 5,
+  "profiles": [
+    {
+      "age": 16,
+      "G1": 10,
+      "eta": -5.668360989050575,
+      "eta_SE": 1.5136110066241573,
+      "p": 0.003441635239104287,
+      "probability_CI_95": [
+        0.00017774478845647095,
+        0.06287088267140883
+      ]
+    },
+    {
+      "age": 16,
+      "G1": 12,
+      "eta": -2.363677563492786,
+      "eta_SE": 0.8123188066349593,
+      "p": 0.08598472939142918,
+      "probability_CI_95": [
+        0.01878388953697251,
+        0.31614132016418306
+      ]
+    },
+    {
+      "age": 16,
+      "G1": 13,
+      "eta": -0.7113358507138914,
+      "eta_SE": 0.7261015146754425,
+      "p": 0.3293037332349692,
+      "probability_CI_95": [
+        0.10579151181817384,
+        0.6707981022121422
+      ]
+    },
+    {
+      "age": 16,
+      "G1": 14,
+      "eta": 0.941005862065003,
+      "eta_SE": 0.9218883689848251,
+      "p": 0.7193027920815541,
+      "probability_CI_95": [
+        0.29611603366087574,
+        0.9397931612259343
+      ]
+    }
+  ],
+  "age16_G1_12_to_13": {
+    "p0": 0.08598472939142918,
+    "p1": 0.3293037332349692,
+    "probability_difference": 0.24331900384354002,
+    "delta_SE": 0.11462988485187071,
+    "delta_Wald_CI_95": [
+      0.018648557981899905,
+      0.46798944970518014
+    ],
+    "gradient": [
+      0.14227142880956958,
+      1.9281199302273166,
+      0.0
+    ]
+  },
+  "conditional_G1_OR": 5.219187366077062,
+  "audit_fixed_logit_transforms": [
+    {
+      "multiplier": 0.5,
+      "AUC": 0.76,
+      "Brier": 0.13997681996928782,
+      "log_loss": 0.46328081625137313,
+      "mean_predicted": 0.35574892307864614,
+      "observed_fraction": 0.25,
+      "observed_minus_predicted": -0.10574892307864614,
+      "accuracy_at_half": 0.85
+    },
+    {
+      "multiplier": 1.0,
+      "AUC": 0.76,
+      "Brier": 0.1318601233822208,
+      "log_loss": 0.534289061965524,
+      "mean_predicted": 0.3048777937350593,
+      "observed_fraction": 0.25,
+      "observed_minus_predicted": -0.05487779373505928,
+      "accuracy_at_half": 0.85
+    },
+    {
+      "multiplier": 2.0,
+      "AUC": 0.76,
+      "Brier": 0.13563866759838047,
+      "log_loss": 0.8215716774535473,
+      "mean_predicted": 0.26486053362335593,
+      "observed_fraction": 0.25,
+      "observed_minus_predicted": -0.0148605336233559,
+      "accuracy_at_half": 0.85
+    }
+  ],
+  "limits": "Pointwise model-based normal/delta intervals, not Bernoulli future-observation prediction intervals or causal effects. Transform grid is algebra teaching, no selection/recalibration fitted on audit20. No calibration slope/curve, uncertainty for metrics, penalty or external validation.",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

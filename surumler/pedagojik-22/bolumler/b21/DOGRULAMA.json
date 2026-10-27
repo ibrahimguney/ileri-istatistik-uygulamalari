@@ -1,0 +1,47 @@
+{
+  "book_chapter": 21,
+  "title": "Yapısal Eşitlik Modeli",
+  "version": "pedagojik-22",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  },
+  "revision_24_sem_sensitivity": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b21-yapisal-esitlik/olcum-yapi-duyarliligi/sonuclar/ozet.json",
+    "new_scenario_intervals": false,
+    "rho_estimated": false,
+    "new_validation": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "13ea45006323c55fb12cb48acd2f2daa5495e06f29c9b5a3d1d9e6953c39a58c",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 28,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
+  },
+  "source_number": 21
+}

@@ -1,0 +1,2 @@
+half_width_target,sigma,CI_level,target_probability,n_per_group,total,previous_probability,probability,probability_at_plugin_n194,MC_probability
+2.0,10.0,0.95,0.9,211,422,0.8936329246729456,0.9066173251827923,0.5300728132400114,0.90646

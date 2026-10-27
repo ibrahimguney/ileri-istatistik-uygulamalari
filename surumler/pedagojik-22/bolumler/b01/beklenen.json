@@ -1,0 +1,174 @@
+{
+  "source_normalized_sha256": "51dcab9aeaa121123dd28a00156d4dfa398c38eecad69bd5699ae4cea03e5ee9",
+  "source_raw_sha256": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
+  "remote_cells_verified": false,
+  "seed": 20260906,
+  "n": 80,
+  "school_counts": {
+    "GP": 80
+  },
+  "grade_sum": 1011,
+  "grade_mean": 12.6375,
+  "grade_range": [
+    7,
+    17
+  ],
+  "G1_zero_count": 1,
+  "band_counts": {
+    "0-9": 2,
+    "10-14": 63,
+    "15-20": 15
+  },
+  "band_percent": {
+    "0-9": 2.5,
+    "10-14": 78.75,
+    "15-20": 18.75
+  },
+  "samples": [
+    {
+      "yontem": "basit_rastgele",
+      "satirlar": [
+        21,
+        23,
+        26,
+        34,
+        40,
+        44,
+        56,
+        59,
+        60,
+        62
+      ],
+      "n": 10,
+      "ortalama": 13.2,
+      "cerceve_ortalamasindan_fark": 0.5625
+    },
+    {
+      "yontem": "sistematik_r3",
+      "satirlar": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75
+      ],
+      "n": 10,
+      "ortalama": 12.2,
+      "cerceve_ortalamasindan_fark": -0.4375
+    },
+    {
+      "yontem": "ilk10",
+      "satirlar": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "n": 10,
+      "ortalama": 13.0,
+      "cerceve_ortalamasindan_fark": 0.3625000000000007
+    }
+  ],
+  "systematic_starts": [
+    {
+      "baslangic": 1,
+      "n": 10,
+      "ortalama": 12.8
+    },
+    {
+      "baslangic": 2,
+      "n": 10,
+      "ortalama": 13.1
+    },
+    {
+      "baslangic": 3,
+      "n": 10,
+      "ortalama": 12.2
+    },
+    {
+      "baslangic": 4,
+      "n": 10,
+      "ortalama": 12.4
+    },
+    {
+      "baslangic": 5,
+      "n": 10,
+      "ortalama": 12.4
+    },
+    {
+      "baslangic": 6,
+      "n": 10,
+      "ortalama": 13.0
+    },
+    {
+      "baslangic": 7,
+      "n": 10,
+      "ortalama": 12.2
+    },
+    {
+      "baslangic": 8,
+      "n": 10,
+      "ortalama": 13.0
+    }
+  ],
+  "periodic_example_is_synthetic": true,
+  "periodic_means": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "missing_example_is_modified_copy": true,
+  "masked_rows": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_example": {
+    "valid_n": 76,
+    "high_count": 15,
+    "percent_all": 18.75,
+    "percent_valid": 19.736842105263158
+  },
+  "long_rows": 160,
+  "independent_students_not_increased": true,
+  "synthetic_stem_leaves": {
+    "2": [
+      1,
+      4,
+      4,
+      6,
+      7,
+      7
+    ],
+    "3": [
+      0,
+      2,
+      8
+    ],
+    "4": [
+      1
+    ]
+  },
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9"
+  }
+}

@@ -1,0 +1,42 @@
+name: Pedagogical Chapter Validation
+on:
+  pull_request:
+    paths:
+      - "surumler/pedagojik-22/**"
+      - ".github/workflows/pedagojik-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "surumler/pedagojik-22/**"
+      - ".github/workflows/pedagojik-validation.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: surumler/pedagojik-22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the tested environment
+        run: python -m pip install -r requirements-tested.txt
+      - name: Check validation policy
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Check all 22 analyses and notebooks
+        run: python tools/dogrula_22.py --analyses --report "$RUNNER_TEMP/kitap22/validation.json"
+      - name: Execute the Colab pilot in a clean directory
+        run: python tools/colab_dogrula.py --report "$RUNNER_TEMP/kitap22/colab-pilot.json"
+      - name: Preserve validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-22-validation
+          path: ${{ runner.temp }}/kitap22/
