@@ -1,0 +1,46 @@
+{
+  "book_chapter": 8,
+  "title": "Tekrarlı Ölçümler ve Karma Desenler",
+  "version": "pedagojik-22",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  },
+  "revision_11_incomplete_followup": {
+    "status": "passed",
+    "tests": 5,
+    "reference": "../../uygulamalar/b08-tekrarli-olcumler/eksik-izlem/sonuclar/ozet.json",
+    "small_sample_df_correction": false,
+    "MNAR_sensitivity": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "70bd9544c557de25d7e82d43a7fb8a481081a00dcc809c1af19e6bfc0a3ce62a",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 28,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
+  },
+  "source_number": 8
+}

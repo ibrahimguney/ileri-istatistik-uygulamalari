@@ -1,0 +1,35 @@
+name: Pedagogical Pages Smoke Test
+on:
+  push:
+    branches: [main]
+    paths: ["surumler/pedagojik-22/**", ".github/workflows/pedagojik-pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify deployed new chapter identities and preserved legacy URLs
+        shell: python
+        run: |
+          import urllib.request,time,json,zipfile,io
+          base='https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/'
+          def get(path,needle=None):
+            for i in range(18):
+              try:
+                data=urllib.request.urlopen(base+path,timeout=30).read()
+                if needle is not None: assert needle.encode() in data
+                return data
+              except Exception:
+                if i==17:raise
+                time.sleep(10)
+          get('pedagojik-22/', 'Pedagojik')
+          mapping=json.loads(get('pedagojik-22/BOLUM_ESLESMESI.json'))
+          for e in mapping['chapters']:
+            text=get('pedagojik-22/'+e['page'], 'data-book-version="pedagojik-22"').decode()
+            assert f'data-chapter="b{e["number"]:02}"' in text
+            assert e['title'] in text
+            get(f'22-bolum/bolumler/b{e["source_number"]:02}/',e['title'])
+          package=get('pedagojik-22/ogrenci-paketi-22-bolum.zip')
+          with zipfile.ZipFile(io.BytesIO(package)) as z: assert z.testzip() is None

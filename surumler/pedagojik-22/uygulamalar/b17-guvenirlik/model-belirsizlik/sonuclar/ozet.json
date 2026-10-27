@@ -1,0 +1,44 @@
+{
+  "common_records": {
+    "n": 97,
+    "alpha_A": 0.6276136046835795,
+    "alpha_C": 0.7226856283331053,
+    "difference_C_minus_A": 0.09507202364952583,
+    "seed": 202617,
+    "resamples": 20000,
+    "method": "paired participant-row percentile, linear quantiles",
+    "ci95": [
+      -0.06218041467010633,
+      0.2686145693911529
+    ],
+    "bootstrap_sd": 0.08382024432707244,
+    "invalid_draws": 0
+  },
+  "population_examples": {
+    "tau_equivalent": {
+      "alpha": 0.8277027027027026,
+      "score_reliability": 0.8277027027027026,
+      "total_variance": 14.8,
+      "error_variance": 2.55,
+      "sem": 1.5968719422671311,
+      "illustrative_independent_change_threshold": 4.42622186356943
+    },
+    "congeneric": {
+      "alpha": 0.7334710743801653,
+      "score_reliability": 0.7438016528925621,
+      "total_variance": 12.1,
+      "error_variance": 3.0999999999999996,
+      "sem": 1.7606816861659007,
+      "illustrative_independent_change_threshold": 4.880270964639522
+    },
+    "correlated_errors": {
+      "alpha": 0.75,
+      "score_reliability": 0.72,
+      "total_variance": 12.5,
+      "error_variance": 3.4999999999999996,
+      "sem": 1.8708286933869707,
+      "illustrative_independent_change_threshold": 5.185577281736227
+    }
+  },
+  "limits": "First 100 source records, complete common cases; paired bootstrap preserves A-C dependence. Difference of observed alpha functionals, not proof of better construct validity or population reliability. Model examples are stipulated covariance calculations, not fitted IPIP omega; no clinical or longitudinal threshold validation."
+}

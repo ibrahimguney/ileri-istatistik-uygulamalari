@@ -1,0 +1,45 @@
+{
+  "book_chapter": 7,
+  "title": "Varyans Analizi (ANOVA)",
+  "version": "pedagojik-22",
+  "python": {
+    "status": "passed",
+    "rtol": 1e-05,
+    "atol": 1e-07,
+    "tested_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "source_application_unchanged": true
+  },
+  "R": {
+    "status": "not_run_for_this_delivery"
+  },
+  "SPSS_Amos": {
+    "status": "not_run_for_this_delivery"
+  },
+  "revision_25": {
+    "status": "passed",
+    "tests": 7,
+    "reference": "../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/sonuclar/ozet.json",
+    "SPSS_executed": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 3,
+    "source_notebook_sha256": "b68a27602c89dc850e7194f11149e3630b4cef9469029f087fb9a8ca0847b908",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json",
+    "student_decision_export": "verified"
+  },
+  "teaching": {
+    "revision": 28,
+    "core_outcomes": 3,
+    "exit_question": true,
+    "local_rubric_sum": 100
+  },
+  "source_number": 7
+}

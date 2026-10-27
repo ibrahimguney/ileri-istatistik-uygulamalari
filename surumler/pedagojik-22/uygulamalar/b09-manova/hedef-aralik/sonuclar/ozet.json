@@ -1,0 +1,137 @@
+{
+  "source_sha256": "1eebcf05961dd2f569b545e5456c0fd2e5c8b5a79cd82770f3b0a06c31230fce",
+  "complete_case_policy": "All three original outcomes: 687; SATV/SATQ analysis uses same people",
+  "original": {
+    "n1": 245,
+    "n2": 442,
+    "p": 2,
+    "alpha": 0.05,
+    "difference": [
+      4.7008126327453965,
+      39.8779942746329
+    ],
+    "pooled_T2": 28.654886133196985,
+    "pooled_F": 14.306527091318786,
+    "pooled_df": [
+      2,
+      684
+    ],
+    "pooled_p": 8.188345167282681e-07,
+    "unpooled_Wald_chi2": 29.051772898601794,
+    "unpooled_asymptotic_p": 4.914594273953475e-07,
+    "intervals": [
+      {
+        "position": 0,
+        "difference": 4.7008126327453965,
+        "pooled_SE": 9.028694228944515,
+        "marginal": [
+          -13.026425165083847,
+          22.42805043057464
+        ],
+        "bonferroni_family": [
+          -15.580712430055925,
+          24.98233769554672
+        ],
+        "hotelling_all_directions": [
+          -17.46381382740561,
+          26.865439092896402
+        ]
+      },
+      {
+        "position": 1,
+        "difference": 39.8779942746329,
+        "pooled_SE": 9.09055170484239,
+        "marginal": [
+          22.02930345635472,
+          57.72668509291107
+        ],
+        "bonferroni_family": [
+          19.457516234143785,
+          60.29847231512201
+        ],
+        "hotelling_all_directions": [
+          17.56151331456441,
+          62.194475234701386
+        ]
+      }
+    ]
+  },
+  "affine_transformed": {
+    "n1": 245,
+    "n2": 442,
+    "p": 2,
+    "alpha": 0.05,
+    "difference": [
+      0.0470081263274551,
+      0.3517718164188759
+    ],
+    "pooled_T2": 28.654886133197316,
+    "pooled_F": 14.306527091318953,
+    "pooled_df": [
+      2,
+      684
+    ],
+    "pooled_p": 8.188345167281387e-07,
+    "unpooled_Wald_chi2": 29.051772898602067,
+    "unpooled_asymptotic_p": 4.914594273952809e-07,
+    "intervals": [
+      {
+        "position": 0,
+        "difference": 0.0470081263274551,
+        "pooled_SE": 0.0902869422894452,
+        "marginal": [
+          -0.13026425165083744,
+          0.22428050430574764
+        ],
+        "bonferroni_family": [
+          -0.15580712430055824,
+          0.24982337695546844
+        ],
+        "hotelling_all_directions": [
+          -0.17463813827405508,
+          0.26865439092896526
+        ]
+      },
+      {
+        "position": 1,
+        "difference": 0.3517718164188759,
+        "pooled_SE": 0.07579140897582588,
+        "marginal": [
+          0.2029604494728426,
+          0.5005831833649091
+        ],
+        "bonferroni_family": [
+          0.18151847504861024,
+          0.5220251577891415
+        ],
+        "hotelling_all_directions": [
+          0.16571077301214823,
+          0.5378328598256036
+        ]
+      }
+    ]
+  },
+  "transformation": [
+    [
+      0.01,
+      0.0
+    ],
+    [
+      -0.01,
+      0.01
+    ]
+  ],
+  "shift": [
+    2.0,
+    -3.0
+  ],
+  "asymptotic_Wald_small_sample_calibration": false,
+  "permutation_performed": false,
+  "interval_assumptions": "Independent multivariate normal observations; common positive-definite covariance for pooled intervals",
+  "interpretation": "Observational self-report sample; no causal or national population claim",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  }
+}

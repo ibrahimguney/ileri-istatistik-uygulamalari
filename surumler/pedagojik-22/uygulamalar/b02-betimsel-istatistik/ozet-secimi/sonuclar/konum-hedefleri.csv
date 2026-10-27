@@ -1,0 +1,3 @@
+variable,n,mean,median,trimmed_mean_20_percent_each_tail,trimmed_each_tail,trimmed_retained,Q3_type7,Q3_inverse_ecdf
+G1,80,12.175,12.0,12.1875,16,48,13.25,13.0
+G3,80,12.6375,12.0,12.458333333333334,16,48,14.0,14.0

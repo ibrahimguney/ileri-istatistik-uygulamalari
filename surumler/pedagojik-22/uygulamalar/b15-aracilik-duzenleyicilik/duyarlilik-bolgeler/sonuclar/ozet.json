@@ -1,0 +1,82 @@
+{
+  "simulation": true,
+  "n": 160,
+  "generation_seed": 202609,
+  "full_precision_generator": true,
+  "csv_rounded_6_checked": true,
+  "mediation": {
+    "a": 0.6332791890800777,
+    "b_OLS": 0.8240343372335912,
+    "residual_SD_ratio_same_n": 1.0973119436521324,
+    "rho_zero_point": 0.6004897638996693,
+    "grid": [
+      {
+        "rho": -0.6,
+        "ab_assumption": 1.0430224102403576
+      },
+      {
+        "rho": -0.3,
+        "ab_assumption": 0.7403812519106601
+      },
+      {
+        "rho": 0,
+        "ab_assumption": 0.521843796857428
+      },
+      {
+        "rho": 0.3,
+        "ab_assumption": 0.30330634180419586
+      },
+      {
+        "rho": 0.6,
+        "ab_assumption": 0.0006651834744982665
+      },
+      {
+        "rho": 0.8,
+        "ab_assumption": -0.40469596026778076
+      }
+    ],
+    "true_generation_rho": 0,
+    "sensitivity_CI_computed": false,
+    "interpretation": "Hypothesized error correlation in linear normal equations, not estimated confounding or causal proof"
+  },
+  "moderation": {
+    "beta": [
+      0.39848744953872084,
+      0.5590081381116249
+    ],
+    "covariance": [
+      [
+        0.0060629030047304995,
+        -0.0003866206266039591
+      ],
+      [
+        -0.0003866206266039591,
+        0.005211416608182722
+      ]
+    ],
+    "df": 156,
+    "w_mean": 0.11060292978481082,
+    "w_centered_range": [
+      -2.606267444637527,
+      2.513479798417609
+    ],
+    "pointwise_t_critical": 1.9752875077034489,
+    "pointwise_roots_centered": [
+      -1.1235716194945724,
+      -0.4116761459200018
+    ],
+    "simultaneous_critical": 2.4714385178627962,
+    "simultaneous_roots_centered": [
+      -1.259870165415324,
+      -0.3443501301349213
+    ],
+    "interpretation": "Separate simulated moderation response; pointwise JN is not simultaneous; 2-parameter normal/homoskedastic F ellipse band"
+  },
+  "limits": "No real participants, no conditional mediation combining responses, no bootstrap sensitivity interval, no HC3/cluster JN or causal identification test.",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

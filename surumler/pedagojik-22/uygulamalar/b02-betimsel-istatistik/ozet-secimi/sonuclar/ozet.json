@@ -1,0 +1,64 @@
+{
+  "scope": "İlk 80 GP kaydının betimi; güven aralığı, test veya nedensel etki değil",
+  "source_normalized_sha256": "51dcab9aeaa121123dd28a00156d4dfa398c38eecad69bd5699ae4cea03e5ee9",
+  "location_targets": [
+    {
+      "variable": "G1",
+      "n": 80,
+      "mean": 12.175,
+      "median": 12.0,
+      "trimmed_mean_20_percent_each_tail": 12.1875,
+      "trimmed_each_tail": 16,
+      "trimmed_retained": 48,
+      "Q3_type7": 13.25,
+      "Q3_inverse_ecdf": 13.0
+    },
+    {
+      "variable": "G3",
+      "n": 80,
+      "mean": 12.6375,
+      "median": 12.0,
+      "trimmed_mean_20_percent_each_tail": 12.458333333333334,
+      "trimmed_each_tail": 16,
+      "trimmed_retained": 48,
+      "Q3_type7": 14.0,
+      "Q3_inverse_ecdf": 14.0
+    }
+  ],
+  "threshold15": {
+    "equal": 6,
+    "greater": 9,
+    "at_least": 15,
+    "F15": 0.8875,
+    "F15_left": 0.8125,
+    "percent_greater": 11.25,
+    "percent_at_least": 18.75
+  },
+  "paired": {
+    "n": 80,
+    "mean_difference": 0.4625,
+    "median_difference": 0.0,
+    "increased": 32,
+    "unchanged": 31,
+    "decreased": 17
+  },
+  "synthetic_median_counterexample": {
+    "first": [
+      1,
+      2,
+      100
+    ],
+    "last": [
+      2,
+      100,
+      101
+    ],
+    "median_of_paired_differences": 1.0,
+    "difference_of_medians": 98.0,
+    "synthetic_not_grades": true
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}

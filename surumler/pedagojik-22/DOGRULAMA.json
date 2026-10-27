@@ -1,0 +1,2231 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0"
+  },
+  "comparison_policy": {
+    "excluded_metadata": [
+      "elapsed_seconds",
+      "optimizer_alternate_success",
+      "runtime_seconds",
+      "surum",
+      "surumler",
+      "versions"
+    ],
+    "excluded_paths": [
+      ".bootstrap.seconds"
+    ],
+    "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+  },
+  "results": [
+    {
+      "chapter": 1,
+      "id": "b01",
+      "title": "İstatistiksel Düşünme: Sorudan Kanıta",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.61,
+      "differences": [],
+      "source_number": 1
+    },
+    {
+      "chapter": 2,
+      "id": "b02",
+      "title": "Betimsel İstatistik",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.762,
+      "differences": [],
+      "source_number": 2
+    },
+    {
+      "chapter": 3,
+      "id": "b03",
+      "title": "Veri Hazırlama ve Analize Hazırlık",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.741,
+      "differences": [],
+      "source_number": 3
+    },
+    {
+      "chapter": 4,
+      "id": "b04",
+      "title": "Hipotez Testi",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.246,
+      "differences": [],
+      "source_number": 4
+    },
+    {
+      "chapter": 5,
+      "id": "b05",
+      "title": "Parametrik Testler",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.324,
+      "differences": [],
+      "source_number": 6
+    },
+    {
+      "chapter": 6,
+      "id": "b06",
+      "title": "Güç Analizi ve Örneklem Büyüklüğü Planlama",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.603,
+      "differences": [],
+      "source_number": 5
+    },
+    {
+      "chapter": 7,
+      "id": "b07",
+      "title": "Varyans Analizi (ANOVA)",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4.639,
+      "differences": [],
+      "source_number": 7
+    },
+    {
+      "chapter": 8,
+      "id": "b08",
+      "title": "Tekrarlı Ölçümler ve Karma Desenler",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.597,
+      "differences": [],
+      "source_number": 8
+    },
+    {
+      "chapter": 9,
+      "id": "b09",
+      "title": "Parametrik Olmayan Testler",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 3.077,
+      "differences": [],
+      "source_number": 10
+    },
+    {
+      "chapter": 10,
+      "id": "b10",
+      "title": "Korelasyon Analizi",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.313,
+      "differences": [],
+      "source_number": 11
+    },
+    {
+      "chapter": 11,
+      "id": "b11",
+      "title": "Regresyon Analizi",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.627,
+      "differences": [],
+      "source_number": 12
+    },
+    {
+      "chapter": 12,
+      "id": "b12",
+      "title": "Çoklu ve Lojistik Regresyon",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.667,
+      "differences": [],
+      "source_number": 13
+    },
+    {
+      "chapter": 13,
+      "id": "b13",
+      "title": "Kovaryans Analizi (ANCOVA)",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.649,
+      "differences": [],
+      "source_number": 14
+    },
+    {
+      "chapter": 14,
+      "id": "b14",
+      "title": "Çok Değişkenli Varyans Analizi (MANOVA)",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.443,
+      "differences": [],
+      "source_number": 9
+    },
+    {
+      "chapter": 15,
+      "id": "b15",
+      "title": "Aracılık ve Düzenleyicilik Analizleri",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.781,
+      "differences": [],
+      "source_number": 15
+    },
+    {
+      "chapter": 16,
+      "id": "b16",
+      "title": "Çok Düzeyli Modeller",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 11.7,
+      "differences": [],
+      "source_number": 16
+    },
+    {
+      "chapter": 17,
+      "id": "b17",
+      "title": "Ölçek Uyarlama ve Güvenirlik",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.651,
+      "differences": [],
+      "source_number": 17
+    },
+    {
+      "chapter": 18,
+      "id": "b18",
+      "title": "Faktör Analizi",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.163,
+      "differences": [],
+      "source_number": 18
+    },
+    {
+      "chapter": 19,
+      "id": "b19",
+      "title": "Doğrulayıcı Faktör Analizi",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.478,
+      "differences": [],
+      "source_number": 19
+    },
+    {
+      "chapter": 20,
+      "id": "b20",
+      "title": "Ölçme Değişmezliği",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4.022,
+      "differences": [],
+      "source_number": 20
+    },
+    {
+      "chapter": 21,
+      "id": "b21",
+      "title": "Yapısal Eşitlik Modeli",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 62.261,
+      "differences": [],
+      "source_number": 21
+    },
+    {
+      "chapter": 22,
+      "id": "b22",
+      "title": "IBM SPSS Uygulamaları",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.226,
+      "differences": [],
+      "source_number": 22
+    }
+  ],
+  "multiple_imputation": {
+    "tests": "passed",
+    "differences": []
+  },
+  "tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-07
+  },
+  "not_run": [
+    "R",
+    "IBM SPSS",
+    "Amos"
+  ],
+  "note": "Önceki sürümdeki sayısal sonuçların yeni sıra eşlemesidir. Yeni çalıştırma kanıtı dogrulama/pedagojik-analizler.json ve CI artefaktlarındadır.",
+  "review_note": "İlk koşudaki farklar yalnız sürüm kaydı, optimizasyon durdurma bayrağı ve bootstrap çalışma süresiydi. Teknik metadata politikası açıkça ayrıldı; dört bölüm tekrar çalıştırılarak doğrulandı. Bilimsel referans değerler değiştirilmedi.",
+  "revision_5": {
+    "scope": "B01 ana analiz ve yeni tasarım belirsizliği; diğer bölüm kod/verileri bu turda değişmedi",
+    "results": [
+      {
+        "chapter": 1,
+        "id": "b01",
+        "title": "İstatistiksel Düşünme: Sorudan Kanıta",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.558,
+        "differences": []
+      }
+    ],
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_6": {
+    "scope": "B02 ana analiz ve yeni özet seçimi; diğer bölüm ana kod/verileri bu turda değişmedi",
+    "results": [
+      {
+        "chapter": 2,
+        "id": "b02",
+        "title": "Betimsel İstatistik",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.501,
+        "differences": []
+      }
+    ],
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_7": {
+    "scope": "B03 ana analiz, birleştirme ve önceki ek modüller; diğer ana analiz kod/verileri değişmedi",
+    "results": [
+      {
+        "chapter": 3,
+        "id": "b03",
+        "title": "Veri Hazırlama ve Analize Hazırlık",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.454,
+        "differences": []
+      }
+    ],
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_8": {
+    "scope": "B04 ana analiz, TOST/Holm ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 4,
+        "id": "b04",
+        "title": "Hipotez Testi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.113,
+        "differences": []
+      }
+    ],
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_9": {
+    "scope": "B05 ana analiz, eşdeğerlik/hassasiyet ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 5,
+        "id": "b05",
+        "title": "Güç Analizi ve Örneklem Büyüklüğü Planlama",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.399,
+        "differences": []
+      }
+    ],
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_10": {
+    "scope": "B06 ana analiz, Welch/Yuen ve önceki ek modüller; diğer ana kod/veriler değişmedi",
+    "results": [
+      {
+        "chapter": 6,
+        "id": "b06",
+        "title": "Parametrik Testler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.135,
+        "differences": []
+      }
+    ],
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    }
+  },
+  "revision_11": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 8,
+        "id": "b08",
+        "title": "Tekrarlı Ölçümler ve Karma Desenler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.299,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_12": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 9,
+        "id": "b09",
+        "title": "Çok Değişkenli Varyans Analizi (MANOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.173,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_13": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 10,
+        "id": "b10",
+        "title": "Parametrik Olmayan Testler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 4.038,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_14": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 11,
+        "id": "b11",
+        "title": "Korelasyon Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.166,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_15": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 12,
+        "id": "b12",
+        "title": "Regresyon Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.537,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_16": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 13,
+        "id": "b13",
+        "title": "Çoklu ve Lojistik Regresyon",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.391,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_17": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 14,
+        "id": "b14",
+        "title": "Kovaryans Analizi (ANCOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.405,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_18": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 15,
+        "id": "b15",
+        "title": "Aracılık ve Düzenleyicilik Analizleri",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.364,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_19": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 16,
+        "id": "b16",
+        "title": "Çok Düzeyli Modeller",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 12.835,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_20": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 17,
+        "id": "b17",
+        "title": "Ölçek Uyarlama ve Güvenirlik",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.478,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_21": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 18,
+        "id": "b18",
+        "title": "Faktör Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 3.039,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "factor_scores": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_22": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 19,
+        "id": "b19",
+        "title": "Doğrulayıcı Faktör Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.59,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "factor_scores": {
+      "tests": "passed",
+      "differences": []
+    },
+    "score_reliability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_23": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 20,
+        "id": "b20",
+        "title": "Ölçme Değişmezliği",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 4.809,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "factor_scores": {
+      "tests": "passed",
+      "differences": []
+    },
+    "score_reliability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "anchor_sensitivity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_24": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 21,
+        "id": "b21",
+        "title": "Yapısal Eşitlik Modeli",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 63.69,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "factor_scores": {
+      "tests": "passed",
+      "differences": []
+    },
+    "score_reliability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "anchor_sensitivity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "sem_sensitivity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "revision_25": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "package_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0"
+    },
+    "comparison_policy": {
+      "excluded_metadata": [
+        "elapsed_seconds",
+        "optimizer_alternate_success",
+        "runtime_seconds",
+        "surum",
+        "surumler",
+        "versions"
+      ],
+      "excluded_paths": [
+        ".bootstrap.seconds"
+      ],
+      "optimizer_note": "Durdurma bayrağı eşitliği değil, betiğin amaç fonksiyonu/kovaryans/gradyan kontrolleri esas alınır."
+    },
+    "results": [
+      {
+        "chapter": 1,
+        "id": "b01",
+        "title": "İstatistiksel Düşünme: Sorudan Kanıta",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.505,
+        "differences": []
+      },
+      {
+        "chapter": 2,
+        "id": "b02",
+        "title": "Betimsel İstatistik",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 0.776,
+        "differences": []
+      },
+      {
+        "chapter": 3,
+        "id": "b03",
+        "title": "Veri Hazırlama ve Analize Hazırlık",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 0.759,
+        "differences": []
+      },
+      {
+        "chapter": 4,
+        "id": "b04",
+        "title": "Hipotez Testi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.285,
+        "differences": []
+      },
+      {
+        "chapter": 5,
+        "id": "b05",
+        "title": "Güç Analizi ve Örneklem Büyüklüğü Planlama",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.497,
+        "differences": []
+      },
+      {
+        "chapter": 6,
+        "id": "b06",
+        "title": "Parametrik Testler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.334,
+        "differences": []
+      },
+      {
+        "chapter": 7,
+        "id": "b07",
+        "title": "Varyans Analizi (ANOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 4.734,
+        "differences": []
+      },
+      {
+        "chapter": 8,
+        "id": "b08",
+        "title": "Tekrarlı Ölçümler ve Karma Desenler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.592,
+        "differences": []
+      },
+      {
+        "chapter": 9,
+        "id": "b09",
+        "title": "Çok Değişkenli Varyans Analizi (MANOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.452,
+        "differences": []
+      },
+      {
+        "chapter": 10,
+        "id": "b10",
+        "title": "Parametrik Olmayan Testler",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 3.025,
+        "differences": []
+      },
+      {
+        "chapter": 11,
+        "id": "b11",
+        "title": "Korelasyon Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.336,
+        "differences": []
+      },
+      {
+        "chapter": 12,
+        "id": "b12",
+        "title": "Regresyon Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.662,
+        "differences": []
+      },
+      {
+        "chapter": 13,
+        "id": "b13",
+        "title": "Çoklu ve Lojistik Regresyon",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.686,
+        "differences": []
+      },
+      {
+        "chapter": 14,
+        "id": "b14",
+        "title": "Kovaryans Analizi (ANCOVA)",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.669,
+        "differences": []
+      },
+      {
+        "chapter": 15,
+        "id": "b15",
+        "title": "Aracılık ve Düzenleyicilik Analizleri",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.62,
+        "differences": []
+      },
+      {
+        "chapter": 16,
+        "id": "b16",
+        "title": "Çok Düzeyli Modeller",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 11.978,
+        "differences": []
+      },
+      {
+        "chapter": 17,
+        "id": "b17",
+        "title": "Ölçek Uyarlama ve Güvenirlik",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.621,
+        "differences": []
+      },
+      {
+        "chapter": 18,
+        "id": "b18",
+        "title": "Faktör Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 2.187,
+        "differences": []
+      },
+      {
+        "chapter": 19,
+        "id": "b19",
+        "title": "Doğrulayıcı Faktör Analizi",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.372,
+        "differences": []
+      },
+      {
+        "chapter": 20,
+        "id": "b20",
+        "title": "Ölçme Değişmezliği",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 4.149,
+        "differences": []
+      },
+      {
+        "chapter": 21,
+        "id": "b21",
+        "title": "Yapısal Eşitlik Modeli",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 62.256,
+        "differences": []
+      },
+      {
+        "chapter": 22,
+        "id": "b22",
+        "title": "IBM SPSS Uygulamaları",
+        "status": "passed",
+        "exit_code": 0,
+        "seconds": 1.26,
+        "differences": []
+      }
+    ],
+    "multiple_imputation": {
+      "tests": "passed",
+      "differences": []
+    },
+    "design_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "summary_selection": {
+      "tests": "passed",
+      "differences": []
+    },
+    "preparation_audit": {
+      "tests": "passed",
+      "differences": []
+    },
+    "equivalence_multiplicity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "power_precision": {
+      "tests": "passed",
+      "differences": []
+    },
+    "welch_robustness": {
+      "tests": "passed",
+      "differences": []
+    },
+    "incomplete_followup": {
+      "tests": "passed",
+      "differences": []
+    },
+    "multivariate_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "rank_uncertainty": {
+      "tests": "passed",
+      "differences": []
+    },
+    "correlation_pairs": {
+      "tests": "passed",
+      "differences": []
+    },
+    "split_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "logistic_probability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "target_distribution": {
+      "tests": "passed",
+      "differences": []
+    },
+    "mediation_regions": {
+      "tests": "passed",
+      "differences": []
+    },
+    "school_prediction": {
+      "tests": "passed",
+      "differences": []
+    },
+    "reliability_model": {
+      "tests": "passed",
+      "differences": []
+    },
+    "factor_scores": {
+      "tests": "passed",
+      "differences": []
+    },
+    "score_reliability": {
+      "tests": "passed",
+      "differences": []
+    },
+    "anchor_sensitivity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "sem_sensitivity": {
+      "tests": "passed",
+      "differences": []
+    },
+    "output_contract": {
+      "tests": "passed",
+      "differences": []
+    },
+    "imbalanced_targets": {
+      "tests": "passed",
+      "differences": []
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-07
+    },
+    "not_run": [
+      "R",
+      "IBM SPSS",
+      "Amos"
+    ],
+    "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "colab_notebooks": {
+    "chapters": 22,
+    "status": "passed_with_jupyter_kernel",
+    "colab_ui_executed": false,
+    "isolated_install_and_rerun": "passed",
+    "report": "dogrulama/colab-22.json",
+    "student_decision_export": "verified_blank_is_not_complete",
+    "teaching_revision": 27
+  },
+  "source_evidence_version": "22-bolum"
+}

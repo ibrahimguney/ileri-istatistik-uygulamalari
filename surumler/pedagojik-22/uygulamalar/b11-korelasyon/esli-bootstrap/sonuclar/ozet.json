@@ -1,0 +1,75 @@
+{
+  "source_sha256": "cff1ee5aaa3058bd48db858789a46a24d12c7ac072b1f5f1c3171dd2a1995a55",
+  "selection": "First60 source-ordered GP records; not a random sample",
+  "bootstrap": {
+    "n": 60,
+    "repetitions": 20000,
+    "seed": 20261025,
+    "degenerate_replicates": 0,
+    "intervals": [
+      {
+        "target": "Pearson_r",
+        "estimate": 0.7466127922386877,
+        "interval_percentile_95": [
+          0.6216312443962662,
+          0.9091344938491711
+        ]
+      },
+      {
+        "target": "Spearman_rs",
+        "estimate": 0.8310856623595313,
+        "interval_percentile_95": [
+          0.706432631527788,
+          0.9091853451531325
+        ]
+      },
+      {
+        "target": "rs_minus_r",
+        "estimate": 0.08447287012084359,
+        "interval_percentile_95": [
+          -0.08652532317338898,
+          0.20181077497344663
+        ]
+      }
+    ],
+    "unit": "Whole student (G1,G3) row; same resample for both coefficients",
+    "ranks_recomputed": true,
+    "interval_type": "Approximate percentile, linear quantiles; no calibrated coverage claim",
+    "marker_diagnostic": [
+      {
+        "source_row_1_drawn": false,
+        "replicates": 7164,
+        "pearson_median": 0.8674614382502124,
+        "pearson_percentiles_025_975": [
+          0.7809610155068689,
+          0.9195326024334239
+        ]
+      },
+      {
+        "source_row_1_drawn": true,
+        "replicates": 12836,
+        "pearson_median": 0.7199521860549524,
+        "pearson_percentiles_025_975": [
+          0.6115172360555599,
+          0.800756272554344
+        ]
+      }
+    ],
+    "marker_expected_absence_probability": 0.3647923107533437
+  },
+  "transformed_G1_squared": {
+    "pearson": 0.8391524288896698,
+    "spearman": 0.8310856623595314
+  },
+  "agreement_teaching": {
+    "description": "Constructed Ydagger=X+5 from G1, not new observed grades; only algebra illustration",
+    "r": 0.9999999999999999,
+    "mean_difference": 5.0
+  },
+  "limits": "iid row resampling is a model assumption, not established by source order; no cluster bootstrap, BCa, coverage simulation, agreement analysis or dependent Pearson-equality test",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  }
+}

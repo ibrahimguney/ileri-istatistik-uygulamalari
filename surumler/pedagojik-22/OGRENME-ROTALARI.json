@@ -1,0 +1,1350 @@
+{
+  "revision": 28,
+  "student_observation": "deferred_by_user",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "İstatistiksel Düşünme: Sorudan Kanıta",
+      "book_source": "b01-istatistiksel-mekanizma.tex",
+      "page": "bolumler/b01/",
+      "application": "uygulamalar/b01-istatistiksel-mekanizma",
+      "core": [
+        "Araştırma hedefini, eldeki kayıtları ve analiz birimini ayırır.",
+        "Ölçüm türüne uygun payda ve özet seçer.",
+        "Verinin desteklediği kapsamda bir sonuç cümlesi yazar."
+      ],
+      "advanced": "Tasarım temelli belirsizlik ve örnekleme simülasyonları; Bölüm 4 sonrasında dönülebilir.",
+      "exit_question": "Kaynak sırasındaki ilk 80 GP kaydının ortalaması Türkiye öğrencilerinin ortalaması sayılabilir mi?",
+      "exit_answer": "Hayır. Kaynak sırasındaki tek okul alt kümesini Türkiye hedefiyle ilişkilendiren seçim ve kapsam gerekçesi yoktur.",
+      "prerequisites": [],
+      "decision_task": "Betimleme hedefini ilk 80 kayıt veya ilk 40 kayıt olarak seçin; iki özeti karşılaştırın ve hangi hedefe genellemediğinizi yazın.",
+      "local_rubric": [
+        {
+          "criterion": "soru/kapsam",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "birim/ölçüm",
+          "points": 25,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "seçim/payda",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "grafik/rapor",
+          "points": 15,
+          "common_dimensions": [
+            "K5",
+            "K6"
+          ]
+        },
+        {
+          "criterion": "kaynak/yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K1",
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 1
+    },
+    {
+      "number": 2,
+      "title": "Betimsel İstatistik",
+      "book_source": "b02-betimsel-istatistik.tex",
+      "page": "bolumler/b02/",
+      "application": "uygulamalar/b02-betimsel-istatistik",
+      "core": [
+        "Ortalama, medyan ve yayılımı birlikte yorumlar.",
+        "Çeyrek yöntemini belirterek dağılım grafiği okur.",
+        "Bir uç kaydın etkisini ana veriyi koruyarak araştırır."
+      ],
+      "advanced": "Kırpılmış ortalama, ampirik dağılım ve eşleşmiş değişim ekleri; Bölüm 1–2 kavramlarını pekiştirdikten sonra.",
+      "exit_question": "1, 2, 3, 4, 100 değerlerinde ortalama 22 ve medyan 3 olması 100 kaydının hatalı olduğunu kanıtlar mı?",
+      "exit_answer": "Hayır. Özetlerin farklılığı dağılımı ve uç kaydın etkisini gösterir; kayıt hatası için kaynak bilgisi gerekir. Dışlama ayrı gerekçe ister.",
+      "prerequisites": [
+        1
+      ],
+      "decision_task": "G1 kaynak satır 1 için ana veriyi koruma veya ayrıca dışlama duyarlılığı raporlama kararını seçin; ortalama ve medyan değişimini kanıtlayın.",
+      "local_rubric": [
+        {
+          "criterion": "kapsam/ölçüm",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "hesap/tanımlar",
+          "points": 30,
+          "common_dimensions": [
+            "K3"
+          ]
+        },
+        {
+          "criterion": "grafik/uç kayıt",
+          "points": 20,
+          "common_dimensions": [
+            "K3",
+            "K4",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yorum",
+          "points": 20,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 2
+    },
+    {
+      "number": 3,
+      "title": "Veri Hazırlama ve Analize Hazırlık",
+      "book_source": "b03-veri-hazirlama.tex",
+      "page": "bolumler/b03/",
+      "application": "uygulamalar/b03-veri-hazirlama",
+      "core": [
+        "Veri sözlüğü, anahtar ve geçerli değer denetimi kurar.",
+        "Eksik hücre, eksik kişi ve puanlama paydalarını ayırır.",
+        "Hazırlama kararlarını ham veriyi koruyan bir günlükte belgeler."
+      ],
+      "advanced": "Çoklu atama ve Rubin birleştirmesi Bölüm 4 ve 11 sonrasında; ilk geçişte puanlama ve birleştirme denetimleri yeterlidir.",
+      "exit_question": "100 kişinin onar madde yanıtında 20 eksik hücre varsa tam 20 kişinin eksik yanıtı olduğu söylenebilir mi?",
+      "exit_answer": "Hayır. Aynı kişide birden çok eksik olabilir. Kişi sayısı maske üzerinden ayrıca sayılır; bu örnekte 2 ile 20 arasında olabilir.",
+      "prerequisites": [
+        1,
+        2
+      ],
+      "decision_task": "Puanlama için tam madde veya belgelenmiş asgari madde kuralını seçin; kullanılabilir kişi sayısı ve hedef puandaki değişimi karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/sözlük",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "doğrulama",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "eksik/puanlama",
+          "points": 30,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "dönüşüm/günlük",
+          "points": 15,
+          "common_dimensions": [
+            "K3",
+            "K6"
+          ]
+        },
+        {
+          "criterion": "sınırlılıklar",
+          "points": 10,
+          "common_dimensions": [
+            "K5"
+          ]
+        }
+      ],
+      "source_number": 3
+    },
+    {
+      "number": 4,
+      "title": "Hipotez Testi",
+      "book_source": "b04-hipotez-testi.tex",
+      "page": "bolumler/b04/",
+      "application": "uygulamalar/b04-hipotez-testi",
+      "core": [
+        "Hipotezi araştırma hedefi ve tasarımla eşler.",
+        "Tahmin, güven aralığı ve p değerini birlikte yorumlar.",
+        "Reddedememe, eşdeğerlik ve nedenselliği ayırır."
+      ],
+      "advanced": "TOST, çoklu aile ve durdurma simülasyonları; temel aralık/test mantığından sonra.",
+      "exit_question": "p=.03, sıfır hipotezinin doğru olma olasılığının yüzde 3 olduğu anlamına gelir mi?",
+      "exit_answer": "Hayır. p, belirtilen sıfır modeli ve test planı altında en az gözlenen kadar uç sonuçların olasılığıdır; hipotezin posterior doğruluk olasılığı değildir.",
+      "prerequisites": [
+        1,
+        2
+      ],
+      "decision_task": "Tek veya iki yönlü hipotezi sonuçlara bakmadan gerekçelendirin; aynı tahminin yorumunun ve önceden seçilen test planının nasıl değiştiğini gösterin.",
+      "local_rubric": [
+        {
+          "criterion": "soru/tasarım",
+          "points": 25,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "hipotez/yön",
+          "points": 20,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "hesap/varsayım",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "belirsizlik/çokluk",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 4
+    },
+    {
+      "number": 5,
+      "title": "Parametrik Testler",
+      "book_source": "b06-parametrik-testler.tex",
+      "page": "bolumler/b05/",
+      "application": "uygulamalar/b06-parametrik-testler",
+      "core": [
+        "Bağımsız, eşli ve tek örneklem tasarımlarını ayırır.",
+        "Fark yönü, standart hata ve aralığı birlikte raporlar.",
+        "Student, Welch ve duyarlılık hedeflerini gerekçelendirir."
+      ],
+      "advanced": "Yuen, hata kalibrasyonu ve bütün çiftleri dışarıda bırakma ekleri; Bölüm 4, 6 temellerinden sonra.",
+      "exit_question": "Aynı 18 kişinin önce ve sonra ölçümleri için iki grubu bağımsız saymak uygun mudur?",
+      "exit_answer": "Hayır. Eşleşme korunur ve kişi içi farklar modellenir; bağımsızlık, kişiler arasındaki tasarım koşuludur.",
+      "prerequisites": [
+        4
+      ],
+      "decision_task": "Aynı karşılaştırmada Student veya Welch modelini seçin; standart hata, serbestlik derecesi ve varsayım gerekçesini karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "Kaynak, analiz birimi ve ID eşleştirmesi",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "Üç testin doğru hesaplanması ve fark yönü",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "Güven aralığı ve etki büyüklüğü paydası",
+          "points": 20,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Tanılar ve bütün çiftler için duyarlılık",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Yeniden çalıştırma ve ölçülü raporlama",
+          "points": 15,
+          "common_dimensions": [
+            "K3",
+            "K6"
+          ]
+        }
+      ],
+      "source_number": 6
+    },
+    {
+      "number": 6,
+      "title": "Güç Analizi ve Örneklem Büyüklüğü Planlama",
+      "book_source": "b05-guc-analizi.tex",
+      "page": "bolumler/b06/",
+      "application": "uygulamalar/b05-guc-analizi",
+      "core": [
+        "Önemli farkı, beklenen etkiyi ve planlama varsayımlarını ayırır.",
+        "Grup başına, toplam ve analiz edilebilir kişi sayılarını doğru belirtir.",
+        "Güç, hassasiyet ve kayıt kaybı senaryolarını yorumlar."
+      ],
+      "advanced": "Merkezi olmayan t hesabı Bölüm 5 sonrasında; TOST ve gerçekleşen aralık genişliği ileri planlama rotasıdır.",
+      "exit_question": "Planlanan gücün .80 olması eldeki çalışmanın mutlaka anlamlı çıkacağını garanti eder mi?",
+      "exit_answer": "Hayır. Güç, belirli gerçek etki ve model altında tekrarlı çalışmaların red olasılığıdır; tek çalışmaya garanti vermez.",
+      "prerequisites": [
+        4
+      ],
+      "decision_task": "Beklenen etki veya tutulma varsayımından yalnız birini değiştirin; gereken kişi sayısını ve değişmeyen bilimsel hedefi belirtin.",
+      "local_rubric": [
+        {
+          "criterion": "hedef/tasarım",
+          "points": 25,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "etki gerekçesi",
+          "points": 25,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "hesap/birim",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "kayıp/çokluk",
+          "points": 15,
+          "common_dimensions": [
+            "K2",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 5
+    },
+    {
+      "number": 7,
+      "title": "Varyans Analizi (ANOVA)",
+      "book_source": "b07-varyans-analizi.tex",
+      "page": "bolumler/b07/",
+      "application": "uygulamalar/b07-varyans-analizi",
+      "core": [
+        "Omnibus ANOVA ile tekil karşıtlıkları ayırır.",
+        "Etkileşimi koşullu grup farklarıyla yorumlar.",
+        "Karşılaştırma ailesini ve belirsizliği açık raporlar."
+      ],
+      "advanced": "Dengesiz hedefler ve HC3 karşıtlıkları; çoklu doğrusal model fikri için Bölüm 12 doğrusal kısmına başvurulabilir.",
+      "exit_question": "Üç gruplu ANOVA anlamlıysa bütün grup çiftleri farklı mıdır?",
+      "exit_answer": "Hayır. Omnibus test tüm ortalamaların eşitliğiyle ilgilidir; hangi karşıtlığın neyi sınadığı ve aile düzeltmesi ayrıca belirlenir.",
+      "prerequisites": [
+        5
+      ],
+      "decision_task": "Eşit doz ağırlığı veya ortak gözlenen doz ağırlığı hedefini seçin; tahminin değişmesini hedef farkıyla açıklayın.",
+      "local_rubric": [
+        {
+          "criterion": "Kaynak, hücreler ve faktör kodlaması",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "Kareler toplamları ve etki büyüklükleri",
+          "points": 25,
+          "common_dimensions": [
+            "K3"
+          ]
+        },
+        {
+          "criterion": "Karşılaştırma ailesi ve aralıkların eşleştirilmesi",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Etkileşim, tanılar ve HC3 duyarlılığı",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Yeniden üretim ve sınırlılık raporu",
+          "points": 10,
+          "common_dimensions": [
+            "K3",
+            "K5",
+            "K6"
+          ]
+        }
+      ],
+      "source_number": 7
+    },
+    {
+      "number": 8,
+      "title": "Tekrarlı Ölçümler ve Karma Desenler",
+      "book_source": "b08-tekrarli-olcumler.tex",
+      "page": "bolumler/b08/",
+      "application": "uygulamalar/b08-tekrarli-olcumler",
+      "core": [
+        "Kişi içi bağımlılığı analiz biriminden ayırır.",
+        "Zaman ve grup etkileşimini profil grafiğiyle yorumlar.",
+        "Tekrarlı ANOVA ile karma modelin koşullarını karşılaştırır."
+      ],
+      "advanced": "Eksik izlem, kovaryans yapısı ve küçük örneklem çıkarımı; Bölüm 16 ile birlikte derinleştirilebilir.",
+      "exit_question": "18 kişinin sekizer ölçümü 144 bağımsız kişi midir?",
+      "exit_answer": "Hayır. 18 kişi ve 144 ölçüm vardır. Kişi içi kovaryans temsil edilir; etkili örneklem büyüklüğü her hedef için otomatik 18 veya 144 değildir.",
+      "prerequisites": [
+        5,
+        7
+      ],
+      "decision_task": "Mevcut ölçümler veya yalnız tam kişiler yaklaşımını seçin; eğim, kişi sayısı ve kayıp varsayımını birlikte karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "tasarım",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "analiz planı",
+          "points": 30,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "varsayımlar",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "raporlama",
+          "points": 15,
+          "common_dimensions": [
+            "K6"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 8
+    },
+    {
+      "number": 9,
+      "title": "Parametrik Olmayan Testler",
+      "book_source": "b10-parametrik-olmayan-testler.tex",
+      "page": "bolumler/b09/",
+      "application": "uygulamalar/b10-parametrik-olmayan",
+      "core": [
+        "Sıra testinin hangi hipotezi sınadığını belirtir.",
+        "Bağımsız, eşli ve bloklu tasarımları ayırır.",
+        "Bağ, sıfır fark ve çoklu aile kararlarını raporlar."
+      ],
+      "advanced": "Üstünlük olasılığı, zayıf sıfır ve kesin/Monte Carlo hesapları temel sıra yorumundan sonra.",
+      "exit_question": "Mann–Whitney ile t testi her koşulda aynı ortalama farkını mı sınar?",
+      "exit_answer": "Hayır. Hedefler dağılım ve model koşullarına bağlıdır; sıra testi otomatik olarak aynı ortalama veya medyan hipotezi değildir.",
+      "prerequisites": [
+        4,
+        5,
+        7
+      ],
+      "decision_task": "Üstünlük olasılığı veya ortalama farkı hedefini seçin; yöntem değişince sorunun aynı kalıp kalmadığını açıklayın.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/eşleme",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "bağ ve sıfırlar",
+          "points": 20,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "kesin/yaklaşık yöntem",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "aile ve yorum",
+          "points": 25,
+          "common_dimensions": [
+            "K4",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 10
+    },
+    {
+      "number": 10,
+      "title": "Korelasyon Analizi",
+      "book_source": "b11-korelasyon.tex",
+      "page": "bolumler/b10/",
+      "application": "uygulamalar/b11-korelasyon",
+      "core": [
+        "Birlikte değişimi saçılım grafiğiyle inceler.",
+        "Pearson ve Spearman seçimini hedefle gerekçelendirir.",
+        "Korelasyon, uyum ve nedenselliği ayırır."
+      ],
+      "advanced": "Fisher aralığı, eşli bootstrap ve etki duyarlılığı; Bölüm 4 belirsizlik temellerinden sonra.",
+      "exit_question": "İkinci cihaz her ölçümde birinciden 10 birim fazla veriyorsa r=1 olması tam uyum demek midir?",
+      "exit_answer": "Hayır. Pozitif doğrusal ilişki kusursuz olabilir; sabit 10 birim yanlılık ölçüm uyumunu bozar.",
+      "prerequisites": [
+        2,
+        4
+      ],
+      "decision_task": "Pearson veya Spearman özetini seçin; aynı satırlar ve grafik altında hedef, katsayı ve belirsizliği karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "Kaynak atfı, seçim kuralı ve değişmeyen verinin belgelenmesi",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K6"
+          ]
+        },
+        {
+          "criterion": "Grafikler, bağlı sıralar ve doğru katsayılar",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "Yeniden sıralanan dışarıda bırakma karşılaştırmaları",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Belirsizlik, silme kararı ve genelleme sınırlarının tartışılması",
+          "points": 20,
+          "common_dimensions": [
+            "K4",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "Kod, sürümler ve yeniden çalıştırma yönergesi",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 11
+    },
+    {
+      "number": 11,
+      "title": "Regresyon Analizi",
+      "book_source": "b12-regresyon.tex",
+      "page": "bolumler/b11/",
+      "application": "uygulamalar/b12-regresyon",
+      "core": [
+        "Regresyon katsayısını bağlam ve birimle yorumlar.",
+        "Artık, etkili gözlem ve genelleme sınırlarını inceler.",
+        "Ortalama güven aralığı ile bireysel tahmini ayırır."
+      ],
+      "advanced": "HC3, LOOCV ve split conformal ayrı ileri rotalardır; eğitim/kalibrasyon/kontrol rolleri karıştırılmaz.",
+      "exit_question": "Ortalama yanıt için dar güven aralığı yeni öğrencinin notunun aynı dar aralıkta olacağını garanti eder mi?",
+      "exit_answer": "Hayır. Bireysel tahmin kişinin ek sapmasını da içerir; farklı aralık ve varsayımlar gerekir.",
+      "prerequisites": [
+        4,
+        10
+      ],
+      "decision_task": "Ortalama yanıt veya yeni birey tahmini hedefini seçin; G1=12 için uygun aralık türünü ve genişliğini karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "Soru, değişken rolleri, birimler ve gerçek veri kaynağı/seçim kuralı açık.",
+          "points": 15,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "Model, katsayılar ve temel hesaplamalar doğru ve izlenebilir.",
+          "points": 20,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "Grafikler yorumlanmış; duyarlılık ve varsayım sınırları tartışılmış.",
+          "points": 20,
+          "common_dimensions": [
+            "K4",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "İki aralık doğru hesaplanmış ve doğru sorularla eşleştirilmiş.",
+          "points": 15,
+          "common_dimensions": [
+            "K2",
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Rapor bağlama uygun; nedensellik, başarı olasılığı ve genelleme hatalarından kaçınılmış.",
+          "points": 20,
+          "common_dimensions": [
+            "K5",
+            "K6"
+          ]
+        },
+        {
+          "criterion": "Veri, kod, sürüm ve çalıştırma yönergeleriyle sonuç yeniden üretilebilir.",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 12
+    },
+    {
+      "number": 12,
+      "title": "Çoklu ve Lojistik Regresyon",
+      "book_source": "b13-coklu-lojistik-regresyon.tex",
+      "page": "bolumler/b12/",
+      "application": "uygulamalar/b13-coklu-lojistik",
+      "core": [
+        "Çoklu doğrusal modelde koşullu katsayıyı yorumlar.",
+        "Lojistik modelde odds ile olasılığı ayırır.",
+        "Model tanısı, kalibrasyon ve veri seçimini raporlar."
+      ],
+      "advanced": "Doğrusal ve lojistik kısım iki laboratuvara ayrılır; HC3, ayrışma ve olasılık kalibrasyonu ileri rotadır.",
+      "exit_question": "Başlangıç olasılığı .20 iken odds oranı 2 olması yeni olasılığın .40 olduğu anlamına gelir mi?",
+      "exit_answer": "Hayır. Başlangıç odds .25, yeni odds .50 ve yeni olasılık .50/1.50 yaklaşık .333 olur; diğer model koşulları aynı tutulur.",
+      "prerequisites": [
+        11
+      ],
+      "decision_task": "Lojistik raporda odds oranı veya belirli profilde olasılık sunumunu seçin; aynı ilişkiyi farklı ölçekte nasıl ifade ettiğinizi gösterin.",
+      "local_rubric": [
+        {
+          "criterion": "Kaynak, seçim, olay tanımı ve bilgi zamanı",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "Katsayılar, OR ve belirsizlik hesaplarının doğruluğu",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Gözlem etkisi, VIF ve HC3 ayrımı",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Sabit-model aktarımı ve eşik tabloları",
+          "points": 20,
+          "common_dimensions": [
+            "K2",
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Yeniden üretilebilir kod ve ölçülü akademik rapor",
+          "points": 15,
+          "common_dimensions": [
+            "K3",
+            "K6"
+          ]
+        }
+      ],
+      "source_number": 13
+    },
+    {
+      "number": 13,
+      "title": "Kovaryans Analizi (ANCOVA)",
+      "book_source": "b14-kovaryans-analizi.tex",
+      "page": "bolumler/b13/",
+      "application": "uygulamalar/b14-kovaryans-analizi",
+      "core": [
+        "ANCOVA modelinde grup, kovaryat ve hedefi belirtir.",
+        "Kovaryat zamanı ve ortak desteği denetler.",
+        "Koşullu ortalama ile marjinal hedefi ayırır."
+      ],
+      "advanced": "Ayrı eğimler, doğrusal olmayan doz ve hedef dağılım; Bölüm 12 doğrusal kısmından sonra.",
+      "exit_question": "İşlemden sonra oluşan bir aracı değişkeni kontrol etmek başlangıç farklarını güvenle gidermek demek midir?",
+      "exit_answer": "Hayır. Toplam etki hedefini değiştirebilir ve karıştırıcılık sorunlarını kendiliğinden çözmez; zaman ve nedensel yapı gerekçelendirilir.",
+      "prerequisites": [
+        7,
+        12
+      ],
+      "decision_task": "Belirli doz düzeyi veya ortak doz dağılımı hedefini seçin; aynı modelde koşullu ve marjinal karşılaştırmayı ayırın.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/tasarım",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "model/hesap",
+          "points": 30,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "kontrast/belirsizlik",
+          "points": 25,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "yorum/sınırlılıklar",
+          "points": 15,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 14
+    },
+    {
+      "number": 14,
+      "title": "Çok Değişkenli Varyans Analizi (MANOVA)",
+      "book_source": "b09-manova.tex",
+      "page": "bolumler/b14/",
+      "application": "uygulamalar/b09-manova",
+      "core": [
+        "Ortak ortalama vektörü hipotezini tekil testlerden ayırır.",
+        "Kovaryans bilgisinin MANOVA yorumundaki rolünü açıklar.",
+        "İzleme ailesini ve model sınırlarını raporlar."
+      ],
+      "advanced": "SSCP, özdeğerler ve eşzamanlı aralıklar için matematik köprüsü; Bölüm 10 bu bölümden önce tamamlanmalıdır.",
+      "exit_question": "Anlamlı MANOVA her bağımlı değişkende tekil anlamlı fark bulunduğunu gösterir mi?",
+      "exit_answer": "Hayır. Ortak vektör veya bir bileşim farklı olabilir; tekil hipotezler ve izleme ailesi ayrıca incelenir.",
+      "prerequisites": [
+        7,
+        8,
+        10
+      ],
+      "decision_task": "Ortak vektör hipotezi veya önceden tanımlı tekil sonuç ailesi hedefini seçin; sonuç cümlesi ve aile düzeltmesini karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "kuram",
+          "points": 20,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "analiz planı",
+          "points": 30,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "varsayımlar",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "izleme",
+          "points": 20,
+          "common_dimensions": [
+            "K2",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "raporlama",
+          "points": 10,
+          "common_dimensions": [
+            "K6"
+          ]
+        }
+      ],
+      "source_number": 9
+    },
+    {
+      "number": 15,
+      "title": "Aracılık ve Düzenleyicilik Analizleri",
+      "book_source": "b15-aracilik-duzenleyicilik.tex",
+      "page": "bolumler/b15/",
+      "application": "uygulamalar/b15-aracilik-duzenleyicilik",
+      "core": [
+        "Aracılık ile düzenleyicilik sorularını ayırır.",
+        "Dolaylı ilişki ve etkileşimi belirsizliğiyle raporlar.",
+        "İstatistiksel yol ile nedensel tanımlamayı ayırır."
+      ],
+      "advanced": "Doğal etkiler, hata-rho duyarlılığı ve noktasal/eşzamanlı eğim bantları; Bölüm 12 ve matematik köprüsünden sonra.",
+      "exit_question": "ab çarpımının bootstrap aralığının sıfırı dışlaması tek başına nedensel aracılığı kanıtlar mı?",
+      "exit_answer": "Hayır. Zaman sırası, müdahale/ölçüm tanımı, ortak destek ve uygun karıştırıcı varsayımları ayrıca gerekir; bootstrap bunları sağlamaz.",
+      "prerequisites": [
+        12
+      ],
+      "decision_task": "Rho=0 veya .3 varsayımını seçin; dolaylı yolun değişimini aynı gözlenen uyum ve değişen varsayım ayrımıyla savunun.",
+      "local_rubric": [
+        {
+          "criterion": "Kaynak, veri sözlüğü ve analiz birimi",
+          "points": 15,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "Araştırma hedefi ve yöntem gerekçesi",
+          "points": 20,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "Hesabın doğruluğu ve yeniden üretilebilirlik",
+          "points": 20,
+          "common_dimensions": [
+            "K3"
+          ]
+        },
+        {
+          "criterion": "Belirsizlik, tanılar ve duyarlılık",
+          "points": 20,
+          "common_dimensions": [
+            "K4"
+          ]
+        },
+        {
+          "criterion": "Yorum ve kapsam sınırları",
+          "points": 15,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "Açık ve düzenli raporlama",
+          "points": 10,
+          "common_dimensions": [
+            "K6"
+          ]
+        }
+      ],
+      "source_number": 15
+    },
+    {
+      "number": 16,
+      "title": "Çok Düzeyli Modeller",
+      "book_source": "b16-cok-duzeyli-modeller.tex",
+      "page": "bolumler/b16/",
+      "application": "uygulamalar/b16-cok-duzeyli-modeller",
+      "core": [
+        "İç içe veride birimleri ve bağımlılığı tanımlar.",
+        "Grup içi ve gruplar arası hedefleri ayırır.",
+        "Merkezleme ve yeni grup tahminini gerekçelendirir."
+      ],
+      "advanced": "Rastgele eğimler, sınırda testler, REML ve hedef ağırlıkları; Bölüm 8 ve 12 sonrasında.",
+      "exit_question": "ICC=.10, her regresyon katsayısının tasarım etkisinin aynı olduğu anlamına gelir mi?",
+      "exit_answer": "Hayır. ICC belirli modelde küme benzerliğini özetler; tasarım etkisi hedefe, küme büyüklüklerine ve modele bağlıdır.",
+      "prerequisites": [
+        8,
+        12
+      ],
+      "decision_task": "Öğrenci ağırlıklı veya okul ağırlıklı hedefi seçin; ortalama ve yorum biriminin değişimini gösterin.",
+      "local_rubric": [
+        {
+          "criterion": "tasarım",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "örneklem",
+          "points": 20,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "model",
+          "points": 30,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "raporlama",
+          "points": 15,
+          "common_dimensions": [
+            "K6"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 16
+    },
+    {
+      "number": 17,
+      "title": "Ölçek Uyarlama ve Güvenirlik",
+      "book_source": "b17-olcek-uyarlama-guvenirlik.tex",
+      "page": "bolumler/b17/",
+      "application": "uygulamalar/b17-guvenirlik",
+      "core": [
+        "Güvenirliği puan ve kullanım bağlamıyla tanımlar.",
+        "İç tutarlılığı geçerlik ve uyarlamadan ayırır.",
+        "Anahtarlama, kayıt seçimi ve belirsizliği raporlar."
+      ],
+      "advanced": "Ortak kayıtta alfa farkı ve congeneric model/omega; Bölüm 18–19 ile birlikte derinleştirilebilir.",
+      "exit_question": "Alfa=.90, ölçeğin tek boyutlu ve Türkçe kullanım için geçerli olduğunu kanıtlar mı?",
+      "exit_answer": "Hayır. İç tutarlılık, yapı, dil/kültür eşdeğerliği ve kullanım geçerliği için ayrı kanıtlar gerekir.",
+      "prerequisites": [
+        3,
+        10
+      ],
+      "decision_task": "Ham veya standart madde toplamı puanını seçin; katsayı değişimini puan tanımı ve ortak kayıtlarla açıklayın.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/puanlama",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "hesap ve eksikler",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "belirsizlik ve madde kararı",
+          "points": 20,
+          "common_dimensions": [
+            "K2",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "uyarlama planı",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 17
+    },
+    {
+      "number": 18,
+      "title": "Faktör Analizi",
+      "book_source": "b18-faktor-analizi.tex",
+      "page": "bolumler/b18/",
+      "application": "uygulamalar/b18-faktor-analizi",
+      "core": [
+        "PCA ile ortak faktör modelini ayırır.",
+        "Faktör sayısını birden çok kanıtla gerekçelendirir.",
+        "Örüntü, yapı ve puan belirsizliğini ayırır."
+      ],
+      "advanced": "PAF yinelemesi, Heywood denemesi ve koşullu puan belirsizliği; matematik köprüsü ve Bölüm 17 sonrasında.",
+      "exit_question": "Dört faktörlü bir denemenin Heywood sonucu vermesi gerçek faktör sayısının kesinlikle dört olmadığını kanıtlar mı?",
+      "exit_answer": "Hayır. O çözüm yorum için uygun değildir; faktör sayısı, veri, model ve sayısal süreç birlikte değerlendirilir.",
+      "prerequisites": [
+        10,
+        17
+      ],
+      "decision_task": "Regresyon veya Bartlett puanlama yaklaşımını seçin; puan korelasyonunun gizil faktör korelasyonuna eşit olmadığını gösterin.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/ön işlem",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "yöntem/hesap",
+          "points": 30,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "matris yorumu",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "sınırlılıklar/doğrulama planı",
+          "points": 15,
+          "common_dimensions": [
+            "K2",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 18
+    },
+    {
+      "number": 19,
+      "title": "Doğrulayıcı Faktör Analizi",
+      "book_source": "b19-dogrulayici-faktor-analizi.tex",
+      "page": "bolumler/b19/",
+      "application": "uygulamalar/b19-dogrulayici-faktor",
+      "core": [
+        "DFA modelinin serbest ve sabit yollarını belirtir.",
+        "Global uyumu yükler ve artıklarla birlikte yorumlar.",
+        "Puan güvenirliği ile yapı/geçerlik kanıtını ayırır."
+      ],
+      "advanced": "ML bilgi matrisi, CR/AVE delta aralıkları ve alternatif modeller; Bölüm 18 ve olabilirlik köprüsünden sonra.",
+      "exit_question": "CFI=.96 olması modelin kuramsal olarak doğru ve nedensel olduğunu tek başına gösterir mi?",
+      "exit_answer": "Hayır. Veri, model kısıtları, yükler, yerel uyum, alternatifler ve tasarım kanıtı ayrıca değerlendirilir.",
+      "prerequisites": [
+        12,
+        18
+      ],
+      "decision_task": "M1 veya önceden yazılmış M2 modelini seçin; uyum ve CR değişimini model varsayımıyla birlikte raporlayın.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/ön işlem",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "model/hesap",
+          "points": 30,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "belirsizlik/yorum",
+          "points": 25,
+          "common_dimensions": [
+            "K4",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "bağımsız doğrulama planı",
+          "points": 15,
+          "common_dimensions": [
+            "K2",
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 19
+    },
+    {
+      "number": 20,
+      "title": "Ölçme Değişmezliği",
+      "book_source": "b20-olcme-degismezligi.tex",
+      "page": "bolumler/b20/",
+      "application": "uygulamalar/b20-olcme-degismezligi",
+      "core": [
+        "Değişmezlik düzeyini izin verdiği karşılaştırmayla eşler.",
+        "Gizil farkın referans birimini açıklar.",
+        "Kısmi değişmezlik ve çapa duyarlılığını raporlar."
+      ],
+      "advanced": "Ortalama yapısı, çapa seçimi ve seçilim sonrası belirsizlik; Bölüm 19 sonrasında.",
+      "exit_question": "Yalnız metrik değişmezlik desteklenince gizil ortalama farkı otomatik olarak karşılaştırılabilir mi?",
+      "exit_answer": "Hayır. Gizil ortalama için uygun kesişim/eşik kısıtları ve tanımlama gerekir; metrik değişmezlik tek başına yeterli değildir.",
+      "prerequisites": [
+        17,
+        19
+      ],
+      "decision_task": "Tam skaler veya A1 kesişimi serbest senaryoyu seçin; A farkını aynı referans biriminde karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "tasarım",
+          "points": 20,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "model ve kestirim",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "ölçütler ve kurallar",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "yorum",
+          "points": 20,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 20
+    },
+    {
+      "number": 21,
+      "title": "Yapısal Eşitlik Modeli",
+      "book_source": "b21-yapisal-esitlik-modeli.tex",
+      "page": "bolumler/b21/",
+      "application": "uygulamalar/b21-yapisal-esitlik",
+      "core": [
+        "Ölçüm ve yapısal modeli ayırır.",
+        "Yol katsayısını, belirsizliği ve uyumu birlikte okur.",
+        "Eşdeğer uyumdan nedensel yön çıkarmaz."
+      ],
+      "advanced": "Gizil aracılık, MIMIC ve artık-rho duyarlılığı; Bölüm 15 ve 19 sonrasında.",
+      "exit_question": "Ok yönü ters çevrilince aynı kovaryans ve uyum elde edilmesi hangi yönün nedensel olduğunu belirler mi?",
+      "exit_answer": "Hayır. Eşdeğer modelleri yalnız kovaryans uyumu ayırt etmeyebilir; yön için tasarım ve dış bilgi gerekir.",
+      "prerequisites": [
+        15,
+        19
+      ],
+      "decision_task": "Yapısal rho=0 veya .3 varsayımını seçin; toplam ve dolaylı ilişkiyi aynı uyum altında karşılaştırın.",
+      "local_rubric": [
+        {
+          "criterion": "kuram/ölçüm",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K2"
+          ]
+        },
+        {
+          "criterion": "model/tanımlama",
+          "points": 25,
+          "common_dimensions": [
+            "K2"
+          ]
+        },
+        {
+          "criterion": "tahmin/belirsizlik",
+          "points": 25,
+          "common_dimensions": [
+            "K3",
+            "K4"
+          ]
+        },
+        {
+          "criterion": "yorum/sınırlılıklar",
+          "points": 15,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 21
+    },
+    {
+      "number": 22,
+      "title": "IBM SPSS Uygulamaları",
+      "book_source": "b22-spss-uygulamalar.tex",
+      "page": "bolumler/b22/",
+      "application": "uygulamalar/b22-spss-uygulamalar",
+      "core": [
+        "Veri, oturum ve analiz sözleşmesini birlikte denetler.",
+        "Doğru çıktı tablosunu ve model satırını seçer.",
+        "Gerçek yazılım yürütmesini referans hesaptan ayırır."
+      ],
+      "advanced": "OMS/CSV çıktı sözleşmesi ve yazılımlar arası karşılaştırma; gerçek SPSS oturumu ayrıca gereklidir.",
+      "exit_question": "Bir analiz.sps dosyasının bulunması SPSS çıktısının gerçekten üretildiğini kanıtlar mı?",
+      "exit_answer": "Hayır. Gerçek oturum, kullanılan veri/ayarlar ve üretilen çıktı kaydı gerekir; Python referansı SPSS yürütmesi değildir.",
+      "prerequisites": [
+        3,
+        5
+      ],
+      "decision_task": "Doğru yön/model satırı veya kasıtlı hatalı satırı denetleyin; sözleşmenin neyi yakaladığını ve neyi kanıtlamadığını gösterin.",
+      "local_rubric": [
+        {
+          "criterion": "kaynak/birim",
+          "points": 20,
+          "common_dimensions": [
+            "K1"
+          ]
+        },
+        {
+          "criterion": "içe aktarma/durum",
+          "points": 25,
+          "common_dimensions": [
+            "K1",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "model/hesap",
+          "points": 25,
+          "common_dimensions": [
+            "K2",
+            "K3"
+          ]
+        },
+        {
+          "criterion": "yorum/sınırlılık",
+          "points": 20,
+          "common_dimensions": [
+            "K5"
+          ]
+        },
+        {
+          "criterion": "yeniden üretim",
+          "points": 10,
+          "common_dimensions": [
+            "K3"
+          ]
+        }
+      ],
+      "source_number": 22
+    }
+  ],
+  "rubric_note": "112 yerel ölçüt bağlamıyla gözden geçirilerek ortak boyutlara eşlendi; yerel puanlar korunur, otomatik puan dönüşümü yapılmaz."
+}

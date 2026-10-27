@@ -1,0 +1,112 @@
+{
+  "scope": "Özgün veride eksik yok; sonradan maskelenmiş öğretim kopyası",
+  "seed": 20261025,
+  "hazard": "expit(-2 + .025*(observed baseline Reaction - 265)); first two days retained",
+  "masked_measurements": 40,
+  "observed_measurements": 104,
+  "retained_subjects": 18,
+  "complete_subjects": 7,
+  "same_linear_REML_model": {
+    "full_reference": {
+      "rows": 144,
+      "subjects": 18,
+      "converged": true,
+      "slope": 11.435428703703712,
+      "slope_SE": 1.8452434627677978,
+      "slope_z": 6.197246560923179,
+      "normal_Wald_CI95": [
+        7.818817973970852,
+        15.052039433436573
+      ],
+      "random_covariance_eigenvalues": [
+        44.259155930270936,
+        959.8809218180545
+      ],
+      "residual_SD": 25.52647639254807,
+      "warnings": [],
+      "inference": "Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı"
+    },
+    "masked_available": {
+      "rows": 104,
+      "subjects": 18,
+      "converged": true,
+      "slope": 12.753158050743107,
+      "slope_SE": 1.7939823398560437,
+      "slope_z": 7.108853731395411,
+      "normal_Wald_CI95": [
+        9.237017275724366,
+        16.269298825761847
+      ],
+      "random_covariance_eigenvalues": [
+        20.741555366194675,
+        889.9166906135154
+      ],
+      "residual_SD": 22.22636023083691,
+      "warnings": [],
+      "inference": "Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı"
+    },
+    "masked_complete_subjects": {
+      "rows": 56,
+      "subjects": 7,
+      "converged": true,
+      "slope": 10.411452380952383,
+      "slope_SE": 1.8627370321574346,
+      "slope_z": 5.589330217424071,
+      "normal_Wald_CI95": [
+        6.760554885254782,
+        14.062349876649984
+      ],
+      "random_covariance_eigenvalues": [
+        15.321062283210217,
+        894.9008869989973
+      ],
+      "residual_SD": 18.370064570122068,
+      "warnings": [],
+      "inference": "Normal Wald yaklaşımı; Satterthwaite/Kenward-Roger sd hesaplanmadı"
+    }
+  },
+  "age_specific_teaching_family": [
+    {
+      "age": 8,
+      "male_n": 16,
+      "female_n": 11,
+      "mean_male_minus_female": 1.6931818181818166,
+      "p_raw": 0.06847444547354943,
+      "p_Holm": 0.10948661633524005,
+      "p_Bonferroni": 0.2738977818941977
+    },
+    {
+      "age": 10,
+      "male_n": 16,
+      "female_n": 11,
+      "mean_male_minus_female": 1.5852272727272734,
+      "p_raw": 0.054743308167620026,
+      "p_Holm": 0.10948661633524005,
+      "p_Bonferroni": 0.2189732326704801
+    },
+    {
+      "age": 12,
+      "male_n": 16,
+      "female_n": 11,
+      "mean_male_minus_female": 2.62784090909091,
+      "p_raw": 0.012742560525782725,
+      "p_Holm": 0.038227681577348176,
+      "p_Bonferroni": 0.0509702421031309
+    },
+    {
+      "age": 14,
+      "male_n": 16,
+      "female_n": 11,
+      "mean_male_minus_female": 3.37784090909091,
+      "p_raw": 0.0013265672334670854,
+      "p_Holm": 0.005306268933868341,
+      "p_Bonferroni": 0.005306268933868341
+    }
+  ],
+  "MNAR_sensitivity_performed": false,
+  "small_sample_df_correction": false,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}

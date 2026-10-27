@@ -1,5 +1,8 @@
 # İleri İstatistik Uygulamaları
 
+**Güncel pedagojik sürüm:** [22 bölümlük atölye](https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/pedagojik-22/). Önceki sürüm bağlantıları korunur.
+
+
 > **22 bölümlük güncel sürüm:** [Öğrenci paketleri](surumler/22-bolum/README.md) · [Bölüm sayfaları](surumler/22-bolum/index.html).
 > Aşağıdaki 18 bölümlük kayıt önceki kitap sürümüne aittir; numaralar yeni sürümle karıştırılmamalıdır.
 

@@ -1,0 +1,113 @@
+bolum,kaynak_bolum_kimligi,yerel_olcut,mevcut_puan,ortak_boyutlar
+1,1,soru/kapsam,25,"K2,K5"
+1,1,birim/ölçüm,25,K1
+1,1,seçim/payda,25,"K1,K2"
+1,1,grafik/rapor,15,"K5,K6"
+1,1,kaynak/yeniden üretim,10,"K1,K3"
+2,2,kapsam/ölçüm,20,"K1,K5"
+2,2,hesap/tanımlar,30,K3
+2,2,grafik/uç kayıt,20,"K3,K4,K5"
+2,2,yorum,20,K5
+2,2,yeniden üretim,10,K3
+3,3,kaynak/sözlük,20,K1
+3,3,doğrulama,25,"K1,K3"
+3,3,eksik/puanlama,30,"K1,K2"
+3,3,dönüşüm/günlük,15,"K3,K6"
+3,3,sınırlılıklar,10,K5
+4,4,soru/tasarım,25,K2
+4,4,hipotez/yön,20,K2
+4,4,hesap/varsayım,25,"K3,K4"
+4,4,belirsizlik/çokluk,20,K4
+4,4,yeniden üretim,10,K3
+5,6,"Kaynak, analiz birimi ve ID eşleştirmesi",20,K1
+5,6,Üç testin doğru hesaplanması ve fark yönü,25,"K2,K3"
+5,6,Güven aralığı ve etki büyüklüğü paydası,20,"K3,K4"
+5,6,Tanılar ve bütün çiftler için duyarlılık,20,K4
+5,6,Yeniden çalıştırma ve ölçülü raporlama,15,"K3,K6"
+6,5,hedef/tasarım,25,K2
+6,5,etki gerekçesi,25,K2
+6,5,hesap/birim,25,"K1,K3"
+6,5,kayıp/çokluk,15,"K2,K4"
+6,5,yeniden üretim,10,K3
+7,7,"Kaynak, hücreler ve faktör kodlaması",20,"K1,K2"
+7,7,Kareler toplamları ve etki büyüklükleri,25,K3
+7,7,Karşılaştırma ailesi ve aralıkların eşleştirilmesi,25,"K2,K4"
+7,7,"Etkileşim, tanılar ve HC3 duyarlılığı",20,K4
+7,7,Yeniden üretim ve sınırlılık raporu,10,"K3,K5,K6"
+8,8,tasarım,25,"K1,K2"
+8,8,analiz planı,30,K2
+8,8,varsayımlar,20,K4
+8,8,raporlama,15,K6
+8,8,yeniden üretim,10,K3
+9,10,kaynak/eşleme,20,K1
+9,10,bağ ve sıfırlar,20,"K3,K4"
+9,10,kesin/yaklaşık yöntem,25,"K2,K3"
+9,10,aile ve yorum,25,"K4,K5"
+9,10,yeniden üretim,10,K3
+10,11,"Kaynak atfı, seçim kuralı ve değişmeyen verinin belgelenmesi",20,"K1,K6"
+10,11,"Grafikler, bağlı sıralar ve doğru katsayılar",25,"K3,K5"
+10,11,Yeniden sıralanan dışarıda bırakma karşılaştırmaları,25,"K3,K4"
+10,11,"Belirsizlik, silme kararı ve genelleme sınırlarının tartışılması",20,"K4,K5"
+10,11,"Kod, sürümler ve yeniden çalıştırma yönergesi",10,K3
+11,12,"Soru, değişken rolleri, birimler ve gerçek veri kaynağı/seçim kuralı açık.",15,"K1,K2"
+11,12,"Model, katsayılar ve temel hesaplamalar doğru ve izlenebilir.",20,"K2,K3"
+11,12,Grafikler yorumlanmış; duyarlılık ve varsayım sınırları tartışılmış.,20,"K4,K5"
+11,12,İki aralık doğru hesaplanmış ve doğru sorularla eşleştirilmiş.,15,"K2,K3,K4"
+11,12,"Rapor bağlama uygun; nedensellik, başarı olasılığı ve genelleme hatalarından kaçınılmış.",20,"K5,K6"
+11,12,"Veri, kod, sürüm ve çalıştırma yönergeleriyle sonuç yeniden üretilebilir.",10,K3
+12,13,"Kaynak, seçim, olay tanımı ve bilgi zamanı",20,"K1,K2"
+12,13,"Katsayılar, OR ve belirsizlik hesaplarının doğruluğu",25,"K3,K4"
+12,13,"Gözlem etkisi, VIF ve HC3 ayrımı",20,K4
+12,13,Sabit-model aktarımı ve eşik tabloları,20,"K2,K3,K4"
+12,13,Yeniden üretilebilir kod ve ölçülü akademik rapor,15,"K3,K6"
+13,14,kaynak/tasarım,20,"K1,K2"
+13,14,model/hesap,30,"K2,K3"
+13,14,kontrast/belirsizlik,25,K4
+13,14,yorum/sınırlılıklar,15,K5
+13,14,yeniden üretim,10,K3
+14,9,kuram,20,K2
+14,9,analiz planı,30,K2
+14,9,varsayımlar,20,K4
+14,9,izleme,20,"K2,K4"
+14,9,raporlama,10,K6
+15,15,"Kaynak, veri sözlüğü ve analiz birimi",15,K1
+15,15,Araştırma hedefi ve yöntem gerekçesi,20,K2
+15,15,Hesabın doğruluğu ve yeniden üretilebilirlik,20,K3
+15,15,"Belirsizlik, tanılar ve duyarlılık",20,K4
+15,15,Yorum ve kapsam sınırları,15,K5
+15,15,Açık ve düzenli raporlama,10,K6
+16,16,tasarım,25,"K1,K2"
+16,16,örneklem,20,"K1,K2"
+16,16,model,30,"K2,K3"
+16,16,raporlama,15,K6
+16,16,yeniden üretim,10,K3
+17,17,kaynak/puanlama,20,K1
+17,17,hesap ve eksikler,25,"K1,K3"
+17,17,belirsizlik ve madde kararı,20,"K2,K4"
+17,17,uyarlama planı,25,"K2,K5"
+17,17,yeniden üretim,10,K3
+18,18,kaynak/ön işlem,20,K1
+18,18,yöntem/hesap,30,"K2,K3"
+18,18,matris yorumu,25,"K3,K5"
+18,18,sınırlılıklar/doğrulama planı,15,"K2,K5"
+18,18,yeniden üretim,10,K3
+19,19,kaynak/ön işlem,20,K1
+19,19,model/hesap,30,"K2,K3"
+19,19,belirsizlik/yorum,25,"K4,K5"
+19,19,bağımsız doğrulama planı,15,"K2,K5"
+19,19,yeniden üretim,10,K3
+20,20,tasarım,20,K2
+20,20,model ve kestirim,25,"K2,K3"
+20,20,ölçütler ve kurallar,25,"K2,K4"
+20,20,yorum,20,K5
+20,20,yeniden üretim,10,K3
+21,21,kuram/ölçüm,25,"K1,K2"
+21,21,model/tanımlama,25,K2
+21,21,tahmin/belirsizlik,25,"K3,K4"
+21,21,yorum/sınırlılıklar,15,K5
+21,21,yeniden üretim,10,K3
+22,22,kaynak/birim,20,K1
+22,22,içe aktarma/durum,25,"K1,K3"
+22,22,model/hesap,25,"K2,K3"
+22,22,yorum/sınırlılık,20,K5
+22,22,yeniden üretim,10,K3

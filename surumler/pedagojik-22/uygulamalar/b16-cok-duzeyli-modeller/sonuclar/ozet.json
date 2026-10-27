@@ -1,0 +1,297 @@
+{
+  "data": {
+    "n_students": 7185,
+    "n_schools": 160,
+    "cluster_size": {
+      "min": 14,
+      "max": 67,
+      "mean": 44.90625
+    },
+    "catholic_schools": 70,
+    "MathAch": {
+      "mean": 12.74785260960334,
+      "sd": 6.878245687377629
+    },
+    "meanses_source_vs_sample_max_abs_diff": 0.006483870967741945
+  },
+  "null_model": {
+    "formula": "MathAch ~ 1",
+    "random": "1",
+    "estimator": "REML",
+    "fixed": {
+      "Intercept": {
+        "estimate": 12.63697381182513,
+        "se": 0.24439959690102625,
+        "z": 51.70619744083574,
+        "p": 0.0
+      }
+    },
+    "random_effects": {
+      "variances": {
+        "Group": 8.614024602107348
+      },
+      "residual_variance": 39.14832191274254
+    },
+    "loglik": -23558.396741774726,
+    "deviance": 47116.79348354945,
+    "ICC": 0.18035178819007863,
+    "design_effect": 8.91857070022064,
+    "effective_n": 805.6223627651735,
+    "reliability_of_school_means": {
+      "mean": 0.9013773018092065,
+      "min": 0.7549318997050637,
+      "max": 0.9364772252545966
+    }
+  },
+  "standard_errors": {
+    "OLS_naive": {
+      "slope": 3.183870278196199,
+      "se": 0.09712093232235228,
+      "intercept_se": 0.07568643691145352
+    },
+    "OLS_cluster_robust": {
+      "slope": 3.183870278196199,
+      "se": 0.13348499490615623,
+      "intercept_se": 0.16944728468804715
+    },
+    "random_intercept": {
+      "slope": 2.390195787146765,
+      "se": 0.10797784598920229,
+      "intercept_se": 0.18800061563088358
+    }
+  },
+  "contextual": {
+    "formula": "MathAch ~ ses_m + ses_ort",
+    "random": "1",
+    "estimator": "REML",
+    "fixed": {
+      "Intercept": {
+        "estimate": 12.683307781771255,
+        "se": 0.14940213804488853,
+        "z": 84.8937501681569,
+        "p": 0.0
+      },
+      "ses_m": {
+        "estimate": 2.1911719650185635,
+        "se": 0.10866728792826202,
+        "z": 20.164043906801936,
+        "p": 2.0262526859397044e-90
+      },
+      "ses_ort": {
+        "estimate": 5.866173805346295,
+        "se": 0.3617359439003802,
+        "z": 16.21672909276,
+        "p": 3.841133407516129e-59
+      }
+    },
+    "random_effects": {
+      "variances": {
+        "Group": 2.692528995502703
+      },
+      "residual_variance": 37.019061459677886
+    },
+    "loglik": -23284.291966802037,
+    "deviance": 46568.58393360407,
+    "variance_explained": {
+      "level1_sigma2": 0.054389571481775145,
+      "level2_tau00": 0.6874249703391839
+    }
+  },
+  "contextual_grand_centered": {
+    "formula": "MathAch ~ ses_g + ses_ort",
+    "random": "1",
+    "estimator": "REML",
+    "fixed": {
+      "Intercept": {
+        "estimate": 12.683621895497623,
+        "se": 0.14940213885703013,
+        "z": 84.8958521780948,
+        "p": 0.0
+      },
+      "ses_g": {
+        "estimate": 2.1911719650185657,
+        "se": 0.10866728792826204,
+        "z": 20.164043906801954,
+        "p": 2.026252685939011e-90
+      },
+      "ses_ort": {
+        "estimate": 3.675001840327729,
+        "se": 0.3777055368606381,
+        "z": 9.729806639513715,
+        "p": 2.2502028287517514e-22
+      }
+    },
+    "random_effects": {
+      "variances": {
+        "Group": 2.6925289955027045
+      },
+      "residual_variance": 37.0190614596779
+    },
+    "loglik": -23284.291966802037,
+    "deviance": 46568.58393360407
+  },
+  "effects": {
+    "within": 2.1911719650185635,
+    "between": 5.866173805346295,
+    "contextual_from_grand_centered": 3.675001840327729,
+    "contextual_difference": 3.675001840327732,
+    "between_ols_on_school_means": 5.909300014783569
+  },
+  "slope_models": {
+    "random_intercept": {
+      "formula": "MathAch ~ ses_m + ses_ort + katolik",
+      "random": "1",
+      "estimator": "REML",
+      "fixed": {
+        "Intercept": {
+          "estimate": 12.12821190864252,
+          "se": 0.19919836250944933,
+          "z": 60.88509843080259,
+          "p": 0.0
+        },
+        "ses_m": {
+          "estimate": 2.1911719650185635,
+          "se": 0.10867301721708006,
+          "z": 20.162980849621416,
+          "p": 2.070262791974127e-90
+        },
+        "ses_ort": {
+          "estimate": 5.336260797670253,
+          "se": 0.3690046510873063,
+          "z": 14.461229098187427,
+          "p": 2.129606815993062e-47
+        },
+        "katolik": {
+          "estimate": 1.2246201258797074,
+          "se": 0.30608434984995175,
+          "z": 4.000923688127273,
+          "p": 6.309570509375558e-05
+        }
+      },
+      "random_effects": {
+        "variances": {
+          "Group": 2.3687225174142004
+        },
+        "residual_variance": 37.022965090476596
+      },
+      "loglik": -23276.91615334082,
+      "deviance": 46553.83230668164
+    },
+    "random_slope": {
+      "formula": "MathAch ~ ses_m + ses_ort + katolik",
+      "random": "~ses_m",
+      "estimator": "REML",
+      "fixed": {
+        "Intercept": {
+          "estimate": 12.063352688856941,
+          "se": 0.21246946574197093,
+          "z": 56.77687684077404,
+          "p": 0.0
+        },
+        "ses_m": {
+          "estimate": 2.194982341390543,
+          "se": 0.12845400094434103,
+          "z": 17.08769151022105,
+          "p": 1.8328731503069766e-65
+        },
+        "ses_ort": {
+          "estimate": 5.246209425558162,
+          "se": 0.382607639761647,
+          "z": 13.711721566318937,
+          "p": 8.638358199658705e-43
+        },
+        "katolik": {
+          "estimate": 1.3723221106840828,
+          "se": 0.3489686637733058,
+          "z": 3.932508139400045,
+          "p": 8.406413243231655e-05
+        }
+      },
+      "random_effects": {
+        "variances": {
+          "Group": 2.385351566507828,
+          "ses_m": 0.7007566207571934
+        },
+        "residual_variance": 36.709686879426634,
+        "correlation": 0.17983497444657226
+      },
+      "loglik": -23271.667834967935,
+      "deviance": 46543.33566993587
+    }
+  },
+  "random_slope_test": {
+    "LR": 10.496636745767319,
+    "p_naive_chi2_2": 0.005256350192225015,
+    "p_mixture": 0.00322613524299216
+  },
+  "cross_level": {
+    "formula": "MathAch ~ ses_m * (ses_ort + katolik)",
+    "random": "~ses_m",
+    "estimator": "REML",
+    "fixed": {
+      "Intercept": {
+        "estimate": 12.12793074869461,
+        "se": 0.19928994868926395,
+        "z": 60.85570711649222,
+        "p": 0.0
+      },
+      "ses_m": {
+        "estimate": 2.9450413606572905,
+        "se": 0.15570121828130762,
+        "z": 18.9146969636194,
+        "p": 8.631517933021484e-80
+      },
+      "ses_ort": {
+        "estimate": 5.332874157050941,
+        "se": 0.3692490834031754,
+        "z": 14.442484482021275,
+        "p": 2.795795784651914e-47
+      },
+      "katolik": {
+        "estimate": 1.2265787649658988,
+        "se": 0.3062821690293031,
+        "z": 4.004734486677047,
+        "p": 6.208717751414603e-05
+      },
+      "ses_m:ses_ort": {
+        "estimate": 1.0392364184653697,
+        "se": 0.2996075001563926,
+        "z": 3.4686595559954174,
+        "p": 0.0005230618242679632
+      },
+      "ses_m:katolik": {
+        "estimate": -1.6426759818336194,
+        "se": 0.23991767755117555,
+        "z": -6.846831790805532,
+        "p": 7.55034073401748e-12
+      }
+    },
+    "random_effects": {
+      "variances": {
+        "Group": 2.3795825678165854,
+        "ses_m": 0.10117169246377943
+      },
+      "residual_variance": 36.72117308021648,
+      "correlation": 0.390964833669275
+    },
+    "loglik": -23251.83143408556,
+    "deviance": 46503.66286817112,
+    "slope_variance_explained_by_level2": 0.8556250637283174,
+    "implied_slopes_at_mean_ses": {
+      "public": 2.9450413606572905,
+      "catholic": 1.302365378823671
+    }
+  },
+  "cross_level_LR_ML": {
+    "LR": 41.71415770956082,
+    "df": 2,
+    "p": 8.747536126377815e-10,
+    "note": "sabit etki karşılaştırması ML ile; REML olabilirlikleri farklı sabit yapıları karşılaştırmaz"
+  },
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "statsmodels": "0.15.0"
+  }
+}

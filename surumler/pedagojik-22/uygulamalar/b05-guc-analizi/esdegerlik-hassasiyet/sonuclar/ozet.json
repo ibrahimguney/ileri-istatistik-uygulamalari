@@ -1,0 +1,69 @@
+{
+  "scope": "Varsayımsal bağımsız normal eşit varyanslı gruplar; klinik/pilot veri yok",
+  "equivalence_plans": [
+    {
+      "true_difference": 0.0,
+      "delta": 5.0,
+      "sigma": 10.0,
+      "alpha": 0.05,
+      "target_power": 0.8,
+      "n_per_group": 70,
+      "total": 140,
+      "previous_power": 0.7985117775365799,
+      "power": 0.8059311816271334
+    },
+    {
+      "true_difference": 2.5,
+      "delta": 5.0,
+      "sigma": 10.0,
+      "alpha": 0.05,
+      "target_power": 0.8,
+      "n_per_group": 199,
+      "total": 398,
+      "previous_power": 0.7990803095690104,
+      "power": 0.8008399172299098
+    }
+  ],
+  "width_plan": {
+    "half_width_target": 2.0,
+    "sigma": 10.0,
+    "CI_level": 0.95,
+    "target_probability": 0.9,
+    "n_per_group": 211,
+    "total": 422,
+    "previous_probability": 0.8936329246729456,
+    "probability": 0.9066173251827923,
+    "probability_at_plugin_n194": 0.5300728132400114,
+    "MC_probability": 0.90646
+  },
+  "comparison_n64": {
+    "difference_power_true_delta5": 0.8014595579222544,
+    "TOST_power_true_delta0": 0.7573283828079445,
+    "TOST_power_true_delta2_5": 0.4008350028597526
+  },
+  "simulation_checks": [
+    {
+      "n_per_group": 64,
+      "true_difference": 0.0,
+      "integral_power": 0.7573283828079445,
+      "MC_power": 0.75568,
+      "MC_SE": 0.0013556625811810548
+    },
+    {
+      "n_per_group": 64,
+      "true_difference": 2.5,
+      "integral_power": 0.4008350028597526,
+      "MC_power": 0.39944,
+      "MC_SE": 0.001549729987262861
+    }
+  ],
+  "seed": 20261025,
+  "repetitions": 100000,
+  "simulation_unit": "Normal ortalama farkı ve bağımsız ki-kare pooled varyans; yeni kişi verisi üretilmez",
+  "uncertain_sigma_integrated": false,
+  "loss_model_integrated": false,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}
