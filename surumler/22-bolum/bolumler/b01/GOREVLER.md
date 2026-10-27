@@ -96,3 +96,17 @@ Yöntem ve kaynak belgelerine erişim: 6 Eylül 2026.
 2.  $N=80$, $n=10$, $S_{80}^{2}=4.107437$ ile basit rastgele seçimin standart hatasını hesaplayın. Sekiz sistematik ortalamanın tam tasarım varyansını neden 8’e bölerek buluruz? Sistematik yöntemin her zaman üstün olduğunu söyleyebilir miyiz?
 
 3.  Araştırmacı “20 000 tekrar sayesinde 200 000 bağımsız öğrenciye ulaştım; Türkiye ortalamasını çok kesin buldum” diyor. Veri büyüklüğü, Monte Carlo hatası ve genelleme bakımından bu cümleyi düzeltin.
+
+## Çekirdek öğrenme rotası
+
+1. Araştırma hedefini, eldeki kayıtları ve analiz birimini ayırır.
+2. Ölçüm türüne uygun payda ve özet seçer.
+3. Verinin desteklediği kapsamda bir sonuç cümlesi yazar.
+
+**İleri rota:** Tasarım temelli belirsizlik ve örnekleme simülasyonları; Bölüm 4 sonrasında dönülebilir.
+
+**Ç1:** Kaynak sırasındaki ilk 80 GP kaydının ortalaması Türkiye öğrencilerinin ortalaması sayılabilir mi?
+
+**Karar görevi:** Betimleme hedefini ilk 80 kayıt veya ilk 40 kayıt olarak seçin; iki özeti karşılaştırın ve hangi hedefe genellemediğinizi yazın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

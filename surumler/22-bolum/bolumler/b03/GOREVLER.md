@@ -106,3 +106,17 @@ Bu alıştırmalar veri sözlüğü, eksik veri, aykırı değer, yeniden kodlam
 2.  Bire bir ilişki beklenen iki tabloda boş anahtar, tekrarlı anahtar veya “01”/1 tür farkı varsa neden doğrudan birleştirme yapılmamalıdır? Gerçek BFI arşivinde bu sorunların bulunduğu sonucunu çıkarabilir miyiz?
 
 3.  $(0,2)$ eğitim ve $(100,102)$ test kurgusunda doğru ve sızıntılı merkezlemeyi hesaplayın. Bilinen ters anahtar ile öğrenilen atama/standartlaştırmanın farkını, çıkarım ve gelecekte tahmin amaçlarını ayırarak açıklayın.
+
+## Çekirdek öğrenme rotası
+
+1. Veri sözlüğü, anahtar ve geçerli değer denetimi kurar.
+2. Eksik hücre, eksik kişi ve puanlama paydalarını ayırır.
+3. Hazırlama kararlarını ham veriyi koruyan bir günlükte belgeler.
+
+**İleri rota:** Çoklu atama ve Rubin birleştirmesi Bölüm 4 ve 12 sonrasında; ilk geçişte puanlama ve birleştirme denetimleri yeterlidir.
+
+**Ç1:** 100 kişinin onar madde yanıtında 20 eksik hücre varsa tam 20 kişinin eksik yanıtı olduğu söylenebilir mi?
+
+**Karar görevi:** Puanlama için tam madde veya belgelenmiş asgari madde kuralını seçin; kullanılabilir kişi sayısı ve hedef puandaki değişimi karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

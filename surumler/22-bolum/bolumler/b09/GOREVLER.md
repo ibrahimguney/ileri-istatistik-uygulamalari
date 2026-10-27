@@ -85,3 +85,17 @@ Bir eğitim müdahalesinin okuma, yazma ve matematik başarısına etkisini sın
 4.  Dengesiz iki faktörlü MANOVA’da Tip II ve Tip III sonuçları farklıysa ne raporlarsınız?
 
 5.  Güçlü bir MANOVA raporunda bulunması gereken en az beş unsuru yazın.
+
+## Çekirdek öğrenme rotası
+
+1. Ortak ortalama vektörü hipotezini tekil testlerden ayırır.
+2. Kovaryans bilgisinin MANOVA yorumundaki rolünü açıklar.
+3. İzleme ailesini ve model sınırlarını raporlar.
+
+**İleri rota:** SSCP, özdeğerler ve eşzamanlı aralıklar için matematik köprüsü; Bölüm 11 bu bölümden önce tamamlanmalıdır.
+
+**Ç1:** Anlamlı MANOVA her bağımlı değişkende tekil anlamlı fark bulunduğunu gösterir mi?
+
+**Karar görevi:** Ortak vektör hipotezi veya önceden tanımlı tekil sonuç ailesi hedefini seçin; sonuç cümlesi ve aile düzeltmesini karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

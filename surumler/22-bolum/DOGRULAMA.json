@@ -2201,6 +2201,8 @@
     "status": "passed_with_jupyter_kernel",
     "colab_ui_executed": false,
     "isolated_install_and_rerun": "passed",
-    "report": "dogrulama/colab-22.json"
+    "report": "dogrulama/colab-22.json",
+    "student_decision_export": "verified_blank_is_not_complete",
+    "teaching_revision": 27
   }
 }

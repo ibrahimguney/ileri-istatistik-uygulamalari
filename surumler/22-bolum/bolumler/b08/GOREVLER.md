@@ -99,3 +99,17 @@ Bir müdahalenin dört haftalık izlem çalışması için tasarımı yazın: ko
 2.  Maskenin MAR türü olduğu hangi tasarım bilgisinden gelir? Karma modelin yakınsaması, MAR veya doğru kovaryans kanıtı mıdır? 18 kişiyle normal Wald aralığı ve kişi eğim dağılımı aralığını ayırın.
 
 3.  Dört yaş için Holm ve Bonferroni sonuçlarını hesaplayın. Bu kararlar genel etkileşim ve doğrusal eğim karşıtlığı hakkında neden aynı iddiayı üretmez? Karşılaştırma ailesinin ne zaman tanımlanması gerekir?
+
+## Çekirdek öğrenme rotası
+
+1. Kişi içi bağımlılığı analiz biriminden ayırır.
+2. Zaman ve grup etkileşimini profil grafiğiyle yorumlar.
+3. Tekrarlı ANOVA ile karma modelin koşullarını karşılaştırır.
+
+**İleri rota:** Eksik izlem, kovaryans yapısı ve küçük örneklem çıkarımı; Bölüm 16 ile birlikte derinleştirilebilir.
+
+**Ç1:** 18 kişinin sekizer ölçümü 144 bağımsız kişi midir?
+
+**Karar görevi:** Mevcut ölçümler veya yalnız tam kişiler yaklaşımını seçin; eğim, kişi sayısı ve kayıp varsayımını birlikte karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

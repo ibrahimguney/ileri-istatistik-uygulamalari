@@ -165,3 +165,11 @@ Her bölüm sayfasında **Colab’da çalıştır** bağlantısı vardır.
 GitHub kaynakların ve sürümlerin ana yeridir; Colab aynı depodaki defterleri
 çalıştırır. Yerel uygulamalar korunur. Otomatik yürütme gerçek Jupyter çekirdeğinde
 yapılır; Google hesabıyla Colab arayüzü testi diye sunulmaz.
+
+## Öğretim düzeni — Revizyon 27
+
+[İki dönemlik ders çizelgesi](DERS-PLANI.md) · [Ön koşullar](ON-KOSULLAR.md) ·
+[Öğrenme sözleşmesi](OGRENME-ROTALARI.json) · [Rubrik eşlemeleri](RUBRIK-ESLEME.csv).
+Her bölümde üç çekirdek kazanım, ileri rota ve Ç1 sorusu vardır. Colab çıktı ZIP’i
+öğrenci kararını ve kısa savunmayı ayrı JSON dosyasında saklar. Boş günlük, sayısal
+kontrol geçse bile öğrenci çalışması olarak tamamlanmış sayılmaz.

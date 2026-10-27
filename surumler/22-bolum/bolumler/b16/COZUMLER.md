@@ -91,3 +91,7 @@ Hayır. Okul türü okul içinde sabittir; düzey 2 ilişkisinin tahmini için 1
 2.  Eşit yaklaşım 8.919, gerçek $n_j$ ile 9.479; etkili sayı 757.95’tir. Blok kovaryansı toplayarak öğrenci ortalaması için elde edilir. Okul türü katsayısının bilgisi okul sayısına, tür dağılımına ve yordayıcı yapısına da bağlıdır.
 
 3.  Okul 8367’de $\lambda=.755$, büzülmüş merkez 6.534; okul ortalamasının koşullu varyansı 2.111, yeni öğrencininki 41.259’dur. Yaklaşık %95 yarı genişlikler 2.848 ve 12.590’dır. Bunlar parametre belirsizliği hariç normal koşullu aralıklardır; kesin başarı sıralaması değildir. Yeni okulda 30 öğrencinin ortalamasının varyansı $8.614+39.148/30=9.919$; ortak okul bileşeni kalır. Yeni okul doğrulaması bütün okulları ayırır; bilinen okulda yeni öğrenci hedefi ayrı değerlendirilir. Eğitim dışı bilgiyle merkezleme yapılmaz. Bu ekte doğrulama uygulanmamıştır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. ICC belirli modelde küme benzerliğini özetler; tasarım etkisi hedefe, küme büyüklüklerine ve modele bağlıdır.

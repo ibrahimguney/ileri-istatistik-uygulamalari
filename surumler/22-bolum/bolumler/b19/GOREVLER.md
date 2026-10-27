@@ -89,3 +89,17 @@ P1 dosyasına puan ağırlıklarını, hedef faktör payının hata tanımını,
 5.  Güçlü bir DFA raporunda en az beş unsur yazınız.
 
 Yöntem belgelerine erişim: 6 Eylül 2026. Veri kaynağı ve bölme kaydı Bölüm <a href="#chap:faktor" data-reference-type="ref" data-reference="chap:faktor">[chap:faktor]</a> uygulama klasöründe belgelenmiştir.
+
+## Çekirdek öğrenme rotası
+
+1. DFA modelinin serbest ve sabit yollarını belirtir.
+2. Global uyumu yükler ve artıklarla birlikte yorumlar.
+3. Puan güvenirliği ile yapı/geçerlik kanıtını ayırır.
+
+**İleri rota:** ML bilgi matrisi, CR/AVE delta aralıkları ve alternatif modeller; Bölüm 18 ve olabilirlik köprüsünden sonra.
+
+**Ç1:** CFI=.96 olması modelin kuramsal olarak doğru ve nedensel olduğunu tek başına gösterir mi?
+
+**Karar görevi:** M1 veya önceden yazılmış M2 modelini seçin; uyum ve CR değişimini model varsayımıyla birlikte raporlayın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

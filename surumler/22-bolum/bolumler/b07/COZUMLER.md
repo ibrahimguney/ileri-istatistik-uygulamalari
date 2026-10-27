@@ -116,3 +116,7 @@ Değerlendirme: kaynak ve hücre kodlaması 20; kareler toplamları ve etki büy
 2.  Etkileşim doğrudan farkların farkıdır. 1–.5 ve 2–.5 kestirimleri $-2.570$ ve $-7.461667$; yalnız bu iki kontrastın HC3/t–Bonferroni aralıkları $[-9.354,4.214]$ ve $[-14.603,-.320]$’dir. Aile bütün hedefleri kapsamaz. Bir koşulun anlamlı, diğerinin anlamsız olması farklarının anlamlı olduğunu göstermez. Küçük hücrelerde HC3 t yaklaşımı kesin test değildir.
 
 3.  Alt küme, altı hücreden kaynak sırasıyla 5/10/8 ve 10/6/9 kayıt seçilen öğretim örneğidir; ana veri değişmez, yeni gözlem veya rastgele kayıp üretilmez. Tip III etiketi tek başına hipotezi açıklamaz; kontrast, kodlama ve hedef ağırlıklar yazılır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Omnibus test tüm ortalamaların eşitliğiyle ilgilidir; hangi karşıtlığın neyi sınadığı ve aile düzeltmesi ayrıca belirlenir.

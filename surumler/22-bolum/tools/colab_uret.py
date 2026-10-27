@@ -1,5 +1,6 @@
 """Yerel analizleri değiştirmeden 21 Colab defteri üretir; B02 pilotunu korur."""
 from pathlib import Path
+from ogretim_ekle import apply as teaching_layer, main as sync_teaching
 import json,re,textwrap
 ROOT=Path(__file__).resolve().parents[1]
 COMMIT='23acf4be23823aa139523c8f4db34cff248c285d'
@@ -144,7 +145,7 @@ for table in sorted((application/"sonuclar").glob("*.csv"))[:3]:
         content+="<tr>"+"".join("<"+tag+">"+html.escape(value)+"</"+tag+">" for value in row)+"</tr>"
     display(HTML(content+"</table>"))
 ''')
- tasks=(chapter/'GOREVLER.md').read_text()
+ tasks=(chapter/'GOREVLER.md').read_text().split('\n## Çekirdek öğrenme rotası')[0]
  md('## Sıra sizde\n\n'+tasks+f'\n\nÖnce kendi yorumunuzu yazın; sonra [çözümlerle]({base}COZUMLER.md) karşılaştırın. Sonuç, belirsizlik, varsayım ve sınırlılıkları [raporlama rehberine]({base}RAPORLAMA.md) göre ayırın.')
  code('''yanitlarim={"bulgular":"", "belirsizlik":"", "varsayimlar":"", "sinirliliklar":""}
 # Metinleri doldurun; sayısal kontrolü geçmek bu yorumları tamamlamaz.
@@ -171,6 +172,8 @@ def main():
  mapping=json.loads((ROOT/'BOLUM_ESLESMESI.json').read_text())['chapters']
  for e in mapping:
   if e['number']==2:continue
-  nb=build(e);(ROOT/e['page']/'colab.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=2)+'\n')
- print('21 Colab defteri üretildi; B02 pilotu korundu.')
+  record=next(c for c in json.loads((ROOT/'OGRENME-ROTALARI.json').read_text())['chapters'] if c['number']==e['number'])
+  nb=teaching_layer(build(e),record);(ROOT/e['page']/'colab.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=2)+'\n')
+ sync_teaching()
+ print('21 Colab defteri üretildi; B02 başlangıç defteri ve öğretim katmanı korundu.')
 if __name__=='__main__':main()

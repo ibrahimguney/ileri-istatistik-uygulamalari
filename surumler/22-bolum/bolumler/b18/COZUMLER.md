@@ -97,3 +97,7 @@ Yarım B için önceden yazılacak DFA modeli: iki ilişkili faktör, her madde 
 2.  Regresyon puanları $V_{\rm reg}=\Phi-C$ kovaryansına sahiptir; normalize edilmiş korelasyonu .391331, gözlenen yarım A’daki korelasyonu .391078’dir. $\Phi$’deki .317112 başka bir niceliktir. Bartlett için model/gözlenen puan korelasyonları .238858/.238580’dir. Puanlama yöntemi değişmiştir; madde modeli, ortak matris ve madde uyumu değişmez. Puanlar gözlenmiş hatasız faktörler değildir.
 
 3.  Koşullu standart sapmalar .472962/.494400, normal %95 yarı genişlikler .926989/.969007’dir. Sabit kabul edilen model parametrelerine koşulludur; yük, faktör sayısı/rotasyon belirsizliği, ordinal yapı ve uyumsuzluk dışarıdadır. Yeni örneklemde kapsama veya bireysel tanı doğrulanmamıştır. Madde sırası, anahtar, eğitim ortalama/standart sapmaları ve katsayılar saklanır; yeni yarıyla yeniden ölçekleme farklı kuraldır. Bu ekte B yanıtları okunmaz/puanlanmaz. Sonuç görülerek değişiklik yapılırsa keşifsel diye belgelenir; dosyalama dış zaman damgalı ön kayıt sayılmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. O çözüm yorum için uygun değildir; faktör sayısı, veri, model ve sayısal süreç birlikte değerlendirilir.

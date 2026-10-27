@@ -72,3 +72,10 @@ https://doi.org/10.1371/journal.pbio.1002128 .
 Colab defteri bağımsız çalışır; tüm paketi bilgisayarınıza açmanız gerekmez. Veri
 GitHub'ın sabit bir commit'inden alınır ve SHA256 ile doğrulanır. Mevcut
 `calisma.ipynb` tam paketle yerel çalışma içindir; iki defterin amacı farklıdır.
+
+## Öğrenme ve teslim rotası
+
+Üç çekirdek kazanım, ileri rota ve Ç1 sorusu [görevlerde](GOREVLER.md),
+yerel puanların ortak çatıyla bağlantısı [RUBRIK.md](RUBRIK.md) içindedir.
+Colab kararı ve kısa savunma çıktı ZIP’ine ayrıca kaydedilir.
+[Ortak ön koşul haritası](../../ON-KOSULLAR.md) temel okuma sırasını gösterir.

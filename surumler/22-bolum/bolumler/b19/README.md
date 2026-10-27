@@ -68,3 +68,10 @@ Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
 yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
 görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
 çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.
+
+## Öğrenme ve teslim rotası
+
+Üç çekirdek kazanım, ileri rota ve Ç1 sorusu [görevlerde](GOREVLER.md),
+yerel puanların ortak çatıyla bağlantısı [RUBRIK.md](RUBRIK.md) içindedir.
+Colab kararı ve kısa savunma çıktı ZIP’ine ayrıca kaydedilir.
+[Ortak ön koşul haritası](../../ON-KOSULLAR.md) temel okuma sırasını gösterir.

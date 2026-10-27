@@ -94,3 +94,17 @@ Bu alıştırmalar, merkezi eğilim, yayılım, çarpıklık, aykırı değer ve
 2.  G3’te en az 15 puan alanların oranını $1-\widehat F(15)$ ile hesaplayan raporu düzeltin. Eşiğe eşit altı kaydı ve yüzde puan farkını gösterin. G1 tip 7 $Q_3=13.25$ ile ters ampirik dağılım $Q_3=13$ arasındaki farkı açıklayın.
 
 3.  Kurgusal $(1,2,100)$ ve $(2,100,101)$ eşleşmelerinde medyanların farkı ile farkların medyanını bulun. Gerçek notlarda aynı çıkan iki medyanın neden genel özdeşlik olmadığını açıklayın. Ana rapor için hem dağılım hem eşleşme bilgisini gösteren bir sunum önerin.
+
+## Çekirdek öğrenme rotası
+
+1. Ortalama, medyan ve yayılımı birlikte yorumlar.
+2. Çeyrek yöntemini belirterek dağılım grafiği okur.
+3. Bir uç kaydın etkisini ana veriyi koruyarak araştırır.
+
+**İleri rota:** Kırpılmış ortalama, ampirik dağılım ve eşleşmiş değişim ekleri; Bölüm 1–2 kavramlarını pekiştirdikten sonra.
+
+**Ç1:** 1, 2, 3, 4, 100 değerlerinde ortalama 22 ve medyan 3 olması 100 kaydının hatalı olduğunu kanıtlar mı?
+
+**Karar görevi:** G1 kaynak satır 1 için ana veriyi koruma veya ayrıca dışlama duyarlılığı raporlama kararını seçin; ortalama ve medyan değişimini kanıtlayın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

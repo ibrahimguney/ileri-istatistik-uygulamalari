@@ -99,3 +99,7 @@ Rapor 80 GP kaydının kaynağını, ilk-sıra seçimini, not ölçeğini ve eks
 2.  $1-\widehat F(15)=9/80=.1125$ yalnız 15’ten büyükleri verir. En az 15 için $1-\widehat F(15^-)=15/80=.1875$ gerekir. Eşiğe eşit 6 kaydın payı $6/80=.075$, yani 7.50 yüzde puanıdır. G1 ters ampirik çeyreği sıralı 60. değer 13’ü, tip 7 ise $h=60.25$ ile 60/61. değerler arasında $13+.25(14-13)=13.25$’i kullanır. Algoritmalar farklıdır; ana tip 7 tanımı değiştirilmez.
 
 3.  Ayrı medyanlar 2 ve 100, farkları 98’dir. Eşleşmiş farklar 1, 98, 1 ve medyanları 1’dir. Gerçek notlarda her iki sonucun 0 olması genel bir eşitlik kanıtlamaz. Ortalamalar farkında doğrusallık vardır; medyanda böyle bir kural yoktur. Ortak ölçekli dağılım/ampirik dağılım ile eşleşmiş fark sayımları birlikte sunulabilir; az sayıda birimde eşleşmiş nokta/çizgi de kullanılabilir. Ortalama çubukları tek başına bireysel değişimleri göstermez. Kurgu gerçek not ölçeğiyle karıştırılmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Özetlerin farklılığı dağılımı ve uç kaydın etkisini gösterir; kayıt hatası için kaynak bilgisi gerekir. Dışlama ayrı gerekçe ister.

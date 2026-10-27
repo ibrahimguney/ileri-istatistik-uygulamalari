@@ -1,11 +1,12 @@
 {
   "date": "2026-10-27",
+  "revision": 27,
   "chapters": 22,
   "results": [
     {
       "chapter": 1,
       "status": "passed",
-      "source_notebook_sha256": "e5d04bf10d274d4c34e01c910c0e2e13346a09625b341616569c5e9f0d7db067",
+      "source_notebook_sha256": "f23b0307f2a937dd50c44cb9c436d2b604c3a533fcddbf52f1831b6ee3b6d870",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
@@ -14,361 +15,352 @@
           "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
-        },
-        {
-          "run": 2,
-          "executed_code_cells": 9,
-          "inline_images": 1,
-          "output_zip_verified": true
         }
       ],
-      "seconds": 77.08
+      "seconds": 4.53
     },
     {
       "chapter": 2,
       "status": "passed",
-      "source_notebook_sha256": "01d9813fb4c230cf053d21a77811fdbc3d60f97c13c84bd26df412b4fb9d36a7",
+      "source_notebook_sha256": "784c7dad2845650f3aafa6dc09287339af569748aa841390dcaa23540d1ab3c4",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 9,
+          "executed_code_cells": 10,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 4.37
+      "seconds": 3.95
     },
     {
       "chapter": 3,
       "status": "passed",
-      "source_notebook_sha256": "ed050d949baed5df8c0912291121c109b80de88b52e23a37e0f4ea90da11039a",
+      "source_notebook_sha256": "89bc5e3e6ff50380031b4dbf2f8644a24311c5b77b86469ecbb3877ef4ff80a7",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
-          "inline_images": 1,
-          "output_zip_verified": true
-        },
-        {
-          "run": 2,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 11.59
+      "seconds": 6.93
     },
     {
       "chapter": 4,
       "status": "passed",
-      "source_notebook_sha256": "0f9efaf34e83a85a737a036a94f9bce9c9c6236c250dd10f5b6d9f3a0d447b14",
+      "source_notebook_sha256": "b9f65bd1d605181854fd3a2984a90b09f59c9999587cb3b47c713f72f1319200",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 6.31
+      "seconds": 6.77
     },
     {
       "chapter": 5,
       "status": "passed",
-      "source_notebook_sha256": "acc9b23c7485d4485ea5462c78a04bebed51aabcde1d78ff4dd684ea442edded",
+      "source_notebook_sha256": "d4b2eff03bdb7000bc68602a0efa770e3be23bb52354f8ec6347e954ab1c92a6",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 8.49
+      "seconds": 8.21
     },
     {
       "chapter": 6,
       "status": "passed",
-      "source_notebook_sha256": "361e9a4c596d3c805b576b41e27c6ebf0046ddd8c801147e6ccd33675126234e",
+      "source_notebook_sha256": "2ea0ef51ecf11b83f8a8b6265387278bfd76aed8af9bc17f9b2775148735e6ab",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.0
+      "seconds": 8.21
     },
     {
       "chapter": 7,
       "status": "passed",
-      "source_notebook_sha256": "b9570cd86900c16fa69debc8fe973927f14765e0668012de7c9a600a8499e62f",
+      "source_notebook_sha256": "ebe2fae48ebba2370f6178c952d3397aec4d4302c3f68ebb66b2c3385ac8902e",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 3,
           "output_zip_verified": true
         }
       ],
-      "seconds": 9.55
+      "seconds": 10.17
     },
     {
       "chapter": 8,
       "status": "passed",
-      "source_notebook_sha256": "74b6cbb6aa068a5160c0645314a71f24b11b112f9815c673c05197e2aef2c631",
+      "source_notebook_sha256": "193246dc1144882d5f9a9c1ebaf60e8a2496a02b6a94e2679798772000c8927c",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.69
+      "seconds": 7.12
     },
     {
       "chapter": 9,
       "status": "passed",
-      "source_notebook_sha256": "7bb94851ae4b2ae3d27c2b75e1a778a7dc10842af3a2ce808aa7d46e80c66cac",
+      "source_notebook_sha256": "5b470490237f2f982804e6379fb2af5fed6a7e3df6238b1624092712e0610add",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.32
+      "seconds": 6.01
     },
     {
       "chapter": 10,
       "status": "passed",
-      "source_notebook_sha256": "5c79e4a5cdb42036df31c095bc136ea3b6838c05511ffb8571da3193cb50f755",
+      "source_notebook_sha256": "f1ebcf73aae34bb688c9a02c88a15472e42f5cb44204d0614898df85d9a5a3e2",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 9.17
+      "seconds": 7.59
     },
     {
       "chapter": 11,
       "status": "passed",
-      "source_notebook_sha256": "e0a492aa3c61d933e7b3af2a06dc5818098c97bcfb9e1f3ffe2831215b8c4399",
+      "source_notebook_sha256": "48ba05b0b9978a0a840064b39f935266fbb5ac6a797e657c240f2ce615f5c8d4",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.66
+      "seconds": 6.43
     },
     {
       "chapter": 12,
       "status": "passed",
-      "source_notebook_sha256": "8126355f6c0e7bc6b0eb2123402c27d289ea3350c43e8c481627eb95f2e3ae7a",
+      "source_notebook_sha256": "3ab3fec8ebddcb28db8628c90fc49406ccb9b2c6bc3abcbf110ac3d6098fcdb9",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.56
+      "seconds": 7.23
     },
     {
       "chapter": 13,
       "status": "passed",
-      "source_notebook_sha256": "97cce7a6fc7959407c2e783b8dfc1c13913c0b0745421cc060f8e0bbdb306e4a",
+      "source_notebook_sha256": "ed924f8f1c333e23fa9caa25181c8144e6822d963689ed6005779a4b2408ff9c",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 6.94
+      "seconds": 7.15
     },
     {
       "chapter": 14,
       "status": "passed",
-      "source_notebook_sha256": "7f91bdaf3a2b54f2abc20242299d3a22be7d3090ee1df4a3bf257c90edcd47f5",
+      "source_notebook_sha256": "f94cc88700dcce4b9c4ad0c7010004ed396795938214a581b46cf64ea6605785",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.89
+      "seconds": 8.02
     },
     {
       "chapter": 15,
       "status": "passed",
-      "source_notebook_sha256": "23ec3973341673ecb9dbe7cb4dc25dc0170737bc30a7ba4f78bd21357607f4f6",
+      "source_notebook_sha256": "2bcfbe3c0b3574be10cf9665e2a53cadd43bf687737d39cca140b52381c60aeb",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.01
+      "seconds": 6.98
     },
     {
       "chapter": 16,
       "status": "passed",
-      "source_notebook_sha256": "b4073c0608852cb00b00f269148a9884042ff89768fdebcc685fe28c9644ada3",
+      "source_notebook_sha256": "37e9b0b1b953414b4399da00c260f1ed9dd587d7c46da9abaf218ebbacf4c438",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 18.46
+      "seconds": 16.08
     },
     {
       "chapter": 17,
       "status": "passed",
-      "source_notebook_sha256": "773cb49cc60e5860a68b4e02a66b6168c1b47070f005e6adb980c06d89703c3d",
+      "source_notebook_sha256": "7ca3a0f514e4d04b5bf2fe99e87adc75379542be0e6b71104cb893612da3ad1c",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 7.09
+      "seconds": 5.1
     },
     {
       "chapter": 18,
       "status": "passed",
-      "source_notebook_sha256": "e2e50f726f8cf3e244a17f8b3e2fa3ceb49672fdbdc981fc5773d509c63f40f6",
+      "source_notebook_sha256": "6bdf8528ce3510e570d76959ea430e4cc12924bd3aaff6406be8e548fbc2e59c",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 8,
+          "executed_code_cells": 9,
           "inline_images": 2,
           "output_zip_verified": true
         }
       ],
-      "seconds": 8.03
+      "seconds": 6.68
     },
     {
       "chapter": 19,
       "status": "passed",
-      "source_notebook_sha256": "7c6e32e6665287f17e520adae2de370c0626d785c2b01357f3a2218534b3e464",
+      "source_notebook_sha256": "e1ba6aff2bedf20022dcaf922856a8117bd84e5adc5587840d240271bfe578f1",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 9,
+          "executed_code_cells": 10,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 8.97
+      "seconds": 8.17
     },
     {
       "chapter": 20,
       "status": "passed",
-      "source_notebook_sha256": "85ffc10b3f643960c09bae627be22f09232ced8bc15d6418c8e28a43d40be5cc",
+      "source_notebook_sha256": "facb2bc941703d01b5be8f5949913d926b1b440b9fce5f658025dcd24c717991",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
-          "executed_code_cells": 9,
+          "executed_code_cells": 10,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 11.65
+      "seconds": 12.07
     },
     {
       "chapter": 21,
       "status": "passed",
-      "source_notebook_sha256": "75cb6fd2df48dac62a49cf465a8bad959b8be86df8ef5005114e50a4dd3c086d",
+      "source_notebook_sha256": "271f2884ce4d9050e888994969b91a759de7465cbe46058d753ca4053a225c64",
+      "jupyter_kernel": true,
+      "colab_ui_executed": false,
+      "runs": [
+        {
+          "run": 1,
+          "executed_code_cells": 10,
+          "inline_images": 2,
+          "output_zip_verified": true
+        }
+      ],
+      "seconds": 70.12
+    },
+    {
+      "chapter": 22,
+      "status": "passed",
+      "source_notebook_sha256": "7c7d0ecdc81602f4d7277b9de1bf3aa2db6b224090cff44f2b4128725e632700",
       "jupyter_kernel": true,
       "colab_ui_executed": false,
       "runs": [
         {
           "run": 1,
           "executed_code_cells": 9,
-          "inline_images": 2,
-          "output_zip_verified": true
-        }
-      ],
-      "seconds": 70.86
-    },
-    {
-      "chapter": 22,
-      "status": "passed",
-      "source_notebook_sha256": "dfa58c9aad553b45b54b066384c8b62c45ecd1ae57873a000caa826066b33318",
-      "jupyter_kernel": true,
-      "colab_ui_executed": false,
-      "runs": [
-        {
-          "run": 1,
-          "executed_code_cells": 8,
           "inline_images": 1,
           "output_zip_verified": true
         }
       ],
-      "seconds": 5.83
+      "seconds": 6.12
     }
   ],
-  "isolated_install_and_rerun": "passed",
+  "student_decision_export": "verified_blank_is_not_complete",
+  "teaching_tests": 5,
+  "local_links": 474,
+  "student_observation": "deferred_by_user",
   "jupyter_kernel": true,
   "colab_ui_executed": false,
-  "note": "Ayrı gerçek Jupyter çekirdekleri; Google hesabıyla Colab arayüzü oturumu değildir."
+  "note": "Gerçek Jupyter çekirdeği; Google hesabıyla Colab arayüzü oturumu değildir."
 }

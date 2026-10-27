@@ -95,3 +95,7 @@ Küçük n, farkların biçimi, tarihsel tasarım bilgisi ve genelleme sınırla
 2.  .00051 mutlak tolerans üç ondalık gösterimin yuvarlama düzeyini denetler; varsayım, kaynak eşitliği veya gerçek SPSS yürütmesini kanıtlamaz. p=0 reddedilir; uygun üst sınır veya daha fazla basamak kullanılır. Kişi sayıları toleranssız eşleşir.
 
 3.  Beklenen dosyanın kendisiyle eşleşmesi aynı hesabın iç kontrolüdür; SPSS çalıştırıldığına dair bağımsız kanıt değildir. Gerçek sürüm/lisans, tam komut, veri hash’i, Viewer/OMS dosyası, alan eşlemesi ve hata/uyarılar saklanır. Bu ortamda yalnız Python kontrolü ve hazır sözdizimi vardır; SPSS yürütülmüş gibi raporlanmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Gerçek oturum, kullanılan veri/ayarlar ve üretilen çıktı kaydı gerekir; Python referansı SPSS yürütmesi değildir.

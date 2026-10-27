@@ -91,3 +91,7 @@ Her ikisi de olabilir. Fark gizil özellikteki gerçek bir farkı, maddelerin ka
 2.  Kadın varyansı .804641 olduğundan erkek–kadın farkı kadın SD’sinde $-.487959/\sqrt{.804641}=-.543980$’dir. İşaretle birlikte birim değişir; gözlenen model ortalama/kovaryansları korunur. Yük işaretleyicisi birimi, kesişim çıpası ortalama başlangıcını belirler; kesişimi değişmez olmayan maddeyi otomatik olarak her tür ölçek işaretleyicisi için yasak saymak yanlıştır.
 
 3.  Beş A maddesinin ortalama puanında kesişim .054673, gizil bileşen .371693, toplam model farkı .426366 ham puandır. Gözlenen .452416 ile fark .026050’dir. Bu, modelin öngördüğü farkın ayrıştırmasıdır; bütün gözlenen farkı açıklamaz ve .488 gizil-SD katsayısıyla aynı birimde değildir. Aynı çevrimiçi örneklemin iki kodlu grubu için betimsel sonuçtur; nedensellik veya madde yanlılığı kanıtı yoktur. Koşullu aralıklar model/normal kuram varsayımlarına bağlıdır; yeni bağımsız doğrulama değildir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Gizil ortalama için uygun kesişim/eşik kısıtları ve tanımlama gerekir; metrik değişmezlik tek başına yeterli değildir.

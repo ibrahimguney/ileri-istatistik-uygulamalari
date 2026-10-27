@@ -105,3 +105,7 @@ Kaynak/sürüm, kod, yazılım, simülasyon tohumu ve karar günlüğü saklanı
 2.  İki yönlü p her ikisinde 1’dir. $n=25$ için %90 aralık $[-3.4218,3.4218]$ ve TOST p=.009827; $(-5,5)$ için eşdeğerlik gösterilir. $n=4$ için aralık $[-11.7668,11.7668]$ ve p=.195501; hem anlamlı fark hem eşdeğerlik gösterilemez. p=1 parametrenin tam sıfır olduğunun olasılığı değildir. İlk sonuç belirtilen sınırda yeterince küçük farkı destekler; ikinci sonuç önemli farkları dışlayacak hassasiyete sahip değildir. Bu özetlere ait ham veri üretilmemiştir.
 
 3.  Sıralama $H_2,H_4,H_3,H_1$; eşikler $.05/4=.0125$, $.05/3=.016667$, $.05/2=.025$, $.05$’tir. İlk üç red, dördüncü reddedilemez. Özgün sırada Holm p’leri $(.20,.016,.048,.036)$; Bonferroni p’leri $(.80,.016,.096,.048)$’dir. Holm ailesinde geçerli tekil testler altında en az bir yanlış redin olasılığı kontrol edilir; bu FDR değildir. Burada düzeltilmiş aralıklar hesaplanmadı; sıradan tekil %95 aralıkların aynı aile güvencesini taşıdığı söylenemez.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. p, belirtilen sıfır modeli ve test planı altında en az gözlenen kadar uç sonuçların olasılığıdır; hipotezin posterior doğruluk olasılığı değildir.

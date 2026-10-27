@@ -95,3 +95,7 @@ Gözlemlerin bağımsızlığı varsayımını çiğner: aynı kişinin ölçüm
 2.  Çıkış olasılığı yalnız gözlenen temel tepki ve bağımsız rastgele çekilişle belirlenmiştir; bu öğretim mekanizmasında MAR yapısı bilinir. Gerçek veri için mekanizma testi yapılmamıştır. Yakınsama ve pozitif kovaryans özdeğerleri yalnız sayısal kontrollerdir; doğru ortalama/kovaryans ve MAR’ı kanıtlamaz. Normal Wald aralığı ortalama eğim kestiriminin model-temelli belirsizliğidir; normal rastgele eğim dağılımından $\hat\beta_1\pm1.96\hat\tau_1$ ise parametreler sabitken kişiler arası merkez aralığıdır. İkincisi belli kişinin aralığı veya nedensel duyarlılık değildir. Küçük örneklem sd düzeltmesi ve MNAR duyarlılığı yapılmamıştır.
 
 3.  Holm p’leri yaş sırasıyla .109487, .109487, .038228, .005306; Bonferroni p’leri .273898, .218973, .050970, .005306’dır. Holm 12/14, Bonferroni yalnız 14 yaş sorusunu reddeder. Bunlar belirli yaşlardaki grup farklarıdır; genel kategorik etkileşim ve kişi başına doğrusal eğimlerin Welch karşılaştırması farklı hedef/hata yapısı kullanır. Düzeltme veya aile sonuçları gördükten sonra avantaj için değiştirilmez. Bu alıntıda aile öğretim içindir, gerçek önkayıt değildir; düzeltilmiş aralık verilmemiştir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. 18 kişi ve 144 ölçüm vardır. Kişi içi kovaryans temsil edilir; etkili örneklem büyüklüğü her hedef için otomatik 18 veya 144 değildir.

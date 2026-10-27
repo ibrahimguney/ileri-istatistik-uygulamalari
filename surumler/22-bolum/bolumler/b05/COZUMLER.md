@@ -101,3 +101,7 @@ Kaynak yalnız 40/grup ise .598147 güç ve .80 güce karşılık gelen .634299 
 2.  n=194, s yerine $\sigma$ konan planlama yarı genişliğini 2’nin altına indirir; gerçekleşen rastgele yarı genişliğin bu hedefi sağlama olasılığı .530073’tür. n=210’da .893633, n=211’de .906617 ile en az .90 olasılık ilk sağlanır. Bu, sabit $\sigma=10$ ve normal/eşit varyanslı iki grup altında genişlik olayının olasılığıdır. %95 aralık kapsaması veya sıfır hipotezinin red gücü değildir; gözlenmiş aralık için posterior olasılık da değildir.
 
 3.  Tekrarlar normal ortalama farkı ve ki-kare varyansın kuramsal dağılımlarından alınır. Yeni katılımcı veya klinik pilot üretmez; mevcut/gelecek verinin varsayımlarını doğrulamaz. Daha fazla tekrar yalnız Monte Carlo hatasını küçültür. Pilotun bilinmeyen gerçek $\sigma$’sı için önsel üzerinden bütünleştirme yapılmamıştır. Güç, genişlik ve tutulma aynı değişkenlere bağlı olabilir; ortak olayın olasılığı bağımsızlık gerekçesi veya ortak model olmadan marjinal olasılıkların çarpımı değildir. Bu uygulamada kayıp modeli birleştirilmemiştir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Güç, belirli gerçek etki ve model altında tekrarlı çalışmaların red olasılığıdır; tek çalışmaya garanti vermez.

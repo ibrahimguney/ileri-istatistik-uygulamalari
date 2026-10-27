@@ -94,3 +94,17 @@ Bu alıştırmalar, hipotez kurma, test istatistiği hesaplama, $p$ değeri yoru
 2.  $\bar D=0$, $s=10$, $\Delta=5$ ve $n=25/4$ kurgularında iki farklı TOST sonucunu yorumlayın. İki yönlü p=1 neden tek başına “etki yok” anlamına gelmez?
 
 3.  Ham p ailesi $(.20,.004,.024,.012)$ için sıralamayı, Holm eşiklerini ve özgün sırada düzeltilmiş p’leri hesaplayın. Bu p’lerle düzeltmesiz %95 aralıkları aynı aile güvencesine sahipmiş gibi raporlayabilir miyiz?
+
+## Çekirdek öğrenme rotası
+
+1. Hipotezi araştırma hedefi ve tasarımla eşler.
+2. Tahmin, güven aralığı ve p değerini birlikte yorumlar.
+3. Reddedememe, eşdeğerlik ve nedenselliği ayırır.
+
+**İleri rota:** TOST, çoklu aile ve durdurma simülasyonları; temel aralık/test mantığından sonra.
+
+**Ç1:** p=.03, sıfır hipotezinin doğru olma olasılığının yüzde 3 olduğu anlamına gelir mi?
+
+**Karar görevi:** Tek veya iki yönlü hipotezi sonuçlara bakmadan gerekçelendirin; aynı tahminin yorumunun ve önceden seçilen test planının nasıl değiştiğini gösterin.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

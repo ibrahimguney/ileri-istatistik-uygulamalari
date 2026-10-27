@@ -99,3 +99,7 @@ Rapor; davet edilen, yanıt veren ve geçerli kayıt sayılarını ayırır. Kat
 2.  $\sqrt{(1-10/80)(4.107437/10)}=.599500$ puan. Verilen anakütle varyansı 79 böleniyle tanımlıdır. Sistematik sekiz ortalamanın her biri $1/8$ olasılıklıdır; tüm tasarım sonuçları bilindiğinden varyans $\sum_r(\bar y_r-12.6375)^2/8=.124844$ ve standart hata .353332’dir. Bu, yalnız bir sistematik örnekten hesaplanmış standart hata değildir. Döngü kurgusunda sistematik varyans .109375, basit rastgele varyans .009691’dir; oran yaklaşık 11.286’dır. Sistematik tasarımın her durumda daha hassas olduğu iddiası yanlıştır.
 
 3.  Gerçek veri hâlâ aynı 80 kayıttır. Her tekrarda bunlardan 10’u seçilmiş, tekrarlar arasında aynı öğrenciler yeniden kullanılabilmiştir. 200 000 seçim konumu 200 000 farklı öğrenci değildir. Monte Carlo ortalamasının .004239 olan standart hatası, tam tasarım beklentisini sayısal olarak yaklaştırma hatasıdır; $n=10$ kestiricisinin .599500 standart hatasıyla veya dış anakütle belirsizliğiyle aynı değildir. Tekrar sayısının artması seçim mekanizmasını düzeltmez, Türkiye için kapsam/ölçüm gerekçesi üretmez. Doğru rapor: “Kapalı 80 kayıt üzerinde 20 000 yeniden seçimde ortalamaların ortalaması 12.633785, varyansı .356695 bulundu; tam tasarım değerleri 12.6375 ve .359401’dir.”
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Kaynak sırasındaki tek okul alt kümesini Türkiye hedefiyle ilişkilendiren seçim ve kapsam gerekçesi yoktur.

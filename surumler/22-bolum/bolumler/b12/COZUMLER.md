@@ -108,3 +108,7 @@ Altmış ayrı modelde birer kayıt çıkarıldığında eğimler 0.5435–0.855
 HC3 eğim standart hatası 0.2806, $t(58)$ referansıyla HC3 %95 güven aralığı $[0.0203,1.1437]$’dir. Bu değerler klasik aralığın $[0.4457,0.7183]$ olduğu belirtilerek karşılaştırılmalıdır. HC3’ün örnekleme veya kümelenme sorunlarını gidermediği, bireysel tahmin aralığına otomatik bir düzeltme sağlamadığı açıklanmalıdır.
 
 Yeniden üretim denetiminde UCI kaynağı ile kitap yeniden analizi birbirinden ayrılmalı; 649 kayıt varmış gibi rapor yazılmamalıdır. Veri dosyasındaki kaynak sırası, model sütunları, sabit terim, standart hata türü, aralık düzeyi ve yazılım sürümleri kontrol edilir. Grafik üretmek tek başına tanısal değerlendirme değildir; ilk kaydın etkisi ve seçim sınırları gerekçeli olarak tartışılmalıdır.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Bireysel tahmin kişinin ek sapmasını da içerir; farklı aralık ve varsayımlar gerekir.

@@ -132,3 +132,7 @@ Değerlendirme: kaynak/puanlama 20, hesap ve eksikler 25, belirsizlik ve madde k
 2.  Alfa .733471’den .750000’a yükselir; hedef faktör payı .743802’den .720000’a düşer. Artık kovaryansı .2 iki simetrik hücrede olduğundan toplam hata varyansı $3.1+2(.2)=3.5$ olur. Hedef faktör varyansı $(.8+.7+.6+.5+.4)^2=9$ değişmez. Yeni pay $9/(9+3.5)=.72$’dir. Bu bir bilinen-model karşı örneğidir; veriye uydurulmuş omega değildir.
 
 3.  SEM $\sqrt{3.1}=1.760682$, bağımsız ve eşit normal hata senaryosunda yaklaşık fark sınırı $1.96\sqrt{6.2}=4.880$ puandır. İlişkili zaman hatalarında kovaryans terimi gerekir. Tek uygulamalı iç tutarlılık verisi bu varsayımları veya klinik anlamlı değişimi doğrulamaz. Puan ölçeği, koşullu hata, değişmezlik ve amaç ayrıca incelenir; grup ortalaması veya alfa katsayısı standart hatasıyla SEM karıştırılmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. İç tutarlılık, yapı, dil/kültür eşdeğerliği ve kullanım geçerliği için ayrı kanıtlar gerekir.

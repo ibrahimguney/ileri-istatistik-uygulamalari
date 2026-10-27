@@ -97,3 +97,17 @@ Her iddiayı ayrı değerlendirin ve veriyle desteklenen bir alternatif yazın.
 4.  Bir veri setinde Pearson korelasyonu $r=.20$, Spearman korelasyonu $r_s=.71$ bulunmuştur. Bu fark neyle açıklanabilir?
 
 5.  İki değişken için $r=.00$ bulunmasına karşın araştırmacı bağımsız olmadıklarından şüphelenmektedir. Sıfır korelasyon hangi durumlarda bağımsızlık anlamına gelmeyebilir?
+
+## Çekirdek öğrenme rotası
+
+1. Birlikte değişimi saçılım grafiğiyle inceler.
+2. Pearson ve Spearman seçimini hedefle gerekçelendirir.
+3. Korelasyon, uyum ve nedenselliği ayırır.
+
+**İleri rota:** Fisher aralığı, eşli bootstrap ve etki duyarlılığı; Bölüm 4 belirsizlik temellerinden sonra.
+
+**Ç1:** İkinci cihaz her ölçümde birinciden 10 birim fazla veriyorsa r=1 olması tam uyum demek midir?
+
+**Karar görevi:** Pearson veya Spearman özetini seçin; aynı satırlar ve grafik altında hedef, katsayı ve belirsizliği karşılaştırın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

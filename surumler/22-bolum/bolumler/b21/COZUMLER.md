@@ -102,3 +102,7 @@ Teslim; kaynak sözlüğü, ham arşiv, dönüşüm kaydı, model sözdizimi, ç
 2.  $\rho=.30$ için std.nox dolaylı .029919, doğrudan .183986; toplam .213904 kalır. Yapısal artık kovaryansı .043899, C artığı varyansı .247148 seçilince gözlenen kovaryans ve $T=215.022$ ana modelle aynıdır. Uyum indeksleri aynı kovaryansın bu ayrıştırmalarından birini seçemez. Ölçüm hatasını modellemek yapısal artık bağımsızlığını kanıtlamaz.
 
 3.  .349627, $w/\sqrt{uv}$ ile, ana koşullu kovaryansta nokta $b$ ve dolaylı çarpımı sıfır yapan varsayılan rho’dur. Gerçek rho tahmini veya aralığın sıfır eşiği değildir; her rho için belirsizlik hesaplanmadı. Ana \[.125,.274\] bootstrap aralığı yalnız özgün modele aittir; yeni MIMIC yapıları veya rho senaryolarına kopyalanmaz. Ek kısıt olmadan $b$ ve artık ilişkisini birlikte serbest bırakmak benzersiz bir ayrıştırma sağlamaz. Senaryolar doğal nedensel etki veya yeni doğrulama diye sunulmaz.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Eşdeğer modelleri yalnız kovaryans uyumu ayırt etmeyebilir; yön için tasarım ve dış bilgi gerekir.

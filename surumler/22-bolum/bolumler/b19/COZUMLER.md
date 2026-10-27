@@ -98,3 +98,7 @@ Teslim dosyasında kaynak/ön işlem günlüğü, model kısıtları ve ölçekl
 2.  Delta varyansı $G V_{\vartheta}G'$ tam kovaryansı kullanır; yalnız parametre varyansları genel olarak yetmez. M1 A için nokta CR .716047, SH .011799 ve yaklaşık tekil %95 aralık \[.692920,.739173\]’tür; .70 eşiği kesin kabul/ret vermez. M2 A aralığı \[.661002,.714604\]’tür. Örtüşme veya örtüşmeme, aynı kayıtlarda iki modelin farkı için test değildir; ortak fark belirsizliği hesaplanmadı. Model/normal kuram varsayımları ve yapı seçimi sınırı sürer.
 
 3.  M1’de farklar .232829/.243443, Bonferroni aralıkları \[.176368,.289290\] ve \[.185919,.300966\]’dir. Çarpan 2.241403, yalnız bu sabit modelin iki tarama farkı ailesi içindir; bütün CR/AVE ve M1/M2 tablosunun ortak aralığı değildir. Pozitif alt sınırlar tüm ayrışan geçerlik, değişmezlik, Türkçe eşdeğerlik veya yeni örneklemde doğrulama sağlamaz. Aynı incelenmiş B yarısındaki ek analizdir; dış zaman damgalı ön kayıt değildir.
+
+## Ç1 çıkış sorusunun yanıtı
+
+Hayır. Veri, model kısıtları, yükler, yerel uyum, alternatifler ve tasarım kanıtı ayrıca değerlendirilir.

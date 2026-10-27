@@ -17,7 +17,7 @@ def main():
         if cell['cell_type']=='code':
             assert cell['execution_count'] is None and not cell['outputs']
             code=''.join(cell['source']);ast.parse(code);cells.append((i,code))
-    assert len(cells)==9
+    assert len(cells)==10
     with tempfile.TemporaryDirectory(prefix='b02-colab-') as temp:
         work=Path(temp)
         env={**os.environ,'MPLBACKEND':'Agg','MPLCONFIGDIR':str(work/'mpl'),'OPENBLAS_NUM_THREADS':'1','PYTHONDONTWRITEBYTECODE':'1'}
@@ -31,9 +31,10 @@ def main():
             if result.returncode:raise RuntimeError(result.stdout+'\n'+result.stderr)
             manifest=json.loads((work/'b02-atolye/calisma-kaydi.json').read_text())
             assert len(manifest['checks'])==9 and all(manifest['checks'].values())
+            assert manifest['ogrenci_karari']['alanlar_dolu'] is False
             with zipfile.ZipFile(work/'b02-atolye-ciktilar.zip') as z:
                 assert z.testzip() is None
-                assert set(z.namelist())=={'betimsel-ozet.csv','duyarlilik.csv','dagilim.pdf','eslesmis-degisim.pdf','calisma-kaydi.json'}
+                assert set(z.namelist())=={'betimsel-ozet.csv','duyarlilik.csv','dagilim.pdf','eslesmis-degisim.pdf','calisma-kaydi.json','ogrenci-karari.json'}
             runs.append({'run':run+1,'success':True,'checks':9})
         source=work/'b02-atolye/kaynak-notlar.csv'
         source.write_bytes(source.read_bytes()+b'corrupted\n')

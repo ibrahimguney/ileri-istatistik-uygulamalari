@@ -109,3 +109,17 @@ Bu hataları önlemek için ANOVA sonuçları her zaman varsayımlar, genel test
 4.  Araştırmacı doğal üç grubu ANOVA ile karşılaştırıp grup üyeliğinin sonucu “nedenlediğini” yazmıştır. Bu neden sorunludur?
 
 5.  Dengesiz faktöriyel ANOVA’da hücre büyüklükleri çok farklıdır. Hangi ek konular dikkate alınmalıdır?
+
+## Çekirdek öğrenme rotası
+
+1. Omnibus ANOVA ile tekil karşıtlıkları ayırır.
+2. Etkileşimi koşullu grup farklarıyla yorumlar.
+3. Karşılaştırma ailesini ve belirsizliği açık raporlar.
+
+**İleri rota:** Dengesiz hedefler ve HC3 karşıtlıkları; çoklu doğrusal model fikri için Bölüm 13 doğrusal kısmına başvurulabilir.
+
+**Ç1:** Üç gruplu ANOVA anlamlıysa bütün grup çiftleri farklı mıdır?
+
+**Karar görevi:** Eşit doz ağırlığı veya ortak gözlenen doz ağırlığı hedefini seçin; tahminin değişmesini hedef farkıyla açıklayın.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).

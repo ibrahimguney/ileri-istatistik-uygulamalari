@@ -81,3 +81,36 @@ Bu alıştırmalar aracılık, düzenleyicilik, koşullu etki ve bootstrap yorum
 4.  Düzenleyicilik analizinde grafik yorumunun istatistiksel testle birlikte verilmesi neden önemlidir?
 
 5.  Aracılık-düzenleyicilik bulgularını APA tarzı kısa rapor paragrafı olarak yazınız.
+
+## P1: Aracılık İddiasını Savunma ve Alternatif Açıklama
+
+Aynı 160 simülasyon kaydını kullanarak 2–3 sayfalık rapor hazırlayın. Ana katsayıları
+ve bootstrap aralığını yeniden üretin. Bir varsayımı, örneğin rho=0 yerine .3'ü,
+değiştirin; önce/sonra yol çarpımını ve aynı gözlenen yapıyı açıklayın. Rho'yu
+kestirilmiş bir parametre veya bootstrap aralığını yeni senaryonun aralığı saymayın.
+Alternatif yön/ortak neden açıklaması çizin ve hangi dış bilginin gerektiğini yazın.
+Kod, kaynak/sürüm ve karar günlüğü teslim edin; 3–5 dakika savunun. Yeni gerçek
+katılımcı, müdahale veya ön kayıt yapılmış gibi yazmayın. Ana çekme sayısını koruyun.
+
+| Ölçüt | Puan |
+|---|---:|
+| Kaynak, veri sözlüğü ve analiz birimi | 15 |
+| Araştırma hedefi ve yöntem gerekçesi | 20 |
+| Hesabın doğruluğu ve yeniden üretilebilirlik | 20 |
+| Belirsizlik, tanılar ve duyarlılık | 20 |
+| Yorum ve kapsam sınırları | 15 |
+| Açık ve düzenli raporlama | 10 |
+
+## Çekirdek öğrenme rotası
+
+1. Aracılık ile düzenleyicilik sorularını ayırır.
+2. Dolaylı ilişki ve etkileşimi belirsizliğiyle raporlar.
+3. İstatistiksel yol ile nedensel tanımlamayı ayırır.
+
+**İleri rota:** Doğal etkiler, hata-rho duyarlılığı ve noktasal/eşzamanlı eğim bantları; Bölüm 13 ve matematik köprüsünden sonra.
+
+**Ç1:** ab çarpımının bootstrap aralığının sıfırı dışlaması tek başına nedensel aracılığı kanıtlar mı?
+
+**Karar görevi:** Rho=0 veya .3 varsayımını seçin; dolaylı yolun değişimini aynı gözlenen uyum ve değişen varsayım ayrımıyla savunun.
+
+[Rubrik ve teslim rehberi](RUBRIK.md).
