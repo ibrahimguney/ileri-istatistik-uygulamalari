@@ -61,3 +61,12 @@ sonuca uydurarak değiştirmeyin.
 [Python kodu](../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/analiz.py) ·
 [Sonuçlar](../../uygulamalar/b13-coklu-lojistik/olasilik-kalibrasyon/sonuclar/ozet.json).
 Eski ana analizler/veriler korunur; yeni ek yalnız Python.
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b13/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

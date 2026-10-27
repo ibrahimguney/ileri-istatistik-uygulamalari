@@ -27,5 +27,12 @@
     "MC_repetitions": 100000,
     "reference": "../../uygulamalar/b05-guc-analizi/esdegerlik-hassasiyet/sonuclar/ozet.json",
     "R_SPSS": "no_equivalent_module"
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "acc9b23c7485d4485ea5462c78a04bebed51aabcde1d78ff4dd684ea442edded",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

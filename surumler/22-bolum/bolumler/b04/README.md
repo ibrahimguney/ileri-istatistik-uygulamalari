@@ -62,3 +62,12 @@ planlı ailede Holm düzeltmesi eklendi. T1–T3 görevleri/çözümleri ilgili 
 Sleep delta1/3 sınırları öğretim içindir; klinik standart veya gerçek önkayıt yok.
 Holm p ailesi ayrı kurgudur. Ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
 Kaynak: Lakens (2017), https://doi.org/10.1177/1948550617697177 ; Holm (1979).
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b04/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

@@ -158,9 +158,10 @@ Aynı B yarısında sabit çıpa kümeleri için gizil fark aralıkları, A1+A2 
 
 Aynı B yarısında K→A1/A2 MIMIC senaryoları ve aynı kovaryansı veren yapısal artık-rho ailesi eklendi. Ana dolaylı çarpım .190 iken rho=.3 varsayımında aynı uyumla .030 olur; bu varsayım veriden seçilemez. Yeni senaryolara bootstrap/aralık raporlanmaz; eski ana veri/kod/2000 bootstrap korunur. Yeni ek yalnız Python; nedensel etki veya yeni doğrulama iddiası yok.
 
-## Google Colab pilotu
+## 22 bölüm için Google Colab
 
-Bölüm 2 için [Colab defteri](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b02/colab.ipynb) ve [başlangıç rehberi](bolumler/b02/COLAB.md)
-hazırdır. GitHub ana kaynak; Colab bu depodaki defteri çalıştırma ortamıdır.
-Veri sabit sürümden alınır, hash ve sayısal referanslarla denetlenir. Diğer
-21 bölüm için Colab desteği henüz sunulmaz; yerel defterler korunur.
+Her bölüm sayfasında **Colab’da çalıştır** bağlantısı vardır.
+[Başlangıç atölyesi](bolumler/b02/) · [Ortak Colab rehberi](COLAB.md).
+GitHub kaynakların ve sürümlerin ana yeridir; Colab aynı depodaki defterleri
+çalıştırır. Yerel uygulamalar korunur. Otomatik yürütme gerçek Jupyter çekirdeğinde
+yapılır; Google hesabıyla Colab arayüzü testi diye sunulmaz.

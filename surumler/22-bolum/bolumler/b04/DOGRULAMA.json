@@ -30,5 +30,12 @@
       "statsmodels multipletests holm"
     ],
     "R_SPSS": "no_equivalent_module"
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "0f9efaf34e83a85a737a036a94f9bce9c9c6236c250dd10f5b6d9f3a0d447b14",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

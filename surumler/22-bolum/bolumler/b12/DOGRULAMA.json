@@ -27,5 +27,12 @@
     "reference": "../../uygulamalar/b12-regresyon/ayri-kalibrasyon/sonuclar/ozet.json",
     "exchangeability_verified": false,
     "conditional_coverage_claim": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "8126355f6c0e7bc6b0eb2123402c27d289ea3350c43e8c481627eb95f2e3ae7a",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

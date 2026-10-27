@@ -57,3 +57,12 @@ sonuca uydurarak değiştirmeyin.
 [Python kodu](../../uygulamalar/b17-guvenirlik/model-belirsizlik/analiz.py) ·
 [Sonuçlar](../../uygulamalar/b17-guvenirlik/model-belirsizlik/sonuclar/ozet.json).
 Eski ana analizler ve gerçek IPIP verisi korunur; yeni ek yalnız Python.
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b17/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

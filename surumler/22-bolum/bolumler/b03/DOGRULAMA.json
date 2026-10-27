@@ -26,5 +26,12 @@
     "tests": 5,
     "reference": "../../uygulamalar/b03-veri-hazirlama/birlesim-denetimi/sonuclar/ozet.json",
     "R_SPSS": "no_equivalent_module"
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "ed050d949baed5df8c0912291121c109b80de88b52e23a37e0f4ea90da11039a",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }
