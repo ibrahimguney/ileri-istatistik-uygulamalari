@@ -2195,5 +2195,12 @@
       "Amos"
     ],
     "note": "Sürüm alanları dışlandı; atama mekanizması, kapsam veya her kitap sayısı için bilimsel hakemlik değildir."
+  },
+  "colab_notebooks": {
+    "chapters": 22,
+    "status": "passed_with_jupyter_kernel",
+    "colab_ui_executed": false,
+    "isolated_install_and_rerun": "passed",
+    "report": "dogrulama/colab-22.json"
   }
 }

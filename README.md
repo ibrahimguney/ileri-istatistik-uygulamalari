@@ -167,6 +167,7 @@ Bölüm başlıkları, kitap sayfaları ve kalan içerik kontrolleri için [kita
 
 ## GitHub + Colab atölyesi
 
-Bölüm 2 için [Colab başlangıcı](surumler/22-bolum/bolumler/b02/COLAB.md)
-hazırdır. GitHub kaynakların ana yeridir; Colab aynı depodaki pilot defteri
-kurulumsuz çalıştırır. Diğer 21 bölümün yerel uygulamaları korunur.
+22 bölümün tamamında Colab defteri ve çalıştırma bağlantısı vardır.
+[Atölye](https://ibrahimguney.github.io/ileri-istatistik-uygulamalari/surumler/22-bolum/) ·
+[Ortak kullanım rehberi](surumler/22-bolum/COLAB.md).
+GitHub ana kaynak olarak korunur; yerel defterler de kullanılabilir.

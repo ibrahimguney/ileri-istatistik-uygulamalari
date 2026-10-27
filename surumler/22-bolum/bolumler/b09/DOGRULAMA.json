@@ -27,5 +27,12 @@
     "reference": "../../uygulamalar/b09-manova/hedef-aralik/sonuclar/ozet.json",
     "small_sample_Wald_calibration": false,
     "permutation": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 1,
+    "source_notebook_sha256": "7bb94851ae4b2ae3d27c2b75e1a778a7dc10842af3a2ce808aa7d46e80c66cac",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

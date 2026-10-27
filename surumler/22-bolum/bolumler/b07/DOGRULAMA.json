@@ -26,5 +26,12 @@
     "tests": 7,
     "reference": "../../uygulamalar/b07-varyans-analizi/dengesiz-hedef/sonuclar/ozet.json",
     "SPSS_executed": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 3,
+    "source_notebook_sha256": "b9570cd86900c16fa69debc8fe973927f14765e0668012de7c9a600a8499e62f",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

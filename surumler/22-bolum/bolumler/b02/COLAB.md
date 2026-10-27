@@ -9,7 +9,7 @@
    dosyasının menüsünden indirin. Geçici oturum kapanmadan çıktıları alın.
 
 GitHub kaynakların ve sürümlerin ana yeridir; Colab defterleri de aynı depoda tutulur.
-Bu pilot yalnız Bölüm 2 içindir. Diğer bölümlerin mevcut yerel uygulamaları korunur.
+Bu defter Bölüm 2 başlangıç atölyesidir. Diğer 21 bölümün de ayrı Colab defterleri vardır; yerel uygulamalar korunur.
 Colab'da R/SPSS/Amos yürütüldüğü iddia edilmez.
 
 ## Veri ve sürüm

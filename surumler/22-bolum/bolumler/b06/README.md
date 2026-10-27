@@ -68,3 +68,12 @@ kırpılmış ortalama için Yuen eklendi. T1–T3 görevleri ve çözümleri il
 Ana Welch sıradan ortalama farkını, Yuen kırpılmış ortalama farkını hedefler.
 Yeni ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
 Kaynak: https://doi.org/10.1093/biomet/61.1.165 .
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b06/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

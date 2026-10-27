@@ -28,5 +28,12 @@
     "new_scenario_intervals": false,
     "rho_estimated": false,
     "new_validation": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "75cb6fd2df48dac62a49cf465a8bad959b8be86df8ef5005114e50a4dd3c086d",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

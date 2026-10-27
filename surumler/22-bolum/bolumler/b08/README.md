@@ -64,3 +64,12 @@ Ayrı öğretim maskesinde tam/mevcut/tam kişi aynı eğim modeli, küçük ör
 Özgün arşivde eksik yok; maskeli sonuçlar model üstünlüğü/gerçek MAR testi değildir.
 Yeni ek yalnız Python; R/SPSS, MNAR veya küçük-örneklem sd düzeltmesi yok.
 Kaynak: https://doi.org/10.1001/archpsyc.61.3.310 .
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b08/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

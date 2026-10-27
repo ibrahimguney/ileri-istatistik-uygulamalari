@@ -27,5 +27,12 @@
     "reference": "../../uygulamalar/b10-parametrik-olmayan/ustunluk-belirsizlik/sonuclar/ozet.json",
     "small_sample_coverage_calibrated": false,
     "studentized_permutation": false
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "5c79e4a5cdb42036df31c095bc136ea3b6838c05511ffb8571da3193cb50f755",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

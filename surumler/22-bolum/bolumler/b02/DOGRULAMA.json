@@ -36,5 +36,12 @@
     "colab_ui_executed": false,
     "source_commit": "047d96c3d18ef77bc127ca5b106f6a64d3083e79",
     "report": "../../dogrulama/colab-pilot.json"
+  },
+  "colab": {
+    "status": "passed_with_jupyter_kernel",
+    "inline_images": 2,
+    "source_notebook_sha256": "01d9813fb4c230cf053d21a77811fdbc3d60f97c13c84bd26df412b4fb9d36a7",
+    "colab_ui_executed": false,
+    "report": "../../dogrulama/colab-22.json"
   }
 }

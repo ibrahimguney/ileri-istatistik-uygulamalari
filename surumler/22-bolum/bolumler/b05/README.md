@@ -64,3 +64,12 @@ olasılığı ayrıldı. T1–T3 görevleri ve çözümleri ilgili dosyalardadı
 Varsayımsal bağımsız normal/eşit varyanslı gruplar; klinik sınır, gerçek pilot veya
 kayıpla ortak güç hesabı yoktur. Ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
 Kaynak: https://doi.org/10.1146/annurev.psych.59.103006.093735 .
+
+## Tarayıcıda Colab ile çalıştırma
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b05/colab.ipynb) · [Rehber](COLAB.md) · [Defter](colab.ipynb).
+
+Sabit sürümdeki kaynaklar hash denetimiyle alınır. Ana analiz ve ileri ekler
+yeniden yürütülür; sonuçlar referanslarla karşılaştırılır. Grafikler defterde
+görünür ve sonuçlar ZIP olarak indirilebilir. Mevcut `calisma.ipynb` yerel paketle
+çalışma içindir. Google Colab arayüzü ve Jupyter çekirdeği testleri ayrı kaydedilir.

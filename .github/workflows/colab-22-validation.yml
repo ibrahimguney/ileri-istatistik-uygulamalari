@@ -1,0 +1,45 @@
+name: Colab Notebook Execution
+on:
+  pull_request:
+    paths:
+      - "surumler/22-bolum/**"
+      - ".github/workflows/colab-22-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "surumler/22-bolum/**"
+      - ".github/workflows/colab-22-validation.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  notebooks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        chapters: ["1,2,3,4,5,6", "7,8,9,10,11,12", "13,14,15,16,17", "18,19,20,21,22"]
+    defaults:
+      run:
+        working-directory: surumler/22-bolum
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install notebook test environment
+        run: python -m pip install -r requirements-colab-test.txt
+      - name: Execute notebooks with a real Jupyter kernel
+        run: python tools/colab_defter_dogrula.py --chapters "${{ matrix.chapters }}" --report "$RUNNER_TEMP/colab/report.json"
+      - name: Check isolated installation and rerun
+        if: strategy.job-index == 0
+        run: python tools/colab_defter_dogrula.py --chapters 1 --isolated --repeat --report "$RUNNER_TEMP/colab/isolated.json"
+      - name: Preserve execution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: colab-${{ strategy.job-index }}
+          path: ${{ runner.temp }}/colab/
