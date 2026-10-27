@@ -32,6 +32,8 @@ jobs:
         run: python -m unittest discover -s tools -p 'test_*.py' -v
       - name: Check all 22 analyses and notebooks
         run: python tools/dogrula_22.py --analyses --report "$RUNNER_TEMP/kitap22/validation.json"
+      - name: Execute the Colab pilot in a clean directory
+        run: python tools/colab_dogrula.py --report "$RUNNER_TEMP/kitap22/colab-pilot.json"
       - name: Preserve validation report
         if: always()
         uses: actions/upload-artifact@v4
