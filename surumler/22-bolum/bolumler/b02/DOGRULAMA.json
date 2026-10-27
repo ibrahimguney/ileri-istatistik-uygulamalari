@@ -26,5 +26,15 @@
     "tests": 3,
     "reference": "../../uygulamalar/b02-betimsel-istatistik/ozet-secimi/sonuclar/ozet.json",
     "R_SPSS": "no_equivalent_module"
+  },
+  "colab_pilot": {
+    "status": "passed_in_clean_python_directory",
+    "code_cells": 9,
+    "checks_per_run": 9,
+    "runs": 2,
+    "corrupt_source_rejected": true,
+    "colab_ui_executed": false,
+    "source_commit": "047d96c3d18ef77bc127ca5b106f6a64d3083e79",
+    "report": "../../dogrulama/colab-pilot.json"
   }
 }

@@ -160,9 +160,13 @@ Bir bölümde hedef yalnız doğru sayıya ulaşmak değildir:
 
 **Doğru soruyu kurmak → doğru veriyi anlamak → uygun yöntemi seçmek → analizi yeniden üretmek → sonucu doğru yorumlamak → sınırlılıkları görmek → bilimsel biçimde raporlamak.**
 
-başarılar
-
 ## Kitapla eşleştirme
 
 Bölüm başlıkları, kitap sayfaları ve kalan içerik kontrolleri için [kitap–depo eşleştirme tablosuna](KITAP_ESLESMESI.md) bakın.
 
+
+## GitHub + Colab atölyesi
+
+Bölüm 2 için [Colab başlangıcı](surumler/22-bolum/bolumler/b02/COLAB.md)
+hazırdır. GitHub kaynakların ana yeridir; Colab aynı depodaki pilot defteri
+kurulumsuz çalıştırır. Diğer 21 bölümün yerel uygulamaları korunur.

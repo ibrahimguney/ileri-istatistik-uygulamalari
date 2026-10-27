@@ -64,3 +64,11 @@ Bu ek yalnız Python'da sınandı; R/SPSS eşdeğeri yok.
 
 Kaynaklar: https://doi.org/10.1080/00031305.1996.10473566 ;
 https://doi.org/10.1371/journal.pbio.1002128 .
+
+## GitHub + Colab pilotu
+
+[Colab’da çalıştır](https://colab.research.google.com/github/ibrahimguney/ileri-istatistik-uygulamalari/blob/main/surumler/22-bolum/bolumler/b02/colab.ipynb) · [Adım adım rehber](COLAB.md) · [Defteri indir](colab.ipynb).
+
+Colab defteri bağımsız çalışır; tüm paketi bilgisayarınıza açmanız gerekmez. Veri
+GitHub'ın sabit bir commit'inden alınır ve SHA256 ile doğrulanır. Mevcut
+`calisma.ipynb` tam paketle yerel çalışma içindir; iki defterin amacı farklıdır.
